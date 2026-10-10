@@ -11,6 +11,8 @@ ATTRACTIONS_DIR = DATA_DIR / "attractions"
 ATTRACTION_TEXTS_DIR = DATA_DIR / "attraction_texts"
 PEOPLE_DIR = DATA_DIR / "people"
 SUGGESTED_ROUTES_DIR = DATA_DIR / "suggested_routes"
+CLIMATE_DIR = DATA_DIR / "climate"
+FACTS_DIR = DATA_DIR / "facts"
 # Cities built on demand for one install (D-079); never committed (data-pipeline/.gitignore).
 LOCAL_DIR = DATA_DIR / "local"
 CACHE_DIR = PIPELINE_DIR / ".cache"

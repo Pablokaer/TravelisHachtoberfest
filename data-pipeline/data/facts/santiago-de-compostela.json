@@ -1,0 +1,11 @@
+{
+  "city": "santiago-de-compostela",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 100965,
+  "inception_year": 1834,
+  "beach_count": 0
+}

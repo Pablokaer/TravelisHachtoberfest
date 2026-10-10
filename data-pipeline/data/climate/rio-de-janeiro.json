@@ -1,0 +1,106 @@
+{
+  "city": "rio-de-janeiro",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -22.911111,
+  "longitude": -43.205556,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 25.7,
+      "temp_max_c": 28.8,
+      "precip_mm": 196.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.1,
+      "temp_max_c": 29.4,
+      "precip_mm": 109.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 26.0,
+      "temp_max_c": 29.3,
+      "precip_mm": 122.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.6
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 23.9,
+      "temp_max_c": 27.1,
+      "precip_mm": 102.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 22.6,
+      "temp_max_c": 26.0,
+      "precip_mm": 47.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 21.4,
+      "temp_max_c": 25.3,
+      "precip_mm": 39.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.1
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 21.0,
+      "temp_max_c": 25.0,
+      "precip_mm": 42.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.1
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 21.2,
+      "temp_max_c": 25.3,
+      "precip_mm": 81.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.0
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 22.5,
+      "temp_max_c": 26.7,
+      "precip_mm": 57.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 23.2,
+      "temp_max_c": 26.6,
+      "precip_mm": 85.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 23.9,
+      "temp_max_c": 27.3,
+      "precip_mm": 106.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 25.0,
+      "temp_max_c": 28.5,
+      "precip_mm": 149.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    }
+  ]
+}

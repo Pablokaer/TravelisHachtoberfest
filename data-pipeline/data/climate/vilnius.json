@@ -1,0 +1,106 @@
+{
+  "city": "vilnius",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 54.687222,
+  "longitude": 25.28,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": -2.2,
+      "temp_max_c": -0.1,
+      "precip_mm": 80.7,
+      "snowfall_cm": 35.0,
+      "sunshine_hours": 1.8
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 0.3,
+      "temp_max_c": 2.7,
+      "precip_mm": 63.9,
+      "snowfall_cm": 19.9,
+      "sunshine_hours": 3.4
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 2.4,
+      "temp_max_c": 6.7,
+      "precip_mm": 28.7,
+      "snowfall_cm": 6.6,
+      "sunshine_hours": 7.5
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 7.3,
+      "temp_max_c": 11.7,
+      "precip_mm": 73.5,
+      "snowfall_cm": 5.2,
+      "sunshine_hours": 7.6
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 12.8,
+      "temp_max_c": 17.9,
+      "precip_mm": 51.5,
+      "snowfall_cm": 0.1,
+      "sunshine_hours": 12.4
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 17.8,
+      "temp_max_c": 22.7,
+      "precip_mm": 99.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 12.8
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 18.6,
+      "temp_max_c": 22.9,
+      "precip_mm": 121.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 12.0
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 19.9,
+      "temp_max_c": 24.9,
+      "precip_mm": 65.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 12.1
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 14.8,
+      "temp_max_c": 19.4,
+      "precip_mm": 32.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 8.5,
+      "temp_max_c": 11.6,
+      "precip_mm": 76.3,
+      "snowfall_cm": 0.5,
+      "sunshine_hours": 5.0
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 2.3,
+      "temp_max_c": 4.1,
+      "precip_mm": 46.6,
+      "snowfall_cm": 11.4,
+      "sunshine_hours": 2.0
+    },
+    {
+      "month": 12,
+      "temp_mean_c": -0.8,
+      "temp_max_c": 0.7,
+      "precip_mm": 69.2,
+      "snowfall_cm": 23.1,
+      "sunshine_hours": 1.1
+    }
+  ]
+}

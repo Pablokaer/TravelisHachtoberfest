@@ -1,0 +1,11 @@
+{
+  "city": "gdansk",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 487834,
+  "inception_year": 997,
+  "beach_count": 29
+}

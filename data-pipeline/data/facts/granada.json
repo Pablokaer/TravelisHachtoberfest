@@ -1,0 +1,11 @@
+{
+  "city": "granada",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 233975,
+  "inception_year": null,
+  "beach_count": 0
+}

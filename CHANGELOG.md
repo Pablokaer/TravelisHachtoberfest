@@ -13,6 +13,9 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 
 ### Added
 
+- **Plan trip** (D-081): a side-bar entry with a ten-question interview, one question at a time — where you start from, a date from a calendar drop-down, trip length, how far you will go, weather, attractions and the kind of city, then three follow-ups written by the local model — each with a box to type your own answer. The destinations that fit (distance, month and weather checked by code, ranked and explained by the local model) can be ticked and saved to **Future trips**.
+- **Future trips** tab (D-081): the saved destinations as city cards (open the city page, its lists and attractions), with the reason and the planned day; new table `future_trips` (owner-only).
+- Climate and city facts (D-081): tables `city_climate` (monthly normals from Open-Meteo), `city_facts` (population, year of foundation, beaches) and the `city_profiles` view; pipeline commands `climate` and `facts`; the city builder fetches them for cities it builds. `POST /plan/question` and `POST /plan/rank` on the city-builder service.
 - First question (D-079): in local mode `/` asks, once, "Where would you like to explore?" with **My city** (pin, uses your location) and **A city elsewhere** (globe). The side bar then has **World** (the list of cities) and **My city** (walking routes from your position).
 - **Change city** (D-080): type any city in the world (**Search the world**, through the city builder's new `GET /places/search`) and it becomes your location for the moment, built on demand if the app does not have it. Cities you are in or search for are saved in a **Saved cities (n)** drop-down on the same page.
 - **My city** shows the city card of your city (cover photo, name, country, rating and **Explore attractions**) above its routes, the same hero as the city page.

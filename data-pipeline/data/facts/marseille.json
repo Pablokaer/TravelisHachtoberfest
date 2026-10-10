@@ -1,0 +1,11 @@
+{
+  "city": "marseille",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 886040,
+  "inception_year": -599,
+  "beach_count": 85
+}

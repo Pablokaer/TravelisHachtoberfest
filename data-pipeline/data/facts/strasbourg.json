@@ -1,0 +1,11 @@
+{
+  "city": "strasbourg",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 293771,
+  "inception_year": -11,
+  "beach_count": 10
+}

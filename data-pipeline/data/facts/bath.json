@@ -1,0 +1,11 @@
+{
+  "city": "bath",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 94092,
+  "inception_year": 43,
+  "beach_count": 0
+}

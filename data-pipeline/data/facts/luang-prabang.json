@@ -1,0 +1,11 @@
+{
+  "city": "luang-prabang",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 53792,
+  "inception_year": null,
+  "beach_count": 0
+}

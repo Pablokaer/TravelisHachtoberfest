@@ -1,0 +1,11 @@
+{
+  "city": "bordeaux",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 267991,
+  "inception_year": -500,
+  "beach_count": 1
+}

@@ -1,0 +1,106 @@
+{
+  "city": "manila",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 14.595833,
+  "longitude": 120.977222,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 25.9,
+      "temp_max_c": 29.8,
+      "precip_mm": 50.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 27.0,
+      "temp_max_c": 31.6,
+      "precip_mm": 33.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.7
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 27.9,
+      "temp_max_c": 32.7,
+      "precip_mm": 42.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.7
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 29.1,
+      "temp_max_c": 33.7,
+      "precip_mm": 76.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.1
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 29.4,
+      "temp_max_c": 33.6,
+      "precip_mm": 181.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.7
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 28.1,
+      "temp_max_c": 31.6,
+      "precip_mm": 264.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.5
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 27.6,
+      "temp_max_c": 30.7,
+      "precip_mm": 419.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.6
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 27.5,
+      "temp_max_c": 30.2,
+      "precip_mm": 284.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 27.2,
+      "temp_max_c": 29.9,
+      "precip_mm": 406.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.2
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 27.2,
+      "temp_max_c": 30.1,
+      "precip_mm": 293.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.9
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 27.6,
+      "temp_max_c": 31.1,
+      "precip_mm": 92.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 26.8,
+      "temp_max_c": 30.1,
+      "precip_mm": 123.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.1
+    }
+  ]
+}

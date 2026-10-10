@@ -1,0 +1,106 @@
+{
+  "city": "ipojuca",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -8.4,
+  "longitude": -35.0625,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 26.2,
+      "temp_max_c": 30.0,
+      "precip_mm": 84.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.5
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.5,
+      "temp_max_c": 30.2,
+      "precip_mm": 98.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.3
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 26.3,
+      "temp_max_c": 29.9,
+      "precip_mm": 171.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 26.0,
+      "temp_max_c": 29.7,
+      "precip_mm": 111.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 25.3,
+      "temp_max_c": 28.5,
+      "precip_mm": 268.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.1
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 24.2,
+      "temp_max_c": 27.4,
+      "precip_mm": 240.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.5
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 23.7,
+      "temp_max_c": 26.9,
+      "precip_mm": 167.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 23.7,
+      "temp_max_c": 27.1,
+      "precip_mm": 115.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 24.1,
+      "temp_max_c": 27.5,
+      "precip_mm": 78.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.7
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 25.2,
+      "temp_max_c": 28.8,
+      "precip_mm": 50.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.8
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 25.9,
+      "temp_max_c": 29.5,
+      "precip_mm": 48.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 26.0,
+      "temp_max_c": 29.6,
+      "precip_mm": 98.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.6
+    }
+  ]
+}

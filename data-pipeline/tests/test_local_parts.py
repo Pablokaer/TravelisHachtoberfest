@@ -257,3 +257,12 @@ def test_serve_command_options() -> None:
     argv = ["serve", "--port", "9000", "--planner", "rules", "--db-url", "postgresql://x/y"]
     args = cli.build_parser().parse_args(argv)
     assert (args.port, args.planner, args.db_url) == (9000, "rules", "postgresql://x/y")
+
+
+def test_the_real_service_is_wired_without_touching_the_network() -> None:
+    from wayfarer_pipeline.local.wiring import build_service
+
+    args = cli.build_parser().parse_args(["serve", "--planner", "rules"])
+    service = build_service(args)
+    assert service.assistant is not None and service.assistant.enabled is False
+    assert service.searcher is not None and args.climate_first_year == 2015

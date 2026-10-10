@@ -1,0 +1,11 @@
+{
+  "city": "ghent",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 272657,
+  "inception_year": null,
+  "beach_count": 8
+}

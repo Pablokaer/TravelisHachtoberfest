@@ -1,0 +1,11 @@
+{
+  "city": "palermo",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 630167,
+  "inception_year": null,
+  "beach_count": 19
+}

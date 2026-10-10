@@ -1,0 +1,106 @@
+{
+  "city": "barreirinhas",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -2.746944,
+  "longitude": -42.825833,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 26.6,
+      "temp_max_c": 30.0,
+      "precip_mm": 211.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.3,
+      "temp_max_c": 29.5,
+      "precip_mm": 295.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 25.6,
+      "temp_max_c": 29.2,
+      "precip_mm": 642.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.3
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 25.9,
+      "temp_max_c": 29.7,
+      "precip_mm": 408.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.1
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 26.5,
+      "temp_max_c": 30.3,
+      "precip_mm": 236.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 26.3,
+      "temp_max_c": 30.4,
+      "precip_mm": 106.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.2
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 26.7,
+      "temp_max_c": 31.2,
+      "precip_mm": 34.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.7
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 27.3,
+      "temp_max_c": 32.0,
+      "precip_mm": 18.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.9
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 27.8,
+      "temp_max_c": 32.2,
+      "precip_mm": 12.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.8
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 28.0,
+      "temp_max_c": 32.2,
+      "precip_mm": 13.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.5
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 28.0,
+      "temp_max_c": 31.9,
+      "precip_mm": 40.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.2
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 28.0,
+      "temp_max_c": 31.7,
+      "precip_mm": 64.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "city": "ayutthaya",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 52940,
+  "inception_year": 1350,
+  "beach_count": 0
+}

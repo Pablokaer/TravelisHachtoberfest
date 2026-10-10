@@ -1,0 +1,11 @@
+{
+  "city": "brasov",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 237589,
+  "inception_year": 1234,
+  "beach_count": 0
+}

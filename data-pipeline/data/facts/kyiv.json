@@ -1,0 +1,11 @@
+{
+  "city": "kyiv",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2952301,
+  "inception_year": 482,
+  "beach_count": 336
+}

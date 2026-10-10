@@ -1,0 +1,106 @@
+{
+  "city": "curitiba",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -25.429722,
+  "longitude": -49.271944,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 20.5,
+      "temp_max_c": 25.2,
+      "precip_mm": 181.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.7
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 20.8,
+      "temp_max_c": 25.6,
+      "precip_mm": 133.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 20.5,
+      "temp_max_c": 25.1,
+      "precip_mm": 140.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.5
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 18.0,
+      "temp_max_c": 22.6,
+      "precip_mm": 90.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.6
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 15.9,
+      "temp_max_c": 20.9,
+      "precip_mm": 103.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.4
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 14.6,
+      "temp_max_c": 19.7,
+      "precip_mm": 78.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.2
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 14.3,
+      "temp_max_c": 19.7,
+      "precip_mm": 79.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.9
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 14.4,
+      "temp_max_c": 20.1,
+      "precip_mm": 107.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.1
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 16.8,
+      "temp_max_c": 22.4,
+      "precip_mm": 164.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.9
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 17.6,
+      "temp_max_c": 22.4,
+      "precip_mm": 185.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.0
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 18.4,
+      "temp_max_c": 23.3,
+      "precip_mm": 126.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.2
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 20.2,
+      "temp_max_c": 25.1,
+      "precip_mm": 181.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    }
+  ]
+}

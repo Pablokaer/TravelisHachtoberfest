@@ -12,8 +12,11 @@ from typing import Any, Protocol
 
 from .build import CityBuilder
 from .database import Database
+from .errors import BadRequest, PlanUnavailable
 from .jobs import Job, JobBoard
 from .places import Geocoder, Place
+from .plan import PlanAssistant
+from .plan_requests import question_request, rank_request
 from .search import PlaceHit
 
 MIN_QUERY_CHARS = 2
@@ -21,10 +24,6 @@ DEFAULT_LIMIT = 6
 MAX_LIMIT = 10
 
 Answer = tuple[int, dict[str, Any]]
-
-
-class BadRequest(ValueError):
-    """The request is malformed; the message names the offending value."""
 
 
 def parse_position(payload: Any) -> tuple[float, float]:
@@ -61,6 +60,7 @@ def parse_search(params: dict[str, list[str]]) -> tuple[str, int]:
     return query, int(text)
 
 
+__all__ = ["BadRequest", "CityService", "PlanUnavailable"]
 MAX_NAME_CHARS = 100
 
 
@@ -101,9 +101,26 @@ class CityService:
         builder: CityBuilder,
         board: JobBoard,
         searcher: CitySearcher | None = None,
+        assistant: PlanAssistant | None = None,
     ) -> None:
         self.geocoder, self.db, self.builder, self.board = geocoder, db, builder, board
         self.searcher = searcher
+        self.assistant = assistant
+
+    def plan_question(self, payload: Any) -> dict[str, Any]:
+        """The wizard's next question (``POST /plan/question``); ``PlanUnavailable`` → 503."""
+        language, answers = question_request(payload)
+        return self._assistant().question(language, answers)
+
+    def plan_rank(self, payload: Any) -> dict[str, Any]:
+        """The wizard's shortlist with reasons (``POST /plan/rank``); ``PlanUnavailable`` → 503."""
+        language, limit, answers, candidates = rank_request(payload)
+        return self._assistant().rank(language, limit, answers, candidates)
+
+    def _assistant(self) -> PlanAssistant:
+        if self.assistant is None:
+            raise PlanUnavailable("no AI assistant is configured; expected one to answer")
+        return self.assistant
 
     def search(self, params: dict[str, list[str]]) -> dict[str, Any]:
         """``{"results": [...]}`` for ``?q=<text>&limit=<1..10>``; the lookup's errors propagate."""

@@ -8,13 +8,15 @@ modules, injected so tests run without a network.
 
 from __future__ import annotations
 
+import json
+import sys
 import threading
 from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from typing import Any
 
-from .. import seed
+from .. import seed, seed_city_data
 from ..config import CitiesConfig, City
 from ..routes import pipeline as routes_pipeline
 from ..routes.model import PlannerContext, RoutePlanner
@@ -43,6 +45,8 @@ class BuildDeps:
     texts: Callable[[Doc], dict[str, dict[str, str | None]]]
     summaries: Callable[[City], dict[str, str | None]]
     planner: Callable[[], RoutePlanner]
+    climate: Callable[[City], Doc]
+    facts: Callable[[City], Doc]
     countries: dict[str, dict[str, Any]]
     zone_coords: ZoneCoords
 
@@ -61,6 +65,7 @@ def city_script(
     texts: dict[str, dict[str, str | None]],
     routes: Doc,
     country: dict[str, Any] | None,
+    extras: dict[str, Doc] | None = None,
 ) -> str:
     """The SQL that adds the city: its country (when missing), the city, its places with their
     texts and its routes. Routes are replaced for this city only; everything is an upsert."""
@@ -70,6 +75,11 @@ def city_script(
     parts.append(seed.attractions_sql({city.slug: doc}, {city.slug: texts})[0])
     known = {a["wikidata_id"] for a in doc["attractions"]}
     parts.append(seed.suggested_routes_sql({city.slug: routes}, known, only_city=city.slug)[0])
+    extras = extras or {}
+    if "climate" in extras:
+        parts.append(seed_city_data.climate_sql({city.slug: extras["climate"]}))
+    if "facts" in extras:
+        parts.append(seed_city_data.facts_sql({city.slug: extras["facts"]}))
     return "\n".join(parts)
 
 
@@ -99,10 +109,26 @@ class CityBuilder:
         summary, texts = self.deps.summaries(city), self.deps.texts(doc)
         progress("routes")
         routes = self._routes(city, doc)
+        progress("climate")
+        extras = self._extras(city)
         progress("saving", routes=len(routes["routes"]))
-        script = city_script(city, summary, doc, texts, routes, country)
+        script = city_script(city, summary, doc, texts, routes, country, extras)
         self.deps.db.apply(script)
         return BuildResult(city.slug, len(doc["attractions"]), len(routes["routes"]))
+
+    def _extras(self, city: City) -> dict[str, Doc]:
+        """Climate and facts (D-081). Each is optional: Open-Meteo or Overpass can throttle, and
+        a city without them is still worth building; the failure is logged, not raised."""
+        found: dict[str, Doc] = {}
+        for name, fetch in (("climate", self.deps.climate), ("facts", self.deps.facts)):
+            try:
+                found[name] = fetch(city)
+                self.deps.store.save_doc(city.slug, name, found[name])
+            except Exception as exc:  # noqa: BLE001 - logged below, the build goes on
+                failure = {"event": "city_data_skipped", "city": city.slug, "stage": name}
+                error = f"{type(exc).__name__}: {exc}"
+                print(json.dumps({**failure, "error": error}), file=sys.stderr, flush=True)
+        return found
 
     def _locate(self, place: Place) -> tuple[City, dict[str, Any] | None]:
         identified = self.identify(place)

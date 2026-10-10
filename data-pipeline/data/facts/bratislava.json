@@ -1,0 +1,11 @@
+{
+  "city": "bratislava",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 480902,
+  "inception_year": 907,
+  "beach_count": 42
+}

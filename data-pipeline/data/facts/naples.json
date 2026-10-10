@@ -1,0 +1,11 @@
+{
+  "city": "naples",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 913462,
+  "inception_year": null,
+  "beach_count": 31
+}

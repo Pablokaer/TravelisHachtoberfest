@@ -1,0 +1,106 @@
+{
+  "city": "ilheus",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -14.788889,
+  "longitude": -39.048889,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 26.1,
+      "temp_max_c": 28.9,
+      "precip_mm": 139.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.0
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.2,
+      "temp_max_c": 29.0,
+      "precip_mm": 124.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.9
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 26.2,
+      "temp_max_c": 29.1,
+      "precip_mm": 127.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.1
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 25.5,
+      "temp_max_c": 28.5,
+      "precip_mm": 246.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 24.4,
+      "temp_max_c": 27.6,
+      "precip_mm": 134.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.1
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 23.1,
+      "temp_max_c": 26.2,
+      "precip_mm": 79.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 22.7,
+      "temp_max_c": 25.7,
+      "precip_mm": 105.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.9
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 23.1,
+      "temp_max_c": 26.0,
+      "precip_mm": 90.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 23.8,
+      "temp_max_c": 26.6,
+      "precip_mm": 78.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.7
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 25.0,
+      "temp_max_c": 27.6,
+      "precip_mm": 104.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.9
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 25.1,
+      "temp_max_c": 27.7,
+      "precip_mm": 227.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 26.0,
+      "temp_max_c": 28.6,
+      "precip_mm": 142.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.2
+    }
+  ]
+}

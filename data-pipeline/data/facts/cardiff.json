@@ -1,0 +1,11 @@
+{
+  "city": "cardiff",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 383536,
+  "inception_year": 1081,
+  "beach_count": 27
+}

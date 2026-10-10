@@ -1,0 +1,11 @@
+{
+  "city": "fez",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1167842,
+  "inception_year": 789,
+  "beach_count": 0
+}

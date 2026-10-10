@@ -1,0 +1,11 @@
+{
+  "city": "vienna",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2028289,
+  "inception_year": -100,
+  "beach_count": 29
+}

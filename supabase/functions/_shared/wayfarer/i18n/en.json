@@ -18,7 +18,9 @@
     "suggested": "Routes",
     "profile": "Profile",
     "world": "World",
-    "myCity": "My city"
+    "myCity": "My city",
+    "plan": "Plan trip",
+    "futureTrips": "Future trips"
   },
   "auth": {
     "signInTitle": "Welcome back",
@@ -821,5 +823,143 @@
     "homeText": "Use your location to find the historic places around you and walking routes that start near you.",
     "world": "A city elsewhere",
     "worldText": "Browse every city in the app and plan a walk before you travel."
+  },
+  "calendar": {
+    "chooseDate": "Choose a date",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month"
+  },
+  "futureTrips": {
+    "title": "Future trips",
+    "subtitle": "Destinations you saved from the trip planner.",
+    "empty": "No future trips yet",
+    "emptyBody": "Answer a few questions and pick the places that tempt you.",
+    "plan": "Plan your next trip",
+    "remove": "Remove {{city}} from future trips",
+    "plannedFor": "Planned for {{date}}",
+    "removeShort": "Remove"
+  },
+  "plan": {
+    "title": "Plan your next trip",
+    "subtitle": "Answer a few questions, one at a time, and the local AI proposes places that fit.",
+    "start": "Start",
+    "intro": "Tell us when you want to go, what weather and sights you dream of and how far you will travel. Only cities that really fit are proposed.",
+    "progress": "Question {{current}} of {{total}}",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Show my destinations",
+    "other": "Or type your own answer",
+    "otherPlaceholder": "Type your answer",
+    "distanceOther": "Or type a distance in km",
+    "loadingQuestion": "Thinking of the next question…",
+    "thinking": "Finding places that fit…",
+    "thinkingBody": "The local AI is weighing your answers against the climate, distance and attractions of every city. This can take a minute.",
+    "originHere": "Use my location",
+    "originSearch": "Or search for a city",
+    "originFound": "Starting from {{place}}",
+    "locating": "Finding you…",
+    "originNeeded": "Choose where you will start from.",
+    "dateNeeded": "Pick a day for the trip.",
+    "errorTitle": "Something went wrong",
+    "errorBody": "We could not prepare your destinations: {{message}}",
+    "tryAgain": "Try again",
+    "resultsTitle": "Where could you go?",
+    "resultsBody": "Tick the places that tempt you and save them to Future trips.",
+    "noResults": "No city fits all your answers",
+    "noResultsBody": "Try a longer distance, another month or fewer wishes.",
+    "startOver": "Start over",
+    "relaxed": "Few cities match the weather you asked for, so these are the closest fits.",
+    "byModel": "Chosen by the local AI",
+    "byRules": "The local AI is not running, so these are ranked by how well they match your answers.",
+    "km": "{{km}} km away",
+    "climate": "{{temp}} °C · {{sun}} h of sun a day · {{rain}} mm of rain",
+    "snowfall": "{{snow}} cm of snow",
+    "select": "Select {{city}}",
+    "selected": "{{city}} selected",
+    "saveSelected": "Save {{count}} to Future trips",
+    "savedTitle": "Saved to Future trips",
+    "saveError": "Could not save: {{message}}",
+    "q": {
+      "origin": {
+        "text": "Where will you travel from?"
+      },
+      "date": {
+        "text": "When would you like to travel?"
+      },
+      "length": {
+        "text": "How long is the trip?",
+        "opt": {
+          "weekend": "A long weekend (2–4 days)",
+          "week": "About a week",
+          "fortnight": "Two weeks",
+          "long": "Three weeks or more"
+        }
+      },
+      "distance": {
+        "text": "How far from home are you willing to go?",
+        "opt": {
+          "km-500": "Up to 500 km",
+          "km-1500": "Up to 1,500 km",
+          "km-4000": "Up to 4,000 km",
+          "km-8000": "Up to 8,000 km",
+          "any": "Anywhere in the world"
+        }
+      },
+      "weather": {
+        "text": "What weather are you hoping for?",
+        "opt": {
+          "sunny": "Sunny",
+          "warm": "Warm",
+          "hot": "Hot",
+          "mild": "Mild",
+          "cool": "Cool and fresh",
+          "rainy": "Rainy",
+          "snow": "Snow"
+        }
+      },
+      "attractions": {
+        "text": "What do you want to see and do?",
+        "opt": {
+          "beaches": "Beaches",
+          "castles": "Castles and palaces",
+          "history": "Old towns and history",
+          "museums": "Museums and art",
+          "nature": "Nature and parks",
+          "churches": "Churches and cathedrals",
+          "viewpoints": "Viewpoints"
+        }
+      },
+      "character": {
+        "text": "What kind of city do you picture?",
+        "opt": {
+          "ancient": "One of the oldest cities",
+          "big-city": "A big, lively city",
+          "small-quiet": "Small and quiet",
+          "tech": "A technology and innovation hub",
+          "food": "Food and nightlife"
+        }
+      },
+      "pace": {
+        "text": "What pace do you like on a trip?",
+        "opt": {
+          "relaxed": "Relaxed, few plans",
+          "balanced": "A bit of both",
+          "packed": "Packed, see everything"
+        }
+      },
+      "company": {
+        "text": "Who is travelling?",
+        "opt": {
+          "solo": "Just me",
+          "couple": "As a couple",
+          "family": "With family",
+          "friends": "With friends"
+        }
+      },
+      "extra": {
+        "text": "Anything else the trip should have, or avoid?"
+      }
+    },
+    "myLocation": "My location"
   }
 }

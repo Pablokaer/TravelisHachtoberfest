@@ -1,0 +1,11 @@
+{
+  "city": "bangkok",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 5676648,
+  "inception_year": 1782,
+  "beach_count": 1
+}

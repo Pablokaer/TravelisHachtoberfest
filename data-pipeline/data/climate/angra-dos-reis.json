@@ -1,0 +1,106 @@
+{
+  "city": "angra-dos-reis",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -23.006944,
+  "longitude": -44.317778,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 25.7,
+      "temp_max_c": 29.1,
+      "precip_mm": 401.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.8
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.1,
+      "temp_max_c": 29.6,
+      "precip_mm": 291.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 25.9,
+      "temp_max_c": 29.6,
+      "precip_mm": 295.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.7
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 23.7,
+      "temp_max_c": 27.3,
+      "precip_mm": 282.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.5
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 22.1,
+      "temp_max_c": 26.3,
+      "precip_mm": 91.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.1
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 20.7,
+      "temp_max_c": 25.2,
+      "precip_mm": 95.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.7
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 20.4,
+      "temp_max_c": 25.0,
+      "precip_mm": 71.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.0
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 20.8,
+      "temp_max_c": 25.6,
+      "precip_mm": 146.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.7
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 22.5,
+      "temp_max_c": 27.1,
+      "precip_mm": 138.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.0
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 23.4,
+      "temp_max_c": 26.8,
+      "precip_mm": 189.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.0
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 23.8,
+      "temp_max_c": 27.4,
+      "precip_mm": 266.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.8
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 24.9,
+      "temp_max_c": 28.5,
+      "precip_mm": 302.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    }
+  ]
+}

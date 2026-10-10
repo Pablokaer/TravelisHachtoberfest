@@ -1,0 +1,11 @@
+{
+  "city": "bologna",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 387971,
+  "inception_year": null,
+  "beach_count": 2
+}

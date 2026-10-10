@@ -18,7 +18,9 @@
     "suggested": "Rotas",
     "profile": "Perfil",
     "world": "Mundo",
-    "myCity": "A minha cidade"
+    "myCity": "A minha cidade",
+    "plan": "Planear",
+    "futureTrips": "Viagens futuras"
   },
   "auth": {
     "signInTitle": "Bem-vindo de volta",
@@ -821,5 +823,143 @@
     "homeText": "Use a sua localização para encontrar os locais históricos à sua volta e percursos a pé que começam perto de si.",
     "world": "Outra cidade do mundo",
     "worldText": "Veja todas as cidades da aplicação e planeie um passeio antes de viajar."
+  },
+  "calendar": {
+    "chooseDate": "Escolher uma data",
+    "previousMonth": "Mês anterior",
+    "nextMonth": "Mês seguinte"
+  },
+  "futureTrips": {
+    "title": "Viagens futuras",
+    "subtitle": "Destinos que guardou no planeador de viagens.",
+    "empty": "Ainda não tem viagens futuras",
+    "emptyBody": "Responda a algumas perguntas e escolha os lugares que o tentam.",
+    "plan": "Planear a próxima viagem",
+    "remove": "Retirar {{city}} das viagens futuras",
+    "plannedFor": "Prevista para {{date}}",
+    "removeShort": "Retirar"
+  },
+  "plan": {
+    "title": "Planear a próxima viagem",
+    "subtitle": "Responda a algumas perguntas, uma de cada vez, e a IA local propõe lugares que combinam consigo.",
+    "start": "Começar",
+    "intro": "Diga-nos quando quer ir, com que tempo e que visitas sonha e até onde viajará. Só são propostas cidades que realmente servem.",
+    "progress": "Pergunta {{current}} de {{total}}",
+    "back": "Voltar",
+    "next": "Seguinte",
+    "finish": "Mostrar os meus destinos",
+    "other": "Ou escreva a sua resposta",
+    "otherPlaceholder": "Escreva a sua resposta",
+    "distanceOther": "Ou escreva uma distância em km",
+    "loadingQuestion": "A pensar na pergunta seguinte…",
+    "thinking": "A procurar lugares que combinem…",
+    "thinkingBody": "A IA local está a comparar as suas respostas com o clima, a distância e as atrações de cada cidade. Pode demorar um minuto.",
+    "originHere": "Usar a minha localização",
+    "originSearch": "Ou pesquise uma cidade",
+    "originFound": "A partir de {{place}}",
+    "locating": "A localizá-lo…",
+    "originNeeded": "Escolha o ponto de partida.",
+    "dateNeeded": "Escolha um dia para a viagem.",
+    "errorTitle": "Algo correu mal",
+    "errorBody": "Não foi possível preparar os seus destinos: {{message}}",
+    "tryAgain": "Tentar novamente",
+    "resultsTitle": "Para onde poderia ir?",
+    "resultsBody": "Assinale os lugares que o tentam e guarde-os em Viagens futuras.",
+    "noResults": "Nenhuma cidade serve todas as suas respostas",
+    "noResultsBody": "Experimente uma distância maior, outro mês ou menos desejos.",
+    "startOver": "Recomeçar",
+    "relaxed": "Poucas cidades têm o tempo que pediu, por isso estas são as que mais se aproximam.",
+    "byModel": "Escolhido pela IA local",
+    "byRules": "A IA local não está a funcionar, por isso estas estão ordenadas pela correspondência com as suas respostas.",
+    "km": "a {{km}} km",
+    "climate": "{{temp}} °C · {{sun}} h de sol por dia · {{rain}} mm de chuva",
+    "snowfall": "{{snow}} cm de neve",
+    "select": "Selecionar {{city}}",
+    "selected": "{{city}} selecionada",
+    "saveSelected": "Guardar {{count}} em Viagens futuras",
+    "savedTitle": "Guardado em Viagens futuras",
+    "saveError": "Não foi possível guardar: {{message}}",
+    "q": {
+      "origin": {
+        "text": "De onde vai partir?"
+      },
+      "date": {
+        "text": "Quando gostaria de viajar?"
+      },
+      "length": {
+        "text": "Quanto tempo dura a viagem?",
+        "opt": {
+          "weekend": "Um fim de semana prolongado (2–4 dias)",
+          "week": "Cerca de uma semana",
+          "fortnight": "Duas semanas",
+          "long": "Três semanas ou mais"
+        }
+      },
+      "distance": {
+        "text": "Até onde está disposto a ir a partir de casa?",
+        "opt": {
+          "km-500": "Até 500 km",
+          "km-1500": "Até 1500 km",
+          "km-4000": "Até 4000 km",
+          "km-8000": "Até 8000 km",
+          "any": "Qualquer ponto do mundo"
+        }
+      },
+      "weather": {
+        "text": "Que tempo espera encontrar?",
+        "opt": {
+          "sunny": "Sol",
+          "warm": "Quente",
+          "hot": "Muito calor",
+          "mild": "Ameno",
+          "cool": "Fresco",
+          "rainy": "Chuva",
+          "snow": "Neve"
+        }
+      },
+      "attractions": {
+        "text": "O que quer ver e fazer?",
+        "opt": {
+          "beaches": "Praias",
+          "castles": "Castelos e palácios",
+          "history": "Centros históricos",
+          "museums": "Museus e arte",
+          "nature": "Natureza e parques",
+          "churches": "Igrejas e catedrais",
+          "viewpoints": "Miradouros"
+        }
+      },
+      "character": {
+        "text": "Que tipo de cidade imagina?",
+        "opt": {
+          "ancient": "Uma das cidades mais antigas",
+          "big-city": "Uma cidade grande e animada",
+          "small-quiet": "Pequena e sossegada",
+          "tech": "Um polo de tecnologia e inovação",
+          "food": "Gastronomia e vida noturna"
+        }
+      },
+      "pace": {
+        "text": "Que ritmo prefere numa viagem?",
+        "opt": {
+          "relaxed": "Calmo, com poucos planos",
+          "balanced": "Um pouco de cada",
+          "packed": "Intenso, ver tudo"
+        }
+      },
+      "company": {
+        "text": "Quem viaja?",
+        "opt": {
+          "solo": "Só eu",
+          "couple": "Em casal",
+          "family": "Em família",
+          "friends": "Com amigos"
+        }
+      },
+      "extra": {
+        "text": "Mais alguma coisa que a viagem deva ter, ou evitar?"
+      }
+    },
+    "myLocation": "A minha localização"
   }
 }

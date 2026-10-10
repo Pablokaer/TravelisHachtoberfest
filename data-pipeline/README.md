@@ -17,6 +17,8 @@ python -m wayfarer_pipeline city-summaries         # Wikipedia leads (EN/PT) →
 python -m wayfarer_pipeline visa                   # passport-index → data/visa.csv → 30_visa.sql
 python -m wayfarer_pipeline suggest-routes --city lisbon  # themed walks → data/suggested_routes → 60_suggested_routes.sql (D-077)
 python -m wayfarer_pipeline suggest-routes --all --planner ollama --model qwen2.5:7b  # same, proposed by a local Ollama model
+python -m wayfarer_pipeline climate --all         # monthly climate normals (Open-Meteo) → data/climate → 70_city_climate.sql (D-081)
+python -m wayfarer_pipeline facts --all           # population, founding year, OSM beaches → data/facts → 80_city_facts.sql (D-081)
 python -m wayfarer_pipeline serve                  # local service: builds the user's own city from a GPS position (D-079)
 python -m wayfarer_pipeline ingest --city lisbon   # one city → data/attractions/lisbon.json
 python -m wayfarer_pipeline ingest --all           # every city (≈ 30–60 min cold, seconds cached)
@@ -40,6 +42,8 @@ re-ingesting one city keeps the others. Run `pnpm db:reset` from the repo root t
 | `data/visa.csv`                     | yes       | normalised visa rules; `data/visa_source.json` = dataset commit |
 | `data/attractions/<slug>.json`      | yes       | normalised attractions per city                                 |
 | `data/suggested_routes/<slug>.json` | yes       | suggested walking routes per city (D-077)                       |
+| `data/climate/<slug>.json`          | yes       | monthly climate normals per city (D-081)                        |
+| `data/facts/<slug>.json`            | yes       | population, founding year, beaches per city (D-081)             |
 | `data/local/`                       | no        | cities built on demand by `serve` (D-079): `cities.yaml`, JSON  |
 | `.cache/`                           | no        | raw HTTP responses (delete a sub-folder to re-fetch a source)   |
 
@@ -59,6 +63,48 @@ re-ingesting one city keeps the others. Run `pnpm db:reset` from the repo root t
 5. Top 300 by popularity are kept; **Commons** `imageinfo` gives the 800 px thumbnail, author
    and licence (images without a licence are dropped). Missing data stays `null`.
 
+## Trip wizard data (D-081)
+
+`climate` and `facts` (`--city <slug>` or `--all`; both resumable: a city with a snapshot is kept
+unless `--refresh`; one failing city is reported and the run goes on) fill `city_climate` and
+`city_facts`, which the app's "Plan your next trip" scoring reads with the `city_profiles` view.
+
+- **Climate** — Open-Meteo Historical Weather API (ERA5, CC BY 4.0), daily values at the city
+  centre averaged per calendar month: mean of the daily mean/max temperature, **mean monthly
+  total** of rain and snow, mean **daily** sunshine hours. ERA5 sunshine runs higher than station
+  records (Lisbon December: 7.4 h against ~5 h observed): use it to compare cities, not as a forecast.
+  The free tier weighs a request by its days (ten years ≈ 130 of 10,000 calls a day, 600 a
+  minute), so `climate --first-year 2022` fetches 2022–2024 (≈ 39 per city: all 198 fit in a
+  day); the default 2015–2024 would take about three days. `period` in each snapshot says which
+  window it used, and a later `climate --all --refresh` (alone or with a different
+  `--first-year`) replaces it. A used-up daily quota stops the run cleanly; run it again the next
+  day to resume.
+- **Facts** — Wikidata population (P1082, latest dated statement) and founding year (P571, the
+  earliest claim; negative before the common era), one SPARQL query per 50 cities; beaches =
+  OSM `natural=beach` nodes, ways and relations in the city box via Overpass (`out count`, so a
+  timed-out query is an error, never "0 beaches").
+- **Cities built by `serve`** get both in a `climate` stage before `saving`; if Open-Meteo or
+  Overpass fails the city is still built (the failure is logged as JSON on stderr). For cities
+  built earlier, `climate --local` / `facts --local` read `data/local/cities.yaml`, write
+  `data/local/{climate,facts}/` and load the rows into the database (`--db-url`).
+
+## Trip wizard AI (`/plan/question`, `/plan/rank`, D-081)
+
+Two thin Ollama calls on `serve` (model `--model`; `--planner rules` makes both answer `503`).
+The model writes, code checks, the app scores: answers are constrained by a JSON schema and then
+validated, and an invalid answer is asked for again twice before `503 {"status":"failed"}`.
+
+- `POST /plan/question` `{"language":"en"|"pt","answers":[{"id","question","answer"}]}` →
+  `{"question":{"id":"ai-<n>","text","kind":"single"|"multi"|"text","options":[{"value","label"}],"allow_other"},"source":"ollama"}`.
+  Text ≤ 110 characters (European Portuguese for `pt`); 3–6 options of ≤ 40 characters for
+  single/multi (none for text); `value` is a unique kebab-case ASCII slug made from the label;
+  a question that repeats an earlier one (normalised, ≥ 85 % similar) is refused; `n` is the number of answers so far.
+- `POST /plan/rank` `{"language","limit":6,"answers":[…],"candidates":[{"slug","name","country","distance_km","facts":{…}}]}`
+  (1–30 candidates, `limit` 1–10) → `{"picks":[{"slug","reason"}],"source":"ollama"}`: 3..limit
+  slugs of the candidates, none twice, each with a reason of ≤ 220 characters whose numbers
+  from 100 up must be in that candidate's facts or distance. No filtering happens here: the model
+  must keep candidates the app already approved.
+
 ## Your own city on demand (`serve`, D-079)
 
 `python -m wayfarer_pipeline serve [--host 127.0.0.1] [--port 8787] [--db-url postgresql://postgres:postgres@127.0.0.1:54322/postgres] [--planner auto|rules|ollama] [--model qwen2.5:7b]`
@@ -73,6 +119,8 @@ so run it on your own machine only (CORS is open on purpose).
 | `GET /places/search?q=<text>&limit=<1..10, default 6>`                                      | `200 {"results":[{"name","display_name","country_code","lat","lng"}]}` (empty list when nothing matches); `400` when `q` has fewer than 2 characters or `limit` is not 1–10; `502` Nominatim failed. City/town/village/municipality results only, each place once, in Nominatim's order; answers are kept 10 minutes                                                                                   |
 | `GET /jobs/<id>`                                                                            | `{status: building\|ready\|failed, stage: locating\|attractions\|texts\|routes\|saving, city_slug, message, attractions, routes}`; `404` unknown job                                                                                                                                                                                                                                                   |
 | `GET /health`                                                                               | `{"ok": true}`                                                                                                                                                                                                                                                                                                                                                                                         |
+| `POST /plan/question` `{"language","answers":[{"id","question","answer"}]}`                 | `200 {"question":{"id":"ai-<n>","text","kind","options":[{"value","label"}],"allow_other"},"source":"ollama"}`; `400` bad body; `503` assistant off (`--planner rules`), model missing, or no valid answer in 3 tries (D-081)                                                                                                                                                                          |
+| `POST /plan/rank` `{"language","limit","answers":[…],"candidates":[…up to 30]}`             | `200 {"picks":[{"slug","reason"}],"source":"ollama"}` (3..limit candidates, reasons ≤ 220 characters using only the candidate's facts); `400`; `503` as above                                                                                                                                                                                                                                          |
 
 How a city is built (`local/build.py`), one job per city (asking again while it builds returns
 the same job; a failed one is retried):

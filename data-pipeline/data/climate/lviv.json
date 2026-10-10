@@ -1,0 +1,106 @@
+{
+  "city": "lviv",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 49.841952,
+  "longitude": 24.031592,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": -0.0,
+      "temp_max_c": 2.4,
+      "precip_mm": 74.0,
+      "snowfall_cm": 25.2,
+      "sunshine_hours": 2.7
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 2.5,
+      "temp_max_c": 5.7,
+      "precip_mm": 53.9,
+      "snowfall_cm": 12.5,
+      "sunshine_hours": 4.6
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 4.0,
+      "temp_max_c": 8.6,
+      "precip_mm": 64.3,
+      "snowfall_cm": 7.6,
+      "sunshine_hours": 6.9
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 8.4,
+      "temp_max_c": 12.8,
+      "precip_mm": 73.3,
+      "snowfall_cm": 4.8,
+      "sunshine_hours": 7.7
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 14.6,
+      "temp_max_c": 19.8,
+      "precip_mm": 39.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 12.1
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 18.9,
+      "temp_max_c": 23.4,
+      "precip_mm": 98.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.8
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 20.5,
+      "temp_max_c": 25.3,
+      "precip_mm": 84.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.8
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 20.7,
+      "temp_max_c": 25.7,
+      "precip_mm": 68.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 15.7,
+      "temp_max_c": 20.2,
+      "precip_mm": 111.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.1
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 10.8,
+      "temp_max_c": 14.9,
+      "precip_mm": 48.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.8
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 3.6,
+      "temp_max_c": 6.4,
+      "precip_mm": 52.3,
+      "snowfall_cm": 13.8,
+      "sunshine_hours": 3.6
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 0.8,
+      "temp_max_c": 2.9,
+      "precip_mm": 66.0,
+      "snowfall_cm": 17.8,
+      "sunshine_hours": 2.4
+    }
+  ]
+}

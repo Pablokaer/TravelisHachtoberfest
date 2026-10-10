@@ -1,0 +1,106 @@
+{
+  "city": "ayutthaya",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 14.359359,
+  "longitude": 100.576145,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 26.7,
+      "temp_max_c": 32.1,
+      "precip_mm": 11.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 27.6,
+      "temp_max_c": 32.9,
+      "precip_mm": 73.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.1
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 29.5,
+      "temp_max_c": 35.1,
+      "precip_mm": 49.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.5
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 31.1,
+      "temp_max_c": 36.9,
+      "precip_mm": 47.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.1
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 29.6,
+      "temp_max_c": 34.4,
+      "precip_mm": 240.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 29.0,
+      "temp_max_c": 33.7,
+      "precip_mm": 226.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.7
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 28.1,
+      "temp_max_c": 32.1,
+      "precip_mm": 243.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.9
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 28.0,
+      "temp_max_c": 32.6,
+      "precip_mm": 310.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.7
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 27.3,
+      "temp_max_c": 31.5,
+      "precip_mm": 399.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.8
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 27.2,
+      "temp_max_c": 31.3,
+      "precip_mm": 245.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.2
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 27.3,
+      "temp_max_c": 31.8,
+      "precip_mm": 76.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.1
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 26.3,
+      "temp_max_c": 31.0,
+      "precip_mm": 3.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    }
+  ]
+}

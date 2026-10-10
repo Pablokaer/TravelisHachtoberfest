@@ -12,10 +12,10 @@ import { fontFamilyFor } from '@/theme/fonts';
 import { useBreakpoint, useTheme } from '@/theme/use-theme';
 
 /**
- * Desktop side rail: fits the English labels. "As minhas viagens" (PT) is ellipsised at this
- * width as it was at the previous 104 px.
+ * Desktop side rail: fits the English labels, "Future trips" included (D-081). Longer Portuguese
+ * labels ("As minhas viagens") are ellipsised.
  */
-const RAIL_WIDTH = 96;
+const RAIL_WIDTH = 112;
 
 function TabIcon({ name, color }: { name: IconName; color: string }) {
   return <Icon name={name} color={color} size={24} />;
@@ -89,6 +89,20 @@ export default function TabsLayout() {
           tabBarIcon: ({ color }) => (
             <TabIcon name={localMode ? 'pin' : 'route'} color={String(color)} />
           ),
+        }}
+      />
+      <Tabs.Screen
+        name="plan"
+        options={{
+          title: t('tabs.plan'),
+          tabBarIcon: ({ color }) => <TabIcon name="sparkles" color={String(color)} />,
+        }}
+      />
+      <Tabs.Screen
+        name="future-trips"
+        options={{
+          title: t('tabs.futureTrips'),
+          tabBarIcon: ({ color }) => <TabIcon name="bookmark" color={String(color)} />,
         }}
       />
       <Tabs.Screen

@@ -77,3 +77,28 @@ def index_by_wikidata(elements: list[dict[str, Any]]) -> dict[str, dict[str, Any
             "name_pt": tags.get("name:pt"),
         }
     return out
+
+
+def beach_count_query(bbox: tuple[float, float, float, float]) -> str:
+    s, w, n, e = bbox
+    return f'[out:json][timeout:120];nwr["natural"="beach"]({s},{w},{n},{e});out count;'
+
+
+def fetch_beach_count(client: HttpClient, bbox: tuple[float, float, float, float]) -> int:
+    """OSM ``natural=beach`` nodes, ways and relations inside the box (D-081).
+
+    A timed-out query raises: it must not read as a city with no beaches.
+    """
+    _, text = client.request(
+        "POST",
+        ENDPOINT,
+        namespace="overpass",
+        data={"data": beach_count_query(bbox)},
+        validate=_ok,
+    )
+    if not _ok(text):
+        raise ValueError(f"Overpass failed for bbox {bbox}: {text[:120]!r}")
+    counts = [e for e in json.loads(text).get("elements", []) if e.get("type") == "count"]
+    if not counts:
+        raise ValueError(f"Overpass gave no count for bbox {bbox}: {text[:120]!r}")
+    return int(counts[0]["tags"]["total"])

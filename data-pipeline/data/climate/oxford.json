@@ -1,0 +1,106 @@
+{
+  "city": "oxford",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 51.751944,
+  "longitude": -1.257778,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 4.5,
+      "temp_max_c": 7.5,
+      "precip_mm": 45.1,
+      "snowfall_cm": 0.1,
+      "sunshine_hours": 4.5
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 7.0,
+      "temp_max_c": 10.2,
+      "precip_mm": 64.0,
+      "snowfall_cm": 0.3,
+      "sunshine_hours": 4.8
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 7.5,
+      "temp_max_c": 11.0,
+      "precip_mm": 90.7,
+      "snowfall_cm": 2.7,
+      "sunshine_hours": 6.0
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 9.0,
+      "temp_max_c": 13.1,
+      "precip_mm": 56.6,
+      "snowfall_cm": 0.3,
+      "sunshine_hours": 8.6
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 13.1,
+      "temp_max_c": 17.3,
+      "precip_mm": 75.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 16.0,
+      "temp_max_c": 20.6,
+      "precip_mm": 49.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 12.4
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 17.4,
+      "temp_max_c": 21.7,
+      "precip_mm": 68.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.6
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 17.9,
+      "temp_max_c": 22.5,
+      "precip_mm": 44.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 15.4,
+      "temp_max_c": 19.7,
+      "precip_mm": 97.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.9
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 12.3,
+      "temp_max_c": 15.9,
+      "precip_mm": 90.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.2
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 8.0,
+      "temp_max_c": 10.9,
+      "precip_mm": 97.1,
+      "snowfall_cm": 1.5,
+      "sunshine_hours": 4.5
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 6.1,
+      "temp_max_c": 8.4,
+      "precip_mm": 71.7,
+      "snowfall_cm": 0.7,
+      "sunshine_hours": 2.6
+    }
+  ]
+}

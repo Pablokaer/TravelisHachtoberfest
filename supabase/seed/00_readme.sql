@@ -8,4 +8,6 @@
 --   40_attractions.sql  attractions (Wikidata, OpenStreetMap, Wikipedia pageviews, Commons)
 --   50_people.sql       notable people of each city (Wikidata, Commons)
 --   60_suggested_routes.sql  themed walking routes per city (local LLM or rules, validated)
+--   70_city_climate.sql      monthly climate normals per city (Open-Meteo, ERA5)
+--   80_city_facts.sql        population, founding year and beaches per city (Wikidata, OSM)
 select 1;

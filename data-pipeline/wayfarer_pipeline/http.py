@@ -63,6 +63,9 @@ POLICIES: dict[str, HostPolicy] = {
     "pt.wikipedia.org": HostPolicy(min_interval=0.1, concurrency=2),
     # Nominatim's usage policy: an absolute maximum of one request per second.
     "nominatim.openstreetmap.org": HostPolicy(min_interval=1.1, concurrency=1),
+    # Open-Meteo's free tier weighs a ten-year daily request heavily (hourly/daily quotas), so
+    # the 200 cities are asked for one at a time, four seconds apart.
+    "archive-api.open-meteo.com": HostPolicy(min_interval=4.0, concurrency=1, deadline=180.0),
     "raw.githubusercontent.com": HostPolicy(min_interval=0.5, concurrency=1),
     "api.github.com": HostPolicy(min_interval=1.0, concurrency=1),
 }

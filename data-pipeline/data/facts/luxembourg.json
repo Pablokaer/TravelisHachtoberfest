@@ -1,0 +1,11 @@
+{
+  "city": "luxembourg",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 137678,
+  "inception_year": 963,
+  "beach_count": 0
+}

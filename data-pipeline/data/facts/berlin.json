@@ -1,0 +1,11 @@
+{
+  "city": "berlin",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 3913644,
+  "inception_year": 1244,
+  "beach_count": 135
+}

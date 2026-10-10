@@ -1,0 +1,11 @@
+{
+  "city": "chiang-mai",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1198000,
+  "inception_year": 1201,
+  "beach_count": 0
+}

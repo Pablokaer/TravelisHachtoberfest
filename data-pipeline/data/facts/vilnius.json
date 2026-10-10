@@ -1,0 +1,11 @@
+{
+  "city": "vilnius",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 619405,
+  "inception_year": 1201,
+  "beach_count": 29
+}

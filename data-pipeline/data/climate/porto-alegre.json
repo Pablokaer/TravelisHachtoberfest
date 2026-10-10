@@ -1,0 +1,106 @@
+{
+  "city": "porto-alegre",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -30.032778,
+  "longitude": -51.23,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 25.5,
+      "temp_max_c": 31.1,
+      "precip_mm": 87.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.6
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 25.1,
+      "temp_max_c": 30.7,
+      "precip_mm": 91.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.1
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 23.9,
+      "temp_max_c": 28.8,
+      "precip_mm": 108.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.5
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 20.5,
+      "temp_max_c": 24.9,
+      "precip_mm": 118.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.9
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 16.6,
+      "temp_max_c": 20.7,
+      "precip_mm": 210.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.2
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 15.2,
+      "temp_max_c": 19.9,
+      "precip_mm": 165.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.4
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 14.9,
+      "temp_max_c": 19.8,
+      "precip_mm": 156.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.7
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 15.2,
+      "temp_max_c": 20.6,
+      "precip_mm": 99.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.9
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 17.6,
+      "temp_max_c": 22.5,
+      "precip_mm": 227.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.6
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 19.1,
+      "temp_max_c": 23.8,
+      "precip_mm": 124.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.3
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 21.6,
+      "temp_max_c": 26.7,
+      "precip_mm": 142.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 23.5,
+      "temp_max_c": 28.8,
+      "precip_mm": 116.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.2
+    }
+  ]
+}

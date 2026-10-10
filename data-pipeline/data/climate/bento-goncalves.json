@@ -1,0 +1,106 @@
+{
+  "city": "bento-goncalves",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -29.170833,
+  "longitude": -51.518889,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 21.9,
+      "temp_max_c": 27.7,
+      "precip_mm": 132.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.5
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 21.5,
+      "temp_max_c": 27.2,
+      "precip_mm": 90.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.8
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 20.4,
+      "temp_max_c": 25.5,
+      "precip_mm": 114.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.2
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 17.3,
+      "temp_max_c": 21.9,
+      "precip_mm": 143.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.0
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 13.8,
+      "temp_max_c": 17.8,
+      "precip_mm": 277.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.0
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 12.8,
+      "temp_max_c": 17.3,
+      "precip_mm": 200.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.0
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 12.9,
+      "temp_max_c": 17.7,
+      "precip_mm": 130.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.3
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 13.2,
+      "temp_max_c": 18.8,
+      "precip_mm": 107.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.7
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 15.5,
+      "temp_max_c": 20.8,
+      "precip_mm": 186.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.1
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 16.4,
+      "temp_max_c": 21.5,
+      "precip_mm": 189.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.4
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 18.7,
+      "temp_max_c": 24.0,
+      "precip_mm": 181.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 20.3,
+      "temp_max_c": 26.0,
+      "precip_mm": 150.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.9
+    }
+  ]
+}

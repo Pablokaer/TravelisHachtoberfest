@@ -1,0 +1,106 @@
+{
+  "city": "alto-paraiso-de-goias",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -14.132778,
+  "longitude": -47.51,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 20.3,
+      "temp_max_c": 24.5,
+      "precip_mm": 267.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.2
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 20.7,
+      "temp_max_c": 25.2,
+      "precip_mm": 179.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.7
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 20.8,
+      "temp_max_c": 25.3,
+      "precip_mm": 124.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 20.6,
+      "temp_max_c": 25.1,
+      "precip_mm": 65.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.8
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 19.6,
+      "temp_max_c": 24.7,
+      "precip_mm": 3.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.2
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 18.6,
+      "temp_max_c": 23.8,
+      "precip_mm": 1.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.9
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 18.7,
+      "temp_max_c": 24.1,
+      "precip_mm": 0.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.0
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 20.6,
+      "temp_max_c": 26.4,
+      "precip_mm": 16.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.2
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 22.7,
+      "temp_max_c": 28.5,
+      "precip_mm": 29.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 22.7,
+      "temp_max_c": 27.8,
+      "precip_mm": 133.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.8
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 20.9,
+      "temp_max_c": 25.4,
+      "precip_mm": 257.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 20.9,
+      "temp_max_c": 25.2,
+      "precip_mm": 270.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    }
+  ]
+}

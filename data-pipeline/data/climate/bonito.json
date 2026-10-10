@@ -1,0 +1,106 @@
+{
+  "city": "bonito",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -21.133333,
+  "longitude": -56.483333,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 26.8,
+      "temp_max_c": 32.0,
+      "precip_mm": 138.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.2,
+      "temp_max_c": 31.3,
+      "precip_mm": 138.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.6
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 26.1,
+      "temp_max_c": 31.2,
+      "precip_mm": 114.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 24.4,
+      "temp_max_c": 29.4,
+      "precip_mm": 105.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.1
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 20.9,
+      "temp_max_c": 26.1,
+      "precip_mm": 53.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.9
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 20.5,
+      "temp_max_c": 26.2,
+      "precip_mm": 32.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.5
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 21.2,
+      "temp_max_c": 27.3,
+      "precip_mm": 17.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 22.3,
+      "temp_max_c": 28.6,
+      "precip_mm": 54.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 24.8,
+      "temp_max_c": 31.2,
+      "precip_mm": 76.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.7
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 26.4,
+      "temp_max_c": 32.1,
+      "precip_mm": 86.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 26.3,
+      "temp_max_c": 32.2,
+      "precip_mm": 96.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.7
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 27.0,
+      "temp_max_c": 32.4,
+      "precip_mm": 140.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    }
+  ]
+}

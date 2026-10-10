@@ -1,0 +1,106 @@
+{
+  "city": "reykjavik",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 64.1475,
+  "longitude": -21.935,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": -0.7,
+      "temp_max_c": 1.6,
+      "precip_mm": 170.8,
+      "snowfall_cm": 38.5,
+      "sunshine_hours": 1.2
+    },
+    {
+      "month": 2,
+      "temp_mean_c": -0.5,
+      "temp_max_c": 1.7,
+      "precip_mm": 180.1,
+      "snowfall_cm": 70.3,
+      "sunshine_hours": 3.0
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 0.4,
+      "temp_max_c": 2.8,
+      "precip_mm": 153.8,
+      "snowfall_cm": 34.8,
+      "sunshine_hours": 6.1
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 3.8,
+      "temp_max_c": 6.3,
+      "precip_mm": 135.9,
+      "snowfall_cm": 13.0,
+      "sunshine_hours": 7.2
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 6.7,
+      "temp_max_c": 8.9,
+      "precip_mm": 149.4,
+      "snowfall_cm": 3.6,
+      "sunshine_hours": 7.2
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 8.9,
+      "temp_max_c": 10.9,
+      "precip_mm": 118.1,
+      "snowfall_cm": 0.2,
+      "sunshine_hours": 8.1
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 10.7,
+      "temp_max_c": 12.9,
+      "precip_mm": 97.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.7
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 10.4,
+      "temp_max_c": 12.8,
+      "precip_mm": 126.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.6
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 7.9,
+      "temp_max_c": 10.2,
+      "precip_mm": 114.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.4
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 4.1,
+      "temp_max_c": 6.2,
+      "precip_mm": 152.7,
+      "snowfall_cm": 11.8,
+      "sunshine_hours": 4.4
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 2.7,
+      "temp_max_c": 4.6,
+      "precip_mm": 121.5,
+      "snowfall_cm": 5.9,
+      "sunshine_hours": 2.5
+    },
+    {
+      "month": 12,
+      "temp_mean_c": -2.2,
+      "temp_max_c": 0.0,
+      "precip_mm": 126.2,
+      "snowfall_cm": 57.1,
+      "sunshine_hours": 0.9
+    }
+  ]
+}

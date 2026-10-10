@@ -1,0 +1,11 @@
+{
+  "city": "antalya",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2426356,
+  "inception_year": -149,
+  "beach_count": 34
+}

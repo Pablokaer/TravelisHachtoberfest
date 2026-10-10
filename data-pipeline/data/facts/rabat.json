@@ -1,0 +1,11 @@
+{
+  "city": "rabat",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 515619,
+  "inception_year": 1146,
+  "beach_count": 7
+}

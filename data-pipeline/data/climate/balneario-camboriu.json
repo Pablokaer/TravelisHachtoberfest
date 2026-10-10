@@ -1,0 +1,106 @@
+{
+  "city": "balneario-camboriu",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -26.990833,
+  "longitude": -48.635,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 24.8,
+      "temp_max_c": 28.3,
+      "precip_mm": 195.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.5
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 25.1,
+      "temp_max_c": 28.9,
+      "precip_mm": 154.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 24.7,
+      "temp_max_c": 28.2,
+      "precip_mm": 203.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 22.0,
+      "temp_max_c": 25.4,
+      "precip_mm": 130.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.1
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 19.3,
+      "temp_max_c": 23.3,
+      "precip_mm": 139.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.6
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 17.6,
+      "temp_max_c": 21.8,
+      "precip_mm": 113.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.4
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 16.9,
+      "temp_max_c": 20.8,
+      "precip_mm": 82.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.6
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 17.0,
+      "temp_max_c": 21.0,
+      "precip_mm": 93.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.6
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 19.0,
+      "temp_max_c": 22.8,
+      "precip_mm": 112.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.5
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 20.4,
+      "temp_max_c": 23.4,
+      "precip_mm": 211.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.9
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 21.9,
+      "temp_max_c": 25.0,
+      "precip_mm": 205.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.8
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 23.7,
+      "temp_max_c": 27.0,
+      "precip_mm": 238.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.1
+    }
+  ]
+}

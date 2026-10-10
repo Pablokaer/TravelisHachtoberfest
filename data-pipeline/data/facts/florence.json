@@ -1,0 +1,11 @@
+{
+  "city": "florence",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 360930,
+  "inception_year": null,
+  "beach_count": 0
+}

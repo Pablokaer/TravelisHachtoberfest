@@ -1,0 +1,11 @@
+{
+  "city": "valletta",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 5197,
+  "inception_year": 1566,
+  "beach_count": 5
+}

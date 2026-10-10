@@ -16,6 +16,12 @@ python -m wayfarer_pipeline suggest-routes --city lisbon | --region europe | --a
 python -m wayfarer_pipeline serve [--port 8787] [--planner auto|rules|ollama]  # D-079
                                                # local HTTP service: builds the user's own city
                                                # from a GPS position and writes it to Supabase
+python -m wayfarer_pipeline climate --city lisbon | --all [--refresh]  # D-081
+                                               # Open-Meteo normals → data/climate → 70_city_climate
+python -m wayfarer_pipeline facts --city lisbon | --all [--refresh]  # D-081
+                                               # population, founding year, OSM beaches
+                                               # → data/facts → 80_city_facts.sql
+                                               # (--local: the cities built by `serve`)
 python -m wayfarer_pipeline visa               # passport-index → data/visa.csv → 30_visa.sql
 python -m wayfarer_pipeline ingest --city lisbon | --all [--jobs 3]  # → data/attractions → 40
 python -m wayfarer_pipeline report             # quality report from committed attraction files
@@ -31,7 +37,18 @@ import sys
 from datetime import UTC, datetime
 from pathlib import Path
 
-from . import attraction_texts, city_summaries, countries, coverage, regions, seed, visa
+from . import (
+    attraction_texts,
+    city_data_commands,
+    city_summaries,
+    climate,
+    countries,
+    coverage,
+    regions,
+    seed,
+    seed_city_data,
+    visa,
+)
 from .attractions import pipeline
 from .config import DEFAULT_CITIES_FILE, CitiesConfig, load_cities
 from .gates.baseline import GitBaseline
@@ -192,6 +209,14 @@ def _cmd_serve(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_climate(args: argparse.Namespace) -> int:
+    return city_data_commands.cmd_climate(args, _client(args))
+
+
+def _cmd_facts(args: argparse.Namespace) -> int:
+    return city_data_commands.cmd_facts(args, _client(args))
+
+
 def _cmd_visa(args: argparse.Namespace) -> int:
     raw, meta = visa.fetch(_client(args))
     rows, skipped = visa.normalize(raw, set(countries.load()))
@@ -242,7 +267,7 @@ def _cmd_seed(args: argparse.Namespace) -> int:
     path, warnings = seed.write_attractions()
     paths.extend([path, seed.write_people()])
     routes_path, route_warnings = seed.write_suggested_routes()
-    paths.append(routes_path)
+    paths.extend([routes_path, seed_city_data.write_climate(), seed_city_data.write_facts()])
     for w in [*warnings, *route_warnings]:
         print(f"WARNING: {w}")
     for p in paths:
@@ -329,11 +354,35 @@ def build_parser() -> argparse.ArgumentParser:
     routes_cmd.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model tag")
     routes_cmd.add_argument("--ollama-url", default=DEFAULT_URL, help="Ollama server")
     routes_cmd.set_defaults(func=_cmd_suggest_routes)
+    for name, func, what in (
+        ("climate", _cmd_climate, "monthly climate normals (Open-Meteo) → data/climate → 70"),
+        ("facts", _cmd_facts, "population, founding year, beaches → data/facts → 80"),
+    ):
+        command = sub.add_parser(name, help=what)
+        _add_city_selection(command, required=True)
+        command.add_argument("--refresh", action="store_true", help="fetch cities already done")
+        command.add_argument("--shard", help="K/N: every Nth city from the Kth, to run N at once")
+        if name == "climate":
+            command.add_argument(
+                "--first-year",
+                type=int,
+                default=climate.FIRST_YEAR,
+                help="first year of the window (Open-Meteo's free quota weighs days)",
+            )
+        command.add_argument("--local", action="store_true", help="cities built by `serve` (D-079)")
+        command.add_argument("--db-url", default=DEFAULT_DB_URL, help="with --local: the database")
+        command.set_defaults(func=func)
     serve = sub.add_parser("serve", help="local service that builds a city from a position")
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8787)
     serve.add_argument("--db-url", default=DEFAULT_DB_URL, help="local Supabase Postgres")
     serve.add_argument("--planner", choices=["auto", "rules", "ollama"], default="auto")
+    serve.add_argument(
+        "--climate-first-year",
+        type=int,
+        default=climate.FIRST_YEAR,
+        help="first year of a new city's climate window (shorter = lighter on Open-Meteo's quota)",
+    )
     serve.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model tag")
     serve.add_argument("--ollama-url", default=DEFAULT_URL, help="Ollama server")
     serve.set_defaults(func=_cmd_serve)

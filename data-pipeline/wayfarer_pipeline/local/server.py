@@ -8,6 +8,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any
 from urllib.parse import parse_qs, urlsplit
 
+from .errors import PlanUnavailable
 from .service import BadRequest, CityService
 
 CORS_HEADERS = {
@@ -15,7 +16,7 @@ CORS_HEADERS = {
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type",
 }
-MAX_BODY_BYTES = 4096
+MAX_BODY_BYTES = 65536  # a shortlist request carries up to 30 cities with their facts
 
 
 def _handler_class(service: CityService) -> type[BaseHTTPRequestHandler]:
@@ -43,12 +44,20 @@ def _handler_class(service: CityService) -> type[BaseHTTPRequestHandler]:
                 self._failed(502, f"{type(exc).__name__}: {exc}")
 
         def do_POST(self) -> None:
-            if self.path != "/places/resolve":
+            routes = {
+                "/places/resolve": service.resolve,
+                "/plan/question": lambda payload: (200, service.plan_question(payload)),
+                "/plan/rank": lambda payload: (200, service.plan_rank(payload)),
+            }
+            handler = routes.get(self.path)
+            if handler is None:
                 return self._failed(404, f"unknown path {self.path!r}")
             try:
-                status, body = service.resolve(self._read_json())
+                status, body = handler(self._read_json())
             except BadRequest as exc:
                 return self._failed(400, str(exc))
+            except PlanUnavailable as exc:
+                return self._failed(503, str(exc))
             except Exception as exc:  # noqa: BLE001 - reported to the app as a bad gateway
                 return self._failed(502, f"{type(exc).__name__}: {exc}")
             self._send(status, body)

@@ -1,0 +1,11 @@
+{
+  "city": "nuremberg",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 531159,
+  "inception_year": null,
+  "beach_count": 8
+}

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from dataclasses import replace
 from pathlib import Path
 
 import pytest
@@ -34,7 +35,7 @@ def test_a_build_goes_through_every_stage_in_order(tmp_path: Path) -> None:
     builder, _, _, _ = make_builder(tmp_path)
     stages = Stages()
     builder.build(SINTRA, stages)
-    assert stages.seen == ["locating", "attractions", "texts", "routes", "saving"]
+    assert stages.seen == ["locating", "attractions", "texts", "routes", "climate", "saving"]
 
 
 def test_a_build_saves_the_city_its_places_and_routes_in_one_script(tmp_path: Path) -> None:
@@ -122,3 +123,24 @@ def test_a_database_refusal_surfaces_with_its_message(tmp_path: Path) -> None:
     builder, _, _, _ = make_builder(tmp_path, db=db)
     with pytest.raises(DatabaseError, match="foreign key"):
         builder.build(SINTRA, Stages())
+
+
+def test_the_script_also_carries_the_citys_climate_and_facts(tmp_path: Path) -> None:
+    builder, db, _, _ = make_builder(tmp_path)
+    builder.build(SINTRA, Stages())
+    sql = db.applied[0]
+    assert "insert into public.city_climate" in sql and "('sintra', 12, 15.1, 18.0" in sql
+    assert "insert into public.city_facts" in sql and "('sintra', 385000, null, 3)" in sql
+
+
+def test_a_city_without_climate_is_still_built(tmp_path: Path) -> None:
+    """Open-Meteo throttles: the city is more useful without climate than not built at all."""
+    builder, db, _, _ = make_builder(tmp_path)
+
+    def throttled(city: object) -> dict:
+        raise RuntimeError("HTTP 429: Minutely API request limit exceeded")
+
+    builder.deps = replace(builder.deps, climate=throttled)
+    assert builder.build(SINTRA, Stages()).slug == "sintra"
+    assert "insert into public.city_climate" not in db.applied[0]
+    assert "insert into public.city_facts" in db.applied[0]

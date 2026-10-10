@@ -1,0 +1,106 @@
+{
+  "city": "tallinn",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 59.437222,
+  "longitude": 24.745,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": -3.2,
+      "temp_max_c": -1.2,
+      "precip_mm": 70.1,
+      "snowfall_cm": 38.8,
+      "sunshine_hours": 1.5
+    },
+    {
+      "month": 2,
+      "temp_mean_c": -1.4,
+      "temp_max_c": 0.6,
+      "precip_mm": 49.5,
+      "snowfall_cm": 24.3,
+      "sunshine_hours": 2.9
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 0.6,
+      "temp_max_c": 4.2,
+      "precip_mm": 36.1,
+      "snowfall_cm": 12.8,
+      "sunshine_hours": 6.7
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 4.5,
+      "temp_max_c": 8.4,
+      "precip_mm": 44.2,
+      "snowfall_cm": 12.8,
+      "sunshine_hours": 9.7
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 11.2,
+      "temp_max_c": 15.7,
+      "precip_mm": 35.2,
+      "snowfall_cm": 0.2,
+      "sunshine_hours": 14.0
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 16.6,
+      "temp_max_c": 20.9,
+      "precip_mm": 64.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 15.4
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 17.7,
+      "temp_max_c": 21.5,
+      "precip_mm": 110.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 13.0
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 18.3,
+      "temp_max_c": 22.2,
+      "precip_mm": 93.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.5
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 13.5,
+      "temp_max_c": 17.1,
+      "precip_mm": 66.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.2
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 7.7,
+      "temp_max_c": 10.1,
+      "precip_mm": 75.9,
+      "snowfall_cm": 0.8,
+      "sunshine_hours": 5.1
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 2.6,
+      "temp_max_c": 4.2,
+      "precip_mm": 77.5,
+      "snowfall_cm": 21.0,
+      "sunshine_hours": 2.0
+    },
+    {
+      "month": 12,
+      "temp_mean_c": -1.7,
+      "temp_max_c": 0.1,
+      "precip_mm": 68.4,
+      "snowfall_cm": 32.2,
+      "sunshine_hours": 1.0
+    }
+  ]
+}

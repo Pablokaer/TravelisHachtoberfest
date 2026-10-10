@@ -1,0 +1,11 @@
+{
+  "city": "verona",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 255588,
+  "inception_year": -549,
+  "beach_count": 2
+}

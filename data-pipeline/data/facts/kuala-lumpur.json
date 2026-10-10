@@ -1,0 +1,11 @@
+{
+  "city": "kuala-lumpur",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 9000280,
+  "inception_year": 1857,
+  "beach_count": 0
+}

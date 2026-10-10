@@ -1,0 +1,11 @@
+{
+  "city": "liverpool",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 513441,
+  "inception_year": 1207,
+  "beach_count": 12
+}

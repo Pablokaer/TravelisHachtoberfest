@@ -1,0 +1,106 @@
+{
+  "city": "taipei",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": 25.0375,
+  "longitude": 121.5625,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 15.9,
+      "temp_max_c": 19.0,
+      "precip_mm": 54.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 4.2
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 16.4,
+      "temp_max_c": 19.7,
+      "precip_mm": 95.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 3.9
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 18.8,
+      "temp_max_c": 23.0,
+      "precip_mm": 100.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.0
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 22.3,
+      "temp_max_c": 26.3,
+      "precip_mm": 99.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.5
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 23.9,
+      "temp_max_c": 27.4,
+      "precip_mm": 255.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 7.1
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 27.1,
+      "temp_max_c": 30.9,
+      "precip_mm": 210.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.6
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 29.1,
+      "temp_max_c": 33.5,
+      "precip_mm": 152.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 28.7,
+      "temp_max_c": 33.1,
+      "precip_mm": 165.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.7
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 26.9,
+      "temp_max_c": 30.7,
+      "precip_mm": 290.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 24.1,
+      "temp_max_c": 26.9,
+      "precip_mm": 270.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 6.5
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 21.6,
+      "temp_max_c": 24.8,
+      "precip_mm": 67.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 5.8
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 16.7,
+      "temp_max_c": 19.3,
+      "precip_mm": 64.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 3.5
+    }
+  ]
+}

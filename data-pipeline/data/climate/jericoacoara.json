@@ -1,0 +1,106 @@
+{
+  "city": "jericoacoara",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -2.793889,
+  "longitude": -40.512778,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 27.0,
+      "temp_max_c": 30.3,
+      "precip_mm": 136.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.6,
+      "temp_max_c": 29.6,
+      "precip_mm": 287.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 25.9,
+      "temp_max_c": 28.8,
+      "precip_mm": 490.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.7
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 26.0,
+      "temp_max_c": 29.2,
+      "precip_mm": 336.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.9
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 26.7,
+      "temp_max_c": 30.2,
+      "precip_mm": 135.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 26.7,
+      "temp_max_c": 30.8,
+      "precip_mm": 56.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.0
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 27.2,
+      "temp_max_c": 32.2,
+      "precip_mm": 31.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.3
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 27.5,
+      "temp_max_c": 33.3,
+      "precip_mm": 7.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.7
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 27.8,
+      "temp_max_c": 33.6,
+      "precip_mm": 4.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.5
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 27.9,
+      "temp_max_c": 33.0,
+      "precip_mm": 7.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 27.8,
+      "temp_max_c": 32.2,
+      "precip_mm": 25.8,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.4
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 27.9,
+      "temp_max_c": 32.0,
+      "precip_mm": 47.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 11.1
+    }
+  ]
+}

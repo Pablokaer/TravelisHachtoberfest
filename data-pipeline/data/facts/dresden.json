@@ -1,0 +1,11 @@
+{
+  "city": "dresden",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 562764,
+  "inception_year": 1206,
+  "beach_count": 46
+}

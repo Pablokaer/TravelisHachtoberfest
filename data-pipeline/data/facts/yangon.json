@@ -1,0 +1,11 @@
+{
+  "city": "yangon",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 6874000,
+  "inception_year": 1035,
+  "beach_count": 0
+}

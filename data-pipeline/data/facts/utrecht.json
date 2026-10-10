@@ -1,0 +1,11 @@
+{
+  "city": "utrecht",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 359370,
+  "inception_year": null,
+  "beach_count": 6
+}

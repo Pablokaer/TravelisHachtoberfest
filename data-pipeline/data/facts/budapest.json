@@ -1,0 +1,11 @@
+{
+  "city": "budapest",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1675777,
+  "inception_year": 1873,
+  "beach_count": 7
+}

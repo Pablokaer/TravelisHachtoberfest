@@ -1,0 +1,106 @@
+{
+  "city": "campos-do-jordao",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -22.739444,
+  "longitude": -45.591389,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 16.9,
+      "temp_max_c": 21.2,
+      "precip_mm": 259.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 8.6
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 17.3,
+      "temp_max_c": 21.6,
+      "precip_mm": 211.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 17.3,
+      "temp_max_c": 21.8,
+      "precip_mm": 169.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 15.5,
+      "temp_max_c": 20.0,
+      "precip_mm": 90.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.1
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 13.4,
+      "temp_max_c": 18.0,
+      "precip_mm": 33.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 12.4,
+      "temp_max_c": 17.0,
+      "precip_mm": 15.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 12.6,
+      "temp_max_c": 17.5,
+      "precip_mm": 12.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.8
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 13.2,
+      "temp_max_c": 18.6,
+      "precip_mm": 48.6,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 15.9,
+      "temp_max_c": 21.5,
+      "precip_mm": 77.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 16.5,
+      "temp_max_c": 21.4,
+      "precip_mm": 163.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.3
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 16.0,
+      "temp_max_c": 20.6,
+      "precip_mm": 183.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.9
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 16.9,
+      "temp_max_c": 21.4,
+      "precip_mm": 219.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.2
+    }
+  ]
+}

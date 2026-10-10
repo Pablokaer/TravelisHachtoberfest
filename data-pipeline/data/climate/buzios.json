@@ -1,0 +1,106 @@
+{
+  "city": "buzios",
+  "retrieved": "2026-10-10",
+  "source": "open-meteo-archive",
+  "period": "2022-2024",
+  "latitude": -22.746944,
+  "longitude": -41.881944,
+  "months": [
+    {
+      "month": 1,
+      "temp_mean_c": 25.6,
+      "temp_max_c": 28.8,
+      "precip_mm": 161.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.6
+    },
+    {
+      "month": 2,
+      "temp_mean_c": 26.3,
+      "temp_max_c": 29.7,
+      "precip_mm": 108.9,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 3,
+      "temp_mean_c": 26.2,
+      "temp_max_c": 29.9,
+      "precip_mm": 84.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.6
+    },
+    {
+      "month": 4,
+      "temp_mean_c": 24.7,
+      "temp_max_c": 27.9,
+      "precip_mm": 85.2,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.3
+    },
+    {
+      "month": 5,
+      "temp_mean_c": 23.3,
+      "temp_max_c": 26.5,
+      "precip_mm": 40.5,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.0
+    },
+    {
+      "month": 6,
+      "temp_mean_c": 22.2,
+      "temp_max_c": 25.9,
+      "precip_mm": 18.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.4
+    },
+    {
+      "month": 7,
+      "temp_mean_c": 21.9,
+      "temp_max_c": 25.5,
+      "precip_mm": 24.1,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.5
+    },
+    {
+      "month": 8,
+      "temp_mean_c": 21.8,
+      "temp_max_c": 25.3,
+      "precip_mm": 64.4,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.0
+    },
+    {
+      "month": 9,
+      "temp_mean_c": 22.8,
+      "temp_max_c": 26.3,
+      "precip_mm": 37.3,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.9
+    },
+    {
+      "month": 10,
+      "temp_mean_c": 23.9,
+      "temp_max_c": 27.0,
+      "precip_mm": 67.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 9.5
+    },
+    {
+      "month": 11,
+      "temp_mean_c": 24.4,
+      "temp_max_c": 27.6,
+      "precip_mm": 106.7,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.5
+    },
+    {
+      "month": 12,
+      "temp_mean_c": 25.4,
+      "temp_max_c": 28.8,
+      "precip_mm": 130.0,
+      "snowfall_cm": 0.0,
+      "sunshine_hours": 10.4
+    }
+  ]
+}

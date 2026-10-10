@@ -1,0 +1,11 @@
+{
+  "city": "ho-chi-minh-city",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 14002598,
+  "inception_year": 1976,
+  "beach_count": 0
+}

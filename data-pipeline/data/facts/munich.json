@@ -1,0 +1,11 @@
+{
+  "city": "munich",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1505036,
+  "inception_year": 1158,
+  "beach_count": 26
+}

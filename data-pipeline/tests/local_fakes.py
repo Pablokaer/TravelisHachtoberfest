@@ -12,6 +12,7 @@ from wayfarer_pipeline.local.build import BuildDeps, CityBuilder
 from wayfarer_pipeline.local.database import Row
 from wayfarer_pipeline.local.places import Place
 from wayfarer_pipeline.local.store import LocalStore
+from wayfarer_pipeline.routes.model import PlannerError
 from wayfarer_pipeline.routes.rules import RuleBasedRoutePlanner
 
 SINTRA = Place(
@@ -145,6 +146,25 @@ COUNTRY_PT: dict[str, Any] = {
 }  # fmt: skip
 
 
+def fake_climate(city: City) -> dict[str, Any]:
+    months = [
+        {
+            "month": m,
+            "temp_mean_c": 15.1,
+            "temp_max_c": 18.0,
+            "precip_mm": 95.0,
+            "snowfall_cm": 0.0,
+            "sunshine_hours": 5.2,
+        }
+        for m in range(1, 13)
+    ]
+    return {"city": city.slug, "months": months}
+
+
+def fake_facts(city: City) -> dict[str, Any]:
+    return {"city": city.slug, "population": 385000, "inception_year": None, "beach_count": 3}
+
+
 def make_builder(
     tmp_path: Path,
     db: FakeDatabase | None = None,
@@ -162,6 +182,8 @@ def make_builder(
         texts=fake_texts,
         summaries=fake_summary,
         planner=lambda: RuleBasedRoutePlanner(),
+        climate=fake_climate,
+        facts=fake_facts,
         countries={"PT": COUNTRY_PT},
         zone_coords={"Europe/Lisbon": (38.7, -9.1), "Atlantic/Azores": (37.7, -25.7)},
     )
@@ -204,3 +226,35 @@ class ScriptedNominatim:
         return 200, json.dumps(
             self.reverse.get(int(params["zoom"]), {"error": "Unable to geocode"})
         )
+
+
+class FakeOllama:
+    """An Ollama chat endpoint for the trip-wizard tests: scripted answers, recorded requests.
+
+    ``contents`` are the texts the model "writes" (a failure is an Exception); the last one
+    repeats. ``models`` is what ``/api/tags`` lists, ``reachable=False`` is a server that is off.
+    """
+
+    def __init__(
+        self,
+        contents: list[Any],
+        models: list[str] | None = None,
+        reachable: bool = True,
+    ) -> None:
+        self.contents = list(contents)
+        self.models = ["qwen2.5:7b"] if models is None else models
+        self.reachable = reachable
+        self.posts: list[dict[str, Any]] = []
+
+    def get_json(self, url: str) -> dict[str, Any]:
+        if not self.reachable:
+            raise PlannerError(f"cannot reach {url}; expected a running Ollama")
+        return {"models": [{"name": m} for m in self.models]}
+
+    def post_json(self, url: str, payload: dict[str, Any]) -> dict[str, Any]:
+        self.posts.append(payload)
+        index = min(len(self.posts), len(self.contents)) - 1
+        content = self.contents[index]
+        if isinstance(content, Exception):
+            raise content
+        return {"message": {"content": content}}

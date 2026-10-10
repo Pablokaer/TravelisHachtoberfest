@@ -1,0 +1,11 @@
+{
+  "city": "manchester",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 547627,
+  "inception_year": 1301,
+  "beach_count": 8
+}

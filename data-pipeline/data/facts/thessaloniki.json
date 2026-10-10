@@ -1,0 +1,11 @@
+{
+  "city": "thessaloniki",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 309617,
+  "inception_year": -314,
+  "beach_count": 2
+}

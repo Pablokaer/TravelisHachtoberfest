@@ -1,0 +1,117 @@
+{
+  "city": "santiago-de-compostela",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-way-of-saint-james",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Way of Saint James",
+      "title_pt": "Destaques históricos perto de Caminhos de Santiago",
+      "generated_by": "rules",
+      "stops": [
+        "Q3327474",
+        "Q12398104",
+        "Q41150",
+        "Q205136",
+        "Q3397898",
+        "Q3397886",
+        "Q12389255",
+        "Q19608534"
+      ],
+      "distance_m": 414,
+      "walking_seconds": 331,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "historic-highlights-around-hospital-de-los-reyes-catolicos",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Hospital de los Reyes Católicos",
+      "title_pt": "Destaques históricos perto de Hospital dos Reis Católicos",
+      "generated_by": "rules",
+      "stops": [
+        "Q12390602",
+        "Q2513127",
+        "Q7638209",
+        "Q3394488",
+        "Q16449586",
+        "Q155443",
+        "Q3398340",
+        "Q3399144"
+      ],
+      "distance_m": 789,
+      "walking_seconds": 631,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "churches-and-chapels-around-galicia-contemporary-art-center",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Galicia Contemporary Art Center",
+      "title_pt": "Igrejas e capelas perto de Centro Galego de Arte Contemporânea",
+      "generated_by": "rules",
+      "stops": [
+        "Q20533213",
+        "Q2889253",
+        "Q3089563",
+        "Q3397844",
+        "Q18464897",
+        "Q387097",
+        "Q20052787",
+        "Q18482682"
+      ],
+      "distance_m": 639,
+      "walking_seconds": 511,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-santa-maria-la-real-de",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Santa María la Real del Sar",
+      "title_pt": "Igrejas e capelas perto de Colegiada de Santa Maria de Sar",
+      "generated_by": "rules",
+      "stops": [
+        "Q5117170",
+        "Q23011771",
+        "Q2513161",
+        "Q18464888",
+        "Q18464845",
+        "Q19950496",
+        "Q20053510",
+        "Q20053511"
+      ],
+      "distance_m": 2281,
+      "walking_seconds": 1825,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "churches-and-chapels-around-chapel-of-our-lady-of-el-pilar",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Chapel of Our Lady of El Pilar",
+      "title_pt": "Igrejas e capelas perto de Igreja de Nossa Senhora do Pilar",
+      "generated_by": "rules",
+      "stops": [
+        "Q18482709",
+        "Q12390601",
+        "Q31281632",
+        "Q4155629",
+        "Q18464866",
+        "Q18464907",
+        "Q106873800",
+        "Q12397290"
+      ],
+      "distance_m": 3232,
+      "walking_seconds": 2586,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "castles-and-viewpoints-around-castle-da-rocha-forte",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Castle da Rocha Forte",
+      "title_pt": "Castelos e miradouros perto de Castelo da Rocha Forte",
+      "generated_by": "rules",
+      "stops": ["Q18476344", "Q2511345", "Q3395078"],
+      "distance_m": 2206,
+      "walking_seconds": 1765,
+      "visit_minutes": 210
+    }
+  ]
+}

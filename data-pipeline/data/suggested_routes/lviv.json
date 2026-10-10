@@ -1,0 +1,166 @@
+{
+  "city": "lviv",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-saint-george-s-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Saint George's Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de São Jorge",
+      "generated_by": "rules",
+      "stops": [
+        "Q4301555",
+        "Q1983797",
+        "Q1774485",
+        "Q25445448",
+        "Q1980605",
+        "Q1987294",
+        "Q1969539",
+        "Q814897"
+      ],
+      "distance_m": 2916,
+      "walking_seconds": 2333,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "historic-highlights-around-latin-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Latin Cathedral",
+      "title_pt": "Destaques históricos perto de Arquicatedral Basílica da Assunção da Virgem Maria",
+      "generated_by": "rules",
+      "stops": [
+        "Q2389158",
+        "Q4155883",
+        "Q4271056",
+        "Q1980511",
+        "Q4507609",
+        "Q122324",
+        "Q348387",
+        "Q1984587"
+      ],
+      "distance_m": 740,
+      "walking_seconds": 592,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-bernardine-church-and-monastery",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bernardine Church and Monastery",
+      "title_pt": "Destaques históricos perto de Bernardine Church and Monastery",
+      "generated_by": "rules",
+      "stops": [
+        "Q4155908",
+        "Q1966798",
+        "Q4139905",
+        "Q4235779",
+        "Q1967013",
+        "Q575468",
+        "Q1634318",
+        "Q891038"
+      ],
+      "distance_m": 1129,
+      "walking_seconds": 903,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "churches-and-chapels-around-armenian-cathedral-of-lviv",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Armenian Cathedral of Lviv",
+      "title_pt": "Igrejas e capelas perto de Catedral Armênia da Assunção Bem-Aventurada Virgem Ma",
+      "generated_by": "rules",
+      "stops": [
+        "Q2994596",
+        "Q4271084",
+        "Q1989108",
+        "Q84558969",
+        "Q684239",
+        "Q4235757",
+        "Q1982263",
+        "Q2037262"
+      ],
+      "distance_m": 987,
+      "walking_seconds": 790,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "museums-and-collections-around-potocki-palace",
+      "theme": "museums",
+      "title_en": "Museums and collections around Potocki Palace",
+      "title_pt": "Museus e coleções perto de Potocki Palace",
+      "generated_by": "rules",
+      "stops": [
+        "Q4070686",
+        "Q4306518",
+        "Q1576016",
+        "Q106407103",
+        "Q2391444",
+        "Q4271090",
+        "Q4505914",
+        "Q143047"
+      ],
+      "distance_m": 1778,
+      "walking_seconds": 1422,
+      "visit_minutes": 690
+    },
+    {
+      "slug": "churches-and-chapels-around-lychakiv-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Lychakiv Cemetery",
+      "title_pt": "Igrejas e capelas perto de Cemitério Lychakiv",
+      "generated_by": "rules",
+      "stops": [
+        "Q4235758",
+        "Q1970274",
+        "Q2393904",
+        "Q1316721",
+        "Q4235775",
+        "Q4235761",
+        "Q4235778",
+        "Q4301548"
+      ],
+      "distance_m": 4076,
+      "walking_seconds": 3261,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "churches-and-chapels-around-government-house-lviv",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Government House, Lviv",
+      "title_pt": "Igrejas e capelas perto de Government House, Lviv",
+      "generated_by": "rules",
+      "stops": [
+        "Q4235782",
+        "Q1966813",
+        "Q4505078",
+        "Q4080258",
+        "Q2502152",
+        "Q4373143",
+        "Q1981812",
+        "Q4132552"
+      ],
+      "distance_m": 1873,
+      "walking_seconds": 1498,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "churches-and-chapels-around-lviv-high-castle",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Lviv High Castle",
+      "title_pt": "Igrejas e capelas perto de Lviv High Castle",
+      "generated_by": "rules",
+      "stops": [
+        "Q4235764",
+        "Q468636",
+        "Q2623848",
+        "Q1982235",
+        "Q4155955",
+        "Q4235765",
+        "Q4235777",
+        "Q4235756"
+      ],
+      "distance_m": 2154,
+      "walking_seconds": 1723,
+      "visit_minutes": 335
+    }
+  ]
+}

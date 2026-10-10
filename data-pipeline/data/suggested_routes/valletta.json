@@ -1,0 +1,164 @@
+{
+  "city": "valletta",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-fort-saint-elmo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fort Saint Elmo",
+      "title_pt": "Destaques históricos perto de Forte de Santo Elmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q2044132",
+        "Q10300647",
+        "Q10300809",
+        "Q4505301",
+        "Q6979344",
+        "Q1438745",
+        "Q39487250",
+        "Q495405"
+      ],
+      "distance_m": 1243,
+      "walking_seconds": 994,
+      "visit_minutes": 385
+    },
+    {
+      "slug": "city-landmarks-around-hypogeum-of-al-saflieni",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hypogeum of Ħal Saflieni",
+      "title_pt": "Marcos da cidade perto de Hipogeu de Hal Saflieni",
+      "generated_by": "rules",
+      "stops": [
+        "Q59565179",
+        "Q6882072",
+        "Q755514",
+        "Q1064331",
+        "Q30627208",
+        "Q21476646",
+        "Q2402686"
+      ],
+      "distance_m": 3706,
+      "walking_seconds": 2965,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "churches-and-chapels-around-grandmaster-s-palace",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Grandmaster's Palace",
+      "title_pt": "Igrejas e capelas perto de Palácio do Grão-Mestre",
+      "generated_by": "rules",
+      "stops": [
+        "Q1280848",
+        "Q1734062",
+        "Q3456680",
+        "Q101441963",
+        "Q15958482",
+        "Q1368885",
+        "Q7126151",
+        "Q16863314"
+      ],
+      "distance_m": 1132,
+      "walking_seconds": 906,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "historic-highlights-around-triton-fountain",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Triton Fountain",
+      "title_pt": "Destaques históricos perto de Triton Fountain",
+      "generated_by": "rules",
+      "stops": [
+        "Q1366489",
+        "Q24860063",
+        "Q20949683",
+        "Q2044535",
+        "Q7844323",
+        "Q2900880",
+        "Q7231541",
+        "Q5461053"
+      ],
+      "distance_m": 2384,
+      "walking_seconds": 1907,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "historic-highlights-around-fort-st-angelo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fort St Angelo",
+      "title_pt": "Destaques históricos perto de Forte de Santo Ângelo",
+      "generated_by": "rules",
+      "stops": [
+        "Q3013993",
+        "Q2207146",
+        "Q1715649",
+        "Q19508900",
+        "Q10300480",
+        "Q21986844",
+        "Q10299989",
+        "Q42795499"
+      ],
+      "distance_m": 2349,
+      "walking_seconds": 1879,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-st-john-s-co-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. John's Co-Cathedral",
+      "title_pt": "Destaques históricos perto de Co-Catedral de São João",
+      "generated_by": "rules",
+      "stops": [
+        "Q5146972",
+        "Q23708203",
+        "Q7314418",
+        "Q96333358",
+        "Q613619",
+        "Q38604194",
+        "Q16208485",
+        "Q2898298"
+      ],
+      "distance_m": 571,
+      "walking_seconds": 457,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "churches-and-chapels-around-fort-ricasoli",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Fort Ricasoli",
+      "title_pt": "Igrejas e capelas perto de Fort Ricasoli",
+      "generated_by": "rules",
+      "stops": [
+        "Q1562413",
+        "Q1431801",
+        "Q1564943",
+        "Q16863316",
+        "Q16863312",
+        "Q6974470",
+        "Q2499012"
+      ],
+      "distance_m": 3360,
+      "walking_seconds": 2688,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "castles-and-viewpoints-around-inquisitor-s-palace",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Inquisitor's Palace",
+      "title_pt": "Castelos e miradouros perto de Inquisitor's Palace",
+      "generated_by": "rules",
+      "stops": [
+        "Q20949717",
+        "Q1997378",
+        "Q7110981",
+        "Q7589469",
+        "Q3361044",
+        "Q20638816",
+        "Q22082174",
+        "Q20667115"
+      ],
+      "distance_m": 1703,
+      "walking_seconds": 1362,
+      "visit_minutes": 585
+    }
+  ]
+}

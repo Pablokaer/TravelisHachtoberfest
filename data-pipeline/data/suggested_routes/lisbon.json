@@ -1,0 +1,94 @@
+{
+  "city": "lisbon",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "discovering-lisbon-s-history",
+      "theme": "discovery",
+      "title_en": "Discovering Lisbon's History",
+      "title_pt": "Descobrindo a História de Lisboa",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q272781", "Q1954384", "Q1540177", "Q1133712", "Q215003"],
+      "distance_m": 2066,
+      "walking_seconds": 1653,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "roman-lisbon",
+      "theme": "roman-legacy",
+      "title_en": "Roman Lisbon",
+      "title_pt": "Lisboa Romana",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q20716902", "Q1305091", "Q3781561"],
+      "distance_m": 780,
+      "walking_seconds": 624,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "royal-lisbon",
+      "theme": "royal",
+      "title_en": "Royal Lisbon",
+      "title_pt": "Lisboa Real",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q999002", "Q18476235", "Q637590"],
+      "distance_m": 141,
+      "walking_seconds": 113,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "royal-and-literary-lisbon",
+      "theme": "royal-and-literary",
+      "title_en": "Royal and Literary Lisbon",
+      "title_pt": "Lisboa Real e Literária",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q10332143", "Q1078864", "Q1342595", "Q1549270"],
+      "distance_m": 1028,
+      "walking_seconds": 822,
+      "visit_minutes": 145
+    },
+    {
+      "slug": "restoration-heroes",
+      "theme": "restoration",
+      "title_en": "Restoration Heroes",
+      "title_pt": "Heróis da Restauração",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q9678396", "Q16990265", "Q959567"],
+      "distance_m": 910,
+      "walking_seconds": 728,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "royal-lisbon-2",
+      "theme": "royal",
+      "title_en": "Royal Lisbon",
+      "title_pt": "Lisboa Real",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q10343981", "Q17390236", "Q4999612"],
+      "distance_m": 1112,
+      "walking_seconds": 890,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "lisbon-s-cultural-museums",
+      "theme": "museums",
+      "title_en": "Lisbon's Cultural Museums",
+      "title_pt": "Museus Culturais de Lisboa",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q1092464", "Q1807096", "Q5047773", "Q1054339", "Q211262"],
+      "distance_m": 2895,
+      "walking_seconds": 2316,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "royal-lisbon-3",
+      "theme": "royal",
+      "title_en": "Royal Lisbon",
+      "title_pt": "Lisboa Real",
+      "generated_by": "qwen2.5:7b",
+      "stops": ["Q2657972", "Q52242934", "Q1464499"],
+      "distance_m": 795,
+      "walking_seconds": 636,
+      "visit_minutes": 180
+    }
+  ]
+}

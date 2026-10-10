@@ -1,0 +1,157 @@
+{
+  "city": "seville",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-seville-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Seville Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Sevilha",
+      "generated_by": "rules",
+      "stops": [
+        "Q3360949",
+        "Q834479",
+        "Q8964135",
+        "Q231606",
+        "Q6153784",
+        "Q3906571",
+        "Q6149996",
+        "Q6083476"
+      ],
+      "distance_m": 799,
+      "walking_seconds": 639,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "historic-highlights-around-plaza-de-espana",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Plaza de España",
+      "title_pt": "Destaques históricos perto de Plaza de España",
+      "generated_by": "rules",
+      "stops": [
+        "Q637061",
+        "Q2429567",
+        "Q6940778",
+        "Q956018",
+        "Q6023052",
+        "Q7433493",
+        "Q726579",
+        "Q2665595"
+      ],
+      "distance_m": 2686,
+      "walking_seconds": 2149,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "historic-highlights-around-metropol-parasol",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Metropol Parasol",
+      "title_pt": "Destaques históricos perto de Metropol Parasol",
+      "generated_by": "rules",
+      "stops": [
+        "Q11699802",
+        "Q3896917",
+        "Q1064212",
+        "Q3906567",
+        "Q3087671",
+        "Q5911120",
+        "Q3896782",
+        "Q7126325"
+      ],
+      "distance_m": 1431,
+      "walking_seconds": 1145,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "historic-highlights-around-torre-del-oro",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Torre del Oro",
+      "title_pt": "Destaques históricos perto de Torre del Oro",
+      "generated_by": "rules",
+      "stops": [
+        "Q5757560",
+        "Q2376668",
+        "Q1862973",
+        "Q2274061",
+        "Q5518485",
+        "Q943873",
+        "Q32823",
+        "Q2162366"
+      ],
+      "distance_m": 2247,
+      "walking_seconds": 1798,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "churches-and-chapels-around-reales-alcazares",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Reales Alcázares",
+      "title_pt": "Igrejas e capelas perto de Reales Alcázares de Sevilla",
+      "generated_by": "rules",
+      "stops": [
+        "Q670077",
+        "Q5911552",
+        "Q97639944",
+        "Q498261",
+        "Q15209082",
+        "Q2606632",
+        "Q858907",
+        "Q5710444"
+      ],
+      "distance_m": 1418,
+      "walking_seconds": 1134,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "historic-highlights-around-casa-de-pilatos",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Casa de Pilatos",
+      "title_pt": "Destaques históricos perto de Casa de Pilatos",
+      "generated_by": "rules",
+      "stops": [
+        "Q5555137",
+        "Q1046529",
+        "Q5910286",
+        "Q2486431",
+        "Q5912858",
+        "Q6080462",
+        "Q2917864",
+        "Q5047899"
+      ],
+      "distance_m": 1675,
+      "walking_seconds": 1340,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "city-landmarks-around-puente-del-alamillo",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Puente del Alamillo",
+      "title_pt": "Marcos da cidade perto de Puente del Alamillo",
+      "generated_by": "rules",
+      "stops": ["Q6021331", "Q5760349", "Q1353494", "Q2983985", "Q621729", "Q6150055"],
+      "distance_m": 3797,
+      "walking_seconds": 3038,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "churches-and-chapels-around-museo-de-bellas-artes-de-sevilla",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Museo de Bellas Artes de Sevilla",
+      "title_pt": "Igrejas e capelas perto de Museu de Belas Artes de Sevilha",
+      "generated_by": "rules",
+      "stops": [
+        "Q5722098",
+        "Q5910645",
+        "Q2532720",
+        "Q6091734",
+        "Q2163496",
+        "Q7419759",
+        "Q5910018",
+        "Q3895852"
+      ],
+      "distance_m": 2757,
+      "walking_seconds": 2206,
+      "visit_minutes": 290
+    }
+  ]
+}

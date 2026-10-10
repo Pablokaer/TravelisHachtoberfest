@@ -1,0 +1,97 @@
+{
+  "city": "brasov",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-st-nicholas-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St. Nicholas Church",
+      "title_pt": "Igrejas e capelas perto de Igreja de São Nicolau",
+      "generated_by": "rules",
+      "stops": [
+        "Q750784",
+        "Q690585",
+        "Q718353",
+        "Q834048",
+        "Q104413266",
+        "Q1086906",
+        "Q5453769",
+        "Q575341"
+      ],
+      "distance_m": 2296,
+      "walking_seconds": 1837,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "museums-and-collections-around-black-church",
+      "theme": "museums",
+      "title_en": "Museums and collections around Black Church",
+      "title_pt": "Museus e coleções perto de Igreja Negra",
+      "generated_by": "rules",
+      "stops": [
+        "Q12723539",
+        "Q439345",
+        "Q4959053",
+        "Q4684917",
+        "Q41179355",
+        "Q910124",
+        "Q12741353",
+        "Q1031686"
+      ],
+      "distance_m": 501,
+      "walking_seconds": 401,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "churches-and-chapels-around-franciscan-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Franciscan Church",
+      "title_pt": "Igrejas e capelas perto de Franciscan Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q55078588",
+        "Q103501440",
+        "Q1221305",
+        "Q18544238",
+        "Q737165",
+        "Q849049",
+        "Q21600552",
+        "Q12720210"
+      ],
+      "distance_m": 1460,
+      "walking_seconds": 1168,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "churches-and-chapels-around-dormition-of-the-theotokos-churc",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Dormition of the Theotokos church in Brașov",
+      "title_pt": "Igrejas e capelas perto de Dormition of the Theotokos church in Brașov",
+      "generated_by": "rules",
+      "stops": [
+        "Q1471579",
+        "Q660480",
+        "Q733678",
+        "Q834159",
+        "Q55086931",
+        "Q849071",
+        "Q28726434",
+        "Q997089"
+      ],
+      "distance_m": 4075,
+      "walking_seconds": 3260,
+      "visit_minutes": 335
+    },
+    {
+      "slug": "city-landmarks-around-orthodox-synagogue-in-brasov",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Orthodox synagogue in Brașov",
+      "title_pt": "Marcos da cidade perto de Orthodox synagogue in Brașov",
+      "generated_by": "rules",
+      "stops": ["Q12738227", "Q12742698", "Q1226249"],
+      "distance_m": 966,
+      "walking_seconds": 773,
+      "visit_minutes": 130
+    }
+  ]
+}

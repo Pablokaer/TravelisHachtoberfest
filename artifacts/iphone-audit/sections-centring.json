@@ -1,0 +1,235 @@
+{
+  "viewport": "390x844 CSS px (iPhone 13), Chromium mobile emulation",
+  "offset": "text centre minus screen centre, px",
+  "screens": {
+    "city-hub": [
+      {
+        "text": "About Amsterdam",
+        "offBefore": -89,
+        "offAfter": 0
+      },
+      {
+        "text": "History",
+        "offBefore": -147,
+        "offAfter": 0
+      },
+      {
+        "text": "Famous people of Amsterdam",
+        "offBefore": -33,
+        "offAfter": 0
+      },
+      {
+        "text": "Upcoming meetups",
+        "offBefore": -82,
+        "offAfter": 0
+      },
+      {
+        "text": "Top community walk lists",
+        "offBefore": -55,
+        "offAfter": 0
+      },
+      {
+        "text": "Golden Age Canal Ring",
+        "offBefore": -50,
+        "offAfter": 0
+      },
+      {
+        "text": "Vieux centre et quartier juif",
+        "offBefore": -29,
+        "offAfter": 0
+      },
+      {
+        "text": "L'Amsterdam des peintres",
+        "offBefore": -35,
+        "offAfter": 0
+      },
+      {
+        "text": "Mercados, canales y cerveza",
+        "offBefore": -20,
+        "offAfter": 0
+      },
+      {
+        "text": "Sunday in the Jordaan",
+        "offBefore": -52,
+        "offAfter": 0
+      },
+      {
+        "text": "Official walk lists",
+        "offBefore": -95,
+        "offAfter": 0
+      },
+      {
+        "text": "Amsterdam Highlights in a Day",
+        "offBefore": -13,
+        "offAfter": 0
+      },
+      {
+        "text": "Museumplein Classics",
+        "offBefore": -51,
+        "offAfter": 0
+      },
+      {
+        "text": "Canals & Hidden Courtyards",
+        "offBefore": -24,
+        "offAfter": 0
+      },
+      {
+        "text": "Medieval Amsterdam & the Harbour",
+        "offBefore": -28,
+        "offAfter": 2
+      },
+      {
+        "text": "Before you go",
+        "offBefore": -109,
+        "offAfter": 0
+      },
+      {
+        "text": "Reviews",
+        "offBefore": -135,
+        "offAfter": 0
+      },
+      {
+        "text": "4.5 ★ · 6 reviews",
+        "offBefore": -96,
+        "offAfter": 0
+      }
+    ],
+    "city-walklists": [
+      {
+        "text": "Golden Age Canal Ring",
+        "offBefore": -50,
+        "offAfter": 0
+      },
+      {
+        "text": "Vieux centre et quartier juif",
+        "offBefore": -29,
+        "offAfter": 0
+      },
+      {
+        "text": "L'Amsterdam des peintres",
+        "offBefore": -35,
+        "offAfter": 0
+      },
+      {
+        "text": "Mercados, canales y cerveza",
+        "offBefore": -20,
+        "offAfter": 0
+      },
+      {
+        "text": "Sunday in the Jordaan",
+        "offBefore": -52,
+        "offAfter": 0
+      },
+      {
+        "text": "Museum Quarter Marathon",
+        "offBefore": -30,
+        "offAfter": 0
+      },
+      {
+        "text": "Balade verte à l'est",
+        "offBefore": -68,
+        "offAfter": 0
+      },
+      {
+        "text": "Ruta de torres y miradores",
+        "offBefore": -33,
+        "offAfter": 0
+      }
+    ],
+    "attraction": [
+      {
+        "text": "History",
+        "offBefore": -147,
+        "offAfter": 0
+      },
+      {
+        "text": "Good to know",
+        "offBefore": -110,
+        "offAfter": 0
+      },
+      {
+        "text": "Reviews",
+        "offBefore": -135,
+        "offAfter": 0
+      },
+      {
+        "text": "4.6 ★ · 5 reviews",
+        "offBefore": -96,
+        "offAfter": 0
+      },
+      {
+        "text": "Learn more",
+        "offBefore": -121,
+        "offAfter": 0
+      }
+    ],
+    "walklist": [
+      {
+        "text": "Stops",
+        "offBefore": -148,
+        "offAfter": 0
+      },
+      {
+        "text": "Navigate",
+        "offBefore": -133,
+        "offAfter": 0
+      },
+      {
+        "text": "Reviews",
+        "offBefore": -135,
+        "offAfter": 0
+      },
+      {
+        "text": "4.8 ★ · 4 reviews",
+        "offBefore": -95,
+        "offAfter": 0
+      }
+    ],
+    "trips": [
+      {
+        "text": "Sunday in the Jordaan",
+        "offBefore": -52,
+        "offAfter": 0
+      },
+      {
+        "text": "Golden Age Canal Ring",
+        "offBefore": -50,
+        "offAfter": 0
+      }
+    ],
+    "profile": [
+      {
+        "text": "EC",
+        "offBefore": -122,
+        "offAfter": -122
+      },
+      {
+        "text": "Emma Clarke",
+        "offBefore": -12,
+        "offAfter": -12
+      },
+      {
+        "text": "Travel documents",
+        "offBefore": -90,
+        "offAfter": 0
+      },
+      {
+        "text": "Preferences",
+        "offBefore": -117,
+        "offAfter": 0
+      },
+      {
+        "text": "Account",
+        "offBefore": -135,
+        "offAfter": 0
+      }
+    ],
+    "about": [
+      {
+        "text": "Data sources",
+        "offBefore": -113,
+        "offAfter": 0
+      }
+    ]
+  }
+}

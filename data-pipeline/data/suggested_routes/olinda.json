@@ -1,0 +1,68 @@
+{
+  "city": "olinda",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-olinda-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Olinda Cathedral",
+      "title_pt": "Igrejas e capelas perto de Sé de Olinda",
+      "generated_by": "rules",
+      "stops": [
+        "Q25422427",
+        "Q10284250",
+        "Q18482696",
+        "Q10300396",
+        "Q19709753",
+        "Q10376080",
+        "Q10333783",
+        "Q10300411"
+      ],
+      "distance_m": 1615,
+      "walking_seconds": 1292,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "churches-and-chapels-around-historic-centre-of-the-town-of-o",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Historic Centre of the Town of Olinda",
+      "title_pt": "Igrejas e capelas perto de Centro Histórico da Cidade de Olinda",
+      "generated_by": "rules",
+      "stops": [
+        "Q19709769",
+        "Q25439862",
+        "Q19709774",
+        "Q19709758",
+        "Q20056067",
+        "Q10333756",
+        "Q10300967",
+        "Q8343764"
+      ],
+      "distance_m": 3556,
+      "walking_seconds": 2845,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "city-landmarks-around-santo-amaro-cemetery",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Santo Amaro Cemetery",
+      "title_pt": "Marcos da cidade perto de Cemitério de Santo Amaro",
+      "generated_by": "rules",
+      "stops": ["Q10353481", "Q16482240", "Q5058742"],
+      "distance_m": 2962,
+      "walking_seconds": 2370,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "museums-and-collections-around-museu-do-estado-de-pernambuco",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museu do Estado de Pernambuco",
+      "title_pt": "Museus e coleções perto de Museu do Estado de Pernambuco",
+      "generated_by": "rules",
+      "stops": ["Q10328795", "Q6940628", "Q56694892", "Q2877286"],
+      "distance_m": 3294,
+      "walking_seconds": 2635,
+      "visit_minutes": 230
+    }
+  ]
+}

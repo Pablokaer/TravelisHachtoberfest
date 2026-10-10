@@ -1,0 +1,68 @@
+{
+  "city": "lucerne",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-lion-monument",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Lion Monument",
+      "title_pt": "Destaques históricos perto de Löwendenkmal",
+      "generated_by": "rules",
+      "stops": [
+        "Q1571757",
+        "Q25225",
+        "Q106686609",
+        "Q1910595",
+        "Q665447",
+        "Q4735602",
+        "Q688214",
+        "Q1531237"
+      ],
+      "distance_m": 2176,
+      "walking_seconds": 1741,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-jesuit-church-lucerne",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Jesuit Church, Lucerne",
+      "title_pt": "Destaques históricos perto de Jesuit Church, Lucerne",
+      "generated_by": "rules",
+      "stops": [
+        "Q113383120",
+        "Q680284",
+        "Q106666200",
+        "Q1450270",
+        "Q675515",
+        "Q106695088",
+        "Q2551817",
+        "Q2217420"
+      ],
+      "distance_m": 1319,
+      "walking_seconds": 1055,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "museums-and-collections-around-lucerne-culture-and-congress",
+      "theme": "museums",
+      "title_en": "Museums and collections around Lucerne Culture and Congress Centre",
+      "title_pt": "Museus e coleções perto de Lucerne Culture and Congress Centre",
+      "generated_by": "rules",
+      "stops": ["Q29522346", "Q1792543", "Q665311", "Q1275772", "Q17326297"],
+      "distance_m": 3673,
+      "walking_seconds": 2938,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "museums-and-collections-around-swiss-museum-of-transport",
+      "theme": "museums",
+      "title_en": "Museums and collections around Swiss Museum of Transport",
+      "title_pt": "Museus e coleções perto de Swiss Museum of Transport",
+      "generated_by": "rules",
+      "stops": ["Q18221786", "Q3329191", "Q670595", "Q1776067"],
+      "distance_m": 2682,
+      "walking_seconds": 2146,
+      "visit_minutes": 300
+    }
+  ]
+}

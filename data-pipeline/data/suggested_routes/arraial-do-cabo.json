@@ -1,0 +1,17 @@
+{
+  "city": "arraial-do-cabo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-forte-de-sao-mateus-do-cabo-frio",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Forte de São Mateus do Cabo Frio",
+      "title_pt": "Igrejas e capelas perto de Forte de São Mateus do Cabo Frio",
+      "generated_by": "rules",
+      "stops": ["Q58609829", "Q30939013", "Q10284039", "Q30939021", "Q30939019"],
+      "distance_m": 3593,
+      "walking_seconds": 2874,
+      "visit_minutes": 270
+    }
+  ]
+}

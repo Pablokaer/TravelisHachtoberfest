@@ -1,0 +1,166 @@
+{
+  "city": "palermo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-catacombe-dei-cappuccini",
+      "theme": "museums",
+      "title_en": "Museums and collections around Catacombe dei Cappuccini",
+      "title_pt": "Museus e coleções perto de Catacumbas dos Capuchinhos",
+      "generated_by": "rules",
+      "stops": [
+        "Q657847",
+        "Q1473825",
+        "Q1034853",
+        "Q55105282",
+        "Q532823",
+        "Q1728834",
+        "Q1000054",
+        "Q4012961"
+      ],
+      "distance_m": 4065,
+      "walking_seconds": 3252,
+      "visit_minutes": 645
+    },
+    {
+      "slug": "historic-highlights-around-quattro-canti",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Quattro Canti",
+      "title_pt": "Destaques históricos perto de Quattro Canti (Palermo)",
+      "generated_by": "rules",
+      "stops": [
+        "Q2222817",
+        "Q1705215",
+        "Q588036",
+        "Q649685",
+        "Q1435817",
+        "Q972315",
+        "Q1665695",
+        "Q1768805"
+      ],
+      "distance_m": 500,
+      "walking_seconds": 400,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "churches-and-chapels-around-martorana",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Martorana",
+      "title_pt": "Igrejas e capelas perto de Martorana",
+      "generated_by": "rules",
+      "stops": [
+        "Q937001",
+        "Q2223840",
+        "Q1421391",
+        "Q1644597",
+        "Q2066497",
+        "Q1636482",
+        "Q2047539",
+        "Q654981"
+      ],
+      "distance_m": 1120,
+      "walking_seconds": 896,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-palazzo-abatellis",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palazzo Abatellis",
+      "title_pt": "Destaques históricos perto de Palazzo Abatellis",
+      "generated_by": "rules",
+      "stops": [
+        "Q3889743",
+        "Q1954250",
+        "Q2047529",
+        "Q1595905",
+        "Q2223074",
+        "Q1255652",
+        "Q2223113",
+        "Q2223268"
+      ],
+      "distance_m": 1139,
+      "walking_seconds": 911,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-palermo-cathedral",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Palermo Cathedral",
+      "title_pt": "Palácios e casas nobres perto de Catedral de Palermo",
+      "generated_by": "rules",
+      "stops": [
+        "Q3889524",
+        "Q17266053",
+        "Q2223590",
+        "Q1478407",
+        "Q518412",
+        "Q3889563",
+        "Q2047617",
+        "Q2091950"
+      ],
+      "distance_m": 1005,
+      "walking_seconds": 804,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "churches-and-chapels-around-regional-archaeological-museum-a",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Regional Archaeological Museum Antonino Salinas",
+      "title_pt": "Igrejas e capelas perto de Museu Arqueológico Regional Antonio Salinas",
+      "generated_by": "rules",
+      "stops": [
+        "Q3902353",
+        "Q1954237",
+        "Q2223886",
+        "Q3889723",
+        "Q1562597",
+        "Q2791477",
+        "Q1772789",
+        "Q3683521"
+      ],
+      "distance_m": 1169,
+      "walking_seconds": 935,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-admiral-s-bridge",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Admiral's bridge",
+      "title_pt": "Igrejas e capelas perto de Ponte do Almirante",
+      "generated_by": "rules",
+      "stops": [
+        "Q3747353",
+        "Q2219507",
+        "Q2028366",
+        "Q1370003",
+        "Q873518",
+        "Q494404",
+        "Q1262976",
+        "Q594603"
+      ],
+      "distance_m": 3324,
+      "walking_seconds": 2659,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-san-giovanni-degli-eremiti",
+      "theme": "churches",
+      "title_en": "Churches and chapels around San Giovanni degli Eremiti",
+      "title_pt": "Igrejas e capelas perto de San Giovanni degli Eremiti",
+      "generated_by": "rules",
+      "stops": [
+        "Q745359",
+        "Q2219504",
+        "Q1043808",
+        "Q1492337",
+        "Q1519057",
+        "Q80319527",
+        "Q2223820",
+        "Q1659891"
+      ],
+      "distance_m": 3414,
+      "walking_seconds": 2731,
+      "visit_minutes": 290
+    }
+  ]
+}

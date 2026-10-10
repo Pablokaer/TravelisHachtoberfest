@@ -1,0 +1,117 @@
+{
+  "city": "sao-luis",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-palace-of-the-lions",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palace of the Lions",
+      "title_pt": "Destaques históricos perto de Palácio dos Leões",
+      "generated_by": "rules",
+      "stops": [
+        "Q10344023",
+        "Q8343768",
+        "Q64620675",
+        "Q45745327",
+        "Q59938171",
+        "Q61002199",
+        "Q10284037",
+        "Q9054673"
+      ],
+      "distance_m": 548,
+      "walking_seconds": 438,
+      "visit_minutes": 550
+    },
+    {
+      "slug": "churches-and-chapels-around-teatro-arthur-azevedo",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Teatro Arthur Azevedo",
+      "title_pt": "Igrejas e capelas perto de Teatro Arthur Azevedo",
+      "generated_by": "rules",
+      "stops": [
+        "Q61000389",
+        "Q10378807",
+        "Q10283335",
+        "Q60999701",
+        "Q25442868",
+        "Q56694571",
+        "Q17167069",
+        "Q60999710"
+      ],
+      "distance_m": 2113,
+      "walking_seconds": 1690,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "monuments-and-memorials-around-casa-das-minas",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Casa das Minas",
+      "title_pt": "Monumentos e memoriais perto de Casa das Minas",
+      "generated_by": "rules",
+      "stops": [
+        "Q25420700",
+        "Q61000352",
+        "Q10283316",
+        "Q132176633",
+        "Q17167072",
+        "Q9698305",
+        "Q9698245",
+        "Q18484383"
+      ],
+      "distance_m": 2296,
+      "walking_seconds": 1837,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "monuments-and-memorials-around-catedral-de-sao-luis",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Catedral de São Luís",
+      "title_pt": "Monumentos e memoriais perto de Catedral de São Luís do Maranhão",
+      "generated_by": "rules",
+      "stops": [
+        "Q51882712",
+        "Q108399536",
+        "Q15207980",
+        "Q10343941",
+        "Q105047441",
+        "Q61000427",
+        "Q59665032",
+        "Q18482724"
+      ],
+      "distance_m": 666,
+      "walking_seconds": 533,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "museums-and-collections-around-convent-of-mercy",
+      "theme": "museums",
+      "title_en": "Museums and collections around Convent of Mercy",
+      "title_pt": "Museus e coleções perto de Convento das Mercês",
+      "generated_by": "rules",
+      "stops": [
+        "Q57479225",
+        "Q56693274",
+        "Q61000415",
+        "Q60999604",
+        "Q18482647",
+        "Q59647557",
+        "Q60501362",
+        "Q61000676"
+      ],
+      "distance_m": 2932,
+      "walking_seconds": 2346,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-igreja-de-nossa-senhora-dos-remed",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Igreja de Nossa Senhora dos Remédios",
+      "title_pt": "Destaques históricos perto de Igreja de Nossa Senhora dos Remédios",
+      "generated_by": "rules",
+      "stops": ["Q56693263", "Q10343934", "Q17167065", "Q48872091"],
+      "distance_m": 700,
+      "walking_seconds": 560,
+      "visit_minutes": 215
+    }
+  ]
+}

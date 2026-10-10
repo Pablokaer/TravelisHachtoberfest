@@ -1,0 +1,166 @@
+{
+  "city": "milan",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-milan-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Milan Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Milão",
+      "generated_by": "rules",
+      "stops": [
+        "Q929968",
+        "Q51108",
+        "Q18068",
+        "Q1107168",
+        "Q261233",
+        "Q51105",
+        "Q1059560",
+        "Q3842780"
+      ],
+      "distance_m": 818,
+      "walking_seconds": 654,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "historic-highlights-around-santa-maria-delle-grazie",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Santa Maria delle Grazie",
+      "title_pt": "Destaques históricos perto de Santa Maria delle Grazie",
+      "generated_by": "rules",
+      "stops": [
+        "Q3889707",
+        "Q21748501",
+        "Q3890490",
+        "Q1255890",
+        "Q604908",
+        "Q1071570",
+        "Q947082",
+        "Q244952"
+      ],
+      "distance_m": 2365,
+      "walking_seconds": 1892,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "historic-highlights-around-sforza-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Sforza Castle",
+      "title_pt": "Destaques históricos perto de Castello Sforzesco",
+      "generated_by": "rules",
+      "stops": [
+        "Q2444521",
+        "Q2705493",
+        "Q3606678",
+        "Q1878666",
+        "Q3905124",
+        "Q23354",
+        "Q3604681",
+        "Q509104"
+      ],
+      "distance_m": 2354,
+      "walking_seconds": 1883,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "city-landmarks-around-mediolanum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Mediolanum",
+      "title_pt": "Marcos da cidade perto de Mediolano",
+      "generated_by": "rules",
+      "stops": [
+        "Q1403582",
+        "Q3902450",
+        "Q2071624",
+        "Q599021",
+        "Q3902322",
+        "Q729978",
+        "Q589462",
+        "Q1156274"
+      ],
+      "distance_m": 1689,
+      "walking_seconds": 1351,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "historic-highlights-around-porta-sempione",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Porta Sempione",
+      "title_pt": "Destaques históricos perto de Porta Sempione",
+      "generated_by": "rules",
+      "stops": [
+        "Q3875281",
+        "Q1580885",
+        "Q150066",
+        "Q41799096",
+        "Q839168",
+        "Q205844",
+        "Q85859030",
+        "Q608405"
+      ],
+      "distance_m": 4084,
+      "walking_seconds": 3267,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-san-lorenzo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of San Lorenzo",
+      "title_pt": "Destaques históricos perto de Basílica de São Lourenço",
+      "generated_by": "rules",
+      "stops": [
+        "Q734204",
+        "Q672082",
+        "Q549951",
+        "Q2844419",
+        "Q1053483",
+        "Q810080",
+        "Q54834138",
+        "Q3649108"
+      ],
+      "distance_m": 3085,
+      "walking_seconds": 2468,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "churches-and-chapels-around-san-bernardino-alle-ossa",
+      "theme": "churches",
+      "title_en": "Churches and chapels around San Bernardino alle Ossa",
+      "title_pt": "Igrejas e capelas perto de San Bernardino alle Ossa",
+      "generated_by": "rules",
+      "stops": [
+        "Q1255904",
+        "Q384032",
+        "Q734371",
+        "Q3984381",
+        "Q731479",
+        "Q2783781",
+        "Q1255602",
+        "Q259339"
+      ],
+      "distance_m": 2057,
+      "walking_seconds": 1646,
+      "visit_minutes": 265
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-villa-necchi-campiglio",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Villa Necchi Campiglio",
+      "title_pt": "Palácios e casas nobres perto de Villa Necchi Campiglio",
+      "generated_by": "rules",
+      "stops": [
+        "Q3757721",
+        "Q839379",
+        "Q1228184",
+        "Q2525507",
+        "Q3361332",
+        "Q838986",
+        "Q1190657",
+        "Q2054135"
+      ],
+      "distance_m": 2003,
+      "walking_seconds": 1602,
+      "visit_minutes": 645
+    }
+  ]
+}

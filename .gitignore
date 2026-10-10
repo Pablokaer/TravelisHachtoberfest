@@ -1,0 +1,48 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# build / cache
+dist/
+web-build/
+.expo/
+.turbo/
+coverage/
+*.tsbuildinfo
+expo-env.d.ts
+
+# native (Continuous Native Generation)
+apps/mobile/ios/
+apps/mobile/android/
+
+# env
+.env
+.env.*
+!.env.example
+supabase/functions/.env
+
+# supabase
+supabase/.temp/
+supabase/.branches/
+
+# python
+data-pipeline/.venv/
+data-pipeline/.cache/
+data-pipeline/output/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# testing
+playwright-report/
+test-results/
+blob-report/
+
+# os / editors
+.DS_Store
+.idea/
+*.log
+*.egg-info/
+apps/mobile/public/maplibre/
+.vs/

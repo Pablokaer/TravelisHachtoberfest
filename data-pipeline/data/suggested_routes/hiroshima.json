@@ -1,0 +1,57 @@
+{
+  "city": "hiroshima",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-hiroshima-castle",
+      "theme": "museums",
+      "title_en": "Museums and collections around Hiroshima Castle",
+      "title_pt": "Museus e coleções perto de Castelo de Hiroshima",
+      "generated_by": "rules",
+      "stops": [
+        "Q98926045",
+        "Q1200076",
+        "Q5771207",
+        "Q63828",
+        "Q84008",
+        "Q41977",
+        "Q3330773",
+        "Q4425941"
+      ],
+      "distance_m": 4446,
+      "walking_seconds": 3557,
+      "visit_minutes": 590
+    },
+    {
+      "slug": "monuments-and-memorials-around-hiroshima-peace-memorial",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Hiroshima Peace Memorial",
+      "title_pt": "Monumentos e memoriais perto de Memorial da Paz de Hiroshima",
+      "generated_by": "rules",
+      "stops": [
+        "Q11520225",
+        "Q104604935",
+        "Q114718",
+        "Q114067",
+        "Q11387826",
+        "Q231140",
+        "Q23476",
+        "Q11484615"
+      ],
+      "distance_m": 1178,
+      "walking_seconds": 942,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "city-landmarks-around-hiroshima-city-museum-of-contemporary",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hiroshima City Museum of Contemporary Art",
+      "title_pt": "Marcos da cidade perto de Hiroshima City Museum of Contemporary Art",
+      "generated_by": "rules",
+      "stops": ["Q11668184", "Q93425", "Q11484541", "Q11580269", "Q11424575"],
+      "distance_m": 4656,
+      "walking_seconds": 3725,
+      "visit_minutes": 170
+    }
+  ]
+}

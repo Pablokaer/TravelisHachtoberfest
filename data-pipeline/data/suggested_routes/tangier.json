@@ -1,0 +1,57 @@
+{
+  "city": "tangier",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-tingi",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Tingi",
+      "title_pt": "Marcos da cidade perto de Tingi",
+      "generated_by": "rules",
+      "stops": [
+        "Q2106840",
+        "Q111938081",
+        "Q4898811",
+        "Q116291098",
+        "Q25247360",
+        "Q7508673",
+        "Q5595107",
+        "Q116814371"
+      ],
+      "distance_m": 3412,
+      "walking_seconds": 2730,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "museums-and-collections-around-dar-el-makhzen-tangier",
+      "theme": "museums",
+      "title_en": "Museums and collections around Dar el Makhzen (Tangier)",
+      "title_pt": "Museus e coleções perto de Dar el Makhzen (Tangier)",
+      "generated_by": "rules",
+      "stops": [
+        "Q5464987",
+        "Q25206259",
+        "Q116763740",
+        "Q17013683",
+        "Q6943589",
+        "Q3330628",
+        "Q80897158",
+        "Q5221954"
+      ],
+      "distance_m": 800,
+      "walking_seconds": 640,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "city-landmarks-around-the-great-mosque-of-tangier",
+      "theme": "landmarks",
+      "title_en": "City landmarks around The Great Mosque of Tangier",
+      "title_pt": "Marcos da cidade perto de The Great Mosque of Tangier",
+      "generated_by": "rules",
+      "stops": ["Q116788613", "Q6940815", "Q5221275", "Q116763716", "Q7682971"],
+      "distance_m": 4203,
+      "walking_seconds": 3362,
+      "visit_minutes": 190
+    }
+  ]
+}

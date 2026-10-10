@@ -1,0 +1,96 @@
+{
+  "city": "dubrovnik",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-rector-s-palace-dubrovnik",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Rector's Palace, Dubrovnik",
+      "title_pt": "Destaques históricos perto de Palácio do Reitor",
+      "generated_by": "rules",
+      "stops": [
+        "Q3509014",
+        "Q2986276",
+        "Q3443120",
+        "Q18325392",
+        "Q2986286",
+        "Q16116657",
+        "Q2497590",
+        "Q584428"
+      ],
+      "distance_m": 255,
+      "walking_seconds": 204,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-walls-of-dubrovnik",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Walls of Dubrovnik",
+      "title_pt": "Destaques históricos perto de Muralhas de Dubrovnik",
+      "generated_by": "rules",
+      "stops": [
+        "Q3508984",
+        "Q3443428",
+        "Q2624621",
+        "Q5884916",
+        "Q18585224",
+        "Q15547215",
+        "Q682758",
+        "Q931733"
+      ],
+      "distance_m": 790,
+      "walking_seconds": 632,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "churches-and-chapels-around-lovrijenac",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Lovrijenac",
+      "title_pt": "Igrejas e capelas perto de Lovrijenac",
+      "generated_by": "rules",
+      "stops": [
+        "Q12640048",
+        "Q3509039",
+        "Q674521",
+        "Q3509032",
+        "Q3434033",
+        "Q3509061",
+        "Q3396134",
+        "Q12629302"
+      ],
+      "distance_m": 1500,
+      "walking_seconds": 1200,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "city-landmarks-around-dubrovnik-synagogue",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dubrovnik Synagogue",
+      "title_pt": "Marcos da cidade perto de Dubrovnik Synagogue",
+      "generated_by": "rules",
+      "stops": ["Q16111419", "Q2750095", "Q16110598"],
+      "distance_m": 2120,
+      "walking_seconds": 1696,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "castles-and-viewpoints-around-ploce-gate-dubrovnik",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Ploče Gate, Dubrovnik",
+      "title_pt": "Castelos e miradouros perto de Ploče Gate, Dubrovnik",
+      "generated_by": "rules",
+      "stops": [
+        "Q12644250",
+        "Q12637458",
+        "Q17147057",
+        "Q4679200",
+        "Q12627206",
+        "Q3509567",
+        "Q12644033"
+      ],
+      "distance_m": 1558,
+      "walking_seconds": 1246,
+      "visit_minutes": 560
+    }
+  ]
+}

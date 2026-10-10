@@ -1,0 +1,99 @@
+{
+  "city": "george-town",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-fort-cornwallis",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fort Cornwallis",
+      "title_pt": "Destaques históricos perto de Fort Cornwallis",
+      "generated_by": "rules",
+      "stops": [
+        "Q125034968",
+        "Q3281103",
+        "Q23073292",
+        "Q28219658",
+        "Q123384151",
+        "Q5470991",
+        "Q6301836",
+        "Q28034427"
+      ],
+      "distance_m": 1513,
+      "walking_seconds": 1210,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "city-landmarks-around-khoo-kongsi",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Khoo Kongsi",
+      "title_pt": "Marcos da cidade perto de Khoo Kongsi",
+      "generated_by": "rules",
+      "stops": [
+        "Q16838642",
+        "Q6402268",
+        "Q6511449",
+        "Q7393361",
+        "Q16900890",
+        "Q3281165",
+        "Q7586151",
+        "Q123399047"
+      ],
+      "distance_m": 1017,
+      "walking_seconds": 814,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-kong-hock-keong-temple",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kong Hock Keong Temple",
+      "title_pt": "Destaques históricos perto de Kong Hock Keong Temple",
+      "generated_by": "rules",
+      "stops": [
+        "Q123474617",
+        "Q8509985",
+        "Q16851050",
+        "Q7162230",
+        "Q5117810",
+        "Q27557342",
+        "Q3281008",
+        "Q6429126"
+      ],
+      "distance_m": 2656,
+      "walking_seconds": 2125,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "churches-and-chapels-around-arulmigu-balathandayuthapani-tem",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Arulmigu Balathandayuthapani Temple, Penang",
+      "title_pt": "Igrejas e capelas perto de Arulmigu Balathandayuthapani Temple, Penang",
+      "generated_by": "rules",
+      "stops": ["Q122809619", "Q6630574", "Q5117954", "Q18109816"],
+      "distance_m": 4589,
+      "walking_seconds": 3671,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-dhammikarama-burmese-temple",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Dhammikarama Burmese Temple",
+      "title_pt": "Destaques históricos perto de Dhammikarama Burmese Temple",
+      "generated_by": "rules",
+      "stops": ["Q123699819", "Q48726614", "Q5268861"],
+      "distance_m": 1962,
+      "walking_seconds": 1570,
+      "visit_minutes": 70
+    },
+    {
+      "slug": "city-landmarks-around-mahindarama-buddhist-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Mahindarama Buddhist Temple",
+      "title_pt": "Marcos da cidade perto de Mahindarama Buddhist Temple",
+      "generated_by": "rules",
+      "stops": ["Q32112314", "Q3407654", "Q5886222"],
+      "distance_m": 2749,
+      "walking_seconds": 2199,
+      "visit_minutes": 70
+    }
+  ]
+}

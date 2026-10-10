@@ -1,0 +1,120 @@
+{
+  "city": "jakarta",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-istiqlal-mosque",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Istiqlal Mosque",
+      "title_pt": "Destaques históricos perto de Istiqlal Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q12483944",
+        "Q145151",
+        "Q2638276",
+        "Q1139728",
+        "Q109441069",
+        "Q475379",
+        "Q55519",
+        "Q48728438"
+      ],
+      "distance_m": 3755,
+      "walking_seconds": 3004,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "museums-and-collections-around-batavia",
+      "theme": "museums",
+      "title_en": "Museums and collections around Batavia",
+      "title_pt": "Museus e coleções perto de Batavia",
+      "generated_by": "rules",
+      "stops": [
+        "Q5450052",
+        "Q20715999",
+        "Q25053359",
+        "Q1199713",
+        "Q1356004",
+        "Q2854954",
+        "Q2521269",
+        "Q1978377"
+      ],
+      "distance_m": 870,
+      "walking_seconds": 696,
+      "visit_minutes": 580
+    },
+    {
+      "slug": "museums-and-collections-around-national-museum-of-indonesia",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Museum of Indonesia",
+      "title_pt": "Museus e coleções perto de National Museum of Indonesia",
+      "generated_by": "rules",
+      "stops": [
+        "Q4022393",
+        "Q11042914",
+        "Q56392451",
+        "Q7148760",
+        "Q6972830",
+        "Q1467125",
+        "Q4264481"
+      ],
+      "distance_m": 4015,
+      "walking_seconds": 3212,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-batavia-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Batavia Castle",
+      "title_pt": "Destaques históricos perto de Batavia Castle",
+      "generated_by": "rules",
+      "stops": ["Q2370202", "Q2586938", "Q12498003", "Q2030607", "Q13094999", "Q23043356"],
+      "distance_m": 2642,
+      "walking_seconds": 2114,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "museums-and-collections-around-selamat-datang-monument",
+      "theme": "museums",
+      "title_en": "Museums and collections around Selamat Datang Monument",
+      "title_pt": "Museus e coleções perto de Selamat Datang Monument",
+      "generated_by": "rules",
+      "stops": ["Q2573410", "Q1839448", "Q15260362", "Q19325482", "Q2454010"],
+      "distance_m": 3530,
+      "walking_seconds": 2824,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "city-landmarks-around-gereja-sion",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Gereja Sion",
+      "title_pt": "Marcos da cidade perto de Igreja Sion",
+      "generated_by": "rules",
+      "stops": ["Q38069209", "Q38071658", "Q38251541", "Q38251548", "Q13641781", "Q2306448"],
+      "distance_m": 3952,
+      "walking_seconds": 3162,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "museums-and-collections-around-indonesia-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Indonesia Museum",
+      "title_pt": "Museus e coleções perto de Indonesia Museum",
+      "generated_by": "rules",
+      "stops": ["Q28129003", "Q12499644", "Q1467232", "Q7261332", "Q12497277"],
+      "distance_m": 3142,
+      "walking_seconds": 2514,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-satriamandala-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Satriamandala Museum",
+      "title_pt": "Museus e coleções perto de Satriamandala Museum",
+      "generated_by": "rules",
+      "stops": ["Q47004349", "Q7426467", "Q2558851"],
+      "distance_m": 2642,
+      "walking_seconds": 2114,
+      "visit_minutes": 210
+    }
+  ]
+}

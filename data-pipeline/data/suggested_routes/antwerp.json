@@ -1,0 +1,128 @@
+{
+  "city": "antwerp",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-onze-lieve-vrouwekathedraal",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Onze-Lieve-Vrouwekathedraal",
+      "title_pt": "Destaques históricos perto de Catedral de Nossa Senhora",
+      "generated_by": "rules",
+      "stops": [
+        "Q32845567",
+        "Q51885460",
+        "Q3911365",
+        "Q2005868",
+        "Q947295",
+        "Q5901",
+        "Q61875813",
+        "Q1887219"
+      ],
+      "distance_m": 585,
+      "walking_seconds": 468,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-het-steen",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Het Steen",
+      "title_pt": "Destaques históricos perto de Het Steen",
+      "generated_by": "rules",
+      "stops": [
+        "Q2554516",
+        "Q16069476",
+        "Q2802159",
+        "Q2799943",
+        "Q595802",
+        "Q1014126",
+        "Q128996507",
+        "Q1646305"
+      ],
+      "distance_m": 2724,
+      "walking_seconds": 2179,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "museums-and-collections-around-letterenhuis",
+      "theme": "museums",
+      "title_en": "Museums and collections around Letterenhuis",
+      "title_pt": "Museus e coleções perto de Letterenhuis",
+      "generated_by": "rules",
+      "stops": [
+        "Q2801959",
+        "Q2272511",
+        "Q3813695",
+        "Q2515193",
+        "Q1415440",
+        "Q2662909",
+        "Q107289406",
+        "Q13725556"
+      ],
+      "distance_m": 2155,
+      "walking_seconds": 1724,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "museums-and-collections-around-royal-museum-of-fine-arts-ant",
+      "theme": "museums",
+      "title_en": "Museums and collections around Royal Museum of Fine Arts Antwerp",
+      "title_pt": "Museus e coleções perto de Museu Real de Belas Artes de Antuérpia",
+      "generated_by": "rules",
+      "stops": [
+        "Q2491109",
+        "Q89383922",
+        "Q2718294",
+        "Q1471477",
+        "Q1573755",
+        "Q2635059",
+        "Q2521470",
+        "Q2151338"
+      ],
+      "distance_m": 3391,
+      "walking_seconds": 2713,
+      "visit_minutes": 580
+    },
+    {
+      "slug": "historic-highlights-around-rubenshuis",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Rubenshuis",
+      "title_pt": "Destaques históricos perto de Casa de Rubens",
+      "generated_by": "rules",
+      "stops": [
+        "Q1699233",
+        "Q2548899",
+        "Q99605384",
+        "Q775644",
+        "Q775797",
+        "Q1083704",
+        "Q2183335",
+        "Q2297610"
+      ],
+      "distance_m": 2170,
+      "walking_seconds": 1736,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "monuments-and-memorials-around-middelheim-museum",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Middelheim Museum",
+      "title_pt": "Monumentos e memoriais perto de Middelheim Museum",
+      "generated_by": "rules",
+      "stops": ["Q2095994", "Q4988632", "Q2098074", "Q51273060"],
+      "distance_m": 4060,
+      "walking_seconds": 3248,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "historic-highlights-around-vlaams-tram-en-autobusmuseum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Vlaams Tram- en Autobusmuseum",
+      "title_pt": "Destaques históricos perto de Vlaams Tram- en Autobusmuseum",
+      "generated_by": "rules",
+      "stops": ["Q2750109", "Q2306039", "Q2294228", "Q2049516", "Q15882238", "Q2149205"],
+      "distance_m": 4142,
+      "walking_seconds": 3314,
+      "visit_minutes": 210
+    }
+  ]
+}

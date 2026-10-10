@@ -1,0 +1,166 @@
+{
+  "city": "genoa",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "palaces-and-noble-houses-around-palazzo-san-giorgio",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Palazzo San Giorgio",
+      "title_pt": "Palácios e casas nobres perto de Palazzo San Giorgio",
+      "generated_by": "rules",
+      "stops": [
+        "Q3361333",
+        "Q3890209",
+        "Q3670953",
+        "Q3889530",
+        "Q533269",
+        "Q3671776",
+        "Q3669274",
+        "Q1091910"
+      ],
+      "distance_m": 692,
+      "walking_seconds": 554,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "churches-and-chapels-around-genoa-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Genoa Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Gênova",
+      "generated_by": "rules",
+      "stops": [
+        "Q3585330",
+        "Q663399",
+        "Q1306549",
+        "Q3868267",
+        "Q3361306",
+        "Q3671154",
+        "Q2047566",
+        "Q1411612"
+      ],
+      "distance_m": 1115,
+      "walking_seconds": 892,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-santo-stefano-church",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Santo Stefano Church",
+      "title_pt": "Palácios e casas nobres perto de Santo Stefano Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q3361298",
+        "Q3890190",
+        "Q21194453",
+        "Q3661281",
+        "Q21194424",
+        "Q1545941",
+        "Q220091",
+        "Q3328400"
+      ],
+      "distance_m": 2102,
+      "walking_seconds": 1682,
+      "visit_minutes": 540
+    },
+    {
+      "slug": "historic-highlights-around-royal-palace-of-genoa",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Palace of Genoa",
+      "title_pt": "Destaques históricos perto de Royal Palace of Genoa",
+      "generated_by": "rules",
+      "stops": [
+        "Q3867551",
+        "Q1808872",
+        "Q3890183",
+        "Q1667579",
+        "Q1514006",
+        "Q3668479",
+        "Q7105065",
+        "Q3662403"
+      ],
+      "distance_m": 1596,
+      "walking_seconds": 1277,
+      "visit_minutes": 555
+    },
+    {
+      "slug": "historic-highlights-around-lighthouse-of-genoa",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Lighthouse of Genoa",
+      "title_pt": "Destaques históricos perto de Lanterna de Gênova",
+      "generated_by": "rules",
+      "stops": [
+        "Q776666",
+        "Q3558847",
+        "Q1916826",
+        "Q3640190",
+        "Q3889822",
+        "Q3668112",
+        "Q3995176",
+        "Q3674029"
+      ],
+      "distance_m": 4217,
+      "walking_seconds": 3374,
+      "visit_minutes": 500
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-walls-of-genoa",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Walls of Genoa",
+      "title_pt": "Palácios e casas nobres perto de Muralhas de Gênova",
+      "generated_by": "rules",
+      "stops": [
+        "Q3585370",
+        "Q3669990",
+        "Q3890188",
+        "Q3889631",
+        "Q2887140",
+        "Q3890060",
+        "Q3890141",
+        "Q3867265"
+      ],
+      "distance_m": 967,
+      "walking_seconds": 774,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-palazzo-doria-tursi",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Palazzo Doria Tursi",
+      "title_pt": "Palácios e casas nobres perto de Palazzo Doria-Tursi",
+      "generated_by": "rules",
+      "stops": [
+        "Q3890337",
+        "Q3890211",
+        "Q3361280",
+        "Q964943",
+        "Q3889823",
+        "Q3889577",
+        "Q162965",
+        "Q2034331"
+      ],
+      "distance_m": 316,
+      "walking_seconds": 253,
+      "visit_minutes": 600
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-arco-della-vittoria",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Arco della Vittoria",
+      "title_pt": "Palácios e casas nobres perto de Arco della Vittoria",
+      "generated_by": "rules",
+      "stops": [
+        "Q3867875",
+        "Q1123712",
+        "Q3890608",
+        "Q3890556",
+        "Q3672295",
+        "Q810076",
+        "Q3867852",
+        "Q3621768"
+      ],
+      "distance_m": 3215,
+      "walking_seconds": 2572,
+      "visit_minutes": 470
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "city": "tokyo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-yasukuni-shrine",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Yasukuni Shrine",
+      "title_pt": "Destaques históricos perto de Santuário Yasukuni",
+      "generated_by": "rules",
+      "stops": [
+        "Q5369428",
+        "Q500681",
+        "Q7797685",
+        "Q97159491",
+        "Q1359908",
+        "Q2972676",
+        "Q242803",
+        "Q2855971"
+      ],
+      "distance_m": 4313,
+      "walking_seconds": 3450,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "city-landmarks-around-soarin",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Soarin'",
+      "title_pt": "Marcos da cidade perto de Soarin'",
+      "generated_by": "rules",
+      "stops": [
+        "Q3487196",
+        "Q3388788",
+        "Q3484881",
+        "Q267353",
+        "Q3150108",
+        "Q2859206",
+        "Q3186999",
+        "Q2775778"
+      ],
+      "distance_m": 1639,
+      "walking_seconds": 1311,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "museums-and-collections-around-tokyo-national-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Tokyo National Museum",
+      "title_pt": "Museus e coleções perto de Museu Nacional de Tóquio",
+      "generated_by": "rules",
+      "stops": ["Q3120766", "Q653433", "Q74940", "Q1362629", "Q864957", "Q708550", "Q3915464"],
+      "distance_m": 2610,
+      "walking_seconds": 2088,
+      "visit_minutes": 490
+    },
+    {
+      "slug": "museums-and-collections-around-maman",
+      "theme": "museums",
+      "title_en": "Museums and collections around Maman",
+      "title_pt": "Museus e coleções perto de Maman",
+      "generated_by": "rules",
+      "stops": ["Q2036364", "Q4410434", "Q180887", "Q863044", "Q3342690", "Q1362638", "Q1047097"],
+      "distance_m": 4289,
+      "walking_seconds": 3431,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-tokyo-tower",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Tokyo Tower",
+      "title_pt": "Destaques históricos perto de Torre de Tóquio",
+      "generated_by": "rules",
+      "stops": ["Q76843738", "Q1033333", "Q249139", "Q183536", "Q2868748", "Q3578021"],
+      "distance_m": 4402,
+      "walking_seconds": 3522,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "monuments-and-memorials-around-tokyo-skytree",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Tokyo Skytree",
+      "title_pt": "Monumentos e memoriais perto de Tokyo Sky Tree",
+      "generated_by": "rules",
+      "stops": ["Q670049", "Q615183", "Q2378896", "Q2378708", "Q57965"],
+      "distance_m": 2320,
+      "walking_seconds": 1856,
+      "visit_minutes": 95
+    },
+    {
+      "slug": "city-landmarks-around-meiji-jingu",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Meiji Jingū",
+      "title_pt": "Marcos da cidade perto de Santuário Meiji",
+      "generated_by": "rules",
+      "stops": ["Q111973", "Q1030463", "Q2090752", "Q287165", "Q1384780"],
+      "distance_m": 4272,
+      "walking_seconds": 3418,
+      "visit_minutes": 100
+    },
+    {
+      "slug": "city-landmarks-around-holy-resurrection-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Holy Resurrection Cathedral",
+      "title_pt": "Marcos da cidade perto de Holy Resurrection Cathedral",
+      "generated_by": "rules",
+      "stops": ["Q2660430", "Q1760591", "Q717682", "Q845812"],
+      "distance_m": 2462,
+      "walking_seconds": 1970,
+      "visit_minutes": 90
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+[
+  {
+    "route": "welcome",
+    "url": "http://localhost:8083/welcome",
+    "elements": [
+      {
+        "text": "Travelist",
+        "x": 20,
+        "y": 19,
+        "width": 126.28125,
+        "height": 34,
+        "centerOffset": -111.859375,
+        "textAlign": "center"
+      },
+      {
+        "text": "Get started",
+        "x": 212.390625,
+        "y": 16,
+        "width": 109.609375,
+        "height": 40,
+        "centerOffset": 72.1953125,
+        "textAlign": "center"
+      },
+      {
+        "text": "",
+        "x": 330,
+        "y": 16,
+        "width": 40,
+        "height": 40,
+        "centerOffset": 155,
+        "textAlign": "center"
+      },
+      {
+        "text": "Turn any city into your personal travel list",
+        "x": 20,
+        "y": 161,
+        "width": 350,
+        "height": 120.84375,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Start exploring",
+        "x": 20,
+        "y": 411.84375,
+        "width": 350,
+        "height": 54,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "See how it works",
+        "x": 20,
+        "y": 477.84375,
+        "width": 350,
+        "height": 54,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Popular destinations",
+        "x": 60.140625,
+        "y": 1674.421875,
+        "width": 269.71875,
+        "height": 34,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "View all 197 cities",
+        "x": 20,
+        "y": 1784.421875,
+        "width": 149.15625,
+        "height": 28,
+        "centerOffset": -100.421875,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Benh LIEU SONG · Public domainParis🇫🇷  France",
+        "x": 20,
+        "y": 1844.421875,
+        "width": 168,
+        "height": 224,
+        "centerOffset": -91,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © FeaturedPics · CC BY-SA 4.0Rome🇮🇹  Italy",
+        "x": 204,
+        "y": 1844.421875,
+        "width": 168,
+        "height": 224,
+        "centerOffset": 93,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Kakidai · CC BY-SA 4.0Tokyo🇯🇵  Japan",
+        "x": 388,
+        "y": 1844.421875,
+        "width": 168,
+        "height": 224,
+        "centerOffset": 277,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Canaan · CC BY-SA 4.0Barcelona🇪🇸  Spain",
+        "x": 572,
+        "y": 1844.421875,
+        "width": 168,
+        "height": 224,
+        "centerOffset": 461,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Diliff · CC BY-SA 3.0London🇬🇧  United Kingdom",
+        "x": 756,
+        "y": 1844.421875,
+        "width": 168,
+        "height": 224,
+        "centerOffset": 645,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Rehman Abubakr · CC BY-SA 4.0Lisbon🇵🇹  Portugal",
+        "x": 940,
+        "y": 1844.421875,
+        "width": 168,
+        "height": 224,
+        "centerOffset": 829,
+        "textAlign": "center"
+      },
+      {
+        "text": "Plan your trip in minutes",
+        "x": 37.15625,
+        "y": 2228.421875,
+        "width": 315.6875,
+        "height": 34,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Your next trip starts with a list.",
+        "x": 44,
+        "y": 3072.421875,
+        "width": 302,
+        "height": 72,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Create your Travelist",
+        "x": 44,
+        "y": 3262.421875,
+        "width": 302,
+        "height": 54,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Features",
+        "x": 20,
+        "y": 3677.421875,
+        "width": 350,
+        "height": 20,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "How it works",
+        "x": 20,
+        "y": 3709.421875,
+        "width": 350,
+        "height": 20,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Destinations",
+        "x": 20,
+        "y": 3741.421875,
+        "width": 350,
+        "height": 20,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "sign-in",
+    "url": "http://localhost:8083/sign-in",
+    "elements": [
+      {
+        "text": "Welcome back",
+        "x": 20,
+        "y": 149.5,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Email or nickname",
+        "x": 63,
+        "y": 264.5,
+        "width": 290,
+        "height": 50,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Password",
+        "x": 37,
+        "y": 358.5,
+        "width": 316,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Sign in",
+        "x": 20,
+        "y": 476.5,
+        "width": 350,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "About and data sources",
+        "x": 85.5625,
+        "y": 694.5,
+        "width": 218.875,
+        "height": 40,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "sign-up",
+    "url": "http://localhost:8083/sign-up",
+    "elements": [
+      {
+        "text": "Create your account",
+        "x": 20,
+        "y": 100.5,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Name",
+        "x": 37,
+        "y": 183.5,
+        "width": 316,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Nickname",
+        "x": 37,
+        "y": 277.5,
+        "width": 316,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Email",
+        "x": 63,
+        "y": 393.5,
+        "width": 290,
+        "height": 50,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Password",
+        "x": 37,
+        "y": 487.5,
+        "width": 316,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Create account",
+        "x": 20,
+        "y": 576.5,
+        "width": 350,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "About and data sources",
+        "x": 85.5625,
+        "y": 743.5,
+        "width": 218.875,
+        "height": 40,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "forgot-password",
+    "url": "http://localhost:8083/forgot-password",
+    "elements": [
+      {
+        "text": "Reset your password",
+        "x": 20,
+        "y": 289.5,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Email",
+        "x": 63,
+        "y": 428.5,
+        "width": 290,
+        "height": 50,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Send reset link",
+        "x": 20,
+        "y": 495.5,
+        "width": 350,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "magic-link",
+    "url": "http://localhost:8083/magic-link",
+    "elements": [
+      {
+        "text": "Sign in with email",
+        "x": 20,
+        "y": 289.5,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Email",
+        "x": 63,
+        "y": 428.5,
+        "width": 290,
+        "height": 50,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Send link",
+        "x": 20,
+        "y": 495.5,
+        "width": 350,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "about",
+    "url": "http://localhost:8083/about",
+    "elements": [
+      {
+        "text": "About",
+        "x": 171.59375,
+        "y": 22,
+        "width": 46.8125,
+        "height": 20,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Travelist",
+        "x": 142.015625,
+        "y": 184,
+        "width": 105.953125,
+        "height": 32,
+        "centerOffset": -0.0078125,
+        "textAlign": "start"
+      },
+      {
+        "text": "Data sources",
+        "x": 20,
+        "y": 312,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "shared",
+    "url": "http://localhost:8083/shared",
+    "elements": [
+      {
+        "text": "Walk list",
+        "x": 162.609375,
+        "y": 22,
+        "width": 64.765625,
+        "height": 20,
+        "centerOffset": -0.0078125,
+        "textAlign": "start"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "auth/reset-password",
+    "url": "http://localhost:8083/auth/reset-password",
+    "elements": [
+      {
+        "text": "Choose a new password",
+        "x": 20,
+        "y": 350,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Request a new link",
+        "x": 20,
+        "y": 486,
+        "width": 350,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  }
+]

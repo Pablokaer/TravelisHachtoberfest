@@ -1,0 +1,157 @@
+{
+  "city": "warsaw",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-royal-castle-in-warsaw",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Castle in Warsaw",
+      "title_pt": "Destaques históricos perto de Castelo Real de Varsóvia",
+      "generated_by": "rules",
+      "stops": [
+        "Q2712497",
+        "Q1798918",
+        "Q648754",
+        "Q756098",
+        "Q1092468",
+        "Q958585",
+        "Q1798910",
+        "Q1720684"
+      ],
+      "distance_m": 867,
+      "walking_seconds": 694,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "city-landmarks-around-palace-of-culture-and-science",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Palace of Culture and Science",
+      "title_pt": "Marcos da cidade perto de Palácio da Cultura e Ciência",
+      "generated_by": "rules",
+      "stops": [
+        "Q2915221",
+        "Q821379",
+        "Q821342",
+        "Q1956218",
+        "Q7134098",
+        "Q11790623",
+        "Q167566",
+        "Q1326654"
+      ],
+      "distance_m": 2449,
+      "walking_seconds": 1959,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "monuments-and-memorials-around-museum-of-the-history-of-poli",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Museum of the History of Polish Jews",
+      "title_pt": "Monumentos e memoriais perto de Museum of the History of Polish Jews",
+      "generated_by": "rules",
+      "stops": [
+        "Q4706409",
+        "Q1760658",
+        "Q11823409",
+        "Q633284",
+        "Q4099231",
+        "Q429007",
+        "Q429069",
+        "Q6940986"
+      ],
+      "distance_m": 3546,
+      "walking_seconds": 2837,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "historic-highlights-around-warsaw-old-town",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Warsaw Old Town",
+      "title_pt": "Destaques históricos perto de Cidade Velha em Varsóvia",
+      "generated_by": "rules",
+      "stops": [
+        "Q450966",
+        "Q555792",
+        "Q25413410",
+        "Q1139084",
+        "Q202277",
+        "Q1108269",
+        "Q3699191",
+        "Q3559646"
+      ],
+      "distance_m": 1009,
+      "walking_seconds": 807,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "city-landmarks-around-presidential-palace",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Presidential Palace",
+      "title_pt": "Marcos da cidade perto de Palácio Presidencial",
+      "generated_by": "rules",
+      "stops": [
+        "Q4569133",
+        "Q1683191",
+        "Q608932",
+        "Q1630844",
+        "Q1351448",
+        "Q1786375",
+        "Q1324986",
+        "Q929269"
+      ],
+      "distance_m": 845,
+      "walking_seconds": 676,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "historic-highlights-around-holy-cross-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Holy Cross Church",
+      "title_pt": "Destaques históricos perto de Igreja da Santa Cruz",
+      "generated_by": "rules",
+      "stops": [
+        "Q1095476",
+        "Q3671990",
+        "Q1440735",
+        "Q1149220",
+        "Q376942",
+        "Q450241",
+        "Q1540926",
+        "Q376169"
+      ],
+      "distance_m": 1699,
+      "walking_seconds": 1359,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "historic-highlights-around-national-museum-in-warsaw",
+      "theme": "highlights",
+      "title_en": "Historic highlights around National Museum in Warsaw",
+      "title_pt": "Destaques históricos perto de Museu Nacional de Varsóvia",
+      "generated_by": "rules",
+      "stops": [
+        "Q11741983",
+        "Q1627287",
+        "Q3354467",
+        "Q153306",
+        "Q2374346",
+        "Q1109610",
+        "Q3692546",
+        "Q156555"
+      ],
+      "distance_m": 2829,
+      "walking_seconds": 2263,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-belweder",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Belweder",
+      "title_pt": "Destaques históricos perto de Palácio Belweder",
+      "generated_by": "rules",
+      "stops": ["Q11819218", "Q15217216", "Q444092", "Q587106", "Q645474", "Q345276", "Q1756534"],
+      "distance_m": 2970,
+      "walking_seconds": 2376,
+      "visit_minutes": 390
+    }
+  ]
+}

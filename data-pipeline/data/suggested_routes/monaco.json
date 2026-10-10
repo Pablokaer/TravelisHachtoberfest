@@ -1,0 +1,57 @@
+{
+  "city": "monaco",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-prince-s-palace-of-monaco",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Prince's Palace of Monaco",
+      "title_pt": "Igrejas e capelas perto de Palácio do príncipe do Mónaco",
+      "generated_by": "rules",
+      "stops": [
+        "Q3582883",
+        "Q3330282",
+        "Q2264191",
+        "Q1164788",
+        "Q130216760",
+        "Q1955711",
+        "Q19600700",
+        "Q667450"
+      ],
+      "distance_m": 1588,
+      "walking_seconds": 1270,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "museums-and-collections-around-monaco-cemetery",
+      "theme": "museums",
+      "title_en": "Museums and collections around Monaco Cemetery",
+      "title_pt": "Museus e coleções perto de Monaco Cemetery",
+      "generated_by": "rules",
+      "stops": [
+        "Q3345073",
+        "Q3329551",
+        "Q15965680",
+        "Q3583370",
+        "Q851527",
+        "Q16010845",
+        "Q130216763",
+        "Q584191"
+      ],
+      "distance_m": 3215,
+      "walking_seconds": 2572,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-saint-charles-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Saint-Charles Church",
+      "title_pt": "Destaques históricos perto de Igreja de São Carlos",
+      "generated_by": "rules",
+      "stops": ["Q130268665", "Q623013", "Q48756324"],
+      "distance_m": 1148,
+      "walking_seconds": 918,
+      "visit_minutes": 70
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "city": "amsterdam",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-rijksmuseum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Rijksmuseum",
+      "title_pt": "Museus e coleções perto de Rijksmuseum",
+      "generated_by": "rules",
+      "stops": [
+        "Q2087161",
+        "Q639321",
+        "Q924335",
+        "Q224124",
+        "Q26832671",
+        "Q190804",
+        "Q1535378",
+        "Q127462101"
+      ],
+      "distance_m": 2191,
+      "walking_seconds": 1753,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "churches-and-chapels-around-anne-frank-house",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Anne Frank House",
+      "title_pt": "Igrejas e capelas perto de Casa de Anne Frank",
+      "generated_by": "rules",
+      "stops": [
+        "Q1419675",
+        "Q1056152",
+        "Q2788825",
+        "Q51411",
+        "Q1130722",
+        "Q165366",
+        "Q56452182",
+        "Q613854"
+      ],
+      "distance_m": 1972,
+      "walking_seconds": 1578,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "churches-and-chapels-around-oude-kerk",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Oude Kerk",
+      "title_pt": "Igrejas e capelas perto de Oude Kerk",
+      "generated_by": "rules",
+      "stops": [
+        "Q3329876",
+        "Q1350750",
+        "Q493160",
+        "Q2187982",
+        "Q623558",
+        "Q2466999",
+        "Q1568693",
+        "Q2410708"
+      ],
+      "distance_m": 1499,
+      "walking_seconds": 1199,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "museums-and-collections-around-dam-square",
+      "theme": "museums",
+      "title_en": "Museums and collections around Dam Square",
+      "title_pt": "Museus e coleções perto de Praça Dam",
+      "generated_by": "rules",
+      "stops": [
+        "Q3783595",
+        "Q473851",
+        "Q855003",
+        "Q839050",
+        "Q3275333",
+        "Q2102894",
+        "Q1820897",
+        "Q2134254"
+      ],
+      "distance_m": 1312,
+      "walking_seconds": 1050,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "historic-highlights-around-portuguese-synagogue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Portuguese Synagogue",
+      "title_pt": "Destaques históricos perto de Sinagoga Portuguesa de Amsterdão",
+      "generated_by": "rules",
+      "stops": [
+        "Q1576733",
+        "Q66023853",
+        "Q1853707",
+        "Q702726",
+        "Q1125814",
+        "Q2301532",
+        "Q1138851",
+        "Q883126"
+      ],
+      "distance_m": 1333,
+      "walking_seconds": 1066,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-rembrandt-house-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Rembrandt House Museum",
+      "title_pt": "Museus e coleções perto de Casa de Rembrandt",
+      "generated_by": "rules",
+      "stops": [
+        "Q713124",
+        "Q277316",
+        "Q228629",
+        "Q1350009",
+        "Q1344400",
+        "Q1886176",
+        "Q2077489",
+        "Q2191110"
+      ],
+      "distance_m": 3628,
+      "walking_seconds": 2902,
+      "visit_minutes": 590
+    },
+    {
+      "slug": "museums-and-collections-around-yab-yum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Yab Yum",
+      "title_pt": "Museus e coleções perto de Yab Yum",
+      "generated_by": "rules",
+      "stops": [
+        "Q1822492",
+        "Q2740663",
+        "Q2906260",
+        "Q130736773",
+        "Q17146713",
+        "Q2916386",
+        "Q1429748",
+        "Q1579642"
+      ],
+      "distance_m": 1683,
+      "walking_seconds": 1346,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "museums-and-collections-around-nemo-science-center",
+      "theme": "museums",
+      "title_en": "Museums and collections around NEMO Science Center",
+      "title_pt": "Museus e coleções perto de NEMO",
+      "generated_by": "rules",
+      "stops": [
+        "Q610402",
+        "Q1946061",
+        "Q1422000",
+        "Q1616123",
+        "Q828307",
+        "Q18169481",
+        "Q26822174",
+        "Q2206529"
+      ],
+      "distance_m": 2676,
+      "walking_seconds": 2141,
+      "visit_minutes": 580
+    }
+  ]
+}

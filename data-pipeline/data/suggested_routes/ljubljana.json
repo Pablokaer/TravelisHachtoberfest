@@ -1,0 +1,166 @@
+{
+  "city": "ljubljana",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-dragon-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dragon Bridge",
+      "title_pt": "Marcos da cidade perto de Dragon Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q7242492",
+        "Q5792650",
+        "Q12034073",
+        "Q5002466",
+        "Q7939337",
+        "Q660029",
+        "Q2363829",
+        "Q5593500"
+      ],
+      "distance_m": 1041,
+      "walking_seconds": 833,
+      "visit_minutes": 215
+    },
+    {
+      "slug": "city-landmarks-around-triple-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Triple Bridge",
+      "title_pt": "Marcos da cidade perto de Ponte Tripla (Liubliana)",
+      "generated_by": "rules",
+      "stops": [
+        "Q12797625",
+        "Q5138810",
+        "Q676315",
+        "Q1889515",
+        "Q1785618",
+        "Q20524323",
+        "Q5160826",
+        "Q6970519"
+      ],
+      "distance_m": 1323,
+      "walking_seconds": 1058,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "city-landmarks-around-ljubljana-castle",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ljubljana Castle",
+      "title_pt": "Marcos da cidade perto de Ljubljana Castle",
+      "generated_by": "rules",
+      "stops": [
+        "Q12803454",
+        "Q2075156",
+        "Q3444329",
+        "Q3701603",
+        "Q5016732",
+        "Q1236564",
+        "Q7939330",
+        "Q12794311"
+      ],
+      "distance_m": 942,
+      "walking_seconds": 754,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "museums-and-collections-around-national-museum-of-slovenia",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Museum of Slovenia",
+      "title_pt": "Museus e coleções perto de Museu Nacional da Eslovénia",
+      "generated_by": "rules",
+      "stops": [
+        "Q12789566",
+        "Q85169",
+        "Q12804394",
+        "Q3666739",
+        "Q2033282",
+        "Q11234584",
+        "Q12060836",
+        "Q23090920"
+      ],
+      "distance_m": 1843,
+      "walking_seconds": 1474,
+      "visit_minutes": 580
+    },
+    {
+      "slug": "city-landmarks-around-trnovo-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Trnovo Bridge",
+      "title_pt": "Marcos da cidade perto de Trnovo Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q7844773",
+        "Q5139497",
+        "Q6176579",
+        "Q5923351",
+        "Q4806369",
+        "Q5611887",
+        "Q12794832",
+        "Q3394818"
+      ],
+      "distance_m": 903,
+      "walking_seconds": 722,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "historic-highlights-around-ljubljana-mosque",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ljubljana Mosque",
+      "title_pt": "Destaques históricos perto de Ljubljana Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q5532013",
+        "Q15250525",
+        "Q1410977",
+        "Q1953536",
+        "Q1262088",
+        "Q12797158",
+        "Q6660940",
+        "Q1311779"
+      ],
+      "distance_m": 3314,
+      "walking_seconds": 2651,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-emona",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Emona",
+      "title_pt": "Destaques históricos perto de Emona",
+      "generated_by": "rules",
+      "stops": [
+        "Q15645583",
+        "Q11120360",
+        "Q12786801",
+        "Q6438656",
+        "Q15890934",
+        "Q148327",
+        "Q3397488",
+        "Q7314417"
+      ],
+      "distance_m": 1023,
+      "walking_seconds": 818,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "historic-highlights-around-ljubljanica-sluice-gate",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ljubljanica Sluice Gate",
+      "title_pt": "Destaques históricos perto de Ljubljanica Sluice Gate",
+      "generated_by": "rules",
+      "stops": [
+        "Q4348812",
+        "Q13567597",
+        "Q7591302",
+        "Q12784451",
+        "Q6660951",
+        "Q5427715",
+        "Q3408931",
+        "Q12802993"
+      ],
+      "distance_m": 2117,
+      "walking_seconds": 1694,
+      "visit_minutes": 260
+    }
+  ]
+}

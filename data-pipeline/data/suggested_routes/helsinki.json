@@ -1,0 +1,148 @@
+{
+  "city": "helsinki",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-helsinki-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Helsinki Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Helsínquia",
+      "generated_by": "rules",
+      "stops": [
+        "Q523268",
+        "Q1393988",
+        "Q2031357",
+        "Q1329554",
+        "Q11850682",
+        "Q3129969",
+        "Q738015",
+        "Q212251"
+      ],
+      "distance_m": 767,
+      "walking_seconds": 614,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-uspenski-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Uspenski Cathedral",
+      "title_pt": "Destaques históricos perto de Uspenski Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q24866579",
+        "Q1355001",
+        "Q608346",
+        "Q14116244",
+        "Q541933",
+        "Q1418116",
+        "Q64007552",
+        "Q754507"
+      ],
+      "distance_m": 2562,
+      "walking_seconds": 2050,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "museums-and-collections-around-temppeliaukio-church",
+      "theme": "museums",
+      "title_en": "Museums and collections around Temppeliaukio Church",
+      "title_pt": "Museus e coleções perto de Temppeliaukio kirkko",
+      "generated_by": "rules",
+      "stops": [
+        "Q2972543",
+        "Q1132809",
+        "Q1418136",
+        "Q3329689",
+        "Q3330830",
+        "Q5710459",
+        "Q4117100",
+        "Q2614280"
+      ],
+      "distance_m": 2468,
+      "walking_seconds": 1974,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "monuments-and-memorials-around-helsinki-central-railway-stat",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Helsinki Central Railway Station",
+      "title_pt": "Monumentos e memoriais perto de Estação central de Helsínquia",
+      "generated_by": "rules",
+      "stops": [
+        "Q11850731",
+        "Q1044613",
+        "Q11879927",
+        "Q7797830",
+        "Q322921",
+        "Q2511913",
+        "Q2983474",
+        "Q1633361"
+      ],
+      "distance_m": 1277,
+      "walking_seconds": 1022,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-bad-bad-boy",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bad Bad Boy",
+      "title_pt": "Destaques históricos perto de Bad Bad Boy",
+      "generated_by": "rules",
+      "stops": [
+        "Q26723790",
+        "Q1393952",
+        "Q3068506",
+        "Q1698940",
+        "Q3330350",
+        "Q435712",
+        "Q11857346",
+        "Q646339"
+      ],
+      "distance_m": 3864,
+      "walking_seconds": 3091,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "castles-and-viewpoints-around-suomenlinna",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Suomenlinna",
+      "title_pt": "Castelos e miradouros perto de Suomenlinna",
+      "generated_by": "rules",
+      "stops": ["Q6436774", "Q5495335", "Q1312530", "Q1292442", "Q5409330", "Q283140", "Q3100829"],
+      "distance_m": 2336,
+      "walking_seconds": 1869,
+      "visit_minutes": 500
+    },
+    {
+      "slug": "city-landmarks-around-vuoristorata",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Vuoristorata",
+      "title_pt": "Marcos da cidade perto de Vuoristorata",
+      "generated_by": "rules",
+      "stops": [
+        "Q4354686",
+        "Q18662645",
+        "Q2981697",
+        "Q116477053",
+        "Q1800024",
+        "Q826735",
+        "Q56401819",
+        "Q1127867"
+      ],
+      "distance_m": 3082,
+      "walking_seconds": 2466,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "monuments-and-memorials-around-sibelius-monument",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Sibelius Monument",
+      "title_pt": "Monumentos e memoriais perto de Sibelius Monument",
+      "generated_by": "rules",
+      "stops": ["Q5405456", "Q2584017", "Q17382947", "Q468343"],
+      "distance_m": 3098,
+      "walking_seconds": 2478,
+      "visit_minutes": 90
+    }
+  ]
+}

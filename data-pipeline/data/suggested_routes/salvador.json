@@ -1,0 +1,156 @@
+{
+  "city": "salvador",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-sao-francisco-church-and-convent",
+      "theme": "churches",
+      "title_en": "Churches and chapels around São Francisco Church and Convent",
+      "title_pt": "Igrejas e capelas perto de Igreja e Convento de São Francisco",
+      "generated_by": "rules",
+      "stops": [
+        "Q10373025",
+        "Q3401486",
+        "Q3272450",
+        "Q10333375",
+        "Q3401484",
+        "Q28764310",
+        "Q10300288",
+        "Q3279443"
+      ],
+      "distance_m": 732,
+      "walking_seconds": 586,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-sao-marcelo-fort",
+      "theme": "highlights",
+      "title_en": "Historic highlights around São Marcelo Fort",
+      "title_pt": "Destaques históricos perto de Forte de São Marcelo",
+      "generated_by": "rules",
+      "stops": [
+        "Q10286271",
+        "Q20055860",
+        "Q3360946",
+        "Q2893436",
+        "Q9695395",
+        "Q10353259",
+        "Q9650869",
+        "Q3078258"
+      ],
+      "distance_m": 2665,
+      "walking_seconds": 2132,
+      "visit_minutes": 500
+    },
+    {
+      "slug": "monuments-and-memorials-around-elevador-lacerda",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Elevador Lacerda",
+      "title_pt": "Monumentos e memoriais perto de Elevador Lacerda",
+      "generated_by": "rules",
+      "stops": [
+        "Q58877696",
+        "Q3306262",
+        "Q10353251",
+        "Q10343977",
+        "Q1328348",
+        "Q10353389",
+        "Q66315613",
+        "Q55755353"
+      ],
+      "distance_m": 826,
+      "walking_seconds": 661,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "monuments-and-memorials-around-historic-centre-of-salvador-d",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Historic Centre of Salvador da Bahia",
+      "title_pt": "Monumentos e memoriais perto de Conjunto Arquitetônico, Paisagístico e Urbanísti",
+      "generated_by": "rules",
+      "stops": [
+        "Q10300551",
+        "Q10281780",
+        "Q55853686",
+        "Q30933803",
+        "Q10300292",
+        "Q53567943",
+        "Q10283938",
+        "Q5572706"
+      ],
+      "distance_m": 2302,
+      "walking_seconds": 1842,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "historic-highlights-around-forte-de-santo-antonio-da-barra",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Forte de Santo Antônio da Barra",
+      "title_pt": "Destaques históricos perto de Forte de Santo Antônio da Barra",
+      "generated_by": "rules",
+      "stops": [
+        "Q20056076",
+        "Q20053238",
+        "Q55264729",
+        "Q10283965",
+        "Q58877523",
+        "Q10283907",
+        "Q56199880",
+        "Q10283940"
+      ],
+      "distance_m": 2817,
+      "walking_seconds": 2254,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-largo-do-pelourinho",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Largo do Pelourinho",
+      "title_pt": "Destaques históricos perto de Largo do Pelourinho",
+      "generated_by": "rules",
+      "stops": [
+        "Q10333768",
+        "Q66315986",
+        "Q10353433",
+        "Q67176345",
+        "Q18482640",
+        "Q56669213",
+        "Q55097779",
+        "Q10316381"
+      ],
+      "distance_m": 3341,
+      "walking_seconds": 2673,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "historic-highlights-around-bahia-museum-of-art",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bahia Museum of Art",
+      "title_pt": "Destaques históricos perto de Museu de Arte da Bahia",
+      "generated_by": "rules",
+      "stops": [
+        "Q10343985",
+        "Q10284049",
+        "Q10378817",
+        "Q66071954",
+        "Q9685986",
+        "Q5662157",
+        "Q10300442"
+      ],
+      "distance_m": 2144,
+      "walking_seconds": 1715,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-nosso-senhor-do-bonfim",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Nosso Senhor do Bonfim",
+      "title_pt": "Igrejas e capelas perto de Igreja de Nosso Senhor do Bonfim",
+      "generated_by": "rules",
+      "stops": ["Q55222836", "Q10283857", "Q51135322", "Q583900"],
+      "distance_m": 3522,
+      "walking_seconds": 2818,
+      "visit_minutes": 170
+    }
+  ]
+}

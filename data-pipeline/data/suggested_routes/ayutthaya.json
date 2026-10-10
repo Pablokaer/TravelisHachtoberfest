@@ -1,0 +1,69 @@
+{
+  "city": "ayutthaya",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-wat-mahathat",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Mahathat",
+      "title_pt": "Igrejas e capelas perto de Wat Mahathat",
+      "generated_by": "rules",
+      "stops": [
+        "Q1062477",
+        "Q2552349",
+        "Q16004183",
+        "Q660585",
+        "Q2552379",
+        "Q16004416",
+        "Q1061764"
+      ],
+      "distance_m": 3718,
+      "walking_seconds": 2974,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-yai-chai-mongkhon",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Yai Chai Mongkhon",
+      "title_pt": "Igrejas e capelas perto de Wat Yai Chai Mongkhon",
+      "generated_by": "rules",
+      "stops": ["Q2552414", "Q13022445", "Q2552401", "Q55096367", "Q2552345"],
+      "distance_m": 3386,
+      "walking_seconds": 2709,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-chaiwatthanaram",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Chaiwatthanaram",
+      "title_pt": "Igrejas e capelas perto de Wat Chaiwatthanaram",
+      "generated_by": "rules",
+      "stops": ["Q663107", "Q13020691", "Q2063779", "Q22101485"],
+      "distance_m": 4550,
+      "walking_seconds": 3640,
+      "visit_minutes": 120
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-phutthaisawan",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Phutthaisawan",
+      "title_pt": "Igrejas e capelas perto de Wat Phutthaisawan",
+      "generated_by": "rules",
+      "stops": ["Q13021260", "Q116115369", "Q644043"],
+      "distance_m": 2235,
+      "walking_seconds": 1788,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "churches-and-chapels-around-chedi-phukhao-thong",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Chedi Phukhao Thong",
+      "title_pt": "Igrejas e capelas perto de Chedi Phukhao Thong",
+      "generated_by": "rules",
+      "stops": ["Q10834364", "Q59684937", "Q111446650", "Q114713470", "Q1471396"],
+      "distance_m": 4359,
+      "walking_seconds": 3487,
+      "visit_minutes": 140
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "city": "cordoba",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-alcazar-de-los-reyes-cristianos",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Alcázar de los Reyes Cristianos",
+      "title_pt": "Destaques históricos perto de Alcázar de los Reyes Cristianos",
+      "generated_by": "rules",
+      "stops": [
+        "Q97623655",
+        "Q6033763",
+        "Q6023167",
+        "Q15529756",
+        "Q16915763",
+        "Q5664252",
+        "Q212625",
+        "Q97625652"
+      ],
+      "distance_m": 1448,
+      "walking_seconds": 1158,
+      "visit_minutes": 445
+    },
+    {
+      "slug": "historic-highlights-around-mosque-cathedral-of-cordoba",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mosque-Cathedral of Cordoba",
+      "title_pt": "Destaques históricos perto de Mesquita-Catedral de Córdova",
+      "generated_by": "rules",
+      "stops": [
+        "Q1105932",
+        "Q9090229",
+        "Q97626441",
+        "Q59662949",
+        "Q33200",
+        "Q97622610",
+        "Q58808826",
+        "Q16472207"
+      ],
+      "distance_m": 1099,
+      "walking_seconds": 879,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "historic-highlights-around-al-morabito-mosque",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Al-Morabito Mosque",
+      "title_pt": "Destaques históricos perto de Al-Morabito Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q2696372",
+        "Q7126321",
+        "Q28221700",
+        "Q1106161",
+        "Q9663223",
+        "Q6150560",
+        "Q3585440",
+        "Q97626593"
+      ],
+      "distance_m": 1524,
+      "walking_seconds": 1219,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-museo-arqueologico-de-cordoba",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museo Arqueológico de Córdoba",
+      "title_pt": "Destaques históricos perto de Museo Arqueológico de Córdoba",
+      "generated_by": "rules",
+      "stops": [
+        "Q3498131",
+        "Q1108239",
+        "Q6023225",
+        "Q5400999",
+        "Q5786096",
+        "Q3329471",
+        "Q6033464",
+        "Q6033943"
+      ],
+      "distance_m": 1442,
+      "walking_seconds": 1154,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "churches-and-chapels-around-city-walls-of-cordoba",
+      "theme": "churches",
+      "title_en": "Churches and chapels around City walls of Córdoba",
+      "title_pt": "Igrejas e capelas perto de Muralhas romanas de Córdoba",
+      "generated_by": "rules",
+      "stops": [
+        "Q5861987",
+        "Q5909291",
+        "Q97622909",
+        "Q97626452",
+        "Q97623648",
+        "Q5722101",
+        "Q1108182",
+        "Q15554384"
+      ],
+      "distance_m": 2840,
+      "walking_seconds": 2272,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "churches-and-chapels-around-cordoba-synagogue",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Córdoba Synagogue",
+      "title_pt": "Igrejas e capelas perto de Sinagoga de Córdova",
+      "generated_by": "rules",
+      "stops": [
+        "Q7415026",
+        "Q5910589",
+        "Q9064500",
+        "Q2643179",
+        "Q11065292",
+        "Q59244227",
+        "Q97623784",
+        "Q3527913"
+      ],
+      "distance_m": 1627,
+      "walking_seconds": 1302,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "city-landmarks-around-templo-romano-calle-claudio-marcelo",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Templo romano calle Claudio Marcelo",
+      "title_pt": "Marcos da cidade perto de Templo romano de Córdoba",
+      "generated_by": "rules",
+      "stops": [
+        "Q6150491",
+        "Q97625649",
+        "Q2997165",
+        "Q28518823",
+        "Q97623653",
+        "Q5646129",
+        "Q5648218",
+        "Q3906566"
+      ],
+      "distance_m": 1266,
+      "walking_seconds": 1013,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "historic-highlights-around-mausoleo-romano-puerta-gallegos",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mausoleo romano Puerta Gallegos",
+      "title_pt": "Destaques históricos perto de Mausoleo romano Puerta Gallegos",
+      "generated_by": "rules",
+      "stops": ["Q2843706", "Q6058093", "Q3818305", "Q97626461"],
+      "distance_m": 3502,
+      "walking_seconds": 2802,
+      "visit_minutes": 145
+    }
+  ]
+}

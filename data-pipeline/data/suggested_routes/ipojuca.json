@@ -1,0 +1,17 @@
+{
+  "city": "ipojuca",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "castles-and-viewpoints-around-fort-pontael",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Fort Pontael",
+      "title_pt": "Castelos e miradouros perto de Forte do Pontal de Nazaré",
+      "generated_by": "rules",
+      "stops": ["Q10358395", "Q10284128", "Q10283981"],
+      "distance_m": 2370,
+      "walking_seconds": 1896,
+      "visit_minutes": 270
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "city": "frankfurt",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-romer",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Römer",
+      "title_pt": "Destaques históricos perto de Römer",
+      "generated_by": "rules",
+      "stops": [
+        "Q17321191",
+        "Q896039",
+        "Q198106",
+        "Q2064162",
+        "Q195146",
+        "Q198347",
+        "Q1151086",
+        "Q1313525"
+      ],
+      "distance_m": 1076,
+      "walking_seconds": 861,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "museums-and-collections-around-frankfurt-cathedral",
+      "theme": "museums",
+      "title_en": "Museums and collections around Frankfurt Cathedral",
+      "title_pt": "Museus e coleções perto de Catedral de Frankfurt",
+      "generated_by": "rules",
+      "stops": [
+        "Q1444994",
+        "Q195141",
+        "Q436054",
+        "Q1481923",
+        "Q176293",
+        "Q1525564",
+        "Q57341",
+        "Q456994"
+      ],
+      "distance_m": 650,
+      "walking_seconds": 520,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-palais-thurn-und-taxis",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palais Thurn und Taxis",
+      "title_pt": "Destaques históricos perto de Palais Thurn und Taxis",
+      "generated_by": "rules",
+      "stops": [
+        "Q1236253",
+        "Q1281578",
+        "Q195176",
+        "Q50027479",
+        "Q282656",
+        "Q883643",
+        "Q1247627",
+        "Q553189"
+      ],
+      "distance_m": 1996,
+      "walking_seconds": 1597,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "museums-and-collections-around-stadel-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Städel Museum",
+      "title_pt": "Museus e coleções perto de Museu Städel",
+      "generated_by": "rules",
+      "stops": [
+        "Q1194089",
+        "Q1954440",
+        "Q1823966",
+        "Q163804",
+        "Q1954640",
+        "Q278571",
+        "Q1954571",
+        "Q198418"
+      ],
+      "distance_m": 2115,
+      "walking_seconds": 1692,
+      "visit_minutes": 650
+    },
+    {
+      "slug": "monuments-and-memorials-around-senckenberg-museum",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Senckenberg Museum",
+      "title_pt": "Monumentos e memoriais perto de Museu de História Natural Senckenberg",
+      "generated_by": "rules",
+      "stops": ["Q706441", "Q685987", "Q1320557", "Q195190", "Q1322919", "Q321239", "Q1748073"],
+      "distance_m": 4840,
+      "walking_seconds": 3872,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "churches-and-chapels-around-alte-brucke",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Alte Brücke",
+      "title_pt": "Igrejas e capelas perto de Alte Brücke",
+      "generated_by": "rules",
+      "stops": [
+        "Q1423050",
+        "Q674166",
+        "Q895613",
+        "Q1237975",
+        "Q1497545",
+        "Q435406",
+        "Q1206439",
+        "Q1185719"
+      ],
+      "distance_m": 2274,
+      "walking_seconds": 1819,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-the-redeemer-bad-hombu",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of the Redeemer, Bad Homburg",
+      "title_pt": "Igrejas e capelas perto de Church of the Redeemer, Bad Homburg",
+      "generated_by": "rules",
+      "stops": ["Q630576", "Q14906335", "Q23455116", "Q317447"],
+      "distance_m": 1303,
+      "walking_seconds": 1042,
+      "visit_minutes": 120
+    },
+    {
+      "slug": "churches-and-chapels-around-holy-cross-church-frankfurt-born",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Holy Cross Church (Frankfurt-Bornheim)",
+      "title_pt": "Igrejas e capelas perto de Holy Cross Church (Frankfurt-Bornheim)",
+      "generated_by": "rules",
+      "stops": ["Q14914921", "Q1498625", "Q1895582"],
+      "distance_m": 3585,
+      "walking_seconds": 2868,
+      "visit_minutes": 90
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "city": "da-nang",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-dragon-river-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dragon River Bridge",
+      "title_pt": "Marcos da cidade perto de Dragon River Bridge",
+      "generated_by": "rules",
+      "stops": ["Q10800905", "Q6940790", "Q5305270", "Q65164322", "Q7833322"],
+      "distance_m": 3197,
+      "walking_seconds": 2558,
+      "visit_minutes": 180
+    }
+  ]
+}

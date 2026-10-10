@@ -1,0 +1,166 @@
+{
+  "city": "turin",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-sindone-chapel",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Sindone Chapel",
+      "title_pt": "Destaques históricos perto de Sindone Chapel",
+      "generated_by": "rules",
+      "stops": [
+        "Q3868293",
+        "Q3889843",
+        "Q19824",
+        "Q3868190",
+        "Q3657503",
+        "Q958699",
+        "Q99605378",
+        "Q2245152"
+      ],
+      "distance_m": 422,
+      "walking_seconds": 338,
+      "visit_minutes": 500
+    },
+    {
+      "slug": "historic-highlights-around-museo-egizio",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museo Egizio",
+      "title_pt": "Destaques históricos perto de Museu Egípcio",
+      "generated_by": "rules",
+      "stops": [
+        "Q3995315",
+        "Q3672992",
+        "Q3902294",
+        "Q3663864",
+        "Q19877",
+        "Q3669996",
+        "Q1062079",
+        "Q19829"
+      ],
+      "distance_m": 798,
+      "walking_seconds": 638,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "museums-and-collections-around-mole-antonelliana",
+      "theme": "museums",
+      "title_en": "Museums and collections around Mole Antonelliana",
+      "title_pt": "Museus e coleções perto de Mole Antonelliana",
+      "generated_by": "rules",
+      "stops": [
+        "Q3673068",
+        "Q3661164",
+        "Q3902364",
+        "Q3867567",
+        "Q201902",
+        "Q19874",
+        "Q3670152",
+        "Q3623078"
+      ],
+      "distance_m": 2508,
+      "walking_seconds": 2006,
+      "visit_minutes": 515
+    },
+    {
+      "slug": "churches-and-chapels-around-palazzo-madama-and-casaforte-deg",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Palazzo Madama and Casaforte degli Acaja, Turin",
+      "title_pt": "Igrejas e capelas perto de Palazzo Madama e Casaforte degli Acaja",
+      "generated_by": "rules",
+      "stops": [
+        "Q3674233",
+        "Q3670145",
+        "Q3889878",
+        "Q2887164",
+        "Q657635",
+        "Q3819018",
+        "Q19826",
+        "Q3902175"
+      ],
+      "distance_m": 1250,
+      "walking_seconds": 1000,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "museums-and-collections-around-castello-del-valentino",
+      "theme": "museums",
+      "title_en": "Museums and collections around Castello del Valentino",
+      "title_pt": "Museus e coleções perto de Castello del Valentino",
+      "generated_by": "rules",
+      "stops": [
+        "Q3902167",
+        "Q3508094",
+        "Q3886281",
+        "Q19830",
+        "Q127690910",
+        "Q934424",
+        "Q3868188",
+        "Q105043887"
+      ],
+      "distance_m": 3691,
+      "walking_seconds": 2953,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "churches-and-chapels-around-basilica-of-our-lady-help-of-chr",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Basilica of Our Lady Help of Christians",
+      "title_pt": "Igrejas e capelas perto de Basílica Nossa Senhora Auxiliadora",
+      "generated_by": "rules",
+      "stops": [
+        "Q3902347",
+        "Q115959626",
+        "Q1895577",
+        "Q3471768",
+        "Q28600058",
+        "Q16540476",
+        "Q3867873",
+        "Q3889607"
+      ],
+      "distance_m": 2016,
+      "walking_seconds": 1613,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-casa-fenoglio-la-fleur",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Casa Fenoglio-La Fleur",
+      "title_pt": "Igrejas e capelas perto de Casa Fenoglio-La Fleur",
+      "generated_by": "rules",
+      "stops": [
+        "Q61439226",
+        "Q12950975",
+        "Q3862634",
+        "Q3757708",
+        "Q30888059",
+        "Q110473857",
+        "Q2940753",
+        "Q3672889"
+      ],
+      "distance_m": 4161,
+      "walking_seconds": 3329,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "churches-and-chapels-around-palatine-towers",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Palatine Towers",
+      "title_pt": "Igrejas e capelas perto de Palatine Towers",
+      "generated_by": "rules",
+      "stops": [
+        "Q3907995",
+        "Q1054755",
+        "Q3635634",
+        "Q3669898",
+        "Q20008186",
+        "Q3669839",
+        "Q3674069",
+        "Q206266"
+      ],
+      "distance_m": 2438,
+      "walking_seconds": 1950,
+      "visit_minutes": 350
+    }
+  ]
+}

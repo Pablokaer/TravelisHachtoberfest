@@ -1,0 +1,130 @@
+{
+  "city": "cologne",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-cologne-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Cologne Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Colônia",
+      "generated_by": "rules",
+      "stops": ["Q564898", "Q880674", "Q365", "Q4176", "Q707955", "Q623600", "Q703640", "Q80786"],
+      "distance_m": 847,
+      "walking_seconds": 678,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "historic-highlights-around-hohenzollern-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Hohenzollern Bridge",
+      "title_pt": "Destaques históricos perto de Hohenzollern Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q457665",
+        "Q881186",
+        "Q696762",
+        "Q325162",
+        "Q877567",
+        "Q564520",
+        "Q316976",
+        "Q333893"
+      ],
+      "distance_m": 3853,
+      "walking_seconds": 3082,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "museums-and-collections-around-colonia-claudia-ara-agrippine",
+      "theme": "museums",
+      "title_en": "Museums and collections around Colonia Claudia Ara Agrippinensium",
+      "title_pt": "Museus e coleções perto de Colonia Claudia Ara Agrippinensium",
+      "generated_by": "rules",
+      "stops": [
+        "Q1621165",
+        "Q1937497",
+        "Q23048",
+        "Q694490",
+        "Q700959",
+        "Q1764717",
+        "Q636746",
+        "Q323556"
+      ],
+      "distance_m": 677,
+      "walking_seconds": 542,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "churches-and-chapels-around-schokoladenmuseum-koln",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Schokoladenmuseum Köln",
+      "title_pt": "Igrejas e capelas perto de Schokoladenmuseum Köln",
+      "generated_by": "rules",
+      "stops": [
+        "Q2275296",
+        "Q55399",
+        "Q95648",
+        "Q323845",
+        "Q598352",
+        "Q316362",
+        "Q1410623",
+        "Q1389"
+      ],
+      "distance_m": 2131,
+      "walking_seconds": 1705,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "historic-highlights-around-st-gereon-s-basilica",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Gereon's Basilica",
+      "title_pt": "Destaques históricos perto de St. Gereon's Basilica",
+      "generated_by": "rules",
+      "stops": [
+        "Q2320737",
+        "Q560033",
+        "Q1200606",
+        "Q682188",
+        "Q1351847",
+        "Q13583155",
+        "Q526047",
+        "Q319255"
+      ],
+      "distance_m": 1840,
+      "walking_seconds": 1472,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-cologne-central-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Cologne Central Mosque",
+      "title_pt": "Marcos da cidade perto de Cologne Central Mosque",
+      "generated_by": "rules",
+      "stops": ["Q884204", "Q883970", "Q836059", "Q153646", "Q17623395"],
+      "distance_m": 3532,
+      "walking_seconds": 2826,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-roonstrasse-synagogue",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Roonstrasse Synagogue",
+      "title_pt": "Marcos da cidade perto de Roonstrasse Synagogue",
+      "generated_by": "rules",
+      "stops": ["Q950", "Q2133582", "Q565187", "Q544285", "Q1520210"],
+      "distance_m": 3454,
+      "walking_seconds": 2763,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "churches-and-chapels-around-st-kolumba-cologne",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St. Kolumba, Cologne",
+      "title_pt": "Igrejas e capelas perto de St. Kolumba, Cologne",
+      "generated_by": "rules",
+      "stops": ["Q881214", "Q2319949", "Q291014", "Q457659"],
+      "distance_m": 2503,
+      "walking_seconds": 2002,
+      "visit_minutes": 180
+    }
+  ]
+}

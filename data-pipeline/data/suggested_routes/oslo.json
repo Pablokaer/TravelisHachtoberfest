@@ -1,0 +1,157 @@
+{
+  "city": "oslo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-viking-ship-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Viking Ship Museum",
+      "title_pt": "Museus e coleções perto de Vikingskipshuset",
+      "generated_by": "rules",
+      "stops": [
+        "Q111166573",
+        "Q1818601",
+        "Q1513478",
+        "Q937521",
+        "Q961220",
+        "Q1415972",
+        "Q941250",
+        "Q1334270"
+      ],
+      "distance_m": 3630,
+      "walking_seconds": 2904,
+      "visit_minutes": 575
+    },
+    {
+      "slug": "museums-and-collections-around-akershus-fortress",
+      "theme": "museums",
+      "title_en": "Museums and collections around Akershus Fortress",
+      "title_pt": "Museus e coleções perto de Fortaleza de Akershus",
+      "generated_by": "rules",
+      "stops": [
+        "Q4793001",
+        "Q6972774",
+        "Q644464",
+        "Q1781522",
+        "Q7061181",
+        "Q17775812",
+        "Q373850",
+        "Q251078"
+      ],
+      "distance_m": 1953,
+      "walking_seconds": 1562,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "museums-and-collections-around-royal-palace-oslo",
+      "theme": "museums",
+      "title_en": "Museums and collections around Royal Palace, Oslo",
+      "title_pt": "Museus e coleções perto de Palácio Real de Oslo",
+      "generated_by": "rules",
+      "stops": [
+        "Q7558368",
+        "Q42023914",
+        "Q1519078",
+        "Q7541452",
+        "Q12336089",
+        "Q863932",
+        "Q1772519",
+        "Q3356148"
+      ],
+      "distance_m": 2050,
+      "walking_seconds": 1640,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "museums-and-collections-around-angry-boy",
+      "theme": "museums",
+      "title_en": "Museums and collections around Angry Boy",
+      "title_pt": "Museus e coleções perto de Angry Boy",
+      "generated_by": "rules",
+      "stops": [
+        "Q7928869",
+        "Q6877320",
+        "Q2578922",
+        "Q16678093",
+        "Q7460945",
+        "Q1413698",
+        "Q7107052",
+        "Q6419506"
+      ],
+      "distance_m": 4135,
+      "walking_seconds": 3308,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "city-landmarks-around-oslo-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Oslo Cathedral",
+      "title_pt": "Marcos da cidade perto de Catedral de Oslo",
+      "generated_by": "rules",
+      "stops": [
+        "Q19386040",
+        "Q2842096",
+        "Q3133285",
+        "Q1063209",
+        "Q3356024",
+        "Q4587788",
+        "Q6515317",
+        "Q4587553"
+      ],
+      "distance_m": 1981,
+      "walking_seconds": 1585,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "historic-highlights-around-munch-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Munch Museum",
+      "title_pt": "Destaques históricos perto de Munchmuseet",
+      "generated_by": "rules",
+      "stops": [
+        "Q6514373",
+        "Q7492014",
+        "Q844926",
+        "Q11989332",
+        "Q1133099",
+        "Q7587620",
+        "Q7083486",
+        "Q4574817"
+      ],
+      "distance_m": 2340,
+      "walking_seconds": 1872,
+      "visit_minutes": 385
+    },
+    {
+      "slug": "city-landmarks-around-var-frelsers-gravlund",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Vår Frelsers gravlund",
+      "title_pt": "Marcos da cidade perto de Cemitério Vår Frelsers",
+      "generated_by": "rules",
+      "stops": [
+        "Q11963360",
+        "Q557132",
+        "Q1773529",
+        "Q1069938",
+        "Q5347737",
+        "Q1260032",
+        "Q745748",
+        "Q7155388"
+      ],
+      "distance_m": 3702,
+      "walking_seconds": 2962,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "museums-and-collections-around-national-museum-of-art-archit",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Museum of Art, Architecture and Design",
+      "title_pt": "Museus e coleções perto de Museu Nacional de Arte",
+      "generated_by": "rules",
+      "stops": ["Q6514688", "Q1552134", "Q941120", "Q1132918", "Q12006503", "Q761048"],
+      "distance_m": 4237,
+      "walking_seconds": 3390,
+      "visit_minutes": 420
+    }
+  ]
+}

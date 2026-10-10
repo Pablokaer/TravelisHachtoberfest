@@ -1,0 +1,76 @@
+{
+  "city": "rabat",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-dar-al-makhzen",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dar al-Makhzen",
+      "title_pt": "Marcos da cidade perto de Dar-al-Makhzen",
+      "generated_by": "rules",
+      "stops": [
+        "Q20726223",
+        "Q12238602",
+        "Q90432220",
+        "Q9163659",
+        "Q48815822",
+        "Q728166",
+        "Q3469437",
+        "Q2314811"
+      ],
+      "distance_m": 4308,
+      "walking_seconds": 3446,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "city-landmarks-around-hassan-tower",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hassan Tower",
+      "title_pt": "Marcos da cidade perto de Torre Hassan",
+      "generated_by": "rules",
+      "stops": [
+        "Q102045582",
+        "Q103025679",
+        "Q17164860",
+        "Q579331",
+        "Q219028",
+        "Q3396654",
+        "Q3396559",
+        "Q2389277"
+      ],
+      "distance_m": 3224,
+      "walking_seconds": 2579,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-st-peter-s-cathedral-rabat",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Peter's Cathedral (Rabat)",
+      "title_pt": "Destaques históricos perto de Catedral de São Pedro de Rabat",
+      "generated_by": "rules",
+      "stops": [
+        "Q16632080",
+        "Q58897235",
+        "Q3330137",
+        "Q92070974",
+        "Q92071098",
+        "Q83544157",
+        "Q2942435"
+      ],
+      "distance_m": 3010,
+      "walking_seconds": 2408,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "city-landmarks-around-lalla-al-shahba-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Lalla Al-Shahba Mosque",
+      "title_pt": "Marcos da cidade perto de Lalla Al-Shahba Mosque",
+      "generated_by": "rules",
+      "stops": ["Q16507484", "Q58897158", "Q3053746", "Q105734918", "Q3293729"],
+      "distance_m": 2525,
+      "walking_seconds": 2020,
+      "visit_minutes": 240
+    }
+  ]
+}

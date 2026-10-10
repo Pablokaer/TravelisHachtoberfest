@@ -1,0 +1,92 @@
+{
+  "city": "ho-chi-minh-city",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-independence-palace",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Independence Palace",
+      "title_pt": "Marcos da cidade perto de Palácio da Reunificação",
+      "generated_by": "rules",
+      "stops": [
+        "Q864767",
+        "Q2227195",
+        "Q10752011",
+        "Q428129",
+        "Q10771949",
+        "Q703871",
+        "Q933384",
+        "Q4448947"
+      ],
+      "distance_m": 3362,
+      "walking_seconds": 2690,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "city-landmarks-around-citadel-of-saigon-1790",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Citadel of Saigon (1790)",
+      "title_pt": "Marcos da cidade perto de Citadel of Saigon (1790)",
+      "generated_by": "rules",
+      "stops": ["Q66177958", "Q108864020", "Q6941045", "Q10841729", "Q5122391", "Q6121304"],
+      "distance_m": 3441,
+      "walking_seconds": 2753,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-ho-chi-minh-city-museum-of-fine-arts",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ho Chi Minh City Museum of Fine Arts",
+      "title_pt": "Marcos da cidade perto de Ho Chi Minh City Museum of Fine Arts",
+      "generated_by": "rules",
+      "stops": ["Q66587141", "Q2756351", "Q16481264", "Q10743440", "Q66188628", "Q19705165"],
+      "distance_m": 3212,
+      "walking_seconds": 2570,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-tan-dinh-church",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Tan Dinh church",
+      "title_pt": "Marcos da cidade perto de Tan Dinh church",
+      "generated_by": "rules",
+      "stops": ["Q1005868", "Q10743286", "Q7682043", "Q30919767", "Q7932538"],
+      "distance_m": 3154,
+      "walking_seconds": 2523,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "museums-and-collections-around-vietnam-people-s-air-force-mu",
+      "theme": "museums",
+      "title_en": "Museums and collections around Vietnam People's Air Force Museum, Ho Chi Minh Ci",
+      "title_pt": "Museus e coleções perto de Vietnam People's Air Force Museum, Ho Chi Minh City",
+      "generated_by": "rules",
+      "stops": ["Q136025526", "Q7928535", "Q18207723"],
+      "distance_m": 2765,
+      "walking_seconds": 2212,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-an-quang-pagoda",
+      "theme": "landmarks",
+      "title_en": "City landmarks around An Quang Pagoda",
+      "title_pt": "Marcos da cidade perto de An Quang Pagoda",
+      "generated_by": "rules",
+      "stops": ["Q10832864", "Q482355", "Q10800896", "Q10825817"],
+      "distance_m": 4020,
+      "walking_seconds": 3216,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "city-landmarks-around-thien-hau-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Thien Hau Temple",
+      "title_pt": "Marcos da cidade perto de Thien Hau Temple",
+      "generated_by": "rules",
+      "stops": ["Q6837230", "Q7268821", "Q1063916"],
+      "distance_m": 1267,
+      "walking_seconds": 1014,
+      "visit_minutes": 70
+    }
+  ]
+}

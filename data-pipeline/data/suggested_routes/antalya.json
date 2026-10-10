@@ -1,0 +1,37 @@
+{
+  "city": "antalya",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-hadrian-s-gate",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hadrian's Gate",
+      "title_pt": "Marcos da cidade perto de Hadrian's Gate",
+      "generated_by": "rules",
+      "stops": [
+        "Q85867901",
+        "Q6395079",
+        "Q4306139",
+        "Q1283114",
+        "Q1589488",
+        "Q6060345",
+        "Q1753844",
+        "Q48802076"
+      ],
+      "distance_m": 1344,
+      "walking_seconds": 1075,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-hidirlik-tower",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hidirlik Tower",
+      "title_pt": "Marcos da cidade perto de Torre Hıdırlık",
+      "generated_by": "rules",
+      "stops": ["Q20988340", "Q4812882", "Q218118", "Q6055656", "Q3409639"],
+      "distance_m": 3199,
+      "walking_seconds": 2559,
+      "visit_minutes": 240
+    }
+  ]
+}

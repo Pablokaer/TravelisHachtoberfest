@@ -1,0 +1,148 @@
+{
+  "city": "granada",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "palaces-and-noble-houses-around-alhambra",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Alhambra",
+      "title_pt": "Palácios e casas nobres perto de Alhambra",
+      "generated_by": "rules",
+      "stops": [
+        "Q43080083",
+        "Q6034176",
+        "Q3361204",
+        "Q2046808",
+        "Q72715355",
+        "Q72622974",
+        "Q47476",
+        "Q2479372"
+      ],
+      "distance_m": 696,
+      "walking_seconds": 557,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-s-a-i-catedral-metropolitana-de-l",
+      "theme": "highlights",
+      "title_en": "Historic highlights around S.A.I. Catedral Metropolitana de la Encarnación",
+      "title_pt": "Destaques históricos perto de Catedral de Granada",
+      "generated_by": "rules",
+      "stops": [
+        "Q6079728",
+        "Q50125816",
+        "Q16615173",
+        "Q4115057",
+        "Q9007719",
+        "Q429192",
+        "Q5419362",
+        "Q6079430"
+      ],
+      "distance_m": 660,
+      "walking_seconds": 528,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-generalife",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Generalife",
+      "title_pt": "Destaques históricos perto de Generalife",
+      "generated_by": "rules",
+      "stops": [
+        "Q98501261",
+        "Q525811",
+        "Q72715409",
+        "Q97605864",
+        "Q52866272",
+        "Q9007303",
+        "Q97603153",
+        "Q5755420"
+      ],
+      "distance_m": 1787,
+      "walking_seconds": 1430,
+      "visit_minutes": 500
+    },
+    {
+      "slug": "historic-highlights-around-university-of-granada",
+      "theme": "highlights",
+      "title_en": "Historic highlights around University of Granada",
+      "title_pt": "Destaques históricos perto de Universidade de Granada",
+      "generated_by": "rules",
+      "stops": [
+        "Q1232180",
+        "Q2673220",
+        "Q727101",
+        "Q4502340",
+        "Q5016588",
+        "Q2452989",
+        "Q30603279",
+        "Q97604504"
+      ],
+      "distance_m": 1811,
+      "walking_seconds": 1449,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-granada-mosque",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Granada Mosque",
+      "title_pt": "Destaques históricos perto de Granada Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q6091781",
+        "Q47766458",
+        "Q6012246",
+        "Q2216874",
+        "Q4785407",
+        "Q6091577",
+        "Q5062901",
+        "Q30621860"
+      ],
+      "distance_m": 1469,
+      "walking_seconds": 1175,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-cuarto-real-de-santo-domingo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cuarto Real de Santo Domingo",
+      "title_pt": "Destaques históricos perto de Cuarto Real de Santo Domingo",
+      "generated_by": "rules",
+      "stops": ["Q28664071", "Q5793291", "Q21177802", "Q5295924", "Q6062790", "Q5904202"],
+      "distance_m": 3321,
+      "walking_seconds": 2657,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "churches-and-chapels-around-monasterio-de-san-jeronimo",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Monasterio de San Jerónimo",
+      "title_pt": "Igrejas e capelas perto de Mosteiro de São Jerónimo",
+      "generated_by": "rules",
+      "stops": [
+        "Q5042524",
+        "Q5785865",
+        "Q73174274",
+        "Q6058284",
+        "Q5910251",
+        "Q5755346",
+        "Q17126413",
+        "Q1955435"
+      ],
+      "distance_m": 2770,
+      "walking_seconds": 2216,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "castles-and-viewpoints-around-granada-charterhouse",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Granada Charterhouse",
+      "title_pt": "Castelos e miradouros perto de Cartuja de Granada",
+      "generated_by": "rules",
+      "stops": ["Q96631864", "Q98501260", "Q3895888", "Q2961287", "Q6080315"],
+      "distance_m": 3696,
+      "walking_seconds": 2957,
+      "visit_minutes": 320
+    }
+  ]
+}

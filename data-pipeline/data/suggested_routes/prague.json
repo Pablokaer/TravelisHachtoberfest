@@ -1,0 +1,157 @@
+{
+  "city": "prague",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-prague-astronomical-clock",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Prague Astronomical Clock",
+      "title_pt": "Destaques históricos perto de Orloj",
+      "generated_by": "rules",
+      "stops": [
+        "Q3480881",
+        "Q729370",
+        "Q2332231",
+        "Q98398922",
+        "Q421678",
+        "Q27017",
+        "Q3499497",
+        "Q2595999"
+      ],
+      "distance_m": 509,
+      "walking_seconds": 407,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-prague-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Prague Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Praga",
+      "generated_by": "rules",
+      "stops": [
+        "Q2420392",
+        "Q1594444",
+        "Q898695",
+        "Q193369",
+        "Q1723373",
+        "Q5949",
+        "Q2340793",
+        "Q1437065"
+      ],
+      "distance_m": 1357,
+      "walking_seconds": 1086,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "historic-highlights-around-infant-jesus-of-prague",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Infant Jesus of Prague",
+      "title_pt": "Destaques históricos perto de Menino Jesus de Praga",
+      "generated_by": "rules",
+      "stops": [
+        "Q2424070",
+        "Q569877",
+        "Q1503199",
+        "Q603573",
+        "Q1116389",
+        "Q1054763",
+        "Q12256",
+        "Q1064659"
+      ],
+      "distance_m": 3769,
+      "walking_seconds": 3015,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-wenceslas-square",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Wenceslas Square",
+      "title_pt": "Destaques históricos perto de Praça de Venceslau",
+      "generated_by": "rules",
+      "stops": [
+        "Q29169058",
+        "Q1742720",
+        "Q847613",
+        "Q959038",
+        "Q1488700",
+        "Q942102",
+        "Q188112",
+        "Q3497632"
+      ],
+      "distance_m": 2615,
+      "walking_seconds": 2092,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-vysehrad",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Vyšehrad",
+      "title_pt": "Destaques históricos perto de Vyšehrad",
+      "generated_by": "rules",
+      "stops": [
+        "Q3564622",
+        "Q2916171",
+        "Q616334",
+        "Q118967",
+        "Q1000684",
+        "Q11996973",
+        "Q1514053",
+        "Q956163"
+      ],
+      "distance_m": 3308,
+      "walking_seconds": 2646,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "historic-highlights-around-church-of-our-lady-before-tyn",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of Our Lady before Týn",
+      "title_pt": "Destaques históricos perto de Igreja Nossa Senhora de Týn",
+      "generated_by": "rules",
+      "stops": [
+        "Q970834",
+        "Q1453427",
+        "Q707850",
+        "Q990003",
+        "Q943385",
+        "Q443107",
+        "Q517766",
+        "Q946439"
+      ],
+      "distance_m": 1368,
+      "walking_seconds": 1094,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "monuments-and-memorials-around-charles-bridge",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Charles Bridge",
+      "title_pt": "Monumentos e memoriais perto de Ponte Carlos",
+      "generated_by": "rules",
+      "stops": [
+        "Q2139553",
+        "Q12031424",
+        "Q445762",
+        "Q24971564",
+        "Q204871",
+        "Q17119873",
+        "Q4306202",
+        "Q9336836"
+      ],
+      "distance_m": 1531,
+      "walking_seconds": 1225,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "city-landmarks-around-old-jewish-cemetery",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Old Jewish Cemetery",
+      "title_pt": "Marcos da cidade perto de Cemitério Judeu de Praga",
+      "generated_by": "rules",
+      "stops": ["Q1411047", "Q394832", "Q2667987", "Q438026", "Q599211", "Q12043620", "Q1981883"],
+      "distance_m": 4793,
+      "walking_seconds": 3834,
+      "visit_minutes": 205
+    }
+  ]
+}

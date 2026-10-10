@@ -1,0 +1,17 @@
+{
+  "city": "fernando-de-noronha",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "castles-and-viewpoints-around-forte-de-nossa-senhora-dos-rem",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Forte de Nossa Senhora dos Remédios",
+      "title_pt": "Castelos e miradouros perto de Forte de Nossa Senhora dos Remédios",
+      "generated_by": "rules",
+      "stops": ["Q10358411", "Q10358404", "Q10283873", "Q10300582", "Q10358400"],
+      "distance_m": 3924,
+      "walking_seconds": 3139,
+      "visit_minutes": 390
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "city": "mata-de-sao-joao",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q2566879",
+      "name_en": "Caramuru",
+      "name_pt": "Caramuru",
+      "description_en": "Portuguese explorer",
+      "description_pt": "célebre náufrago português",
+      "categories": ["history"],
+      "birth_year": 1475,
+      "death_year": 1557,
+      "born_here": false,
+      "died_here": true,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Diogo_%C3%81lvares_Corr%C3%AAa%2C_o_Caramuru.jpg/960px-Diogo_%C3%81lvares_Corr%C3%AAa%2C_o_Caramuru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": null,
+      "image_license": "CC BY-SA 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Diogo_%C3%81lvares_Corr%C3%AAa,_o_Caramuru.jpg",
+      "wikipedia_en": "Caramuru",
+      "wikipedia_pt": "Caramuru",
+      "sitelinks": 11
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "city": "hamburg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-miniatur-wunderland",
+      "theme": "museums",
+      "title_en": "Museums and collections around Miniatur Wunderland",
+      "title_pt": "Museus e coleções perto de Miniatur-Wunderland",
+      "generated_by": "rules",
+      "stops": [
+        "Q937608",
+        "Q616790",
+        "Q882600",
+        "Q685524",
+        "Q1979473",
+        "Q3987",
+        "Q877566",
+        "Q877252"
+      ],
+      "distance_m": 3339,
+      "walking_seconds": 2671,
+      "visit_minutes": 590
+    },
+    {
+      "slug": "historic-highlights-around-al-quds-mosque-hamburg",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Al-Quds Mosque Hamburg",
+      "title_pt": "Destaques históricos perto de Al-Quds Mosque Hamburg",
+      "generated_by": "rules",
+      "stops": [
+        "Q169542",
+        "Q3647646",
+        "Q896052",
+        "Q1054368",
+        "Q573491",
+        "Q1300206",
+        "Q51912",
+        "Q82687136"
+      ],
+      "distance_m": 3774,
+      "walking_seconds": 3019,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-b-515",
+      "theme": "highlights",
+      "title_en": "Historic highlights around B-515",
+      "title_pt": "Destaques históricos perto de B-515",
+      "generated_by": "rules",
+      "stops": [
+        "Q479965",
+        "Q1555405",
+        "Q475236",
+        "Q24886347",
+        "Q813228",
+        "Q2316651",
+        "Q882620",
+        "Q204712"
+      ],
+      "distance_m": 2822,
+      "walking_seconds": 2258,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "museums-and-collections-around-st-michaelis-church-hamburg",
+      "theme": "museums",
+      "title_en": "Museums and collections around St. Michaelis Church, Hamburg",
+      "title_pt": "Museus e coleções perto de Igreja de São Miguel",
+      "generated_by": "rules",
+      "stops": [
+        "Q56641198",
+        "Q56641015",
+        "Q56640840",
+        "Q56640733",
+        "Q30526281",
+        "Q28745374",
+        "Q2401758",
+        "Q674472"
+      ],
+      "distance_m": 543,
+      "walking_seconds": 434,
+      "visit_minutes": 660
+    },
+    {
+      "slug": "museums-and-collections-around-dialogue-in-the-dark",
+      "theme": "museums",
+      "title_en": "Museums and collections around Dialogue in the Dark",
+      "title_pt": "Museus e coleções perto de Dialogue in the Dark",
+      "generated_by": "rules",
+      "stops": [
+        "Q16886704",
+        "Q1183156",
+        "Q457196",
+        "Q1512919",
+        "Q866205",
+        "Q535443",
+        "Q880649",
+        "Q2651496"
+      ],
+      "distance_m": 3088,
+      "walking_seconds": 2470,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "city-landmarks-around-heiligengeistfeld",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Heiligengeistfeld",
+      "title_pt": "Marcos da cidade perto de Heiligengeistfeld",
+      "generated_by": "rules",
+      "stops": ["Q1773801", "Q540460", "Q665171", "Q896922", "Q60791255", "Q9187671", "Q648375"],
+      "distance_m": 3053,
+      "walking_seconds": 2442,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "historic-highlights-around-islamic-centre-hamburg",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Islamic Centre Hamburg",
+      "title_pt": "Destaques históricos perto de Islamic Centre Hamburg",
+      "generated_by": "rules",
+      "stops": ["Q1158671", "Q113046424", "Q879271", "Q668264"],
+      "distance_m": 2853,
+      "walking_seconds": 2282,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "monuments-and-memorials-around-hamburg-planetarium",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Hamburg Planetarium",
+      "title_pt": "Monumentos e memoriais perto de Hamburg Planetarium",
+      "generated_by": "rules",
+      "stops": ["Q15882983", "Q961913", "Q884363", "Q1187879"],
+      "distance_m": 3520,
+      "walking_seconds": 2816,
+      "visit_minutes": 160
+    }
+  ]
+}

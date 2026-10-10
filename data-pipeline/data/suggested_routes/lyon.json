@@ -1,0 +1,94 @@
+{
+  "city": "lyon",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-lugdunum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Lugdunum",
+      "title_pt": "Marcos da cidade perto de Lugdunum",
+      "generated_by": "rules",
+      "stops": ["Q55598687", "Q3582223", "Q3175", "Q665", "Q1510", "Q509", "Q1516", "Q9517"],
+      "distance_m": 1671,
+      "walking_seconds": 1337,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-museum-of-fine-arts-of-lyon",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museum of Fine Arts of Lyon",
+      "title_pt": "Destaques históricos perto de Musée des Beaux-Arts de Lyon",
+      "generated_by": "rules",
+      "stops": ["Q10180", "Q10144", "Q1506", "Q511", "Q10954", "Q2820699", "Q8250", "Q8323"],
+      "distance_m": 931,
+      "walking_seconds": 745,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-lyon-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Lyon Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Lyon",
+      "generated_by": "rules",
+      "stops": ["Q9518", "Q10163", "Q10181", "Q9485", "Q1521", "Q9516", "Q8397", "Q8654"],
+      "distance_m": 1852,
+      "walking_seconds": 1482,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-place-bellecour",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Place Bellecour",
+      "title_pt": "Marcos da cidade perto de Place Bellecour",
+      "generated_by": "rules",
+      "stops": ["Q3390431", "Q10169", "Q614", "Q14922289", "Q1535", "Q3330146", "Q4250", "Q1531"],
+      "distance_m": 2410,
+      "walking_seconds": 1928,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "churches-and-chapels-around-sanctuary-of-the-three-gauls",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Sanctuary of the Three Gauls",
+      "title_pt": "Igrejas e capelas perto de Sanctuary of the Three Gauls",
+      "generated_by": "rules",
+      "stops": ["Q9526", "Q3320192", "Q5278", "Q3124", "Q3390131", "Q2957338", "Q8238", "Q8389"],
+      "distance_m": 2205,
+      "walking_seconds": 1764,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "historic-highlights-around-institut-lumiere",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Institut Lumière",
+      "title_pt": "Destaques históricos perto de Institut Lumière",
+      "generated_by": "rules",
+      "stops": ["Q19958902", "Q3151766", "Q8630", "Q13518318", "Q9494", "Q2969565"],
+      "distance_m": 2925,
+      "walking_seconds": 2340,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "historic-highlights-around-metallic-tower-of-fourviere",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Metallic tower of Fourvière",
+      "title_pt": "Destaques históricos perto de Metallic tower of Fourvière",
+      "generated_by": "rules",
+      "stops": ["Q22329679", "Q625", "Q9528", "Q8600", "Q3078037", "Q1540"],
+      "distance_m": 4500,
+      "walking_seconds": 3600,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "historic-highlights-around-centauresse-et-faune",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Centauresse et Faune",
+      "title_pt": "Destaques históricos perto de Centauresse et Faune",
+      "generated_by": "rules",
+      "stops": ["Q3368308", "Q8330", "Q17341711", "Q17357148", "Q7200216", "Q10182"],
+      "distance_m": 3394,
+      "walking_seconds": 2715,
+      "visit_minutes": 200
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "city": "foz-do-iguacu",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-friendship-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Friendship Bridge",
+      "title_pt": "Marcos da cidade perto de Ponte Internacional da Amizade",
+      "generated_by": "rules",
+      "stops": ["Q135973228", "Q124077739", "Q1140475"],
+      "distance_m": 3132,
+      "walking_seconds": 2506,
+      "visit_minutes": 70
+    }
+  ]
+}

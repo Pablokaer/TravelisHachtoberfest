@@ -1,0 +1,139 @@
+{
+  "city": "marseille",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-fort-saint-jean",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fort Saint-Jean",
+      "title_pt": "Destaques históricos perto de Fort Saint-Jean",
+      "generated_by": "rules",
+      "stops": [
+        "Q3390623",
+        "Q2121984",
+        "Q3585913",
+        "Q1764669",
+        "Q1905802",
+        "Q2254603",
+        "Q1763231",
+        "Q1906882"
+      ],
+      "distance_m": 3632,
+      "walking_seconds": 2906,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "churches-and-chapels-around-notre-dame-de-la-garde",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Notre-Dame de la Garde",
+      "title_pt": "Igrejas e capelas perto de Notre-Dame de la Garde",
+      "generated_by": "rules",
+      "stops": [
+        "Q1858504",
+        "Q3581162",
+        "Q3582142",
+        "Q29529303",
+        "Q3001620",
+        "Q3115133",
+        "Q3583524",
+        "Q975925"
+      ],
+      "distance_m": 3705,
+      "walking_seconds": 2964,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "city-landmarks-around-massalia",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Massalia",
+      "title_pt": "Marcos da cidade perto de Massália (Grécia Antiga)",
+      "generated_by": "rules",
+      "stops": [
+        "Q3390246",
+        "Q970362",
+        "Q3389920",
+        "Q2566850",
+        "Q79897599",
+        "Q3585891",
+        "Q3581149",
+        "Q2240731"
+      ],
+      "distance_m": 1779,
+      "walking_seconds": 1423,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "museums-and-collections-around-marseille-cathedral",
+      "theme": "museums",
+      "title_en": "Museums and collections around Marseille Cathedral",
+      "title_pt": "Museus e coleções perto de Catedral de Marselha",
+      "generated_by": "rules",
+      "stops": [
+        "Q2808698",
+        "Q15138574",
+        "Q36191617",
+        "Q3527841",
+        "Q3585889",
+        "Q1419757",
+        "Q1065120",
+        "Q1795927"
+      ],
+      "distance_m": 1309,
+      "walking_seconds": 1047,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "churches-and-chapels-around-porte-d-aix",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Porte d'Aix",
+      "title_pt": "Igrejas e capelas perto de Porte d'Aix",
+      "generated_by": "rules",
+      "stops": [
+        "Q3584646",
+        "Q3001666",
+        "Q3585770",
+        "Q25206832",
+        "Q3329666",
+        "Q3584592",
+        "Q2243437",
+        "Q3582333"
+      ],
+      "distance_m": 2930,
+      "walking_seconds": 2344,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "museums-and-collections-around-palais-longchamp",
+      "theme": "museums",
+      "title_en": "Museums and collections around Palais Longchamp",
+      "title_pt": "Museus e coleções perto de Palais Longchamp",
+      "generated_by": "rules",
+      "stops": ["Q60389345", "Q3329184", "Q3330887", "Q1619084", "Q83013", "Q2932385", "Q3585901"],
+      "distance_m": 3906,
+      "walking_seconds": 3125,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "churches-and-chapels-around-musee-cantini",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Musée Cantini",
+      "title_pt": "Igrejas e capelas perto de Musée Cantini",
+      "generated_by": "rules",
+      "stops": ["Q3086101", "Q3585545", "Q3389888", "Q3580413", "Q3389745", "Q950637"],
+      "distance_m": 2998,
+      "walking_seconds": 2398,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "museums-and-collections-around-chateau-borely",
+      "theme": "museums",
+      "title_en": "Museums and collections around Château Borély",
+      "title_pt": "Museus e coleções perto de Château Borély",
+      "generated_by": "rules",
+      "stops": ["Q16928705", "Q251672", "Q3497575", "Q16008725", "Q6773259"],
+      "distance_m": 2972,
+      "walking_seconds": 2378,
+      "visit_minutes": 250
+    }
+  ]
+}

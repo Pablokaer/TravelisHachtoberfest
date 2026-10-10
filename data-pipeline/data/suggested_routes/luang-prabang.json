@@ -1,0 +1,46 @@
+{
+  "city": "luang-prabang",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-wat-xieng-thong",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Xieng Thong",
+      "title_pt": "Igrejas e capelas perto de Wat Xieng Thong",
+      "generated_by": "rules",
+      "stops": [
+        "Q7972939",
+        "Q3361219",
+        "Q1365002",
+        "Q19697378",
+        "Q7972957",
+        "Q105821915",
+        "Q108558541",
+        "Q2671118"
+      ],
+      "distance_m": 1778,
+      "walking_seconds": 1422,
+      "visit_minutes": 265
+    },
+    {
+      "slug": "city-landmarks-around-wat-phol-phao",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Wat Phol Phao",
+      "title_pt": "Marcos da cidade perto de Wat Phol Phao",
+      "generated_by": "rules",
+      "stops": [
+        "Q54468244",
+        "Q51665342",
+        "Q30594460",
+        "Q1670535",
+        "Q51670402",
+        "Q51668648",
+        "Q16902989",
+        "Q6630552"
+      ],
+      "distance_m": 4031,
+      "walking_seconds": 3225,
+      "visit_minutes": 190
+    }
+  ]
+}

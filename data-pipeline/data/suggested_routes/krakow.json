@@ -1,0 +1,165 @@
+{
+  "city": "krakow",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-st-mary-s-basilica-in-krakow",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Mary's Basilica in Kraków",
+      "title_pt": "Destaques históricos perto de St. Mary's Basilica in Kraków",
+      "generated_by": "rules",
+      "stops": [
+        "Q963460",
+        "Q1143171",
+        "Q5420576",
+        "Q1072350",
+        "Q7635861",
+        "Q770631",
+        "Q348381",
+        "Q898260"
+      ],
+      "distance_m": 385,
+      "walking_seconds": 308,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "monuments-and-memorials-around-wawel-castle",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Wawel Castle",
+      "title_pt": "Monumentos e memoriais perto de Castelo Real de Wawel",
+      "generated_by": "rules",
+      "stops": [
+        "Q7674490",
+        "Q11789053",
+        "Q743704",
+        "Q143915",
+        "Q638519",
+        "Q11748568",
+        "Q7589531",
+        "Q18820"
+      ],
+      "distance_m": 333,
+      "walking_seconds": 266,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-czartoryski-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Czartoryski Museum",
+      "title_pt": "Destaques históricos perto de Museu Czartoryski",
+      "generated_by": "rules",
+      "stops": [
+        "Q11823211",
+        "Q807309",
+        "Q11786728",
+        "Q1363724",
+        "Q1450630",
+        "Q11745742",
+        "Q5117212",
+        "Q11749876"
+      ],
+      "distance_m": 1063,
+      "walking_seconds": 850,
+      "visit_minutes": 445
+    },
+    {
+      "slug": "historic-highlights-around-wawel-dragon-statue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Wawel Dragon (statue)",
+      "title_pt": "Destaques históricos perto de Wawel Dragon (statue)",
+      "generated_by": "rules",
+      "stops": [
+        "Q3329434",
+        "Q338657",
+        "Q1195738",
+        "Q6944418",
+        "Q836876",
+        "Q9338697",
+        "Q2480782",
+        "Q572206"
+      ],
+      "distance_m": 1660,
+      "walking_seconds": 1328,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-krakow-plaszow-concentration-camp",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kraków-Płaszów concentration camp",
+      "title_pt": "Destaques históricos perto de Plaszow",
+      "generated_by": "rules",
+      "stops": [
+        "Q11787222",
+        "Q11819019",
+        "Q5101454",
+        "Q11746947",
+        "Q722446",
+        "Q160408",
+        "Q5935378"
+      ],
+      "distance_m": 3744,
+      "walking_seconds": 2995,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "churches-and-chapels-around-national-museum-in-krakow",
+      "theme": "churches",
+      "title_en": "Churches and chapels around National Museum in Kraków",
+      "title_pt": "Igrejas e capelas perto de Museu Nacional de Cracóvia",
+      "generated_by": "rules",
+      "stops": [
+        "Q1328725",
+        "Q616675",
+        "Q9188004",
+        "Q7029919",
+        "Q919596",
+        "Q1126134",
+        "Q5118073",
+        "Q195311"
+      ],
+      "distance_m": 2087,
+      "walking_seconds": 1670,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-corpus-christi-basilica",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Corpus Christi Basilica",
+      "title_pt": "Igrejas e capelas perto de Corpus Christi Basilica",
+      "generated_by": "rules",
+      "stops": [
+        "Q11814878",
+        "Q1237964",
+        "Q3354482",
+        "Q63216",
+        "Q326670",
+        "Q2084317",
+        "Q11746976",
+        "Q1420580"
+      ],
+      "distance_m": 3556,
+      "walking_seconds": 2845,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "city-landmarks-around-remuh-synagogue",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Remuh Synagogue",
+      "title_pt": "Marcos da cidade perto de Remuh Synagogue",
+      "generated_by": "rules",
+      "stops": [
+        "Q608779",
+        "Q3507991",
+        "Q115001",
+        "Q3618",
+        "Q3511288",
+        "Q3502453",
+        "Q598951",
+        "Q3109262"
+      ],
+      "distance_m": 729,
+      "walking_seconds": 583,
+      "visit_minutes": 300
+    }
+  ]
+}

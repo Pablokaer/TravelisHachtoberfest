@@ -1,0 +1,37 @@
+{
+  "city": "maceio",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-catedral-metropolitana-de-mac",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Catedral Metropolitana de Maceió",
+      "title_pt": "Monumentos e memoriais perto de Catedral Metropolitana de Maceió",
+      "generated_by": "rules",
+      "stops": [
+        "Q10384669",
+        "Q67176301",
+        "Q10302531",
+        "Q10333905",
+        "Q67176290",
+        "Q67176298",
+        "Q67176289",
+        "Q10333634"
+      ],
+      "distance_m": 2266,
+      "walking_seconds": 1813,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-museu-palacio-floriano-peixot",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museu Palácio Floriano Peixoto",
+      "title_pt": "Museus e coleções perto de Museu Palácio Floriano Peixoto",
+      "generated_by": "rules",
+      "stops": ["Q10333770", "Q10333605", "Q10378824", "Q10328540"],
+      "distance_m": 1759,
+      "walking_seconds": 1407,
+      "visit_minutes": 290
+    }
+  ]
+}

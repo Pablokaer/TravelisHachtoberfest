@@ -1,0 +1,26 @@
+{
+  "city": "petropolis",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "palaces-and-noble-houses-around-imperial-museum-of-brazil",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Imperial Museum of Brazil",
+      "title_pt": "Palácios e casas nobres perto de Museu Imperial",
+      "generated_by": "rules",
+      "stops": [
+        "Q1046467",
+        "Q10333434",
+        "Q10344017",
+        "Q9698211",
+        "Q2407257",
+        "Q10343919",
+        "Q1887049",
+        "Q7128890"
+      ],
+      "distance_m": 3859,
+      "walking_seconds": 3087,
+      "visit_minutes": 585
+    }
+  ]
+}

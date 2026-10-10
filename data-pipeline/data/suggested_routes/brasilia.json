@@ -1,0 +1,98 @@
+{
+  "city": "brasilia",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-palacio-do-planalto",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Palácio do Planalto",
+      "title_pt": "Monumentos e memoriais perto de Palácio do Planalto",
+      "generated_by": "rules",
+      "stops": [
+        "Q2049869",
+        "Q97626882",
+        "Q9557758",
+        "Q10274958",
+        "Q10333665",
+        "Q1704545",
+        "Q82035580",
+        "Q496950"
+      ],
+      "distance_m": 622,
+      "walking_seconds": 498,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-of-brasilia",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral of Brasília",
+      "title_pt": "Destaques históricos perto de Catedral Metropolitana de Brasília",
+      "generated_by": "rules",
+      "stops": [
+        "Q10333871",
+        "Q4818298",
+        "Q10333582",
+        "Q201720",
+        "Q10353354",
+        "Q10329174",
+        "Q4155889"
+      ],
+      "distance_m": 3323,
+      "walking_seconds": 2658,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "historic-highlights-around-brasilia-tv-tower",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Brasilia TV Tower",
+      "title_pt": "Destaques históricos perto de Torre de TV de Brasília",
+      "generated_by": "rules",
+      "stops": [
+        "Q4780789",
+        "Q10353475",
+        "Q2223802",
+        "Q20059116",
+        "Q97626853",
+        "Q10273498",
+        "Q10333729",
+        "Q1270936"
+      ],
+      "distance_m": 3107,
+      "walking_seconds": 2486,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "museums-and-collections-around-memorial-jk",
+      "theme": "museums",
+      "title_en": "Museums and collections around Memorial JK",
+      "title_pt": "Museus e coleções perto de Memorial JK",
+      "generated_by": "rules",
+      "stops": ["Q10266435", "Q10353473", "Q6522452", "Q1756676", "Q9709756"],
+      "distance_m": 3253,
+      "walking_seconds": 2602,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-palacio-da-alvorada",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Palácio da Alvorada",
+      "title_pt": "Palácios e casas nobres perto de Palácio da Alvorada",
+      "generated_by": "rules",
+      "stops": ["Q10333793", "Q3917430", "Q2330391"],
+      "distance_m": 2796,
+      "walking_seconds": 2237,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-ponte-costa-e-silva",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ponte Costa e Silva",
+      "title_pt": "Marcos da cidade perto de Ponte Costa e Silva",
+      "generated_by": "rules",
+      "stops": ["Q10353510", "Q10351315", "Q10300172"],
+      "distance_m": 1548,
+      "walking_seconds": 1238,
+      "visit_minutes": 70
+    }
+  ]
+}

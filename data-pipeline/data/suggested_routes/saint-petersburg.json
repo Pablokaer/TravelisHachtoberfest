@@ -1,0 +1,139 @@
+{
+  "city": "saint-petersburg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-winter-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Winter Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Inverno",
+      "generated_by": "rules",
+      "stops": [
+        "Q4378125",
+        "Q132783",
+        "Q97355612",
+        "Q182147",
+        "Q907366",
+        "Q616578",
+        "Q1132624",
+        "Q382500"
+      ],
+      "distance_m": 813,
+      "walking_seconds": 650,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "historic-highlights-around-peter-and-paul-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Peter and Paul Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Pedro e Paulo",
+      "generated_by": "rules",
+      "stops": [
+        "Q736587",
+        "Q38646",
+        "Q283120",
+        "Q3361196",
+        "Q1788123",
+        "Q148970",
+        "Q2025062",
+        "Q2367636"
+      ],
+      "distance_m": 2973,
+      "walking_seconds": 2378,
+      "visit_minutes": 475
+    },
+    {
+      "slug": "historic-highlights-around-saint-isaac-s-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Saint Isaac's Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Santo Isaac",
+      "generated_by": "rules",
+      "stops": [
+        "Q4147474",
+        "Q359185",
+        "Q672444",
+        "Q2995249",
+        "Q215423",
+        "Q2081756",
+        "Q1229016",
+        "Q2991838"
+      ],
+      "distance_m": 2798,
+      "walking_seconds": 2238,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "historic-highlights-around-church-of-the-savior-on-blood",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of the Savior on Blood",
+      "title_pt": "Destaques históricos perto de Catedral do Sangue Derramado",
+      "generated_by": "rules",
+      "stops": [
+        "Q2097254",
+        "Q737377",
+        "Q1542609",
+        "Q211043",
+        "Q1930409",
+        "Q215208",
+        "Q16895567",
+        "Q1194336"
+      ],
+      "distance_m": 2059,
+      "walking_seconds": 1647,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-kazan-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kazan Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Nossa Senhora de Cazã",
+      "generated_by": "rules",
+      "stops": [
+        "Q17489369",
+        "Q187333",
+        "Q968295",
+        "Q2495087",
+        "Q2618766",
+        "Q404571",
+        "Q1461235",
+        "Q2378753"
+      ],
+      "distance_m": 3304,
+      "walking_seconds": 2643,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "city-landmarks-around-aurora",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Aurora",
+      "title_pt": "Marcos da cidade perto de Cruzador Aurora",
+      "generated_by": "rules",
+      "stops": ["Q18689670", "Q168713", "Q281900", "Q3661730", "Q637314"],
+      "distance_m": 3829,
+      "walking_seconds": 3063,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "city-landmarks-around-saint-michael-s-castle",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Saint Michael's Castle",
+      "title_pt": "Marcos da cidade perto de Castelo Mikhailovsky",
+      "generated_by": "rules",
+      "stops": ["Q2000542", "Q550953", "Q2477653", "Q2487646", "Q139318"],
+      "distance_m": 3013,
+      "walking_seconds": 2410,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-alexander-palace",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Alexander Palace",
+      "title_pt": "Palácios e casas nobres perto de Palácio de Alexandre",
+      "generated_by": "rules",
+      "stops": ["Q2854543", "Q1519034", "Q1621200"],
+      "distance_m": 2477,
+      "walking_seconds": 1982,
+      "visit_minutes": 240
+    }
+  ]
+}

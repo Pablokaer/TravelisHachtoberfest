@@ -1,0 +1,166 @@
+{
+  "city": "naples",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-venus-callipyge",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Venus Callipyge",
+      "title_pt": "Monumentos e memoriais perto de Vênus Calipígia",
+      "generated_by": "rules",
+      "stops": [
+        "Q2555479",
+        "Q2364240",
+        "Q2252969",
+        "Q2245630",
+        "Q618521",
+        "Q581804",
+        "Q374591",
+        "Q3523"
+      ],
+      "distance_m": 4,
+      "walking_seconds": 3,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "churches-and-chapels-around-veiled-christ",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Veiled Christ",
+      "title_pt": "Igrejas e capelas perto de Veiled Christ",
+      "generated_by": "rules",
+      "stops": [
+        "Q1255785",
+        "Q1256356",
+        "Q3968659",
+        "Q3697674",
+        "Q897839",
+        "Q3891605",
+        "Q897603",
+        "Q1235318"
+      ],
+      "distance_m": 990,
+      "walking_seconds": 792,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "churches-and-chapels-around-castel-sant-elmo",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Castel Sant'Elmo",
+      "title_pt": "Igrejas e capelas perto de Castel Sant'Elmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q1048627",
+        "Q859732",
+        "Q718801",
+        "Q718774",
+        "Q810104",
+        "Q1256559",
+        "Q2047647",
+        "Q832228"
+      ],
+      "distance_m": 2422,
+      "walking_seconds": 1938,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-castel-nuovo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Castel Nuovo",
+      "title_pt": "Destaques históricos perto de Castel Nuovo",
+      "generated_by": "rules",
+      "stops": [
+        "Q781219",
+        "Q834138",
+        "Q1256238",
+        "Q1256454",
+        "Q673296",
+        "Q3891121",
+        "Q426339",
+        "Q1047594"
+      ],
+      "distance_m": 1599,
+      "walking_seconds": 1279,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-castel-dell-ovo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Castel dell'Ovo",
+      "title_pt": "Destaques históricos perto de Castelo do Ovo",
+      "generated_by": "rules",
+      "stops": [
+        "Q4012739",
+        "Q645041",
+        "Q649784",
+        "Q241410",
+        "Q4000489",
+        "Q958145",
+        "Q682173",
+        "Q3329345"
+      ],
+      "distance_m": 4128,
+      "walking_seconds": 3302,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "historic-highlights-around-naples-national-archaeological-mu",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Naples National Archaeological Museum",
+      "title_pt": "Destaques históricos perto de Museu Arqueológico Nacional de Nápoles",
+      "generated_by": "rules",
+      "stops": [
+        "Q3361360",
+        "Q936555",
+        "Q637248",
+        "Q50307591",
+        "Q926401",
+        "Q1239540",
+        "Q721189",
+        "Q693174"
+      ],
+      "distance_m": 2455,
+      "walking_seconds": 1964,
+      "visit_minutes": 490
+    },
+    {
+      "slug": "churches-and-chapels-around-naples-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Naples Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Nápoles",
+      "generated_by": "rules",
+      "stops": [
+        "Q1954314",
+        "Q2887134",
+        "Q2306225",
+        "Q256486",
+        "Q3931105",
+        "Q3737242",
+        "Q289414",
+        "Q1084608"
+      ],
+      "distance_m": 862,
+      "walking_seconds": 690,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-museo-di-capodimonte",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museo di Capodimonte",
+      "title_pt": "Destaques históricos perto de Reggia di Capodimonte",
+      "generated_by": "rules",
+      "stops": [
+        "Q2034636",
+        "Q4115652",
+        "Q290549",
+        "Q3663206",
+        "Q677362",
+        "Q717729",
+        "Q3663202",
+        "Q514901"
+      ],
+      "distance_m": 2183,
+      "walking_seconds": 1746,
+      "visit_minutes": 455
+    }
+  ]
+}

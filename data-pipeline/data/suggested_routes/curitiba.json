@@ -1,0 +1,119 @@
+{
+  "city": "curitiba",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-oscar-niemeyer-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Oscar Niemeyer Museum",
+      "title_pt": "Destaques históricos perto de Museu Oscar Niemeyer",
+      "generated_by": "rules",
+      "stops": [
+        "Q18483029",
+        "Q9695502",
+        "Q10343915",
+        "Q10333897",
+        "Q5062845",
+        "Q10344007",
+        "Q10343948",
+        "Q4991927"
+      ],
+      "distance_m": 3694,
+      "walking_seconds": 2955,
+      "visit_minutes": 475
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-basilica-minor-of-our-l",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral Basilica Minor of Our Lady of Light, Curiti",
+      "title_pt": "Destaques históricos perto de Catedral Basílica Menor de Nossa Senhora da Luz",
+      "generated_by": "rules",
+      "stops": [
+        "Q18483908",
+        "Q65969534",
+        "Q56693720",
+        "Q10300290",
+        "Q9709472",
+        "Q10353387",
+        "Q10347012",
+        "Q65969531"
+      ],
+      "distance_m": 1383,
+      "walking_seconds": 1106,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-praca-19-de-dezembro",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Praça 19 de Dezembro",
+      "title_pt": "Destaques históricos perto de Praça 19 de Dezembro",
+      "generated_by": "rules",
+      "stops": [
+        "Q9698269",
+        "Q9698095",
+        "Q10333606",
+        "Q10300922",
+        "Q10353232",
+        "Q7691919",
+        "Q10353372",
+        "Q10344000"
+      ],
+      "distance_m": 2887,
+      "walking_seconds": 2310,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "historic-highlights-around-palacio-avenida",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palácio Avenida",
+      "title_pt": "Destaques históricos perto de Palácio Avenida",
+      "generated_by": "rules",
+      "stops": [
+        "Q17995922",
+        "Q20059172",
+        "Q8247546",
+        "Q10343925",
+        "Q10333761",
+        "Q107662060",
+        "Q18483590",
+        "Q10353367"
+      ],
+      "distance_m": 2024,
+      "walking_seconds": 1619,
+      "visit_minutes": 465
+    },
+    {
+      "slug": "museums-and-collections-around-museu-do-expedicionario",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museu do Expedicionário",
+      "title_pt": "Museus e coleções perto de Museu do Expedicionário",
+      "generated_by": "rules",
+      "stops": ["Q119171168", "Q65969530", "Q56694450", "Q28677538", "Q9047097"],
+      "distance_m": 2558,
+      "walking_seconds": 2046,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "historic-highlights-around-praca-do-japao",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Praça do Japão",
+      "title_pt": "Destaques históricos perto de Praça do Japão",
+      "generated_by": "rules",
+      "stops": ["Q10353488", "Q8342181", "Q10333687", "Q10345850"],
+      "distance_m": 2970,
+      "walking_seconds": 2376,
+      "visit_minutes": 215
+    },
+    {
+      "slug": "museums-and-collections-around-bosque-alemao",
+      "theme": "museums",
+      "title_en": "Museums and collections around Bosque Alemão",
+      "title_pt": "Museus e coleções perto de Bosque Alemão",
+      "generated_by": "rules",
+      "stops": ["Q30939398", "Q4947465", "Q5641763"],
+      "distance_m": 4074,
+      "walking_seconds": 3259,
+      "visit_minutes": 200
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "city": "hoi-an",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-japanese-bridge",
+      "theme": "museums",
+      "title_en": "Museums and collections around Japanese Bridge",
+      "title_pt": "Museus e coleções perto de Japanese Bridge",
+      "generated_by": "rules",
+      "stops": ["Q30744118", "Q6941034", "Q114397271", "Q5965459", "Q6941009", "Q1091054"],
+      "distance_m": 1553,
+      "walking_seconds": 1242,
+      "visit_minutes": 400
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "city": "bilbao",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-guggenheim-museum-bilbao",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Guggenheim Museum Bilbao",
+      "title_pt": "Destaques históricos perto de Museu Guggenheim Bilbao",
+      "generated_by": "rules",
+      "stops": [
+        "Q9054503",
+        "Q17624288",
+        "Q6465160",
+        "Q180887",
+        "Q179199",
+        "Q6093292",
+        "Q6079529",
+        "Q9056513"
+      ],
+      "distance_m": 1969,
+      "walking_seconds": 1575,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "city-landmarks-around-st-james-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around St. James' Cathedral",
+      "title_pt": "Marcos da cidade perto de Catedral de Santiago de Bilbau",
+      "generated_by": "rules",
+      "stops": [
+        "Q12263580",
+        "Q3303976",
+        "Q3757177",
+        "Q2350964",
+        "Q3751925",
+        "Q3750901",
+        "Q9064468",
+        "Q9064466"
+      ],
+      "distance_m": 1257,
+      "walking_seconds": 1006,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-bilbao-s-iron-ring",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bilbao's Iron Ring",
+      "title_pt": "Marcos da cidade perto de Bilbao's Iron Ring",
+      "generated_by": "rules",
+      "stops": [
+        "Q3750779",
+        "Q9007710",
+        "Q12266034",
+        "Q4788941",
+        "Q20894952",
+        "Q24068063",
+        "Q2943850"
+      ],
+      "distance_m": 2993,
+      "walking_seconds": 2394,
+      "visit_minutes": 275
+    },
+    {
+      "slug": "city-landmarks-around-bilbao-fine-arts-museum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bilbao Fine Arts Museum",
+      "title_pt": "Marcos da cidade perto de Museu de Belas Artes de Bilbau",
+      "generated_by": "rules",
+      "stops": [
+        "Q25478490",
+        "Q17996534",
+        "Q2620707",
+        "Q18346656",
+        "Q20492660",
+        "Q6022956",
+        "Q127064",
+        "Q3396958"
+      ],
+      "distance_m": 2654,
+      "walking_seconds": 2123,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "city-landmarks-around-zubizuri",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Zubizuri",
+      "title_pt": "Marcos da cidade perto de Zubizuri",
+      "generated_by": "rules",
+      "stops": [
+        "Q18222404",
+        "Q227583",
+        "Q24207656",
+        "Q11682873",
+        "Q30320375",
+        "Q18286686",
+        "Q3397318",
+        "Q3751519"
+      ],
+      "distance_m": 1674,
+      "walking_seconds": 1339,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-begona",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of Begoña",
+      "title_pt": "Destaques históricos perto de Basílica de Nossa Senhora de Begoña",
+      "generated_by": "rules",
+      "stops": [
+        "Q24566183",
+        "Q8350475",
+        "Q117035513",
+        "Q3297735",
+        "Q29034304",
+        "Q16335759",
+        "Q7203631",
+        "Q9007238"
+      ],
+      "distance_m": 2509,
+      "walking_seconds": 2007,
+      "visit_minutes": 385
+    },
+    {
+      "slug": "city-landmarks-around-alhondiga-bilbao",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Alhóndiga Bilbao",
+      "title_pt": "Marcos da cidade perto de Alhóndiga",
+      "generated_by": "rules",
+      "stops": [
+        "Q23848341",
+        "Q23919605",
+        "Q17505001",
+        "Q3285202",
+        "Q17504602",
+        "Q17493165",
+        "Q20492191",
+        "Q17624410"
+      ],
+      "distance_m": 1294,
+      "walking_seconds": 1035,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-plaza-de-toros-de-bilbao",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Plaza de Toros de Bilbao",
+      "title_pt": "Marcos da cidade perto de Praça de Toiros de Bilbau",
+      "generated_by": "rules",
+      "stops": [
+        "Q3752668",
+        "Q9007059",
+        "Q124418543",
+        "Q124397397",
+        "Q124562279",
+        "Q13221631",
+        "Q134732702",
+        "Q122622001"
+      ],
+      "distance_m": 1451,
+      "walking_seconds": 1161,
+      "visit_minutes": 260
+    }
+  ]
+}

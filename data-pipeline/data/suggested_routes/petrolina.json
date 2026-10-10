@@ -1,0 +1,17 @@
+{
+  "city": "petrolina",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-ponte-presidente-dutra",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ponte Presidente Dutra",
+      "title_pt": "Destaques históricos perto de Ponte Presidente Dutra",
+      "generated_by": "rules",
+      "stops": ["Q10351368", "Q27919031", "Q10333933"],
+      "distance_m": 1809,
+      "walking_seconds": 1447,
+      "visit_minutes": 140
+    }
+  ]
+}

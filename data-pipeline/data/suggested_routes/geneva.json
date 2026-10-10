@@ -1,0 +1,148 @@
+{
+  "city": "geneva",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-broken-chair",
+      "theme": "museums",
+      "title_en": "Museums and collections around Broken Chair",
+      "title_pt": "Museus e coleções perto de Broken Chair",
+      "generated_by": "rules",
+      "stops": [
+        "Q15958554",
+        "Q2333715",
+        "Q19824862",
+        "Q677516",
+        "Q7721834",
+        "Q683406",
+        "Q671822",
+        "Q2659575"
+      ],
+      "distance_m": 4623,
+      "walking_seconds": 3698,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "historic-highlights-around-jet-d-eau",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Jet d'Eau",
+      "title_pt": "Destaques históricos perto de Jet d'Eau",
+      "generated_by": "rules",
+      "stops": [
+        "Q55380842",
+        "Q1094083",
+        "Q29700383",
+        "Q3397363",
+        "Q3397476",
+        "Q926691",
+        "Q684661",
+        "Q2945845"
+      ],
+      "distance_m": 2592,
+      "walking_seconds": 2074,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "historic-highlights-around-st-pierre-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Pierre Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Genebra",
+      "generated_by": "rules",
+      "stops": [
+        "Q18752218",
+        "Q187100",
+        "Q679075",
+        "Q678043",
+        "Q7200245",
+        "Q666516",
+        "Q584164",
+        "Q16747652"
+      ],
+      "distance_m": 1224,
+      "walking_seconds": 979,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-reformation-wall",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Reformation Wall",
+      "title_pt": "Destaques históricos perto de Muro dos Reformadores",
+      "generated_by": "rules",
+      "stops": [
+        "Q1083084",
+        "Q18030640",
+        "Q3329082",
+        "Q16449396",
+        "Q28843394",
+        "Q371872",
+        "Q3390017",
+        "Q673396"
+      ],
+      "distance_m": 839,
+      "walking_seconds": 671,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "city-landmarks-around-natural-history-museum-of-geneva",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Natural History Museum of Geneva",
+      "title_pt": "Marcos da cidade perto de Museu de História Natural de Genebra",
+      "generated_by": "rules",
+      "stops": ["Q25391891", "Q686339", "Q4240411", "Q663025", "Q2728848", "Q2894050"],
+      "distance_m": 3791,
+      "walking_seconds": 3033,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-cemetery-of-kings",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Cemetery of Kings",
+      "title_pt": "Marcos da cidade perto de Cimetière des Rois",
+      "generated_by": "rules",
+      "stops": [
+        "Q3396756",
+        "Q808807",
+        "Q1602774",
+        "Q3507981",
+        "Q665815",
+        "Q19406896",
+        "Q3329535",
+        "Q3329302"
+      ],
+      "distance_m": 2226,
+      "walking_seconds": 1781,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-basilica-notre-dame-of-geneva",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica Notre-Dame of Geneva",
+      "title_pt": "Destaques históricos perto de Basílica Nossa Senhora de Genebra",
+      "generated_by": "rules",
+      "stops": [
+        "Q112044442",
+        "Q20056041",
+        "Q2385100",
+        "Q3397281",
+        "Q29479582",
+        "Q665394",
+        "Q3683046",
+        "Q15242262"
+      ],
+      "distance_m": 2563,
+      "walking_seconds": 2050,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-hans-wilsdorf-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hans Wilsdorf Bridge",
+      "title_pt": "Marcos da cidade perto de Hans Wilsdorf Bridge",
+      "generated_by": "rules",
+      "stops": ["Q3396897", "Q3397343", "Q3396558", "Q1955752", "Q3397116", "Q3368316", "Q3556663"],
+      "distance_m": 3330,
+      "walking_seconds": 2664,
+      "visit_minutes": 210
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "city": "vilnius",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-vilnius-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Vilnius Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Vilnius",
+      "generated_by": "rules",
+      "stops": [
+        "Q9283406",
+        "Q6598101",
+        "Q1497616",
+        "Q1790447",
+        "Q1284847",
+        "Q11735283",
+        "Q1281237",
+        "Q1988837"
+      ],
+      "distance_m": 617,
+      "walking_seconds": 494,
+      "visit_minutes": 515
+    },
+    {
+      "slug": "churches-and-chapels-around-gate-of-dawn",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Gate of Dawn",
+      "title_pt": "Igrejas e capelas perto de Gate of Dawn",
+      "generated_by": "rules",
+      "stops": [
+        "Q2576518",
+        "Q937212",
+        "Q3545166",
+        "Q2011885",
+        "Q1640381",
+        "Q11784995",
+        "Q16900836",
+        "Q1539380"
+      ],
+      "distance_m": 1075,
+      "walking_seconds": 860,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-st-anne-vilnius",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of St. Anne, Vilnius",
+      "title_pt": "Igrejas e capelas perto de Church of St. Anne, Vilnius",
+      "generated_by": "rules",
+      "stops": [
+        "Q2994043",
+        "Q5915642",
+        "Q1865041",
+        "Q1736161",
+        "Q1982296",
+        "Q305270",
+        "Q937290",
+        "Q2453455"
+      ],
+      "distance_m": 934,
+      "walking_seconds": 747,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "churches-and-chapels-around-presidential-palace-of-lithuania",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Presidential Palace of Lithuania",
+      "title_pt": "Igrejas e capelas perto de Palácio Presidencial",
+      "generated_by": "rules",
+      "stops": [
+        "Q1960270",
+        "Q11814829",
+        "Q2391143",
+        "Q1522363",
+        "Q1577652",
+        "Q1983052",
+        "Q3581823",
+        "Q1984956"
+      ],
+      "distance_m": 1325,
+      "walking_seconds": 1060,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "churches-and-chapels-around-museum-of-occupations-and-freedo",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Museum of Occupations and Freedom Fights",
+      "title_pt": "Igrejas e capelas perto de Museum of Occupations and Freedom Fights",
+      "generated_by": "rules",
+      "stops": [
+        "Q11785006",
+        "Q1627627",
+        "Q323860",
+        "Q1877087",
+        "Q2026142",
+        "Q12650174",
+        "Q1984637",
+        "Q2029084"
+      ],
+      "distance_m": 3184,
+      "walking_seconds": 2547,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "churches-and-chapels-around-choral-synagogue-of-vilnius",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Choral Synagogue of Vilnius",
+      "title_pt": "Igrejas e capelas perto de Choral Synagogue of Vilnius",
+      "generated_by": "rules",
+      "stops": [
+        "Q12651955",
+        "Q3586134",
+        "Q16464897",
+        "Q2660850",
+        "Q3586026",
+        "Q940192",
+        "Q1076328",
+        "Q3013998"
+      ],
+      "distance_m": 2496,
+      "walking_seconds": 1997,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "churches-and-chapels-around-rasos-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Rasos Cemetery",
+      "title_pt": "Igrejas e capelas perto de Rasos Cemetery",
+      "generated_by": "rules",
+      "stops": [
+        "Q2091687",
+        "Q2390932",
+        "Q1257109",
+        "Q1982066",
+        "Q1986980",
+        "Q2026134",
+        "Q2091739",
+        "Q340065"
+      ],
+      "distance_m": 4345,
+      "walking_seconds": 3476,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "historic-highlights-around-church-of-st-peter-and-st-paul-vi",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of St. Peter and St. Paul, Vilnius",
+      "title_pt": "Destaques históricos perto de Church of St. Peter and St. Paul, Vilnius",
+      "generated_by": "rules",
+      "stops": ["Q11043843", "Q3113788", "Q1283798", "Q3504070", "Q1715736", "Q83238"],
+      "distance_m": 3554,
+      "walking_seconds": 2843,
+      "visit_minutes": 250
+    }
+  ]
+}

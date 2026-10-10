@@ -1,0 +1,148 @@
+{
+  "city": "gdansk",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-st-mary-s-basilica-in-gdansk",
+      "theme": "landmarks",
+      "title_en": "City landmarks around St. Mary's Basilica in Gdańsk",
+      "title_pt": "Marcos da cidade perto de St. Mary's Basilica in Gdańsk",
+      "generated_by": "rules",
+      "stops": [
+        "Q941895",
+        "Q2135657",
+        "Q783294",
+        "Q679506",
+        "Q715753",
+        "Q1796127",
+        "Q16838529",
+        "Q933903"
+      ],
+      "distance_m": 406,
+      "walking_seconds": 325,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "city-landmarks-around-ferber-s-house",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ferber's House",
+      "title_pt": "Marcos da cidade perto de Ferber's House",
+      "generated_by": "rules",
+      "stops": [
+        "Q9355648",
+        "Q2067591",
+        "Q2350832",
+        "Q1426552",
+        "Q1622912",
+        "Q926456",
+        "Q662333",
+        "Q1450669"
+      ],
+      "distance_m": 986,
+      "walking_seconds": 789,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "city-landmarks-around-gdansk-old-city-hall",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Gdańsk Old City Hall",
+      "title_pt": "Marcos da cidade perto de Gdańsk Old City Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q9209358",
+        "Q11734831",
+        "Q445876",
+        "Q734863",
+        "Q1740933",
+        "Q11747294",
+        "Q136106430",
+        "Q11823548"
+      ],
+      "distance_m": 910,
+      "walking_seconds": 728,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-museum-of-world-war-ii-in-gdansk",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museum of World War II in Gdańsk",
+      "title_pt": "Destaques históricos perto de Museum of World War II in Gdańsk",
+      "generated_by": "rules",
+      "stops": [
+        "Q11746615",
+        "Q60861388",
+        "Q30609098",
+        "Q2253051",
+        "Q85741166",
+        "Q805784",
+        "Q96185160",
+        "Q11129717"
+      ],
+      "distance_m": 1355,
+      "walking_seconds": 1084,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "historic-highlights-around-zuraw-in-gdansk",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Żuraw in Gdańsk",
+      "title_pt": "Destaques históricos perto de Żuraw in Gdańsk",
+      "generated_by": "rules",
+      "stops": [
+        "Q1641863",
+        "Q1698972",
+        "Q455096",
+        "Q4845346",
+        "Q253930",
+        "Q1451898",
+        "Q990750",
+        "Q1238680"
+      ],
+      "distance_m": 761,
+      "walking_seconds": 609,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "monuments-and-memorials-around-european-solidarity-centre",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around European Solidarity Centre",
+      "title_pt": "Monumentos e memoriais perto de European Solidarity Centre",
+      "generated_by": "rules",
+      "stops": [
+        "Q7752139",
+        "Q135934026",
+        "Q730644",
+        "Q11742525",
+        "Q9170771",
+        "Q24946311",
+        "Q764396",
+        "Q534403"
+      ],
+      "distance_m": 1898,
+      "walking_seconds": 1518,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "monuments-and-memorials-around-grand-hotel",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Grand Hotel",
+      "title_pt": "Monumentos e memoriais perto de Grand Hotel",
+      "generated_by": "rules",
+      "stops": ["Q139026302", "Q122282443", "Q6112569", "Q1542600", "Q5610072"],
+      "distance_m": 2179,
+      "walking_seconds": 1743,
+      "visit_minutes": 165
+    },
+    {
+      "slug": "historic-highlights-around-westerplatte-monument",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Westerplatte Monument",
+      "title_pt": "Destaques históricos perto de Westerplatte Monument",
+      "generated_by": "rules",
+      "stops": ["Q11753140", "Q825098", "Q1409002"],
+      "distance_m": 2381,
+      "walking_seconds": 1905,
+      "visit_minutes": 130
+    }
+  ]
+}

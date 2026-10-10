@@ -1,0 +1,166 @@
+{
+  "city": "bologna",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "palaces-and-noble-houses-around-san-petronio-basilica",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around San Petronio Basilica",
+      "title_pt": "Palácios e casas nobres perto de Basílica de São Petrônio",
+      "generated_by": "rules",
+      "stops": [
+        "Q2358398",
+        "Q1478440",
+        "Q810103",
+        "Q634917",
+        "Q2006730",
+        "Q994471",
+        "Q2267154",
+        "Q157818"
+      ],
+      "distance_m": 377,
+      "walking_seconds": 302,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "churches-and-chapels-around-palazzo-dellarchiginnasio",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Palazzo dell’Archiginnasio",
+      "title_pt": "Igrejas e capelas perto de Palazzo dell’Archiginnasio",
+      "generated_by": "rules",
+      "stops": [
+        "Q25247785",
+        "Q28229300",
+        "Q1476981",
+        "Q24038410",
+        "Q25055675",
+        "Q3671826",
+        "Q2417706",
+        "Q862602"
+      ],
+      "distance_m": 1489,
+      "walking_seconds": 1191,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-two-towers",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Two Towers",
+      "title_pt": "Palácios e casas nobres perto de Two Towers",
+      "generated_by": "rules",
+      "stops": [
+        "Q3950086",
+        "Q27989760",
+        "Q3330391",
+        "Q16511590",
+        "Q25247786",
+        "Q16902146",
+        "Q23947238",
+        "Q1084955"
+      ],
+      "distance_m": 798,
+      "walking_seconds": 638,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-santo-stefano-church",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Santo Stefano Church",
+      "title_pt": "Palácios e casas nobres perto de Santo Stefano Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q12068168",
+        "Q28772011",
+        "Q25052809",
+        "Q25052808",
+        "Q2091949",
+        "Q810107",
+        "Q3330623",
+        "Q23946718"
+      ],
+      "distance_m": 839,
+      "walking_seconds": 671,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-pinacoteca-nazionale-di-bolo",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Pinacoteca Nazionale di Bologna",
+      "title_pt": "Palácios e casas nobres perto de Pinacoteca Nacional de Bolonha",
+      "generated_by": "rules",
+      "stops": [
+        "Q21815963",
+        "Q2446870",
+        "Q18386174",
+        "Q17013094",
+        "Q3093956",
+        "Q2949875",
+        "Q1103550",
+        "Q3908782"
+      ],
+      "distance_m": 1553,
+      "walking_seconds": 1242,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "churches-and-chapels-around-bologna-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Bologna Cathedral",
+      "title_pt": "Igrejas e capelas perto de Bologna Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q3669793",
+        "Q956147",
+        "Q17013034",
+        "Q18207321",
+        "Q24197182",
+        "Q178699",
+        "Q110464983",
+        "Q604770"
+      ],
+      "distance_m": 580,
+      "walking_seconds": 464,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-corpus-domini-bologna",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Corpus Domini, Bologna",
+      "title_pt": "Palácios e casas nobres perto de Corpus Domini, Bolonha",
+      "generated_by": "rules",
+      "stops": [
+        "Q25047657",
+        "Q18129127",
+        "Q7420452",
+        "Q18129123",
+        "Q3682983",
+        "Q15720574",
+        "Q18129137",
+        "Q35973138"
+      ],
+      "distance_m": 2992,
+      "walking_seconds": 2394,
+      "visit_minutes": 465
+    },
+    {
+      "slug": "historic-highlights-around-cineteca-di-bologna",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cineteca di Bologna",
+      "title_pt": "Destaques históricos perto de Cineteca di Bologna",
+      "generated_by": "rules",
+      "stops": [
+        "Q7126987",
+        "Q18129125",
+        "Q15733736",
+        "Q672894",
+        "Q60839204",
+        "Q1092493",
+        "Q3867868",
+        "Q3757723"
+      ],
+      "distance_m": 2137,
+      "walking_seconds": 1710,
+      "visit_minutes": 555
+    }
+  ]
+}

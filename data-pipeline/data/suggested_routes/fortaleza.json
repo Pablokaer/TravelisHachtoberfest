@@ -1,0 +1,97 @@
+{
+  "city": "fortaleza",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-st-joseph-s-cathedral-fortaleza",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Joseph's Cathedral, Fortaleza",
+      "title_pt": "Destaques históricos perto de Catedral Metropolitana de Fortaleza",
+      "generated_by": "rules",
+      "stops": [
+        "Q20059168",
+        "Q9297635",
+        "Q10328757",
+        "Q10283626",
+        "Q56550439",
+        "Q10372509",
+        "Q10333886",
+        "Q10353300"
+      ],
+      "distance_m": 1213,
+      "walking_seconds": 970,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "monuments-and-memorials-around-praca-dos-martires",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Praça dos Mártires",
+      "title_pt": "Monumentos e memoriais perto de Praça dos Mártires",
+      "generated_by": "rules",
+      "stops": [
+        "Q107647257",
+        "Q10353508",
+        "Q9630408",
+        "Q10353319",
+        "Q9698296",
+        "Q18466744",
+        "Q18465014",
+        "Q16910931"
+      ],
+      "distance_m": 2438,
+      "walking_seconds": 1950,
+      "visit_minutes": 285
+    },
+    {
+      "slug": "monuments-and-memorials-around-ponte-dos-ingleses",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Ponte dos Ingleses",
+      "title_pt": "Monumentos e memoriais perto de Ponte dos Ingleses",
+      "generated_by": "rules",
+      "stops": [
+        "Q10369943",
+        "Q10378927",
+        "Q9656698",
+        "Q10333758",
+        "Q10354816",
+        "Q10351361",
+        "Q10351479",
+        "Q51882020"
+      ],
+      "distance_m": 1720,
+      "walking_seconds": 1376,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "monuments-and-memorials-around-cemiterio-sao-joao-batista",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Cemitério São João Batista",
+      "title_pt": "Monumentos e memoriais perto de Cemitério São João Batista",
+      "generated_by": "rules",
+      "stops": [
+        "Q108399671",
+        "Q10302952",
+        "Q30939609",
+        "Q56547848",
+        "Q10358424",
+        "Q10317967",
+        "Q10274576",
+        "Q6882114"
+      ],
+      "distance_m": 4957,
+      "walking_seconds": 3966,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-palacio-da-abolicao",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palácio da Abolição",
+      "title_pt": "Destaques históricos perto de Palácio da Abolição",
+      "generated_by": "rules",
+      "stops": ["Q108399695", "Q10333694", "Q10343983", "Q10353353"],
+      "distance_m": 2882,
+      "walking_seconds": 2306,
+      "visit_minutes": 205
+    }
+  ]
+}

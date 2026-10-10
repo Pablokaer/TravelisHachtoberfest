@@ -1,0 +1,121 @@
+{
+  "city": "bergen",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-bergenhus-fortress",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bergenhus Fortress",
+      "title_pt": "Destaques históricos perto de Fortaleza de Bergenhus",
+      "generated_by": "rules",
+      "stops": [
+        "Q7783532",
+        "Q4980773",
+        "Q571683",
+        "Q2520943",
+        "Q1772990",
+        "Q583428",
+        "Q3356362",
+        "Q1779494"
+      ],
+      "distance_m": 1580,
+      "walking_seconds": 1264,
+      "visit_minutes": 540
+    },
+    {
+      "slug": "museums-and-collections-around-the-blue-stone",
+      "theme": "museums",
+      "title_en": "Museums and collections around The Blue Stone",
+      "title_pt": "Museus e coleções perto de The Blue Stone",
+      "generated_by": "rules",
+      "stops": [
+        "Q1778619",
+        "Q301787",
+        "Q3376300",
+        "Q11960650",
+        "Q14915214",
+        "Q17765379",
+        "Q4985365",
+        "Q4891481"
+      ],
+      "distance_m": 1927,
+      "walking_seconds": 1542,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "churches-and-chapels-around-bergen-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Bergen Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Bergen",
+      "generated_by": "rules",
+      "stops": [
+        "Q819531",
+        "Q2564303",
+        "Q5651003",
+        "Q1773440",
+        "Q3439566",
+        "Q11983764",
+        "Q7593126",
+        "Q4569482"
+      ],
+      "distance_m": 1798,
+      "walking_seconds": 1438,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "churches-and-chapels-around-fantoft-stave-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Fantoft Stave Church",
+      "title_pt": "Igrejas e capelas perto de Igreja de madeira de Fantoft",
+      "generated_by": "rules",
+      "stops": ["Q12001457", "Q12003436", "Q257558"],
+      "distance_m": 2802,
+      "walking_seconds": 2242,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "historic-highlights-around-fredriksberg-fortress",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fredriksberg Fortress",
+      "title_pt": "Destaques históricos perto de Fredriksberg Fortress",
+      "generated_by": "rules",
+      "stops": ["Q11982996", "Q4356194", "Q15941267", "Q3091564", "Q922112", "Q1775846"],
+      "distance_m": 3661,
+      "walking_seconds": 2929,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "city-landmarks-around-nordhordland-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Nordhordland Bridge",
+      "title_pt": "Marcos da cidade perto de Ponte Nordhordland",
+      "generated_by": "rules",
+      "stops": ["Q11992415", "Q1998104", "Q6439064"],
+      "distance_m": 3693,
+      "walking_seconds": 2954,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "churches-and-chapels-around-troldhaugen",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Troldhaugen",
+      "title_pt": "Igrejas e capelas perto de Troldhaugen",
+      "generated_by": "rules",
+      "stops": ["Q12001062", "Q1291307", "Q11961143"],
+      "distance_m": 3975,
+      "walking_seconds": 3180,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "churches-and-chapels-around-st-james-s-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St. James's Church",
+      "title_pt": "Igrejas e capelas perto de St. James's Church",
+      "generated_by": "rules",
+      "stops": ["Q12011612", "Q5219997", "Q12001827", "Q12002550", "Q12002504"],
+      "distance_m": 4166,
+      "walking_seconds": 3333,
+      "visit_minutes": 140
+    }
+  ]
+}

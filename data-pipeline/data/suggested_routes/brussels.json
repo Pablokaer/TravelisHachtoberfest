@@ -1,0 +1,148 @@
+{
+  "city": "brussels",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-manneken-pis",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Manneken Pis",
+      "title_pt": "Marcos da cidade perto de Manneken Pis",
+      "generated_by": "rules",
+      "stops": [
+        "Q2523530",
+        "Q2762071",
+        "Q968055",
+        "Q215429",
+        "Q1255327",
+        "Q24276476",
+        "Q4979796",
+        "Q152072"
+      ],
+      "distance_m": 1036,
+      "walking_seconds": 829,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-of-st-michael-and-st-gu",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral of St. Michael and St. Gudula",
+      "title_pt": "Destaques históricos perto de Catedral de St. Michael e St. Gudula",
+      "generated_by": "rules",
+      "stops": [
+        "Q152360",
+        "Q1049291",
+        "Q3323275",
+        "Q815542",
+        "Q600633",
+        "Q269654",
+        "Q910603",
+        "Q1131318"
+      ],
+      "distance_m": 2847,
+      "walking_seconds": 2278,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "museums-and-collections-around-royal-museums-of-fine-arts-of",
+      "theme": "museums",
+      "title_en": "Museums and collections around Royal Museums of Fine Arts of Belgium",
+      "title_pt": "Museus e coleções perto de Museus Reais de Belas-Artes da Bélgica",
+      "generated_by": "rules",
+      "stops": [
+        "Q2780063",
+        "Q2628206",
+        "Q943581",
+        "Q3330782",
+        "Q17354571",
+        "Q377500",
+        "Q2002492",
+        "Q2429651"
+      ],
+      "distance_m": 898,
+      "walking_seconds": 718,
+      "visit_minutes": 615
+    },
+    {
+      "slug": "historic-highlights-around-royal-palace-of-brussels",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Palace of Brussels",
+      "title_pt": "Destaques históricos perto de Palácio Real de Bruxelas",
+      "generated_by": "rules",
+      "stops": [
+        "Q16038727",
+        "Q635307",
+        "Q3390534",
+        "Q1131821",
+        "Q728437",
+        "Q3109592",
+        "Q1049313",
+        "Q15939973"
+      ],
+      "distance_m": 879,
+      "walking_seconds": 703,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "historic-highlights-around-great-mosque-of-brussels",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Great Mosque of Brussels",
+      "title_pt": "Destaques históricos perto de Grande Mesquita de Bruxelas",
+      "generated_by": "rules",
+      "stops": [
+        "Q5121082",
+        "Q2277238",
+        "Q1395176",
+        "Q16665229",
+        "Q1548310",
+        "Q7698728",
+        "Q1837926",
+        "Q1736784"
+      ],
+      "distance_m": 1935,
+      "walking_seconds": 1548,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "churches-and-chapels-around-het-zinneke",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Het Zinneke",
+      "title_pt": "Igrejas e capelas perto de Het Zinneke",
+      "generated_by": "rules",
+      "stops": [
+        "Q3580763",
+        "Q1821749",
+        "Q535244",
+        "Q3533138",
+        "Q1903443",
+        "Q16670287",
+        "Q205064",
+        "Q726984"
+      ],
+      "distance_m": 2567,
+      "walking_seconds": 2054,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "city-landmarks-around-museum-of-natural-sciences-of-belgium",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Museum of Natural Sciences of Belgium",
+      "title_pt": "Marcos da cidade perto de Instituto Real Belga de Ciências Naturais",
+      "generated_by": "rules",
+      "stops": ["Q2783500", "Q2447775", "Q2616099", "Q2478731", "Q16509720", "Q222297", "Q46012"],
+      "distance_m": 3220,
+      "walking_seconds": 2576,
+      "visit_minutes": 335
+    },
+    {
+      "slug": "museums-and-collections-around-horta-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Horta Museum",
+      "title_pt": "Museus e coleções perto de Museu Horta",
+      "generated_by": "rules",
+      "stops": ["Q2988142", "Q83529852", "Q1995367", "Q2868867", "Q1070882"],
+      "distance_m": 3517,
+      "walking_seconds": 2814,
+      "visit_minutes": 380
+    }
+  ]
+}

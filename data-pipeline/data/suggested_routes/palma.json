@@ -1,0 +1,119 @@
+{
+  "city": "palma",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-palma-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palma Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Palma de Maiorca",
+      "generated_by": "rules",
+      "stops": [
+        "Q9047027",
+        "Q9047137",
+        "Q1298819",
+        "Q20018828",
+        "Q3176377",
+        "Q21971425",
+        "Q25443512",
+        "Q20877005"
+      ],
+      "distance_m": 797,
+      "walking_seconds": 638,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "museums-and-collections-around-bellver-castle",
+      "theme": "museums",
+      "title_en": "Museums and collections around Bellver Castle",
+      "title_pt": "Museus e coleções perto de Castelo de Bellver",
+      "generated_by": "rules",
+      "stops": ["Q9064319", "Q261707", "Q111785497", "Q949576"],
+      "distance_m": 3310,
+      "walking_seconds": 2648,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "castles-and-viewpoints-around-palace-of-marivent",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Palace of Marivent",
+      "title_pt": "Castelos e miradouros perto de Palace of Marivent",
+      "generated_by": "rules",
+      "stops": ["Q4890326", "Q559220", "Q5856454", "Q20876997", "Q577830"],
+      "distance_m": 2033,
+      "walking_seconds": 1626,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "historic-highlights-around-gran-hotel",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Gran Hotel",
+      "title_pt": "Destaques históricos perto de Gran Hotel",
+      "generated_by": "rules",
+      "stops": [
+        "Q13422874",
+        "Q98126695",
+        "Q11942044",
+        "Q19658434",
+        "Q3780261",
+        "Q9060903",
+        "Q108309734",
+        "Q11920533"
+      ],
+      "distance_m": 877,
+      "walking_seconds": 702,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "churches-and-chapels-around-es-baluard",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Es Baluard",
+      "title_pt": "Igrejas e capelas perto de Es Baluard",
+      "generated_by": "rules",
+      "stops": [
+        "Q131581098",
+        "Q357917",
+        "Q576231",
+        "Q8462260",
+        "Q9007124",
+        "Q18003816",
+        "Q11920537",
+        "Q43158425"
+      ],
+      "distance_m": 1688,
+      "walking_seconds": 1350,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-our-lady-of-mount-zion-school-pa",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Our Lady of Mount Zion School (Palma of Mallorca)",
+      "title_pt": "Igrejas e capelas perto de Our Lady of Mount Zion School (Palma of Mallorca)",
+      "generated_by": "rules",
+      "stops": [
+        "Q85871201",
+        "Q108396126",
+        "Q11942039",
+        "Q355575",
+        "Q56512368",
+        "Q11920502",
+        "Q8350461",
+        "Q557702"
+      ],
+      "distance_m": 1401,
+      "walking_seconds": 1121,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "city-landmarks-around-palma-bullring",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Palma bullring",
+      "title_pt": "Marcos da cidade perto de Palma bullring",
+      "generated_by": "rules",
+      "stops": ["Q510498", "Q11942416", "Q570771", "Q11805348", "Q11942018"],
+      "distance_m": 1617,
+      "walking_seconds": 1294,
+      "visit_minutes": 190
+    }
+  ]
+}

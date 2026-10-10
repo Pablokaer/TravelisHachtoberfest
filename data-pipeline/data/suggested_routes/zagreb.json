@@ -1,0 +1,139 @@
+{
+  "city": "zagreb",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-museum-of-broken-relationships",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museum of Broken Relationships",
+      "title_pt": "Destaques históricos perto de Museu de Relacionamentos Rompidos",
+      "generated_by": "rules",
+      "stops": [
+        "Q169331",
+        "Q2986837",
+        "Q1954595",
+        "Q17277934",
+        "Q5187140",
+        "Q3511227",
+        "Q1637186",
+        "Q10620480"
+      ],
+      "distance_m": 420,
+      "walking_seconds": 336,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "historic-highlights-around-zagreb-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Zagreb Cathedral",
+      "title_pt": "Destaques históricos perto de Zagreb Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q15646422",
+        "Q137914873",
+        "Q312220",
+        "Q377002",
+        "Q2986831",
+        "Q287178",
+        "Q6421422",
+        "Q603560"
+      ],
+      "distance_m": 1969,
+      "walking_seconds": 1575,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "museums-and-collections-around-nikola-tesla-technical-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Nikola Tesla Technical Museum",
+      "title_pt": "Museus e coleções perto de Nikola Tesla Technical Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q10753710",
+        "Q406652",
+        "Q12751961",
+        "Q1557929",
+        "Q19800041",
+        "Q502157",
+        "Q1936046",
+        "Q2618661"
+      ],
+      "distance_m": 2453,
+      "walking_seconds": 1962,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "museums-and-collections-around-mestrovic-pavilion",
+      "theme": "museums",
+      "title_en": "Museums and collections around Meštrović Pavilion",
+      "title_pt": "Museus e coleções perto de Meštrović Pavilion",
+      "generated_by": "rules",
+      "stops": [
+        "Q5406932",
+        "Q12643863",
+        "Q12061727",
+        "Q18889320",
+        "Q1258421",
+        "Q2350879",
+        "Q391613",
+        "Q725066"
+      ],
+      "distance_m": 3581,
+      "walking_seconds": 2865,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "historic-highlights-around-st-mark-s-square",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Mark's Square",
+      "title_pt": "Destaques históricos perto de St. Mark's Square",
+      "generated_by": "rules",
+      "stops": [
+        "Q2925682",
+        "Q1563303",
+        "Q1275381",
+        "Q2353812",
+        "Q17149814",
+        "Q8366704",
+        "Q2501733",
+        "Q2618426"
+      ],
+      "distance_m": 2187,
+      "walking_seconds": 1750,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "churches-and-chapels-around-croatian-museum-of-contemporary",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Croatian Museum of Contemporary Art",
+      "title_pt": "Igrejas e capelas perto de Croatian Museum of Contemporary Art",
+      "generated_by": "rules",
+      "stops": ["Q13598673", "Q132077244", "Q116266495", "Q3503103", "Q6541625"],
+      "distance_m": 3372,
+      "walking_seconds": 2698,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "historic-highlights-around-mirogoj-cemetery",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mirogoj Cemetery",
+      "title_pt": "Destaques históricos perto de Cemitério de Mirogoj",
+      "generated_by": "rules",
+      "stops": ["Q1563272", "Q1262136", "Q84159"],
+      "distance_m": 2516,
+      "walking_seconds": 2013,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "churches-and-chapels-around-adriatic-bridge",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Adriatic Bridge",
+      "title_pt": "Igrejas e capelas perto de Adriatic Bridge",
+      "generated_by": "rules",
+      "stops": ["Q132078082", "Q4685614", "Q125578862", "Q131204698", "Q5187116"],
+      "distance_m": 3181,
+      "walking_seconds": 2545,
+      "visit_minutes": 200
+    }
+  ]
+}

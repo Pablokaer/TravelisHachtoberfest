@@ -1,0 +1,77 @@
+{
+  "city": "reykjavik",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-hallgrimskirkja",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Hallgrímskirkja",
+      "title_pt": "Destaques históricos perto de Hallgrímskirkja",
+      "generated_by": "rules",
+      "stops": [
+        "Q3481715",
+        "Q66126509",
+        "Q271466",
+        "Q356308",
+        "Q1141052",
+        "Q16429209",
+        "Q1250667",
+        "Q3480309"
+      ],
+      "distance_m": 2538,
+      "walking_seconds": 2030,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "museums-and-collections-around-icelandic-phallological-museu",
+      "theme": "museums",
+      "title_en": "Museums and collections around Icelandic Phallological Museum",
+      "title_pt": "Museus e coleções perto de Museu Falológico Islândes",
+      "generated_by": "rules",
+      "stops": [
+        "Q15961653",
+        "Q16420866",
+        "Q3358410",
+        "Q45391397",
+        "Q451045",
+        "Q1270853",
+        "Q123416199",
+        "Q177174"
+      ],
+      "distance_m": 897,
+      "walking_seconds": 718,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "museums-and-collections-around-national-museum-of-iceland",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Museum of Iceland",
+      "title_pt": "Museus e coleções perto de Museu Nacional da Islândia",
+      "generated_by": "rules",
+      "stops": [
+        "Q97257707",
+        "Q7929434",
+        "Q6484299",
+        "Q794242",
+        "Q7319496",
+        "Q196471",
+        "Q16428829",
+        "Q626963"
+      ],
+      "distance_m": 2287,
+      "walking_seconds": 1830,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "museums-and-collections-around-reykjavik-mosque",
+      "theme": "museums",
+      "title_en": "Museums and collections around Reykjavík Mosque",
+      "title_pt": "Museus e coleções perto de Reykjavík Mosque",
+      "generated_by": "rules",
+      "stops": ["Q3482143", "Q16419618", "Q1551192", "Q3481694"],
+      "distance_m": 3117,
+      "walking_seconds": 2494,
+      "visit_minutes": 230
+    }
+  ]
+}

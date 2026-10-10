@@ -1,0 +1,26 @@
+{
+  "city": "pirenopolis",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-church-of-our-lord-of-bonfim",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Our Lord of Bonfim",
+      "title_pt": "Igrejas e capelas perto de Igreja de Nosso Senhor do Bonfim (Pirenópolis)",
+      "generated_by": "rules",
+      "stops": [
+        "Q10300584",
+        "Q9698281",
+        "Q122830050",
+        "Q10300508",
+        "Q122782576",
+        "Q18483915",
+        "Q10300074",
+        "Q106545878"
+      ],
+      "distance_m": 2675,
+      "walking_seconds": 2140,
+      "visit_minutes": 270
+    }
+  ]
+}

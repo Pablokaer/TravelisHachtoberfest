@@ -1,0 +1,37 @@
+{
+  "city": "casablanca",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-hassan-ii-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hassan II Mosque",
+      "title_pt": "Marcos da cidade perto de Mesquita Hassan II",
+      "generated_by": "rules",
+      "stops": [
+        "Q106201378",
+        "Q28221791",
+        "Q117012077",
+        "Q60576667",
+        "Q56277500",
+        "Q3329029",
+        "Q7698452",
+        "Q41346"
+      ],
+      "distance_m": 4503,
+      "walking_seconds": 3602,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "churches-and-chapels-around-casablanca-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Casablanca Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral do Sagrado Coração de Casablanca",
+      "generated_by": "rules",
+      "stops": ["Q2942285", "Q5940359", "Q111915727", "Q59191645", "Q2415827"],
+      "distance_m": 2674,
+      "walking_seconds": 2139,
+      "visit_minutes": 175
+    }
+  ]
+}

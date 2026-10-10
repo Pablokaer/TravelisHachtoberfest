@@ -1,0 +1,148 @@
+{
+  "city": "barcelona",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-arc-de-triomf",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Arc de Triomf",
+      "title_pt": "Destaques históricos perto de Arco do Triunfo",
+      "generated_by": "rules",
+      "stops": [
+        "Q631075",
+        "Q2349130",
+        "Q327940",
+        "Q3571337",
+        "Q1050032",
+        "Q908802",
+        "Q2749521",
+        "Q18005324"
+      ],
+      "distance_m": 3409,
+      "walking_seconds": 2727,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-museu-nacional-d-art-de-catalunya",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museu Nacional d'Art de Catalunya",
+      "title_pt": "Destaques históricos perto de Museu Nacional de Arte da Catalunha",
+      "generated_by": "rules",
+      "stops": [
+        "Q2013874",
+        "Q7919738",
+        "Q960115",
+        "Q1414600",
+        "Q861252",
+        "Q202530",
+        "Q3753144",
+        "Q867072"
+      ],
+      "distance_m": 3121,
+      "walking_seconds": 2497,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "historic-highlights-around-palau-guell",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palau Güell",
+      "title_pt": "Destaques históricos perto de Palácio Güell",
+      "generated_by": "rules",
+      "stops": [
+        "Q2916029",
+        "Q3392167",
+        "Q2293331",
+        "Q1519964",
+        "Q597051",
+        "Q2037732",
+        "Q2288815",
+        "Q1286354"
+      ],
+      "distance_m": 2128,
+      "walking_seconds": 1702,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-of-the-holy-cross-and-s",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral of the Holy Cross and Saint Eulalia",
+      "title_pt": "Destaques históricos perto de Catedral de Barcelona",
+      "generated_by": "rules",
+      "stops": [
+        "Q6928354",
+        "Q17155",
+        "Q1630272",
+        "Q3896289",
+        "Q1116546",
+        "Q2067174",
+        "Q14924660",
+        "Q3819019"
+      ],
+      "distance_m": 440,
+      "walking_seconds": 352,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-placa-de-sant-felip-neri",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Plaça de Sant Felip Neri",
+      "title_pt": "Destaques históricos perto de Plaça de Sant Felip Neri",
+      "generated_by": "rules",
+      "stops": [
+        "Q2362262",
+        "Q2447148",
+        "Q9060949",
+        "Q2082605",
+        "Q2309299",
+        "Q6430822",
+        "Q5350918",
+        "Q1753029"
+      ],
+      "distance_m": 3806,
+      "walking_seconds": 3045,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-placa-de-catalunya",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Plaça de Catalunya",
+      "title_pt": "Destaques históricos perto de Praça da Catalunha",
+      "generated_by": "rules",
+      "stops": [
+        "Q16726061",
+        "Q822881",
+        "Q2723971",
+        "Q15136682",
+        "Q11682842",
+        "Q1798216",
+        "Q1067140",
+        "Q2945260"
+      ],
+      "distance_m": 1857,
+      "walking_seconds": 1486,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-basilica-and-expiatory-church-of",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica and Expiatory Church of the Holy Family",
+      "title_pt": "Destaques históricos perto de Templo Expiatório da Sagrada Família",
+      "generated_by": "rules",
+      "stops": ["Q19256590", "Q48435", "Q337522", "Q5016197", "Q4889477", "Q1426190"],
+      "distance_m": 3715,
+      "walking_seconds": 2972,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "museums-and-collections-around-park-guell",
+      "theme": "museums",
+      "title_en": "Museums and collections around Park Güell",
+      "title_pt": "Museus e coleções perto de Parque Güell",
+      "generated_by": "rules",
+      "stops": ["Q2625747", "Q1968399", "Q212867", "Q2613403", "Q746333"],
+      "distance_m": 4096,
+      "walking_seconds": 3277,
+      "visit_minutes": 380
+    }
+  ]
+}

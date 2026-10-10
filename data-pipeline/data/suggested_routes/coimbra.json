@@ -1,0 +1,99 @@
+{
+  "city": "coimbra",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-monastery-of-santa-clara-a-velha",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Monastery of Santa Clara-a-Velha",
+      "title_pt": "Igrejas e capelas perto de Mosteiro de Santa Clara-a-Velha",
+      "generated_by": "rules",
+      "stops": [
+        "Q10278715",
+        "Q7160072",
+        "Q66942037",
+        "Q6898348",
+        "Q28679099",
+        "Q10351444",
+        "Q10316356",
+        "Q979100"
+      ],
+      "distance_m": 3622,
+      "walking_seconds": 2898,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-old-cathedral-of-coimbra",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Old Cathedral of Coimbra",
+      "title_pt": "Destaques históricos perto de Sé Velha de Coimbra",
+      "generated_by": "rules",
+      "stops": [
+        "Q66941991",
+        "Q2351947",
+        "Q2914061",
+        "Q66942404",
+        "Q1225897",
+        "Q10300765",
+        "Q6974439",
+        "Q28086426"
+      ],
+      "distance_m": 647,
+      "walking_seconds": 518,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "churches-and-chapels-around-monastery-of-santa-cruz",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Monastery of Santa Cruz",
+      "title_pt": "Igrejas e capelas perto de Mosteiro de Santa Cruz",
+      "generated_by": "rules",
+      "stops": [
+        "Q66942136",
+        "Q66942168",
+        "Q2499524",
+        "Q66942093",
+        "Q5840855",
+        "Q5994187",
+        "Q7603888",
+        "Q10300707"
+      ],
+      "distance_m": 932,
+      "walking_seconds": 746,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "city-landmarks-around-acude-ponte-de-coimbra",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Açude-ponte de Coimbra",
+      "title_pt": "Marcos da cidade perto de Açude-ponte de Coimbra",
+      "generated_by": "rules",
+      "stops": ["Q9641501", "Q98747305", "Q303106"],
+      "distance_m": 2291,
+      "walking_seconds": 1833,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "historic-highlights-around-ponte-rainha-santa-isabel",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ponte Rainha Santa Isabel",
+      "title_pt": "Destaques históricos perto de Ponte Rainha Santa Isabel",
+      "generated_by": "rules",
+      "stops": ["Q10351377", "Q30931579", "Q10348098"],
+      "distance_m": 2663,
+      "walking_seconds": 2130,
+      "visit_minutes": 70
+    },
+    {
+      "slug": "historic-highlights-around-museu-monografico-de-conimbriga",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museu Monográfico de Conimbriga",
+      "title_pt": "Destaques históricos perto de Museu Monográfico de Conimbriga",
+      "generated_by": "rules",
+      "stops": ["Q66942485", "Q10344045", "Q10300027", "Q10333548"],
+      "distance_m": 2353,
+      "walking_seconds": 1882,
+      "visit_minutes": 215
+    }
+  ]
+}

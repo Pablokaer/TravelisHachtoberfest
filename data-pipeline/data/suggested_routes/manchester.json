@@ -1,0 +1,138 @@
+{
+  "city": "manchester",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-manchester-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Manchester Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Manchester",
+      "generated_by": "rules",
+      "stops": [
+        "Q3061830",
+        "Q3481300",
+        "Q5647984",
+        "Q971811",
+        "Q2901355",
+        "Q1323117",
+        "Q16850824",
+        "Q2500370"
+      ],
+      "distance_m": 561,
+      "walking_seconds": 449,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "monuments-and-memorials-around-manchester-piccadilly-station",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Manchester Piccadilly station",
+      "title_pt": "Monumentos e memoriais perto de Manchester Piccadilly station",
+      "generated_by": "rules",
+      "stops": [
+        "Q5209254",
+        "Q7992032",
+        "Q7592459",
+        "Q6747306",
+        "Q60751168",
+        "Q3736114",
+        "Q58482871",
+        "Q600367"
+      ],
+      "distance_m": 3888,
+      "walking_seconds": 3110,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "city-landmarks-around-manchester-town-hall",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Manchester Town Hall",
+      "title_pt": "Marcos da cidade perto de Manchester Town Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q7739544",
+        "Q4711262",
+        "Q2578415",
+        "Q6747297",
+        "Q2638817",
+        "Q59773345",
+        "Q7595337",
+        "Q6747527"
+      ],
+      "distance_m": 863,
+      "walking_seconds": 690,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-people-s-history-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around People's History Museum",
+      "title_pt": "Destaques históricos perto de People's History Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q801156",
+        "Q7538071",
+        "Q2638616",
+        "Q5599692",
+        "Q16932237",
+        "Q3374980",
+        "Q26665832",
+        "Q1137872"
+      ],
+      "distance_m": 2623,
+      "walking_seconds": 2098,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-stockport-viaduct",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Stockport Viaduct",
+      "title_pt": "Destaques históricos perto de Stockport Viaduct",
+      "generated_by": "rules",
+      "stops": [
+        "Q7618174",
+        "Q5680826",
+        "Q7618175",
+        "Q7618143",
+        "Q7594430",
+        "Q16248167",
+        "Q7597096"
+      ],
+      "distance_m": 1975,
+      "walking_seconds": 1580,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "museums-and-collections-around-manchester-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Manchester Museum",
+      "title_pt": "Museus e coleções perto de Museu de Manchester",
+      "generated_by": "rules",
+      "stops": ["Q4644775", "Q7131318", "Q3567825", "Q5117919", "Q2087619", "Q5936167"],
+      "distance_m": 3133,
+      "walking_seconds": 2506,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "museums-and-collections-around-national-football-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Football Museum",
+      "title_pt": "Museus e coleções perto de National Football Museum",
+      "generated_by": "rules",
+      "stops": ["Q6747441", "Q4280811", "Q2265733", "Q3285089", "Q1620954"],
+      "distance_m": 3322,
+      "walking_seconds": 2658,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-the-lowry",
+      "theme": "museums",
+      "title_en": "Museums and collections around The Lowry",
+      "title_pt": "Museus e coleções perto de The Lowry",
+      "generated_by": "rules",
+      "stops": ["Q7100933", "Q7404386", "Q3521692", "Q1393304"],
+      "distance_m": 1978,
+      "walking_seconds": 1582,
+      "visit_minutes": 290
+    }
+  ]
+}

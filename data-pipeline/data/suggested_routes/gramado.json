@@ -1,0 +1,17 @@
+{
+  "city": "gramado",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-mundo-a-vapor",
+      "theme": "museums",
+      "title_en": "Museums and collections around Mundo a Vapor",
+      "title_pt": "Museus e coleções perto de Mundo a Vapor",
+      "generated_by": "rules",
+      "stops": ["Q40942970", "Q10333197", "Q25421074"],
+      "distance_m": 3222,
+      "walking_seconds": 2578,
+      "visit_minutes": 255
+    }
+  ]
+}

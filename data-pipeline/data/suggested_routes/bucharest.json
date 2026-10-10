@@ -1,0 +1,157 @@
+{
+  "city": "bucharest",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-palace-of-the-parliament",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Palace of the Parliament",
+      "title_pt": "Igrejas e capelas perto de Palácio do Parlamento",
+      "generated_by": "rules",
+      "stops": [
+        "Q1428093",
+        "Q6963033",
+        "Q164150",
+        "Q3382271",
+        "Q3320254",
+        "Q1514860",
+        "Q7604510",
+        "Q15636001"
+      ],
+      "distance_m": 3236,
+      "walking_seconds": 2589,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "historic-highlights-around-royal-palace-of-bucharest",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Palace of Bucharest",
+      "title_pt": "Destaques históricos perto de Palácio Real",
+      "generated_by": "rules",
+      "stops": [
+        "Q12737428",
+        "Q3390456",
+        "Q6815562",
+        "Q3394199",
+        "Q12741329",
+        "Q3361220",
+        "Q1319192",
+        "Q18537334"
+      ],
+      "distance_m": 1056,
+      "walking_seconds": 845,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "historic-highlights-around-arcul-de-triumf-bucharest",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Arcul de Triumf Bucharest",
+      "title_pt": "Destaques históricos perto de Arcul de Triumf",
+      "generated_by": "rules",
+      "stops": [
+        "Q1956214",
+        "Q5356931",
+        "Q4685395",
+        "Q638278",
+        "Q3389765",
+        "Q59821493",
+        "Q1956195",
+        "Q1187980"
+      ],
+      "distance_m": 4065,
+      "walking_seconds": 3252,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "churches-and-chapels-around-stavropoleos-monastery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Stavropoleos Monastery",
+      "title_pt": "Igrejas e capelas perto de Mosteiro de Stavropoleos",
+      "generated_by": "rules",
+      "stops": [
+        "Q2740973",
+        "Q20432520",
+        "Q3119683",
+        "Q179283",
+        "Q18549841",
+        "Q18545113",
+        "Q2502307",
+        "Q2344887"
+      ],
+      "distance_m": 1496,
+      "walking_seconds": 1197,
+      "visit_minutes": 335
+    },
+    {
+      "slug": "museums-and-collections-around-cantacuzino-palace",
+      "theme": "museums",
+      "title_en": "Museums and collections around Cantacuzino palace",
+      "title_pt": "Museus e coleções perto de Cantacuzino palace",
+      "generated_by": "rules",
+      "stops": [
+        "Q6940756",
+        "Q3382272",
+        "Q12741315",
+        "Q18549593",
+        "Q4540126",
+        "Q2887525",
+        "Q3330898",
+        "Q623662"
+      ],
+      "distance_m": 2539,
+      "walking_seconds": 2031,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "churches-and-chapels-around-piata-unirii",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Piața Unirii",
+      "title_pt": "Igrejas e capelas perto de Praça da União",
+      "generated_by": "rules",
+      "stops": [
+        "Q2814260",
+        "Q2916042",
+        "Q2778310",
+        "Q18543761",
+        "Q3409440",
+        "Q950735",
+        "Q12721829",
+        "Q7402183"
+      ],
+      "distance_m": 2360,
+      "walking_seconds": 1888,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "city-landmarks-around-university-square",
+      "theme": "landmarks",
+      "title_en": "City landmarks around University Square",
+      "title_pt": "Marcos da cidade perto de University Square",
+      "generated_by": "rules",
+      "stops": [
+        "Q21212864",
+        "Q3382274",
+        "Q85746739",
+        "Q12721800",
+        "Q4683573",
+        "Q1850614",
+        "Q3405500",
+        "Q4763440"
+      ],
+      "distance_m": 2802,
+      "walking_seconds": 2242,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-basarab-overpass",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Basarab Overpass",
+      "title_pt": "Marcos da cidade perto de Basarab Overpass",
+      "generated_by": "rules",
+      "stops": ["Q12724066", "Q7207165", "Q4866262", "Q4866261", "Q3488935"],
+      "distance_m": 4020,
+      "walking_seconds": 3216,
+      "visit_minutes": 170
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "city": "tallinn",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "castles-and-viewpoints-around-alexander-nevsky-cathedral",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Alexander Nevsky Cathedral",
+      "title_pt": "Castelos e miradouros perto de Catedral de Alexandre Nevsky",
+      "generated_by": "rules",
+      "stops": [
+        "Q613788",
+        "Q914562",
+        "Q2089605",
+        "Q2089915",
+        "Q568214",
+        "Q937320",
+        "Q859010",
+        "Q1420569"
+      ],
+      "distance_m": 888,
+      "walking_seconds": 710,
+      "visit_minutes": 540
+    },
+    {
+      "slug": "historic-highlights-around-tallinn-town-hall",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Tallinn Town Hall",
+      "title_pt": "Destaques históricos perto de Tallinn Town Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q2322737",
+        "Q3860574",
+        "Q777726",
+        "Q1070298",
+        "Q904057",
+        "Q2705653",
+        "Q107249331",
+        "Q4311839"
+      ],
+      "distance_m": 788,
+      "walking_seconds": 630,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-kadriorg-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kadriorg Palace",
+      "title_pt": "Destaques históricos perto de Palácio Kadriorg",
+      "generated_by": "rules",
+      "stops": ["Q4338776", "Q2304576", "Q7722735", "Q12365990", "Q919611", "Q692269"],
+      "distance_m": 3844,
+      "walking_seconds": 3075,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-freedom-square",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Freedom Square",
+      "title_pt": "Destaques históricos perto de Freedom Square",
+      "generated_by": "rules",
+      "stops": [
+        "Q1733946",
+        "Q625590",
+        "Q3739625",
+        "Q2529281",
+        "Q2072409",
+        "Q3136517",
+        "Q12359825",
+        "Q12357690"
+      ],
+      "distance_m": 1242,
+      "walking_seconds": 994,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-bronze-soldier-of-tallinn",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bronze Soldier of Tallinn",
+      "title_pt": "Marcos da cidade perto de Soldado de bronze de Tallinn",
+      "generated_by": "rules",
+      "stops": [
+        "Q15528754",
+        "Q12376146",
+        "Q17354801",
+        "Q12376144",
+        "Q12376121",
+        "Q12375118",
+        "Q928267",
+        "Q5251189"
+      ],
+      "distance_m": 2654,
+      "walking_seconds": 2123,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "castles-and-viewpoints-around-st-olaf-s-church",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around St. Olaf's Church",
+      "title_pt": "Castelos e miradouros perto de Igreja de São Olavo",
+      "generated_by": "rules",
+      "stops": [
+        "Q4080259",
+        "Q12361299",
+        "Q12372588",
+        "Q8498329",
+        "Q12362209",
+        "Q834511",
+        "Q12363524",
+        "Q282994"
+      ],
+      "distance_m": 559,
+      "walking_seconds": 447,
+      "visit_minutes": 600
+    },
+    {
+      "slug": "museums-and-collections-around-patarei-prison",
+      "theme": "museums",
+      "title_en": "Museums and collections around Patarei prison",
+      "title_pt": "Museus e coleções perto de Patarei prison",
+      "generated_by": "rules",
+      "stops": [
+        "Q12371200",
+        "Q12368923",
+        "Q28721383",
+        "Q5401903",
+        "Q720876",
+        "Q12363088",
+        "Q2044838",
+        "Q857516"
+      ],
+      "distance_m": 3342,
+      "walking_seconds": 2674,
+      "visit_minutes": 580
+    },
+    {
+      "slug": "monuments-and-memorials-around-maarjamae-memorial",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Maarjamäe memorial",
+      "title_pt": "Monumentos e memoriais perto de Memorial Maarjamäe",
+      "generated_by": "rules",
+      "stops": ["Q4505300", "Q3852986", "Q56254934", "Q2301260"],
+      "distance_m": 4706,
+      "walking_seconds": 3765,
+      "visit_minutes": 100
+    }
+  ]
+}

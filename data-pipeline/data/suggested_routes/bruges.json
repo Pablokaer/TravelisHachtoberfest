@@ -1,0 +1,157 @@
+{
+  "city": "bruges",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-madonna-of-bruges",
+      "theme": "museums",
+      "title_en": "Museums and collections around Madonna of Bruges",
+      "title_pt": "Museus e coleções perto de Madona de Bruges",
+      "generated_by": "rules",
+      "stops": [
+        "Q1948674",
+        "Q11044187",
+        "Q1108949",
+        "Q567833",
+        "Q917183",
+        "Q2684442",
+        "Q2432540",
+        "Q1378149"
+      ],
+      "distance_m": 771,
+      "walking_seconds": 617,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "city-landmarks-around-museum-van-het-heilig-bloed",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Museum van het Heilig Bloed",
+      "title_pt": "Marcos da cidade perto de Basílica do Sangue Sagrado",
+      "generated_by": "rules",
+      "stops": [
+        "Q56378162",
+        "Q1108945",
+        "Q522604",
+        "Q79232210",
+        "Q2786659",
+        "Q905848",
+        "Q2441211",
+        "Q1108938"
+      ],
+      "distance_m": 712,
+      "walking_seconds": 570,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "city-landmarks-around-oude-beursplein",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Oude Beursplein",
+      "title_pt": "Marcos da cidade perto de Oude Beursplein",
+      "generated_by": "rules",
+      "stops": [
+        "Q4680055",
+        "Q26233860",
+        "Q2487207",
+        "Q3127690",
+        "Q5039917",
+        "Q3042345",
+        "Q1820262",
+        "Q2519486"
+      ],
+      "distance_m": 644,
+      "walking_seconds": 515,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "city-landmarks-around-ten-wijngaerde",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ten Wijngaerde",
+      "title_pt": "Marcos da cidade perto de Ten Wijngaerde",
+      "generated_by": "rules",
+      "stops": [
+        "Q2421775",
+        "Q4786767",
+        "Q25682122",
+        "Q2348705",
+        "Q2528092",
+        "Q25682457",
+        "Q2044484",
+        "Q2206194"
+      ],
+      "distance_m": 2086,
+      "walking_seconds": 1669,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "city-landmarks-around-choco-story-bruges",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Choco-Story Bruges",
+      "title_pt": "Marcos da cidade perto de Choco-Story Bruges",
+      "generated_by": "rules",
+      "stops": [
+        "Q1846850",
+        "Q4305142",
+        "Q2043815",
+        "Q1109377",
+        "Q511024",
+        "Q2747092",
+        "Q2018735",
+        "Q1811127"
+      ],
+      "distance_m": 1030,
+      "walking_seconds": 824,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "churches-and-chapels-around-st-james-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St. James Church",
+      "title_pt": "Igrejas e capelas perto de St. James Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q2555698",
+        "Q2277567",
+        "Q1851037",
+        "Q1876891",
+        "Q2530761",
+        "Q2663850",
+        "Q2912074",
+        "Q2359892"
+      ],
+      "distance_m": 3783,
+      "walking_seconds": 3026,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "historic-highlights-around-marieke",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Marieke",
+      "title_pt": "Destaques históricos perto de Marieke",
+      "generated_by": "rules",
+      "stops": [
+        "Q2060992",
+        "Q2105764",
+        "Q55313559",
+        "Q2578327",
+        "Q2704445",
+        "Q2185798",
+        "Q240807",
+        "Q2185810"
+      ],
+      "distance_m": 2225,
+      "walking_seconds": 1780,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "museums-and-collections-around-gezellehuis",
+      "theme": "museums",
+      "title_en": "Museums and collections around Gezellehuis",
+      "title_pt": "Museus e coleções perto de Gezellehuis",
+      "generated_by": "rules",
+      "stops": ["Q2060361", "Q2359784", "Q2562388", "Q664766", "Q2789120", "Q2471860", "Q2772722"],
+      "distance_m": 3919,
+      "walking_seconds": 3135,
+      "visit_minutes": 440
+    }
+  ]
+}

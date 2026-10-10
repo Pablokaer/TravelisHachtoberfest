@@ -1,0 +1,112 @@
+{
+  "city": "beijing",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-tiananmen-square",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Tiananmen Square",
+      "title_pt": "Monumentos e memoriais perto de Praça da Paz Celestial",
+      "generated_by": "rules",
+      "stops": [
+        "Q11081673",
+        "Q83973",
+        "Q164055",
+        "Q1074318",
+        "Q536955",
+        "Q3105578",
+        "Q1154819",
+        "Q197703"
+      ],
+      "distance_m": 3120,
+      "walking_seconds": 2496,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-forbidden-city",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Forbidden City",
+      "title_pt": "Palácios e casas nobres perto de Cidade Proibida",
+      "generated_by": "rules",
+      "stops": [
+        "Q7126256",
+        "Q11065085",
+        "Q7126233",
+        "Q7126241",
+        "Q80290",
+        "Q2047427",
+        "Q3431717",
+        "Q1347866"
+      ],
+      "distance_m": 1856,
+      "walking_seconds": 1485,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-zhongnanhai",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Zhongnanhai",
+      "title_pt": "Palácios e casas nobres perto de Zhongnanhai",
+      "generated_by": "rules",
+      "stops": ["Q15902415", "Q15903427", "Q15902497", "Q197889", "Q2032749"],
+      "distance_m": 4452,
+      "walking_seconds": 3562,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-yonghe-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Yonghe Temple",
+      "title_pt": "Marcos da cidade perto de Yonghe Gong",
+      "generated_by": "rules",
+      "stops": ["Q615178", "Q692723", "Q1064580", "Q1890808"],
+      "distance_m": 1964,
+      "walking_seconds": 1571,
+      "visit_minutes": 205
+    },
+    {
+      "slug": "city-landmarks-around-beijing-city-fortifications",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Beijing city fortifications",
+      "title_pt": "Marcos da cidade perto de Beijing city fortifications",
+      "generated_by": "rules",
+      "stops": ["Q1812732", "Q2046257", "Q804054", "Q1189666"],
+      "distance_m": 3117,
+      "walking_seconds": 2494,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "historic-highlights-around-temple-of-heaven",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Temple of Heaven",
+      "title_pt": "Destaques históricos perto de Templo do Céu",
+      "generated_by": "rules",
+      "stops": ["Q1808040", "Q846583", "Q125445"],
+      "distance_m": 2984,
+      "walking_seconds": 2387,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-lugou-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Lugou Bridge",
+      "title_pt": "Destaques históricos perto de Ponte Marco Polo",
+      "generated_by": "rules",
+      "stops": ["Q1060121", "Q1538571", "Q700376"],
+      "distance_m": 920,
+      "walking_seconds": 736,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "castles-and-viewpoints-around-underground-city",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Underground City",
+      "title_pt": "Castelos e miradouros perto de Underground City",
+      "generated_by": "rules",
+      "stops": ["Q4567915", "Q2263304", "Q1064185"],
+      "distance_m": 3615,
+      "walking_seconds": 2892,
+      "visit_minutes": 210
+    }
+  ]
+}

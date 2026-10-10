@@ -1,0 +1,37 @@
+{
+  "city": "phnom-penh",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-royal-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Palace",
+      "title_pt": "Destaques históricos perto de Palácio Real de Phnom Penh",
+      "generated_by": "rules",
+      "stops": [
+        "Q7972956",
+        "Q1929750",
+        "Q3104564",
+        "Q7530912",
+        "Q420618",
+        "Q2641555",
+        "Q7972919",
+        "Q5025211"
+      ],
+      "distance_m": 2570,
+      "walking_seconds": 2056,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-phnom",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Phnom",
+      "title_pt": "Igrejas e capelas perto de Wat Phnom",
+      "generated_by": "rules",
+      "stops": ["Q136746706", "Q1818101", "Q3324935", "Q18347573", "Q22341656"],
+      "distance_m": 4262,
+      "walking_seconds": 3410,
+      "visit_minutes": 190
+    }
+  ]
+}

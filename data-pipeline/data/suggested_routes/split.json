@@ -1,0 +1,105 @@
+{
+  "city": "split",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-diocletian-s-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Diocletian's Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Diocleciano",
+      "generated_by": "rules",
+      "stops": [
+        "Q85749176",
+        "Q4501094",
+        "Q65152278",
+        "Q65141859",
+        "Q65152389",
+        "Q16113115",
+        "Q65042600",
+        "Q322287"
+      ],
+      "distance_m": 399,
+      "walking_seconds": 319,
+      "visit_minutes": 475
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-of-saint-domnius",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral of Saint Domnius",
+      "title_pt": "Destaques históricos perto de Catedral de São Dômnio",
+      "generated_by": "rules",
+      "stops": [
+        "Q65151862",
+        "Q25502514",
+        "Q9677526",
+        "Q3908683",
+        "Q65152627",
+        "Q12639517",
+        "Q1268475",
+        "Q16114357"
+      ],
+      "distance_m": 427,
+      "walking_seconds": 342,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-split-synagogue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Split Synagogue",
+      "title_pt": "Destaques históricos perto de Split Synagogue",
+      "generated_by": "rules",
+      "stops": [
+        "Q5519009",
+        "Q12627801",
+        "Q12629306",
+        "Q26256587",
+        "Q65152628",
+        "Q16109987",
+        "Q111536257",
+        "Q1564354"
+      ],
+      "distance_m": 717,
+      "walking_seconds": 574,
+      "visit_minutes": 385
+    },
+    {
+      "slug": "historic-highlights-around-ivan-mestrovic-gallery",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ivan Meštrović Gallery",
+      "title_pt": "Destaques históricos perto de Ivan Meštrović Gallery",
+      "generated_by": "rules",
+      "stops": [
+        "Q26256586",
+        "Q26256878",
+        "Q65151316",
+        "Q65151319",
+        "Q17454468",
+        "Q5696978",
+        "Q854533",
+        "Q6096967"
+      ],
+      "distance_m": 2420,
+      "walking_seconds": 1936,
+      "visit_minutes": 455
+    },
+    {
+      "slug": "churches-and-chapels-around-archaeological-museum-split",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Archaeological Museum Split",
+      "title_pt": "Igrejas e capelas perto de Archaeological Museum Split",
+      "generated_by": "rules",
+      "stops": [
+        "Q15013540",
+        "Q17450667",
+        "Q16112384",
+        "Q12629266",
+        "Q598800",
+        "Q12629316",
+        "Q12631165"
+      ],
+      "distance_m": 3554,
+      "walking_seconds": 2843,
+      "visit_minutes": 435
+    }
+  ]
+}

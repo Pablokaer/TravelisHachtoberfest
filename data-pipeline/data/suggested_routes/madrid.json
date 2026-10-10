@@ -1,0 +1,148 @@
+{
+  "city": "madrid",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-royal-palace-of-madrid",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Palace of Madrid",
+      "title_pt": "Destaques históricos perto de Palácio Real de Madrid",
+      "generated_by": "rules",
+      "stops": [
+        "Q10343739",
+        "Q211250",
+        "Q3887462",
+        "Q2193218",
+        "Q171517",
+        "Q6033986",
+        "Q849711",
+        "Q3827251"
+      ],
+      "distance_m": 1518,
+      "walking_seconds": 1214,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "historic-highlights-around-statue-of-the-bear-and-the-strawb",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Statue of the Bear and the Strawberry Tree",
+      "title_pt": "Destaques históricos perto de O Urso e o Medronheiro",
+      "generated_by": "rules",
+      "stops": [
+        "Q1815235",
+        "Q1849031",
+        "Q1537446",
+        "Q2736564",
+        "Q4891981",
+        "Q1322403",
+        "Q3887613",
+        "Q740210"
+      ],
+      "distance_m": 1864,
+      "walking_seconds": 1491,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "museums-and-collections-around-museo-nacional-centro-de-arte",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museo Nacional Centro de Arte Reina Sofía",
+      "title_pt": "Museus e coleções perto de Museu Nacional Centro de Arte Reina Sofia",
+      "generated_by": "rules",
+      "stops": [
+        "Q176251",
+        "Q7591669",
+        "Q9054619",
+        "Q5166200",
+        "Q1026041",
+        "Q1794858",
+        "Q460889",
+        "Q4817163"
+      ],
+      "distance_m": 2405,
+      "walking_seconds": 1924,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "city-landmarks-around-main-square",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Main Square",
+      "title_pt": "Marcos da cidade perto de Praça Maior",
+      "generated_by": "rules",
+      "stops": [
+        "Q3682887",
+        "Q4407295",
+        "Q3661194",
+        "Q2711992",
+        "Q6770825",
+        "Q1123493",
+        "Q2268271",
+        "Q427163"
+      ],
+      "distance_m": 1699,
+      "walking_seconds": 1359,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "monuments-and-memorials-around-museo-del-prado",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Museo del Prado",
+      "title_pt": "Monumentos e memoriais perto de Museu do Prado",
+      "generated_by": "rules",
+      "stops": [
+        "Q3567521",
+        "Q1472798",
+        "Q3034186",
+        "Q3145654",
+        "Q160112",
+        "Q7414379",
+        "Q11993457",
+        "Q3321174"
+      ],
+      "distance_m": 1070,
+      "walking_seconds": 856,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-alcala-gate",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Alcalá Gate",
+      "title_pt": "Destaques históricos perto de Puerta de Alcalá",
+      "generated_by": "rules",
+      "stops": [
+        "Q2420025",
+        "Q3891623",
+        "Q3862645",
+        "Q1140634",
+        "Q2628455",
+        "Q1352282",
+        "Q970525",
+        "Q7126259"
+      ],
+      "distance_m": 2725,
+      "walking_seconds": 2180,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "historic-highlights-around-temple-of-debod",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Temple of Debod",
+      "title_pt": "Destaques históricos perto de Templo de Debode",
+      "generated_by": "rules",
+      "stops": ["Q3109752", "Q1140249", "Q976019", "Q3288223", "Q1326261", "Q4343253", "Q2099125"],
+      "distance_m": 3435,
+      "walking_seconds": 2748,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "museums-and-collections-around-sorolla-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Sorolla Museum",
+      "title_pt": "Museus e coleções perto de Museu Sorolla",
+      "generated_by": "rules",
+      "stops": ["Q6974501", "Q3178007", "Q1592523", "Q386570", "Q1450424"],
+      "distance_m": 3564,
+      "walking_seconds": 2851,
+      "visit_minutes": 310
+    }
+  ]
+}

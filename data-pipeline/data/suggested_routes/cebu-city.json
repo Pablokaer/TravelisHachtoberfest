@@ -1,0 +1,37 @@
+{
+  "city": "cebu-city",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-cebucordova-link-expressway",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cebu–Cordova Link Expressway",
+      "title_pt": "Destaques históricos perto de Cebu–Cordova Link Expressway",
+      "generated_by": "rules",
+      "stops": [
+        "Q30594240",
+        "Q115813464",
+        "Q104847174",
+        "Q106491731",
+        "Q772656",
+        "Q666552",
+        "Q2692999",
+        "Q1472845"
+      ],
+      "distance_m": 2859,
+      "walking_seconds": 2287,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "museums-and-collections-around-museo-sugbo",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museo Sugbo",
+      "title_pt": "Museus e coleções perto de Museo Sugbo",
+      "generated_by": "rules",
+      "stops": ["Q46866266", "Q7896231", "Q2110702", "Q5052254", "Q2110972"],
+      "distance_m": 3049,
+      "walking_seconds": 2439,
+      "visit_minutes": 390
+    }
+  ]
+}

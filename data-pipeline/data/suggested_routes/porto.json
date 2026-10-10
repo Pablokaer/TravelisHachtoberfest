@@ -1,0 +1,166 @@
+{
+  "city": "porto",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-luiz-i-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Luiz I Bridge",
+      "title_pt": "Destaques históricos perto de Ponte de D. Luís",
+      "generated_by": "rules",
+      "stops": [
+        "Q10333266",
+        "Q3819477",
+        "Q1107442",
+        "Q5994345",
+        "Q7322292",
+        "Q4679099",
+        "Q1322447",
+        "Q10332614"
+      ],
+      "distance_m": 1424,
+      "walking_seconds": 1139,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "city-landmarks-around-ponte-de-d-maria-pia",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ponte de D. Maria Pia",
+      "title_pt": "Marcos da cidade perto de Ponte de D. Maria Pia",
+      "generated_by": "rules",
+      "stops": [
+        "Q6940603",
+        "Q30592901",
+        "Q54435210",
+        "Q7228153",
+        "Q1550899",
+        "Q9064482",
+        "Q2781524",
+        "Q9695712"
+      ],
+      "distance_m": 3779,
+      "walking_seconds": 3023,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "churches-and-chapels-around-porto-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Porto Cathedral",
+      "title_pt": "Igrejas e capelas perto de Sé do Porto",
+      "generated_by": "rules",
+      "stops": [
+        "Q1441255",
+        "Q10333277",
+        "Q10353486",
+        "Q10300804",
+        "Q1371109",
+        "Q10300284",
+        "Q9672205",
+        "Q18642"
+      ],
+      "distance_m": 1488,
+      "walking_seconds": 1190,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "historic-highlights-around-sao-bento-railway-station",
+      "theme": "highlights",
+      "title_en": "Historic highlights around São Bento railway station",
+      "title_pt": "Destaques históricos perto de Estação Ferroviária de Porto — São Bento",
+      "generated_by": "rules",
+      "stops": [
+        "Q4868561",
+        "Q10353455",
+        "Q10300949",
+        "Q11783",
+        "Q6541071",
+        "Q2048491",
+        "Q579250",
+        "Q4774734"
+      ],
+      "distance_m": 1353,
+      "walking_seconds": 1082,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "churches-and-chapels-around-rotunda-da-boavista",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Rotunda da Boavista",
+      "title_pt": "Igrejas e capelas perto de Praça de Mouzinho de Albuquerque",
+      "generated_by": "rules",
+      "stops": [
+        "Q29075095",
+        "Q10353438",
+        "Q10300248",
+        "Q3780685",
+        "Q7370714",
+        "Q10332160",
+        "Q105753517",
+        "Q7826991"
+      ],
+      "distance_m": 3973,
+      "walking_seconds": 3178,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-arrabida-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Arrábida Bridge",
+      "title_pt": "Destaques históricos perto de Ponte da Arrábida",
+      "generated_by": "rules",
+      "stops": [
+        "Q1053347",
+        "Q10300937",
+        "Q1140204",
+        "Q106689700",
+        "Q1785740",
+        "Q119717270",
+        "Q908989",
+        "Q127708"
+      ],
+      "distance_m": 3680,
+      "walking_seconds": 2944,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-igreja-do-carmo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Igreja do Carmo",
+      "title_pt": "Destaques históricos perto de Igreja do Carmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q10262921",
+        "Q2649664",
+        "Q10353485",
+        "Q7126293",
+        "Q2108138",
+        "Q10300891",
+        "Q10300948",
+        "Q1141468"
+      ],
+      "distance_m": 1385,
+      "walking_seconds": 1108,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-church-of-sao-francisco",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of São Francisco",
+      "title_pt": "Destaques históricos perto de Igreja de São Francisco",
+      "generated_by": "rules",
+      "stops": [
+        "Q17117445",
+        "Q81792536",
+        "Q1549939",
+        "Q9603263",
+        "Q5994214",
+        "Q18484034",
+        "Q66814756",
+        "Q10353459"
+      ],
+      "distance_m": 2504,
+      "walking_seconds": 2003,
+      "visit_minutes": 400
+    }
+  ]
+}

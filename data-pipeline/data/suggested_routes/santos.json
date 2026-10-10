@@ -1,0 +1,81 @@
+{
+  "city": "santos",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-coffee-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Coffee Museum",
+      "title_pt": "Destaques históricos perto de Bolsa Oficial de Café",
+      "generated_by": "rules",
+      "stops": [
+        "Q10300947",
+        "Q56396177",
+        "Q18278306",
+        "Q9660690",
+        "Q10353331",
+        "Q10343952",
+        "Q10344242",
+        "Q10300294"
+      ],
+      "distance_m": 1107,
+      "walking_seconds": 886,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "museums-and-collections-around-memorial-necropole-ecumenica",
+      "theme": "museums",
+      "title_en": "Museums and collections around Memorial Necropole Ecumenica",
+      "title_pt": "Museus e coleções perto de Memorial Necrópole Ecumênica",
+      "generated_by": "rules",
+      "stops": ["Q10333787", "Q85112519", "Q47004345", "Q30939734", "Q1615173"],
+      "distance_m": 3946,
+      "walking_seconds": 3157,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "museums-and-collections-around-fortress-of-santo-amaro-da-ba",
+      "theme": "museums",
+      "title_en": "Museums and collections around Fortress of Santo Amaro da Barra Grande",
+      "title_pt": "Museus e coleções perto de Fortaleza de Santo Amaro da Barra Grande",
+      "generated_by": "rules",
+      "stops": ["Q30939579", "Q44632231", "Q18278301", "Q10283657", "Q10283632"],
+      "distance_m": 2180,
+      "walking_seconds": 1744,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "monuments-and-memorials-around-sao-vicente-suspension-bridge",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around São Vicente Suspension Bridge",
+      "title_pt": "Monumentos e memoriais perto de Ponte Pênsil de São Vicente",
+      "generated_by": "rules",
+      "stops": ["Q56427535", "Q52389799", "Q10351375"],
+      "distance_m": 956,
+      "walking_seconds": 765,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-st-anthony-santos",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of St. Anthony, Santos",
+      "title_pt": "Destaques históricos perto de Basílica Menor de Santo Antônio do Embaré",
+      "generated_by": "rules",
+      "stops": ["Q10353425", "Q10349779", "Q9650887"],
+      "distance_m": 1978,
+      "walking_seconds": 1582,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "historic-highlights-around-pedra-da-feiticeira",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Pedra da Feiticeira",
+      "title_pt": "Destaques históricos perto de Pedra Feiticeira",
+      "generated_by": "rules",
+      "stops": ["Q10347180", "Q20059113", "Q4729347"],
+      "distance_m": 2126,
+      "walking_seconds": 1701,
+      "visit_minutes": 140
+    }
+  ]
+}

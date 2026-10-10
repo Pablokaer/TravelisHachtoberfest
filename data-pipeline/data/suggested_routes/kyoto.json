@@ -1,0 +1,112 @@
+{
+  "city": "kyoto",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-mimizuka",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Mimizuka",
+      "title_pt": "Marcos da cidade perto de Mimizuka",
+      "generated_by": "rules",
+      "stops": [
+        "Q653319",
+        "Q147286",
+        "Q709822",
+        "Q1045971",
+        "Q707668",
+        "Q11372482",
+        "Q910281",
+        "Q1201304"
+      ],
+      "distance_m": 3420,
+      "walking_seconds": 2736,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "city-landmarks-around-kiyomizu-dera",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kiyomizu-dera",
+      "title_pt": "Marcos da cidade perto de Kiyomizu-dera",
+      "generated_by": "rules",
+      "stops": [
+        "Q11090279",
+        "Q1060771",
+        "Q3571897",
+        "Q11555353",
+        "Q2702064",
+        "Q7385349",
+        "Q3201026",
+        "Q221716"
+      ],
+      "distance_m": 3536,
+      "walking_seconds": 2829,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "city-landmarks-around-yasaka-shrine",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Yasaka Shrine",
+      "title_pt": "Marcos da cidade perto de Santuário Yasaka",
+      "generated_by": "rules",
+      "stops": ["Q21019667", "Q3087620", "Q1440954", "Q692714", "Q873645", "Q377386", "Q1055628"],
+      "distance_m": 3844,
+      "walking_seconds": 3075,
+      "visit_minutes": 275
+    },
+    {
+      "slug": "city-landmarks-around-kinkaku-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kinkaku-ji Temple",
+      "title_pt": "Marcos da cidade perto de Kinkaku-ji",
+      "generated_by": "rules",
+      "stops": ["Q1202871", "Q587371", "Q3138637", "Q270983", "Q738971", "Q662176"],
+      "distance_m": 4430,
+      "walking_seconds": 3544,
+      "visit_minutes": 145
+    },
+    {
+      "slug": "city-landmarks-around-nijo-castle",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Nijō Castle",
+      "title_pt": "Marcos da cidade perto de Castelo de Nijō",
+      "generated_by": "rules",
+      "stops": ["Q2413893", "Q599378", "Q626535", "Q783923", "Q1013399"],
+      "distance_m": 4523,
+      "walking_seconds": 3618,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-ginkaku-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ginkaku-ji Temple",
+      "title_pt": "Marcos da cidade perto de Ginkaku-ji",
+      "generated_by": "rules",
+      "stops": ["Q713177", "Q257473", "Q11555257", "Q2380134", "Q1089767"],
+      "distance_m": 3937,
+      "walking_seconds": 3150,
+      "visit_minutes": 125
+    },
+    {
+      "slug": "city-landmarks-around-tenryu-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Tenryū-ji Temple",
+      "title_pt": "Marcos da cidade perto de Tenryū-ji Temple",
+      "generated_by": "rules",
+      "stops": ["Q1759226", "Q501266", "Q534101", "Q1157585", "Q2824122"],
+      "distance_m": 3465,
+      "walking_seconds": 2772,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "city-landmarks-around-daitoku-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Daitoku-ji Temple",
+      "title_pt": "Marcos da cidade perto de Daitoku-ji Temple",
+      "generated_by": "rules",
+      "stops": ["Q3195151", "Q901256", "Q3012166", "Q500955", "Q1306606"],
+      "distance_m": 3888,
+      "walking_seconds": 3110,
+      "visit_minutes": 100
+    }
+  ]
+}

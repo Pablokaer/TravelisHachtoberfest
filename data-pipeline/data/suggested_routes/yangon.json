@@ -1,0 +1,56 @@
+{
+  "city": "yangon",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-shwedagon-pagoda",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Shwedagon Pagoda",
+      "title_pt": "Monumentos e memoriais perto de Pagode Shwedagon",
+      "generated_by": "rules",
+      "stops": [
+        "Q26256318",
+        "Q464535",
+        "Q6732674",
+        "Q23814671",
+        "Q20991979",
+        "Q18378224",
+        "Q2756611"
+      ],
+      "distance_m": 3165,
+      "walking_seconds": 2532,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "city-landmarks-around-yangon-city-hall",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Yangon City Hall",
+      "title_pt": "Marcos da cidade perto de Yangon City Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q7401804",
+        "Q4505044",
+        "Q5373144",
+        "Q8048617",
+        "Q25467459",
+        "Q4419997",
+        "Q7503799",
+        "Q5886380"
+      ],
+      "distance_m": 3468,
+      "walking_seconds": 2774,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-chaukhtatgyi-buddha-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Chaukhtatgyi Buddha Temple",
+      "title_pt": "Marcos da cidade perto de Chaukhtatgyi Buddha Temple",
+      "generated_by": "rules",
+      "stops": ["Q20683398", "Q4315287", "Q4937981", "Q6946756"],
+      "distance_m": 2550,
+      "walking_seconds": 2040,
+      "visit_minutes": 220
+    }
+  ]
+}

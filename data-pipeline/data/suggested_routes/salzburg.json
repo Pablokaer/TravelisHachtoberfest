@@ -1,0 +1,117 @@
+{
+  "city": "salzburg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-hohensalzburg-fortress",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Hohensalzburg Fortress",
+      "title_pt": "Igrejas e capelas perto de Fortaleza de Hohensalzburg",
+      "generated_by": "rules",
+      "stops": [
+        "Q1350971",
+        "Q693876",
+        "Q1072458",
+        "Q258908",
+        "Q2309576",
+        "Q675735",
+        "Q873904",
+        "Q679292"
+      ],
+      "distance_m": 1230,
+      "walking_seconds": 984,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "historic-highlights-around-mozart-s-birthplace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mozart's birthplace",
+      "title_pt": "Destaques históricos perto de Mozart's birthplace",
+      "generated_by": "rules",
+      "stops": [
+        "Q1450274",
+        "Q1248553",
+        "Q875404",
+        "Q438094",
+        "Q19298960",
+        "Q3327039",
+        "Q1779328",
+        "Q1021482"
+      ],
+      "distance_m": 1087,
+      "walking_seconds": 870,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "historic-highlights-around-schloss-leopoldskron",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Schloss Leopoldskron",
+      "title_pt": "Destaques históricos perto de Schloss Leopoldskron",
+      "generated_by": "rules",
+      "stops": [
+        "Q2348795",
+        "Q1979726",
+        "Q1930208",
+        "Q122766460",
+        "Q875360",
+        "Q1322404",
+        "Q1792786",
+        "Q14523328"
+      ],
+      "distance_m": 2523,
+      "walking_seconds": 2018,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-mozartplatz",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mozartplatz",
+      "title_pt": "Destaques históricos perto de Mozartplatz",
+      "generated_by": "rules",
+      "stops": [
+        "Q1775271",
+        "Q2496936",
+        "Q1901924",
+        "Q1590790",
+        "Q1951321",
+        "Q2215920",
+        "Q136033322",
+        "Q1721843"
+      ],
+      "distance_m": 1711,
+      "walking_seconds": 1369,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "churches-and-chapels-around-dancing-master-s-house",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Dancing Master's House",
+      "title_pt": "Igrejas e capelas perto de Dancing Master's House",
+      "generated_by": "rules",
+      "stops": [
+        "Q1237398",
+        "Q1635749",
+        "Q1597013",
+        "Q1728823",
+        "Q875584",
+        "Q27670180",
+        "Q2215938",
+        "Q106948603"
+      ],
+      "distance_m": 1386,
+      "walking_seconds": 1109,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "castles-and-viewpoints-around-franziskischlossl",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Franziskischlössl",
+      "title_pt": "Castelos e miradouros perto de Franziskischlössl",
+      "generated_by": "rules",
+      "stops": ["Q15840306", "Q2216013", "Q1450394", "Q1794129"],
+      "distance_m": 3129,
+      "walking_seconds": 2503,
+      "visit_minutes": 230
+    }
+  ]
+}

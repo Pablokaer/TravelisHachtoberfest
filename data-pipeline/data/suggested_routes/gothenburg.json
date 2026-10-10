@@ -1,0 +1,139 @@
+{
+  "city": "gothenburg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-balder",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Balder",
+      "title_pt": "Marcos da cidade perto de Balder",
+      "generated_by": "rules",
+      "stops": [
+        "Q378377",
+        "Q388667",
+        "Q1642705",
+        "Q4817088",
+        "Q1502537",
+        "Q28062439",
+        "Q449158",
+        "Q804772"
+      ],
+      "distance_m": 795,
+      "walking_seconds": 636,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "museums-and-collections-around-gothenburg-museum-of-art",
+      "theme": "museums",
+      "title_en": "Museums and collections around Gothenburg Museum of Art",
+      "title_pt": "Museus e coleções perto de Museu de Arte de Gotemburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q6432683",
+        "Q10518444",
+        "Q1992004",
+        "Q3068223",
+        "Q1559698",
+        "Q7916318",
+        "Q3107443",
+        "Q10492941"
+      ],
+      "distance_m": 1999,
+      "walking_seconds": 1599,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "museums-and-collections-around-hswms-smaland",
+      "theme": "museums",
+      "title_en": "Museums and collections around HSwMS Småland",
+      "title_pt": "Museus e coleções perto de HSwMS Småland",
+      "generated_by": "rules",
+      "stops": [
+        "Q18292279",
+        "Q5620963",
+        "Q877360",
+        "Q3107846",
+        "Q10561779",
+        "Q3293750",
+        "Q4352763",
+        "Q4352800"
+      ],
+      "distance_m": 1312,
+      "walking_seconds": 1050,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "historic-highlights-around-crown-redoubt",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Crown Redoubt",
+      "title_pt": "Destaques históricos perto de Skansen Kronan",
+      "generated_by": "rules",
+      "stops": [
+        "Q5638502",
+        "Q10512845",
+        "Q1570303",
+        "Q10541853",
+        "Q6319995",
+        "Q606334",
+        "Q848411",
+        "Q3725274"
+      ],
+      "distance_m": 3086,
+      "walking_seconds": 2469,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "city-landmarks-around-gothenburg-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Gothenburg Cathedral",
+      "title_pt": "Marcos da cidade perto de Catedral de Gotemburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q5587843",
+        "Q1236650",
+        "Q10688437",
+        "Q10477007",
+        "Q2915211",
+        "Q6444561",
+        "Q10550360",
+        "Q7916386"
+      ],
+      "distance_m": 2237,
+      "walking_seconds": 1790,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "churches-and-chapels-around-masthugget-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Masthugget Church",
+      "title_pt": "Igrejas e capelas perto de Igreja de Masthugget",
+      "generated_by": "rules",
+      "stops": ["Q10433149", "Q3330639", "Q1833969", "Q18378358", "Q10300318"],
+      "distance_m": 3200,
+      "walking_seconds": 2560,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "city-landmarks-around-lion-redoubt",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Lion Redoubt",
+      "title_pt": "Marcos da cidade perto de Skansen Lejonet",
+      "generated_by": "rules",
+      "stops": ["Q10669723", "Q1789436", "Q18450917", "Q1796085"],
+      "distance_m": 3395,
+      "walking_seconds": 2716,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "city-landmarks-around-alvsborg-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Älvsborg Bridge",
+      "title_pt": "Marcos da cidade perto de Älvsborgsbron",
+      "generated_by": "rules",
+      "stops": ["Q10443066", "Q10577259", "Q18332357", "Q254996"],
+      "distance_m": 3149,
+      "walking_seconds": 2519,
+      "visit_minutes": 160
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "city": "yogyakarta",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-prambanan-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Prambanan Temple",
+      "title_pt": "Marcos da cidade perto de Conjunto de Prambanan",
+      "generated_by": "rules",
+      "stops": ["Q2936254", "Q11099192", "Q6703169", "Q47721", "Q84403674", "Q1878758"],
+      "distance_m": 2719,
+      "walking_seconds": 2175,
+      "visit_minutes": 120
+    },
+    {
+      "slug": "museums-and-collections-around-kraton-ngayogyakarta-hadining",
+      "theme": "museums",
+      "title_en": "Museums and collections around Kraton Ngayogyakarta Hadiningrat",
+      "title_pt": "Museus e coleções perto de Kraton Ngayogyakarta Hadiningrat",
+      "generated_by": "rules",
+      "stops": [
+        "Q16766372",
+        "Q118499667",
+        "Q2551916",
+        "Q4271636",
+        "Q13095002",
+        "Q109483663",
+        "Q10778917",
+        "Q12497336"
+      ],
+      "distance_m": 3907,
+      "walking_seconds": 3126,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "city-landmarks-around-ratu-boko-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ratu Boko Temple",
+      "title_pt": "Marcos da cidade perto de Ratu Boko",
+      "generated_by": "rules",
+      "stops": ["Q11125778", "Q4264442", "Q3111557"],
+      "distance_m": 1952,
+      "walking_seconds": 1562,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "city-landmarks-around-tugu-yogyakarta",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Tugu Yogyakarta",
+      "title_pt": "Marcos da cidade perto de Tugu Yogyakarta",
+      "generated_by": "rules",
+      "stops": ["Q19728968", "Q12499663", "Q18396842", "Q4273015", "Q17850194"],
+      "distance_m": 3343,
+      "walking_seconds": 2674,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "museums-and-collections-around-kusumanegara-heroes-cemetery",
+      "theme": "museums",
+      "title_en": "Museums and collections around Kusumanegara Heroes' Cemetery",
+      "title_pt": "Museus e coleções perto de Kusumanegara Heroes' Cemetery",
+      "generated_by": "rules",
+      "stops": ["Q6448219", "Q12499637", "Q13095242", "Q12499635", "Q85992662", "Q13095250"],
+      "distance_m": 2566,
+      "walking_seconds": 2053,
+      "visit_minutes": 400
+    }
+  ]
+}

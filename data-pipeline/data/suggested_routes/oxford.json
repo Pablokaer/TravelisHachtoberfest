@@ -1,0 +1,165 @@
+{
+  "city": "oxford",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-ashmolean-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ashmolean Museum",
+      "title_pt": "Destaques históricos perto de museu Ashmolean",
+      "generated_by": "rules",
+      "stops": [
+        "Q7261714",
+        "Q636400",
+        "Q130213812",
+        "Q11125244",
+        "Q7594567",
+        "Q7594875",
+        "Q7983965",
+        "Q5572053"
+      ],
+      "distance_m": 964,
+      "walking_seconds": 771,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "churches-and-chapels-around-pitt-rivers-museum",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Pitt Rivers Museum",
+      "title_pt": "Igrejas e capelas perto de Pitt Rivers Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q7595346",
+        "Q8509405",
+        "Q7592896",
+        "Q7284590",
+        "Q1456119",
+        "Q1760005",
+        "Q7593264",
+        "Q1666336"
+      ],
+      "distance_m": 2900,
+      "walking_seconds": 2320,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "historic-highlights-around-bridge-of-sighs",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bridge of Sighs",
+      "title_pt": "Destaques históricos perto de Bridge of Sighs",
+      "generated_by": "rules",
+      "stops": [
+        "Q17646112",
+        "Q7493800",
+        "Q581986",
+        "Q5073061",
+        "Q7280040",
+        "Q3407626",
+        "Q26650955",
+        "Q6941088"
+      ],
+      "distance_m": 732,
+      "walking_seconds": 586,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-christ-church-cathedral-oxford",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Christ Church Cathedral, Oxford",
+      "title_pt": "Marcos da cidade perto de catedral de Oxford",
+      "generated_by": "rules",
+      "stops": [
+        "Q16985389",
+        "Q1736208",
+        "Q3675590",
+        "Q7102261",
+        "Q28963173",
+        "Q17528481",
+        "Q7817860",
+        "Q3899004"
+      ],
+      "distance_m": 998,
+      "walking_seconds": 798,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-oxford-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Oxford Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Oxford",
+      "generated_by": "rules",
+      "stops": [
+        "Q7592293",
+        "Q7766718",
+        "Q3859943",
+        "Q4942150",
+        "Q7809085",
+        "Q5117697",
+        "Q17548636",
+        "Q2600886"
+      ],
+      "distance_m": 622,
+      "walking_seconds": 498,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "city-landmarks-around-magdalen-tower",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Magdalen Tower",
+      "title_pt": "Marcos da cidade perto de Magdalen Tower",
+      "generated_by": "rules",
+      "stops": [
+        "Q7592828",
+        "Q104829612",
+        "Q5573206",
+        "Q6729839",
+        "Q6667437",
+        "Q6820717",
+        "Q4729514",
+        "Q7115474"
+      ],
+      "distance_m": 2313,
+      "walking_seconds": 1850,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "churches-and-chapels-around-st-barnabas-church-oxford",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St Barnabas Church, Oxford",
+      "title_pt": "Igrejas e capelas perto de St Barnabas Church, Oxford",
+      "generated_by": "rules",
+      "stops": [
+        "Q15979395",
+        "Q7115269",
+        "Q24699411",
+        "Q7595457",
+        "Q7592587",
+        "Q7319096",
+        "Q7107285",
+        "Q7593100"
+      ],
+      "distance_m": 3007,
+      "walking_seconds": 2406,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-folly-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Folly Bridge",
+      "title_pt": "Marcos da cidade perto de Folly Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q15260377",
+        "Q5503571",
+        "Q7595583",
+        "Q7107287",
+        "Q5526919",
+        "Q5464804",
+        "Q7593805"
+      ],
+      "distance_m": 4329,
+      "walking_seconds": 3463,
+      "visit_minutes": 230
+    }
+  ]
+}

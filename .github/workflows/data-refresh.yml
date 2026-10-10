@@ -1,0 +1,148 @@
+name: Data refresh
+
+# Monthly refresh of the reference data (D-042): countries (plugs, voltage, emergency numbers,
+# currency), visa rules, city "About" texts and every city's attractions are fetched again, the
+# data gate compares them with dev — restoring texts, photos and facts that got worse and blocking
+# big losses — and the result is opened as a pull request. Nothing is published without review:
+# merging the PR is the human gate, and CI runs the gate again on it.
+#
+# Run by hand: Actions → Data refresh → Run workflow (optionally only some datasets).
+# Setup (docs/LAUNCH_CHECKLIST.md): repository variable PIPELINE_CONTACT_EMAIL (User-Agent of the
+# requests) and secret DATA_REFRESH_TOKEN (a fine-grained token with contents + pull requests
+# write), without which the PR is opened with GITHUB_TOKEN and CI does not run on it.
+
+on:
+  schedule:
+    - cron: '0 4 1 * *' # 04:00 UTC on the 1st of every month
+  workflow_dispatch:
+    inputs:
+      datasets:
+        description: 'Datasets to refresh, space separated: countries visa city-summaries attractions'
+        required: false
+        default: 'countries visa city-summaries attractions'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Fetch · gate · open PR
+    runs-on: ubuntu-latest
+    # `ingest --all` took 30–60 min without a cache, one city at a time; three cities side by side
+    # overlap their waits on different APIs, each API keeping its own rate limit (D-060).
+    timeout-minutes: 150
+    env:
+      DATASETS: ${{ inputs.datasets || 'countries visa city-summaries attractions' }}
+      PIPELINE_CONTACT_EMAIL: ${{ vars.PIPELINE_CONTACT_EMAIL }}
+      # In the workspace but outside add-paths: never committed.
+      GATE_REPORT: ${{ github.workspace }}/data-gate.md
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev # the PR targets dev (D-075); the gate compares against it
+          fetch-depth: 0
+      # Node only for prettier: the pipeline formats the JSON snapshots it writes.
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: data-pipeline/pyproject.toml
+      - run: pip install -e ".[dev]"
+        working-directory: data-pipeline
+
+      # Class → category-root lookups (.cache/class_roots.json, D-064) cost hundreds of Wikidata
+      # queries to rebuild and rarely change, so they are kept between runs, keyed on the category
+      # definitions and the quarter. Trade-off: a class re-parented in Wikidata keeps its old
+      # category until the key rolls over (next quarter, or a change to categories.py). No
+      # restore-keys on purpose: an older file must not carry over into a new quarter.
+      - name: Quarter of the class-hierarchy cache
+        id: quarter
+        run: echo "quarter=$(date -u +%Y)-Q$(( ($(date -u +%-m) - 1) / 3 + 1 ))" >> "$GITHUB_OUTPUT"
+      - name: Restore the class-hierarchy cache
+        id: class-roots
+        uses: actions/cache/restore@v4
+        with:
+          path: data-pipeline/.cache/class_roots.json
+          key: wikidata-class-roots-${{ hashFiles('data-pipeline/wayfarer_pipeline/attractions/categories.py') }}-${{ steps.quarter.outputs.quarter }}
+
+      - name: Fetch the sources
+        working-directory: data-pipeline
+        run: |
+          set -euo pipefail
+          for dataset in $DATASETS; do
+            echo "::group::$dataset"
+            case "$dataset" in
+              countries) python -m wayfarer_pipeline countries ;;
+              visa) python -m wayfarer_pipeline visa ;;
+              city-summaries) python -m wayfarer_pipeline city-summaries ;;
+              attractions) python -m wayfarer_pipeline ingest --all --jobs 3 ;;
+              *) echo "::error::unknown dataset '$dataset' (expected countries, visa, city-summaries or attractions)"; exit 1 ;;
+            esac
+            echo "::endgroup::"
+          done
+
+      # Saved right after the fetch (not in a post step) so a run the data gate then blocks still
+      # keeps the lookups it paid for.
+      - name: Save the class-hierarchy cache
+        if: always() && steps.class-roots.outputs.cache-hit != 'true' && hashFiles('data-pipeline/.cache/class_roots.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: data-pipeline/.cache/class_roots.json
+          key: ${{ steps.class-roots.outputs.cache-primary-key }}
+
+      # Restores what got worse (written back to data/), blocks big losses (exit 1: no PR).
+      - name: Data gate against dev
+        working-directory: data-pipeline
+        run: python -m wayfarer_pipeline gate --base HEAD --fix --report "$GATE_REPORT" --changelog
+
+      - name: Regenerate the seeds and docs/CITIES.md from the gated snapshots
+        working-directory: data-pipeline
+        run: python -m wayfarer_pipeline seed
+      - run: pnpm format
+      - name: Checks the PR must pass
+        working-directory: data-pipeline
+        run: |
+          python -m wayfarer_pipeline cities-doc --check
+          pytest -q
+
+      - name: Gate report in the job summary
+        if: always()
+        run: if [ -f "$GATE_REPORT" ]; then cat "$GATE_REPORT" >> "$GITHUB_STEP_SUMMARY"; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: data-gate-report
+          path: ${{ github.workspace }}/data-gate.md
+          if-no-files-found: ignore
+          retention-days: 90
+
+      - name: Date of the refresh
+        id: day
+        run: echo "day=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+      # No PR when nothing changed (the gate only writes CHANGELOG.md when a dataset changed).
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.DATA_REFRESH_TOKEN || github.token }}
+          branch: data/scheduled-refresh
+          base: dev # released to main through the gate like any other change (D-075)
+          delete-branch: true
+          title: 'data: scheduled refresh (${{ steps.day.outputs.day }})'
+          commit-message: 'data: scheduled refresh (${{ steps.day.outputs.day }}, D-042)'
+          body-path: ${{ github.workspace }}/data-gate.md
+          labels: data
+          add-paths: |
+            data-pipeline/data
+            supabase/seed
+            docs/CITIES.md
+            CHANGELOG.md

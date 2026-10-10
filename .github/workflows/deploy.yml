@@ -1,0 +1,118 @@
+name: Deploy
+
+# Deployment to production (D-074): publishes a commit of main — first the backend (migrations, reference data, Edge Functions on Supabase Cloud), then the web
+# app (static export rsync'ed to the VPS behind Apache), then a smoke test of both.
+#
+# Called by promote.yml once a release is approved and main fast-forwarded to it (D-075), and
+# runnable by hand to redeploy: Actions → Deploy → Run workflow (the head of main).
+# Setup (README → "Deploying (hosted)" → "Continuous deployment"): GitHub environment `production`
+# with the variables and secrets read below.
+
+on:
+  workflow_call:
+    inputs:
+      sha:
+        description: Commit to deploy (the one promoted to main)
+        required: true
+        type: string
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One deploy at a time, in order; a newer push waits instead of cancelling a half-done deploy.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+env:
+  # The promoted commit (workflow_call), or the head of main (manual run).
+  DEPLOY_SHA: ${{ inputs.sha || github.sha }}
+
+jobs:
+  backend:
+    name: Backend (migrations · seeds · Edge Functions)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production
+    env:
+      SUPABASE_PROJECT_REF: ${{ vars.SUPABASE_PROJECT_REF }}
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      # config.toml's Send Email Hook (D-066) needs a well-formed secret to load; this is the
+      # local-only value from .env.example. The hosted secret lives in Supabase and is not touched.
+      SEND_EMAIL_HOOK_SECRET: v1,whsec_dHJhdmVsaXN0LWxvY2FsLW9ubHktaG9vay1zZWNyZXQ=
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.DEPLOY_SHA }}
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: ./scripts/deploy-backend.sh
+
+  web:
+    name: Web app (build · publish to the VPS)
+    needs: backend
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: production
+      url: ${{ vars.EXPO_PUBLIC_WEB_URL }}
+    env:
+      # Public values, bundled into the client: kept as variables, not secrets.
+      EXPO_PUBLIC_SUPABASE_URL: ${{ vars.EXPO_PUBLIC_SUPABASE_URL }}
+      EXPO_PUBLIC_SUPABASE_ANON_KEY: ${{ vars.EXPO_PUBLIC_SUPABASE_ANON_KEY }}
+      EXPO_PUBLIC_MAP_STYLE_URL: ${{ vars.EXPO_PUBLIC_MAP_STYLE_URL }}
+      EXPO_PUBLIC_WEB_URL: ${{ vars.EXPO_PUBLIC_WEB_URL }}
+      EXPO_PUBLIC_AUTH_PROVIDERS: ${{ vars.EXPO_PUBLIC_AUTH_PROVIDERS }}
+      EXPO_PUBLIC_SENTRY_DSN: ${{ vars.EXPO_PUBLIC_SENTRY_DSN }}
+      EXPO_PUBLIC_POSTHOG_KEY: ${{ vars.EXPO_PUBLIC_POSTHOG_KEY }}
+      EXPO_PUBLIC_FEATURE_WALK_CHAT: ${{ vars.EXPO_PUBLIC_FEATURE_WALK_CHAT }}
+      EXPO_PUBLIC_FEATURE_PAID_PLANS: ${{ vars.EXPO_PUBLIC_FEATURE_PAID_PLANS }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.DEPLOY_SHA }}
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # The same `travelist-vps` alias deploy-web.sh uses on the owner's machine. known_hosts is
+      # pinned (variable VPS_KNOWN_HOSTS), never learnt with ssh-keyscan at deploy time.
+      - name: SSH access to the VPS
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ vars.VPS_HOST }}
+          VPS_USER: ${{ vars.VPS_USER }}
+          VPS_KNOWN_HOSTS: ${{ vars.VPS_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/travelist_deploy
+          chmod 600 ~/.ssh/travelist_deploy
+          printf '%s\n' "$VPS_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          printf 'Host travelist-vps\n  HostName %s\n  User %s\n  IdentityFile ~/.ssh/travelist_deploy\n  IdentitiesOnly yes\n  StrictHostKeyChecking yes\n' \
+            "$VPS_HOST" "$VPS_USER" > ~/.ssh/config
+      - run: ./scripts/deploy-web.sh
+      - name: Remove the SSH key
+        if: always()
+        run: rm -f ~/.ssh/travelist_deploy
+
+  smoke:
+    name: Smoke test (site · health function)
+    needs: web
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: production
+    env:
+      WEB_URL: ${{ vars.EXPO_PUBLIC_WEB_URL }}
+      SUPABASE_URL: ${{ vars.EXPO_PUBLIC_SUPABASE_URL }}
+    steps:
+      # --retry covers Apache/Supabase warming up; -f fails on HTTP errors.
+      - run: curl -fsS --retry 5 --retry-all-errors --retry-delay 5 -o /dev/null "$WEB_URL/"
+      - run: curl -fsS --retry 5 --retry-all-errors --retry-delay 5 "$SUPABASE_URL/functions/v1/health"

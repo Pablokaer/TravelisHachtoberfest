@@ -1,0 +1,22 @@
+/* Photo markers and their card (D-029). The popup is maplibre's own; its content is our card,
+   which draws its own surface, so the default white box and tip are removed. */
+.wayfarer-marker {
+  cursor: pointer;
+}
+.wayfarer-marker:focus-visible {
+  outline: 2px solid #222222;
+  outline-offset: 2px;
+  border-radius: 50%;
+}
+.wayfarer-popup {
+  z-index: 10; /* above every marker */
+}
+.wayfarer-popup .maplibregl-popup-content {
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+.wayfarer-popup .maplibregl-popup-tip {
+  display: none;
+}

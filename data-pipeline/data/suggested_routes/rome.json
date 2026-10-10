@@ -1,0 +1,139 @@
+{
+  "city": "rome",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-st-peter-s-basilica",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around St. Peter's Basilica",
+      "title_pt": "Monumentos e memoriais perto de Basílica de São Pedro",
+      "generated_by": "rules",
+      "stops": [
+        "Q1444766",
+        "Q676074",
+        "Q2943",
+        "Q12512",
+        "Q235242",
+        "Q2439030",
+        "Q2158200",
+        "Q733893"
+      ],
+      "distance_m": 508,
+      "walking_seconds": 406,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "monuments-and-memorials-around-trevi-fountain",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Trevi Fountain",
+      "title_pt": "Monumentos e memoriais perto de Fontana di Trevi",
+      "generated_by": "rules",
+      "stops": [
+        "Q770847",
+        "Q185382",
+        "Q223079",
+        "Q192784",
+        "Q1123879",
+        "Q506234",
+        "Q408623",
+        "Q333906"
+      ],
+      "distance_m": 3098,
+      "walking_seconds": 2478,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "monuments-and-memorials-around-colosseum",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Colosseum",
+      "title_pt": "Monumentos e memoriais perto de Coliseu de Roma",
+      "generated_by": "rules",
+      "stops": [
+        "Q1989744",
+        "Q622438",
+        "Q10285",
+        "Q5786",
+        "Q430792",
+        "Q723887",
+        "Q1289781",
+        "Q371921"
+      ],
+      "distance_m": 1444,
+      "walking_seconds": 1155,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "churches-and-chapels-around-pantheon",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Pantheon",
+      "title_pt": "Igrejas e capelas perto de Panteão",
+      "generated_by": "rules",
+      "stops": [
+        "Q1541068",
+        "Q719794",
+        "Q823685",
+        "Q1465674",
+        "Q265384",
+        "Q99309",
+        "Q463400",
+        "Q655470"
+      ],
+      "distance_m": 2035,
+      "walking_seconds": 1628,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-roman-forum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Roman Forum",
+      "title_pt": "Marcos da cidade perto de Fórum Romano",
+      "generated_by": "rules",
+      "stops": [
+        "Q200642",
+        "Q753791",
+        "Q1133288",
+        "Q605721",
+        "Q1144514",
+        "Q1035634",
+        "Q180212",
+        "Q586468"
+      ],
+      "distance_m": 1615,
+      "walking_seconds": 1292,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "historic-highlights-around-basilica-di-santa-maria-maggiore",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica di Santa Maria Maggiore",
+      "title_pt": "Destaques históricos perto de Basílica de Santa Maria Maior",
+      "generated_by": "rules",
+      "stops": ["Q1333433", "Q569253", "Q836108", "Q281330", "Q186282", "Q207808", "Q729490"],
+      "distance_m": 4330,
+      "walking_seconds": 3464,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "churches-and-chapels-around-archbasilica-of-st-john-lateran",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Archbasilica of St. John Lateran",
+      "title_pt": "Igrejas e capelas perto de Basílica de São João de Latrão",
+      "generated_by": "rules",
+      "stops": ["Q685940", "Q84090", "Q848394", "Q645181", "Q465762", "Q741051", "Q542070"],
+      "distance_m": 3211,
+      "walking_seconds": 2569,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-castel-sant-angelo",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Castel Sant'Angelo",
+      "title_pt": "Palácios e casas nobres perto de Castelo do Santo Anjo",
+      "generated_by": "rules",
+      "stops": ["Q1090910", "Q623612", "Q486382", "Q83425", "Q145093"],
+      "distance_m": 3715,
+      "walking_seconds": 2972,
+      "visit_minutes": 350
+    }
+  ]
+}

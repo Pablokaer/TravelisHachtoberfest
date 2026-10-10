@@ -1,0 +1,76 @@
+{
+  "city": "manaus",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-amazon-theatre",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Amazon Theatre",
+      "title_pt": "Monumentos e memoriais perto de Teatro Amazonas",
+      "generated_by": "rules",
+      "stops": [
+        "Q20058895",
+        "Q10343996",
+        "Q1434444",
+        "Q10332121",
+        "Q10300854",
+        "Q10333383",
+        "Q68115276",
+        "Q56350917"
+      ],
+      "distance_m": 1496,
+      "walking_seconds": 1197,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "monuments-and-memorials-around-port-of-manaus",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Port of Manaus",
+      "title_pt": "Monumentos e memoriais perto de Porto de Manaus",
+      "generated_by": "rules",
+      "stops": [
+        "Q28680415",
+        "Q10351374",
+        "Q10333951",
+        "Q10343970",
+        "Q10378816",
+        "Q7231187",
+        "Q10333917"
+      ],
+      "distance_m": 4395,
+      "walking_seconds": 3516,
+      "visit_minutes": 335
+    },
+    {
+      "slug": "monuments-and-memorials-around-mercado-adolpho-lisboa",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Mercado Adolpho Lisboa",
+      "title_pt": "Monumentos e memoriais perto de Mercado Municipal Adolpho Lisboa",
+      "generated_by": "rules",
+      "stops": [
+        "Q56350983",
+        "Q18482308",
+        "Q16489612",
+        "Q10333854",
+        "Q10333635",
+        "Q10349784",
+        "Q48884179",
+        "Q9294997"
+      ],
+      "distance_m": 1673,
+      "walking_seconds": 1338,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-beit-yaacov-rabi-meyr-synagogue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Beit Yaacov/Rabi Meyr Synagogue",
+      "title_pt": "Destaques históricos perto de Sinagoga Beth Jacob/Rebi Meyr",
+      "generated_by": "rules",
+      "stops": ["Q65171374", "Q68118772", "Q17509063"],
+      "distance_m": 1463,
+      "walking_seconds": 1170,
+      "visit_minutes": 130
+    }
+  ]
+}

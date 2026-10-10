@@ -1,0 +1,57 @@
+{
+  "city": "natal",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-ateneu-norte-riograndense",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ateneu Norte Riograndense",
+      "title_pt": "Destaques históricos perto de Atheneu Norte-Riograndense",
+      "generated_by": "rules",
+      "stops": [
+        "Q9255320",
+        "Q16495067",
+        "Q10353349",
+        "Q4425916",
+        "Q10353376",
+        "Q10343943",
+        "Q10353244",
+        "Q4712108"
+      ],
+      "distance_m": 3748,
+      "walking_seconds": 2998,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "historic-highlights-around-andre-de-albuquerque-square",
+      "theme": "highlights",
+      "title_en": "Historic highlights around André de Albuquerque Square",
+      "title_pt": "Destaques históricos perto de Praça André de Albuquerque",
+      "generated_by": "rules",
+      "stops": [
+        "Q28680830",
+        "Q10328529",
+        "Q10300047",
+        "Q18476359",
+        "Q18483912",
+        "Q10274950",
+        "Q10353234",
+        "Q10300548"
+      ],
+      "distance_m": 562,
+      "walking_seconds": 450,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "churches-and-chapels-around-forte-dos-reis-magos",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Forte dos Reis Magos",
+      "title_pt": "Igrejas e capelas perto de Fortaleza dos Reis Magos",
+      "generated_by": "rules",
+      "stops": ["Q3304114", "Q10300575", "Q10300574", "Q1143597"],
+      "distance_m": 2376,
+      "walking_seconds": 1901,
+      "visit_minutes": 170
+    }
+  ]
+}

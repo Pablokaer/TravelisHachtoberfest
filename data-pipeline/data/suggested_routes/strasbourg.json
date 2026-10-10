@@ -1,0 +1,148 @@
+{
+  "city": "strasbourg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-cathedral-of-our-lady-of-strasbou",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral of Our Lady of Strasbourg",
+      "title_pt": "Destaques históricos perto de Catedral de Estrasburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q3390470",
+        "Q655668",
+        "Q847007",
+        "Q1561438",
+        "Q3390585",
+        "Q745460",
+        "Q2716513",
+        "Q2361353"
+      ],
+      "distance_m": 520,
+      "walking_seconds": 416,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "city-landmarks-around-place-kleber",
+      "theme": "landmarks",
+      "title_en": "City landmarks around place Kléber",
+      "title_pt": "Marcos da cidade perto de place Kléber",
+      "generated_by": "rules",
+      "stops": [
+        "Q62081873",
+        "Q3389841",
+        "Q584771",
+        "Q21295403",
+        "Q1534869",
+        "Q1753950",
+        "Q3508011",
+        "Q3586133"
+      ],
+      "distance_m": 1631,
+      "walking_seconds": 1305,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "museums-and-collections-around-musee-des-beaux-arts-de-stras",
+      "theme": "museums",
+      "title_en": "Museums and collections around Musée des Beaux-Arts de Strasbourg",
+      "title_pt": "Museus e coleções perto de Museu de Belas Artes de Estrasburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q20723622",
+        "Q3330600",
+        "Q1535963",
+        "Q1955722",
+        "Q782003",
+        "Q692407",
+        "Q740045",
+        "Q3330101"
+      ],
+      "distance_m": 2608,
+      "walking_seconds": 2086,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "churches-and-chapels-around-eyyub-sultan-mosque",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Eyyub Sultan Mosque",
+      "title_pt": "Igrejas e capelas perto de Eyyub Sultan Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q565125",
+        "Q571330",
+        "Q1785858",
+        "Q14628594",
+        "Q1101504",
+        "Q18379997",
+        "Q3115094",
+        "Q24342866"
+      ],
+      "distance_m": 3647,
+      "walking_seconds": 2918,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-palais-du-rhin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palais du Rhin",
+      "title_pt": "Destaques históricos perto de Palais du Rhin",
+      "generated_by": "rules",
+      "stops": [
+        "Q18380188",
+        "Q2212718",
+        "Q643186",
+        "Q3390435",
+        "Q3323304",
+        "Q3329373",
+        "Q15952921",
+        "Q649614"
+      ],
+      "distance_m": 1688,
+      "walking_seconds": 1350,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "churches-and-chapels-around-barrage-vauban",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Barrage Vauban",
+      "title_pt": "Igrejas e capelas perto de Barrage Vauban",
+      "generated_by": "rules",
+      "stops": [
+        "Q2335112",
+        "Q845468",
+        "Q2885001",
+        "Q3397780",
+        "Q17501312",
+        "Q17500494",
+        "Q2212725",
+        "Q1424061"
+      ],
+      "distance_m": 1830,
+      "walking_seconds": 1464,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "city-landmarks-around-seat-of-the-european-parliament-in-str",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Seat of the European Parliament in Strasbourg",
+      "title_pt": "Marcos da cidade perto de Seat of the European Parliament in Strasbourg",
+      "generated_by": "rules",
+      "stops": ["Q2972464", "Q465591", "Q2423937", "Q3115137", "Q1504491"],
+      "distance_m": 3676,
+      "walking_seconds": 2941,
+      "visit_minutes": 110
+    },
+    {
+      "slug": "city-landmarks-around-rhine-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Rhine Bridge",
+      "title_pt": "Marcos da cidade perto de Rhine Bridge",
+      "generated_by": "rules",
+      "stops": ["Q19963129", "Q1408921", "Q832802", "Q20980965", "Q1375288", "Q2055982", "Q969029"],
+      "distance_m": 2872,
+      "walking_seconds": 2298,
+      "visit_minutes": 205
+    }
+  ]
+}

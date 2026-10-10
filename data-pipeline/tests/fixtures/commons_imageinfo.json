@@ -1,0 +1,61 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Torre_de_Belém_(Lisboa).jpg",
+        "to": "File:Torre de Belém (Lisboa).jpg"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 6,
+        "title": "File:Torre de Belém (Lisboa).jpg",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tower.jpg/800px-Tower.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tower.jpg",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Torre_de_Bel%C3%A9m_(Lisboa).jpg",
+            "extmetadata": {
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:JS\">José Silva</a> &amp; Friends"
+              },
+              "LicenseShortName": { "value": "CC BY-SA 4.0" },
+              "LicenseUrl": { "value": "https://creativecommons.org/licenses/by-sa/4.0" }
+            }
+          }
+        ]
+      },
+      { "ns": 6, "title": "File:Missing.jpg", "missing": true },
+      {
+        "ns": 6,
+        "title": "File:NonFree.jpg",
+        "imageinfo": [
+          {
+            "thumburl": "https://example.org/nf.jpg",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NonFree.jpg",
+            "extmetadata": {
+              "LicenseShortName": { "value": "Fair use" },
+              "NonFree": { "value": "true" }
+            }
+          }
+        ]
+      },
+      {
+        "ns": 6,
+        "title": "File:Public domain.jpg",
+        "imageinfo": [
+          {
+            "thumburl": "https://example.org/pd.jpg",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Public_domain.jpg",
+            "extmetadata": {
+              "Artist": { "value": "Unknown author" },
+              "LicenseShortName": { "value": "Public domain" }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "city": "dresden",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-dresden-cathedral",
+      "theme": "museums",
+      "title_en": "Museums and collections around Dresden Cathedral",
+      "title_pt": "Museus e coleções perto de Catedral da Santíssima Trindade",
+      "generated_by": "rules",
+      "stops": [
+        "Q471312",
+        "Q666935",
+        "Q653002",
+        "Q167314",
+        "Q570620",
+        "Q324263",
+        "Q571773",
+        "Q178619"
+      ],
+      "distance_m": 502,
+      "walking_seconds": 402,
+      "visit_minutes": 575
+    },
+    {
+      "slug": "museums-and-collections-around-zwinger",
+      "theme": "museums",
+      "title_en": "Museums and collections around Zwinger",
+      "title_pt": "Museus e coleções perto de Zwinger (Dresden)",
+      "generated_by": "rules",
+      "stops": [
+        "Q473848",
+        "Q707407",
+        "Q574088",
+        "Q471314",
+        "Q878784",
+        "Q4890",
+        "Q155107",
+        "Q321088"
+      ],
+      "distance_m": 699,
+      "walking_seconds": 559,
+      "visit_minutes": 635
+    },
+    {
+      "slug": "museums-and-collections-around-carola-bridge",
+      "theme": "museums",
+      "title_en": "Museums and collections around Carola Bridge",
+      "title_pt": "Museus e coleções perto de Carola Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q1044279",
+        "Q670209",
+        "Q1567666",
+        "Q869690",
+        "Q699780",
+        "Q472706",
+        "Q828334",
+        "Q450445"
+      ],
+      "distance_m": 1501,
+      "walking_seconds": 1201,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "city-landmarks-around-neumarkt",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Neumarkt",
+      "title_pt": "Marcos da cidade perto de Neumarkt",
+      "generated_by": "rules",
+      "stops": [
+        "Q1980363",
+        "Q873693",
+        "Q830042",
+        "Q2327655",
+        "Q514642",
+        "Q21161975",
+        "Q1017650",
+        "Q1497529"
+      ],
+      "distance_m": 1701,
+      "walking_seconds": 1361,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-german-hygiene-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around German Hygiene Museum",
+      "title_pt": "Destaques históricos perto de German Hygiene Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q874373",
+        "Q875946",
+        "Q566436",
+        "Q2106244",
+        "Q1618988",
+        "Q468137",
+        "Q278978",
+        "Q558537"
+      ],
+      "distance_m": 4978,
+      "walking_seconds": 3982,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "city-landmarks-around-dreikonigskirche",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dreikönigskirche",
+      "title_pt": "Marcos da cidade perto de Dreikönigskirche",
+      "generated_by": "rules",
+      "stops": ["Q1257935", "Q875634", "Q1352684", "Q115807787", "Q317663", "Q119192"],
+      "distance_m": 3548,
+      "walking_seconds": 2838,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "city-landmarks-around-loschwitz-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Loschwitz Bridge",
+      "title_pt": "Marcos da cidade perto de Blaues Wunder",
+      "generated_by": "rules",
+      "stops": ["Q2518489", "Q2235760", "Q567518", "Q1870608"],
+      "distance_m": 3480,
+      "walking_seconds": 2784,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "city-landmarks-around-waldschlosschen-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Waldschlösschen Bridge",
+      "title_pt": "Marcos da cidade perto de Waldschlösschen Bridge",
+      "generated_by": "rules",
+      "stops": ["Q1329198", "Q1343765", "Q1389609", "Q643881"],
+      "distance_m": 2995,
+      "walking_seconds": 2396,
+      "visit_minutes": 90
+    }
+  ]
+}

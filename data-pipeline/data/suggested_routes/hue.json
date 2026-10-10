@@ -1,0 +1,48 @@
+{
+  "city": "hue",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-imperial-city-of-hue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Imperial City of Hue",
+      "title_pt": "Destaques históricos perto de Cidade Imperial de Huế",
+      "generated_by": "rules",
+      "stops": [
+        "Q5275217",
+        "Q10752407",
+        "Q2234243",
+        "Q5929149",
+        "Q6826745",
+        "Q10769129",
+        "Q7023311",
+        "Q3211275"
+      ],
+      "distance_m": 4034,
+      "walking_seconds": 3227,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "churches-and-chapels-around-phu-cam-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Phủ Cam Cathedral",
+      "title_pt": "Igrejas e capelas perto de Phủ Cam Cathedral",
+      "generated_by": "rules",
+      "stops": ["Q4857424", "Q7850514", "Q28197251", "Q10788178", "Q10800885"],
+      "distance_m": 3090,
+      "walking_seconds": 2472,
+      "visit_minutes": 120
+    },
+    {
+      "slug": "monuments-and-memorials-around-tomb-of-tu-duc",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Tomb of Tự Đức",
+      "title_pt": "Monumentos e memoriais perto de Tomb of Tự Đức",
+      "generated_by": "rules",
+      "stops": ["Q16511573", "Q10788196", "Q7481171", "Q10748576"],
+      "distance_m": 3629,
+      "walking_seconds": 2903,
+      "visit_minutes": 80
+    }
+  ]
+}

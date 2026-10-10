@@ -1,0 +1,148 @@
+{
+  "city": "valencia",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-church-of-san-nicolas",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of San Nicolás",
+      "title_pt": "Destaques históricos perto de Church of San Nicolás",
+      "generated_by": "rules",
+      "stops": [
+        "Q2343754",
+        "Q9007252",
+        "Q3393224",
+        "Q4846088",
+        "Q588009",
+        "Q11942014",
+        "Q2839013",
+        "Q5801391"
+      ],
+      "distance_m": 1415,
+      "walking_seconds": 1132,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "museums-and-collections-around-city-of-arts-and-sciences",
+      "theme": "museums",
+      "title_en": "Museums and collections around City of Arts and Sciences",
+      "title_pt": "Museus e coleções perto de Cidade das Artes e das Ciências",
+      "generated_by": "rules",
+      "stops": ["Q9054601", "Q18005867", "Q2437999", "Q939288", "Q239935", "Q2458493"],
+      "distance_m": 2359,
+      "walking_seconds": 1887,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-torres-dels-serrans",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Torres dels Serrans",
+      "title_pt": "Palácios e casas nobres perto de Torres dels Serrans",
+      "generated_by": "rules",
+      "stops": [
+        "Q23841385",
+        "Q64830369",
+        "Q2455550",
+        "Q3068088",
+        "Q6057590",
+        "Q6150461",
+        "Q3393221",
+        "Q943466"
+      ],
+      "distance_m": 1097,
+      "walking_seconds": 878,
+      "visit_minutes": 505
+    },
+    {
+      "slug": "city-landmarks-around-valencia-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Valencia Cathedral",
+      "title_pt": "Marcos da cidade perto de Catedral de Valência",
+      "generated_by": "rules",
+      "stops": [
+        "Q2975344",
+        "Q1466926",
+        "Q3392928",
+        "Q5644720",
+        "Q3867999",
+        "Q978306",
+        "Q9092331",
+        "Q1779244"
+      ],
+      "distance_m": 453,
+      "walking_seconds": 362,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "museums-and-collections-around-palau-del-marques-de-dos-aigu",
+      "theme": "museums",
+      "title_en": "Museums and collections around Palau del Marqués de Dos Aigües",
+      "title_pt": "Museus e coleções perto de Palácio do Marquês de Duas Águas",
+      "generated_by": "rules",
+      "stops": [
+        "Q1577723",
+        "Q2701512",
+        "Q9046886",
+        "Q1993940",
+        "Q5484867",
+        "Q97798254",
+        "Q1983772",
+        "Q1996276"
+      ],
+      "distance_m": 2622,
+      "walking_seconds": 2098,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "churches-and-chapels-around-museu-de-belles-arts-de-valencia",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Museu de Belles Arts de València",
+      "title_pt": "Igrejas e capelas perto de Museu de Belles Arts de València",
+      "generated_by": "rules",
+      "stops": [
+        "Q8350474",
+        "Q9054542",
+        "Q9047012",
+        "Q1748404",
+        "Q9007046",
+        "Q608414",
+        "Q598219",
+        "Q4984364"
+      ],
+      "distance_m": 2217,
+      "walking_seconds": 1774,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "historic-highlights-around-plaza-de-toros-de-valencia",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Plaza de Toros de Valencia",
+      "title_pt": "Destaques históricos perto de Praça de Toiros de Valência",
+      "generated_by": "rules",
+      "stops": [
+        "Q5560429",
+        "Q1431438",
+        "Q526528",
+        "Q7883975",
+        "Q6033409",
+        "Q927284",
+        "Q1031982",
+        "Q5657503"
+      ],
+      "distance_m": 2443,
+      "walking_seconds": 1954,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "museums-and-collections-around-institut-valencia-d-art-moder",
+      "theme": "museums",
+      "title_en": "Museums and collections around Institut Valencià d'Art Modern",
+      "title_pt": "Museus e coleções perto de Institut Valencià d'Art Modern",
+      "generated_by": "rules",
+      "stops": ["Q5661486", "Q9010986", "Q9001222", "Q1600831"],
+      "distance_m": 2338,
+      "walking_seconds": 1870,
+      "visit_minutes": 230
+    }
+  ]
+}

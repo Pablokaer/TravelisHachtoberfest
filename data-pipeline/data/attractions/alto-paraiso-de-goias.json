@@ -1,0 +1,34 @@
+{
+  "city": "alto-paraiso-de-goias",
+  "retrieved": "2026-10-03",
+  "pageviews_range": ["20251001", "20260930"],
+  "sources": ["wikidata", "openstreetmap", "wikipedia-pageviews", "wikimedia-commons"],
+  "attractions": [
+    {
+      "wikidata_id": "Q750251",
+      "osm_id": "relation/7681461",
+      "name_en": "Chapada dos Veadeiros National Park",
+      "name_pt": "Parque Nacional da Chapada dos Veadeiros",
+      "description_en": "national park of Brazil located in the Chapada dos Veadeiros, an ancient plateau with an estimated age of 1.8 billion years",
+      "description_pt": "Parque Nacional da Chapada dos Veadeiros de nível Federal, localizado (a) em Alto Paraíso de Goiás (GO), Cavalcante (GO), Nova Roma (GO), São João D'Aliança (GO), Teresina de Goiás (GO)",
+      "category": "nature",
+      "lat": -14.0833333,
+      "lng": -47.6666667,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vale_do_Rio_Preto%2C_Parna_Chapada_dos_Veadeiros.jpg/960px-Vale_do_Rio_Preto%2C_Parna_Chapada_dos_Veadeiros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "Marina Campos Vinhal",
+      "image_license": "CC BY 2.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Vale_do_Rio_Preto,_Parna_Chapada_dos_Veadeiros.jpg",
+      "is_unesco": true,
+      "website": "https://www.icmbio.gov.br",
+      "wikipedia_en": "Chapada dos Veadeiros National Park",
+      "wikipedia_pt": "Parque Nacional da Chapada dos Veadeiros",
+      "opening_hours": null,
+      "fee": null,
+      "avg_visit_minutes": 90,
+      "popularity": 100,
+      "sitelinks": 43,
+      "pageviews": 24227
+    }
+  ]
+}

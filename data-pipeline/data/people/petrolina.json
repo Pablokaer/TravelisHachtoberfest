@@ -1,0 +1,27 @@
+{
+  "city": "petrolina",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q1652205",
+      "name_en": "Geraldo Azevedo",
+      "name_pt": "Geraldo Azevedo",
+      "description_en": "Brazilian singer-songwriter",
+      "description_pt": null,
+      "categories": ["music"],
+      "birth_year": 1945,
+      "death_year": null,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Geraldo_Azevedo_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image_author": "Raiodasilibrina",
+      "image_license": "CC BY-SA 4.0",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Geraldo_Azevedo_.jpg",
+      "wikipedia_en": "Geraldo Azevedo",
+      "wikipedia_pt": "Geraldo Azevedo",
+      "sitelinks": 10
+    }
+  ]
+}

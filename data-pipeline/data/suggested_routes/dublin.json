@@ -1,0 +1,166 @@
+{
+  "city": "dublin",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-st-patrick-s-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St Patrick's Cathedral",
+      "title_pt": "Igrejas e capelas perto de St Patrick's Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q7587136",
+        "Q5311029",
+        "Q1067803",
+        "Q7592147",
+        "Q742767",
+        "Q391976",
+        "Q3722778",
+        "Q846365"
+      ],
+      "distance_m": 1551,
+      "walking_seconds": 1241,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "city-landmarks-around-spire-of-dublin",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Spire of Dublin",
+      "title_pt": "Marcos da cidade perto de Spire of Dublin",
+      "generated_by": "rules",
+      "stops": [
+        "Q3467626",
+        "Q1798235",
+        "Q1134365",
+        "Q5002758",
+        "Q33123185",
+        "Q1766409",
+        "Q5437642",
+        "Q1034624"
+      ],
+      "distance_m": 2035,
+      "walking_seconds": 1628,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "museums-and-collections-around-leinster-house",
+      "theme": "museums",
+      "title_en": "Museums and collections around Leinster House",
+      "title_pt": "Museus e coleções perto de Leinster House",
+      "generated_by": "rules",
+      "stops": [
+        "Q30302790",
+        "Q2018379",
+        "Q6033599",
+        "Q247595",
+        "Q1672830",
+        "Q1672840",
+        "Q6974473",
+        "Q7586958"
+      ],
+      "distance_m": 1040,
+      "walking_seconds": 832,
+      "visit_minutes": 575
+    },
+    {
+      "slug": "historic-highlights-around-guinness-storehouse",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Guinness Storehouse",
+      "title_pt": "Destaques históricos perto de Guinness Storehouse",
+      "generated_by": "rules",
+      "stops": [
+        "Q261012",
+        "Q2319024",
+        "Q7592752",
+        "Q7592754",
+        "Q617466",
+        "Q945154",
+        "Q6974474",
+        "Q4767232"
+      ],
+      "distance_m": 2458,
+      "walking_seconds": 1966,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "historic-highlights-around-samuel-beckett-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Samuel Beckett Bridge",
+      "title_pt": "Destaques históricos perto de Ponte Samuel Beckett",
+      "generated_by": "rules",
+      "stops": [
+        "Q987447",
+        "Q97798642",
+        "Q1193916",
+        "Q369401",
+        "Q29831711",
+        "Q18411659",
+        "Q7589907",
+        "Q7592375"
+      ],
+      "distance_m": 3448,
+      "walking_seconds": 2758,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-garden-of-remembrance",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Garden of Remembrance",
+      "title_pt": "Destaques históricos perto de Garden of Remembrance",
+      "generated_by": "rules",
+      "stops": [
+        "Q3467883",
+        "Q7588110",
+        "Q7590567",
+        "Q496040",
+        "Q3040529",
+        "Q375501",
+        "Q2748428",
+        "Q1101808"
+      ],
+      "distance_m": 3570,
+      "walking_seconds": 2856,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-merrion-square",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Merrion Square",
+      "title_pt": "Destaques históricos perto de Merrion Square",
+      "generated_by": "rules",
+      "stops": [
+        "Q15207007",
+        "Q7747675",
+        "Q5510051",
+        "Q48815481",
+        "Q5291784",
+        "Q3720781",
+        "Q630780",
+        "Q7595474"
+      ],
+      "distance_m": 3454,
+      "walking_seconds": 2763,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-st-michan-s-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Michan's Church",
+      "title_pt": "Destaques históricos perto de St. Michan's Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q60747125",
+        "Q7590163",
+        "Q2811931",
+        "Q5597713",
+        "Q115823687",
+        "Q5437633",
+        "Q7590764",
+        "Q17104224"
+      ],
+      "distance_m": 2309,
+      "walking_seconds": 1847,
+      "visit_minutes": 390
+    }
+  ]
+}

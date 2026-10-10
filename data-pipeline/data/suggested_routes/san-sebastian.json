@@ -1,0 +1,128 @@
+{
+  "city": "san-sebastian",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-peine-del-viento-xv",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Peine del Viento XV",
+      "title_pt": "Destaques históricos perto de Pente do Vento",
+      "generated_by": "rules",
+      "stops": [
+        "Q2701401",
+        "Q51923737",
+        "Q9088849",
+        "Q3305582",
+        "Q1187408",
+        "Q65718380",
+        "Q12262639"
+      ],
+      "distance_m": 3314,
+      "walking_seconds": 2651,
+      "visit_minutes": 275
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-saint-mary-of-the-cho",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of Saint Mary of the Chorus",
+      "title_pt": "Destaques históricos perto de Basilica of Saint Mary of the Chorus",
+      "generated_by": "rules",
+      "stops": [
+        "Q12261586",
+        "Q12266844",
+        "Q3329346",
+        "Q6080012",
+        "Q2842138",
+        "Q125886123",
+        "Q12260370",
+        "Q12268644"
+      ],
+      "distance_m": 972,
+      "walking_seconds": 778,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-good-shepherd-cathedral-of-san-sebasti",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Good Shepherd Cathedral of San Sebastián",
+      "title_pt": "Marcos da cidade perto de Good Shepherd Cathedral of San Sebastián",
+      "generated_by": "rules",
+      "stops": [
+        "Q21963496",
+        "Q12256455",
+        "Q2942904",
+        "Q12255213",
+        "Q3181342",
+        "Q12266990",
+        "Q12258509",
+        "Q20492620"
+      ],
+      "distance_m": 2055,
+      "walking_seconds": 1644,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "city-landmarks-around-plaza-de-toros-de-illumbe",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Plaza de Toros de Illumbe",
+      "title_pt": "Marcos da cidade perto de Plaza de Toros de Illumbe",
+      "generated_by": "rules",
+      "stops": ["Q12263878", "Q9006868", "Q3324721"],
+      "distance_m": 2457,
+      "walking_seconds": 1966,
+      "visit_minutes": 70
+    },
+    {
+      "slug": "churches-and-chapels-around-albaola-itsas-kultur-faktoria",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Albaola Itsas Kultur Faktoria",
+      "title_pt": "Igrejas e capelas perto de Albaola Itsas Kultur Faktoria",
+      "generated_by": "rules",
+      "stops": ["Q112945395", "Q98446185", "Q20035625", "Q20493052", "Q12267300"],
+      "distance_m": 4350,
+      "walking_seconds": 3480,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-polloe-cemetery",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Polloe Cemetery",
+      "title_pt": "Marcos da cidade perto de Polloe Cemetery",
+      "generated_by": "rules",
+      "stops": [
+        "Q25474417",
+        "Q26252283",
+        "Q61070506",
+        "Q12269507",
+        "Q5655365",
+        "Q16516448",
+        "Q20880625"
+      ],
+      "distance_m": 3973,
+      "walking_seconds": 3178,
+      "visit_minutes": 205
+    },
+    {
+      "slug": "museums-and-collections-around-palacio-de-ayete",
+      "theme": "museums",
+      "title_en": "Museums and collections around Palacio de Ayete",
+      "title_pt": "Museus e coleções perto de Palacio de Ayete",
+      "generated_by": "rules",
+      "stops": ["Q12268587", "Q12256355", "Q4846114"],
+      "distance_m": 2625,
+      "walking_seconds": 2100,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "castles-and-viewpoints-around-fortress-of-san-marko",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Fortress of San Marko",
+      "title_pt": "Castelos e miradouros perto de Fortress of San Marko",
+      "generated_by": "rules",
+      "stops": ["Q21002182", "Q98009510", "Q133404886", "Q8963004"],
+      "distance_m": 1637,
+      "walking_seconds": 1310,
+      "visit_minutes": 220
+    }
+  ]
+}

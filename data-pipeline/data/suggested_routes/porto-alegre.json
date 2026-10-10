@@ -1,0 +1,148 @@
+{
+  "city": "porto-alegre",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-piratini-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Piratini palace",
+      "title_pt": "Destaques históricos perto de Palácio Piratini",
+      "generated_by": "rules",
+      "stops": [
+        "Q10263444",
+        "Q6321736",
+        "Q18482311",
+        "Q732922",
+        "Q9698197",
+        "Q10353329",
+        "Q10332146",
+        "Q3776871"
+      ],
+      "distance_m": 662,
+      "walking_seconds": 530,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "historic-highlights-around-usina-do-gasometro",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Usina do Gasômetro",
+      "title_pt": "Destaques históricos perto de Usina do Gasômetro",
+      "generated_by": "rules",
+      "stops": [
+        "Q10373069",
+        "Q9709898",
+        "Q9617534",
+        "Q15023948",
+        "Q10333887",
+        "Q10300156",
+        "Q10353252",
+        "Q9092064"
+      ],
+      "distance_m": 1709,
+      "walking_seconds": 1367,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-porto-alegre-public-market",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Porto Alegre Public Market",
+      "title_pt": "Destaques históricos perto de Mercado Público de Porto Alegre",
+      "generated_by": "rules",
+      "stops": [
+        "Q10332151",
+        "Q10328566",
+        "Q10368094",
+        "Q10347008",
+        "Q7232142",
+        "Q10353401",
+        "Q9739885",
+        "Q10300539"
+      ],
+      "distance_m": 919,
+      "walking_seconds": 735,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "churches-and-chapels-around-instituto-de-educacao-flores-da",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Instituto de Educação Flores da Cunha",
+      "title_pt": "Igrejas e capelas perto de Instituto de Educação Flores da Cunha",
+      "generated_by": "rules",
+      "stops": [
+        "Q10300938",
+        "Q10332149",
+        "Q10302816",
+        "Q18242387",
+        "Q16740484",
+        "Q10353279",
+        "Q10300368",
+        "Q2956553"
+      ],
+      "distance_m": 2691,
+      "walking_seconds": 2153,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "monuments-and-memorials-around-monumento-aos-acorianos",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Monumento aos Açorianos",
+      "title_pt": "Monumentos e memoriais perto de Monumento aos Açorianos",
+      "generated_by": "rules",
+      "stops": [
+        "Q9093140",
+        "Q18466770",
+        "Q5482714",
+        "Q10316386",
+        "Q9034978",
+        "Q10302655",
+        "Q10333525",
+        "Q132484999"
+      ],
+      "distance_m": 2685,
+      "walking_seconds": 2148,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "monuments-and-memorials-around-confeitaria-rocco",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Confeitaria Rocco",
+      "title_pt": "Monumentos e memoriais perto de Confeitaria Rocco",
+      "generated_by": "rules",
+      "stops": [
+        "Q10300228",
+        "Q10353263",
+        "Q8461689",
+        "Q10302546",
+        "Q10344053",
+        "Q9656764",
+        "Q20053378",
+        "Q108804327"
+      ],
+      "distance_m": 1729,
+      "walking_seconds": 1383,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "city-landmarks-around-praca-da-alfandega",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Praça da Alfândega",
+      "title_pt": "Marcos da cidade perto de Praça da Alfândega",
+      "generated_by": "rules",
+      "stops": ["Q10380026", "Q10353514", "Q48878372", "Q10353407", "Q7335252"],
+      "distance_m": 4656,
+      "walking_seconds": 3725,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "museums-and-collections-around-edificacoes-centenarias-do-ho",
+      "theme": "museums",
+      "title_en": "Museums and collections around Edificações Centenárias do Hospital Psiquiátrico",
+      "title_pt": "Museus e coleções perto de Hospital Psiquiátrico São Pedro",
+      "generated_by": "rules",
+      "stops": ["Q10300701", "Q3145361", "Q10333815", "Q9047059"],
+      "distance_m": 3328,
+      "walking_seconds": 2662,
+      "visit_minutes": 230
+    }
+  ]
+}

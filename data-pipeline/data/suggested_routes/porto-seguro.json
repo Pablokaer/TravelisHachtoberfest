@@ -1,0 +1,17 @@
+{
+  "city": "porto-seguro",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-parish-church-of-our-lady-of-pena",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Parish Church of Our Lady of Pena",
+      "title_pt": "Destaques históricos perto de Igreja Matriz Nossa Senhora da Pena",
+      "generated_by": "rules",
+      "stops": ["Q56641190", "Q115766623", "Q10299999"],
+      "distance_m": 346,
+      "walking_seconds": 277,
+      "visit_minutes": 70
+    }
+  ]
+}

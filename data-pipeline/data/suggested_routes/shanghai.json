@@ -1,0 +1,121 @@
+{
+  "city": "shanghai",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-the-bund",
+      "theme": "highlights",
+      "title_en": "Historic highlights around The Bund",
+      "title_pt": "Destaques históricos perto de Bund",
+      "generated_by": "rules",
+      "stops": [
+        "Q6906900",
+        "Q2121198",
+        "Q16924994",
+        "Q16948372",
+        "Q10927926",
+        "Q125474",
+        "Q10932356",
+        "Q1312291"
+      ],
+      "distance_m": 3118,
+      "walking_seconds": 2494,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-shanghai-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Shanghai Museum",
+      "title_pt": "Museus e coleções perto de Museu de Xangai",
+      "generated_by": "rules",
+      "stops": [
+        "Q41728",
+        "Q5209879",
+        "Q1051293",
+        "Q1078123",
+        "Q713922",
+        "Q3329586",
+        "Q779273",
+        "Q1194314"
+      ],
+      "distance_m": 3349,
+      "walking_seconds": 2679,
+      "visit_minutes": 650
+    },
+    {
+      "slug": "city-landmarks-around-city-god-temple-of-shanghai",
+      "theme": "landmarks",
+      "title_en": "City landmarks around City God Temple of Shanghai",
+      "title_pt": "Marcos da cidade perto de Templo Cidade de Deus",
+      "generated_by": "rules",
+      "stops": [
+        "Q19840123",
+        "Q289901",
+        "Q11139200",
+        "Q7083702",
+        "Q3517674",
+        "Q1909323",
+        "Q631946",
+        "Q10868102"
+      ],
+      "distance_m": 3578,
+      "walking_seconds": 2862,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "monuments-and-memorials-around-saint-ignatius-cathedral",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Saint Ignatius Cathedral",
+      "title_pt": "Monumentos e memoriais perto de Catedral de Santo Inácio",
+      "generated_by": "rules",
+      "stops": ["Q41743", "Q8045094", "Q19825547", "Q49633", "Q5006985"],
+      "distance_m": 4082,
+      "walking_seconds": 3266,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "churches-and-chapels-around-oriental-pearl-tower",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Oriental Pearl Tower",
+      "title_pt": "Igrejas e capelas perto de Torre Pérola Oriental",
+      "generated_by": "rules",
+      "stops": ["Q11079385", "Q2582044", "Q223207", "Q4520139"],
+      "distance_m": 3904,
+      "walking_seconds": 3123,
+      "visit_minutes": 165
+    },
+    {
+      "slug": "city-landmarks-around-jing-an-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Jing'an Temple",
+      "title_pt": "Marcos da cidade perto de Jing'an Temple",
+      "generated_by": "rules",
+      "stops": ["Q2324031", "Q10926516", "Q403189", "Q1055130"],
+      "distance_m": 3292,
+      "walking_seconds": 2634,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "churches-and-chapels-around-saint-nicholas-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Saint Nicholas' Church",
+      "title_pt": "Igrejas e capelas perto de Saint Nicholas' Church",
+      "generated_by": "rules",
+      "stops": ["Q13403051", "Q16322342", "Q284943", "Q2384843", "Q4504693"],
+      "distance_m": 2614,
+      "walking_seconds": 2091,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "historic-highlights-around-nanpu-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Nanpu Bridge",
+      "title_pt": "Destaques históricos perto de Nanpu Bridge",
+      "generated_by": "rules",
+      "stops": ["Q7236419", "Q910848", "Q3581457"],
+      "distance_m": 2473,
+      "walking_seconds": 1978,
+      "visit_minutes": 140
+    }
+  ]
+}

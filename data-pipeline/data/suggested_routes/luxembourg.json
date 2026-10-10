@@ -1,0 +1,166 @@
+{
+  "city": "luxembourg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-grand-ducal-palace",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Grand Ducal Palace",
+      "title_pt": "Marcos da cidade perto de Palácio Grão-ducal",
+      "generated_by": "rules",
+      "stops": [
+        "Q2585886",
+        "Q1341246",
+        "Q1420366",
+        "Q1205254",
+        "Q3563262",
+        "Q6436459",
+        "Q2097833",
+        "Q2555232"
+      ],
+      "distance_m": 648,
+      "walking_seconds": 518,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-notre-dame-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Notre-Dame Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Notre-Dame de Luxemburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q3390681",
+        "Q359872",
+        "Q6706218",
+        "Q1348719",
+        "Q3145761",
+        "Q1257708",
+        "Q55521088",
+        "Q1102519"
+      ],
+      "distance_m": 896,
+      "walking_seconds": 717,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "historic-highlights-around-bock",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bock",
+      "title_pt": "Destaques históricos perto de Bock",
+      "generated_by": "rules",
+      "stops": [
+        "Q13102160",
+        "Q16368078",
+        "Q2714250",
+        "Q6906868",
+        "Q16368081",
+        "Q1698848",
+        "Q334068",
+        "Q6974489"
+      ],
+      "distance_m": 947,
+      "walking_seconds": 758,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-mudam",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mudam",
+      "title_pt": "Destaques históricos perto de Mudam",
+      "generated_by": "rules",
+      "stops": [
+        "Q16764474",
+        "Q585990",
+        "Q15107302",
+        "Q1955758",
+        "Q16764125",
+        "Q13103539",
+        "Q16763435",
+        "Q2521715"
+      ],
+      "distance_m": 3057,
+      "walking_seconds": 2446,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-adolphe-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Adolphe Bridge",
+      "title_pt": "Destaques históricos perto de Adolphe Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q4738954",
+        "Q11786920",
+        "Q25584474",
+        "Q1187974",
+        "Q365643",
+        "Q3019728",
+        "Q15924817",
+        "Q16763432"
+      ],
+      "distance_m": 1026,
+      "walking_seconds": 821,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "city-landmarks-around-place-d-armes",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Place d'Armes",
+      "title_pt": "Marcos da cidade perto de place d'Armes",
+      "generated_by": "rules",
+      "stops": [
+        "Q7200243",
+        "Q2375191",
+        "Q2223322",
+        "Q1728389",
+        "Q25583843",
+        "Q1414793",
+        "Q15925751",
+        "Q13102363"
+      ],
+      "distance_m": 3040,
+      "walking_seconds": 2432,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-pfaffenthal-panoramic-elevator",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Pfaffenthal Panoramic Elevator",
+      "title_pt": "Destaques históricos perto de Pfaffenthal Panoramic Elevator",
+      "generated_by": "rules",
+      "stops": [
+        "Q16368090",
+        "Q13101859",
+        "Q359860",
+        "Q13104803",
+        "Q20747992",
+        "Q25583505",
+        "Q6507415",
+        "Q16365656"
+      ],
+      "distance_m": 1466,
+      "walking_seconds": 1173,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "city-landmarks-around-passerelle",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Passerelle",
+      "title_pt": "Marcos da cidade perto de Passerelle",
+      "generated_by": "rules",
+      "stops": [
+        "Q3246798",
+        "Q42880447",
+        "Q1305120",
+        "Q13102879",
+        "Q13103543",
+        "Q25584462",
+        "Q18629931",
+        "Q24949303"
+      ],
+      "distance_m": 3522,
+      "walking_seconds": 2818,
+      "visit_minutes": 260
+    }
+  ]
+}

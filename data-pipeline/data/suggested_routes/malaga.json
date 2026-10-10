@@ -1,0 +1,97 @@
+{
+  "city": "malaga",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-plaza-de-toros-de-la-malagueta",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Plaza de toros de la Malagueta",
+      "title_pt": "Destaques históricos perto de Praça de Toiros da Malagueta",
+      "generated_by": "rules",
+      "stops": [
+        "Q96656916",
+        "Q5378201",
+        "Q523311",
+        "Q97633214",
+        "Q1049197",
+        "Q5848876",
+        "Q4291147",
+        "Q969308"
+      ],
+      "distance_m": 2270,
+      "walking_seconds": 1816,
+      "visit_minutes": 285
+    },
+    {
+      "slug": "historic-highlights-around-alcazaba-of-malaga",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Alcazaba of Málaga",
+      "title_pt": "Destaques históricos perto de Alcazaba of Málaga",
+      "generated_by": "rules",
+      "stops": [
+        "Q97633205",
+        "Q3849447",
+        "Q5654652",
+        "Q4276495",
+        "Q4155876",
+        "Q3127243",
+        "Q5754662",
+        "Q5729445"
+      ],
+      "distance_m": 967,
+      "walking_seconds": 774,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-basilica-of-the-virgin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral Basilica of the Virgin of Incarnation",
+      "title_pt": "Destaques históricos perto de Cathedral Basilica of the Virgin of Incarnation",
+      "generated_by": "rules",
+      "stops": [
+        "Q9054580",
+        "Q6033729",
+        "Q1368396",
+        "Q9007571",
+        "Q97633210",
+        "Q1582758",
+        "Q6023240",
+        "Q5814078"
+      ],
+      "distance_m": 977,
+      "walking_seconds": 782,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "museums-and-collections-around-al-andalus-mosque",
+      "theme": "museums",
+      "title_en": "Museums and collections around Al-Andalus Mosque",
+      "title_pt": "Museus e coleções perto de Al-Andalus Mosque",
+      "generated_by": "rules",
+      "stops": ["Q12184921", "Q11681997", "Q3664802", "Q11692328"],
+      "distance_m": 4268,
+      "walking_seconds": 3414,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "churches-and-chapels-around-carmen-thyssen-museum",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Carmen Thyssen Museum",
+      "title_pt": "Igrejas e capelas perto de Museu Carmen Thyssen",
+      "generated_by": "rules",
+      "stops": [
+        "Q5722068",
+        "Q1824133",
+        "Q5043601",
+        "Q9060974",
+        "Q5912680",
+        "Q5912818",
+        "Q6034512",
+        "Q2836410"
+      ],
+      "distance_m": 1732,
+      "walking_seconds": 1386,
+      "visit_minutes": 340
+    }
+  ]
+}

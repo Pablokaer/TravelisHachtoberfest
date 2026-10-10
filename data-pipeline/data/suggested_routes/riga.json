@@ -1,0 +1,130 @@
+{
+  "city": "riga",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-freedom-monument",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Freedom Monument",
+      "title_pt": "Monumentos e memoriais perto de Monumento da Liberdade de Riga",
+      "generated_by": "rules",
+      "stops": [
+        "Q6497382",
+        "Q1550015",
+        "Q4343329",
+        "Q337179",
+        "Q4507748",
+        "Q7333341",
+        "Q186097",
+        "Q2660396"
+      ],
+      "distance_m": 2374,
+      "walking_seconds": 1899,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-riga-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Riga Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Riga",
+      "generated_by": "rules",
+      "stops": [
+        "Q4290244",
+        "Q1586390",
+        "Q3409330",
+        "Q16355736",
+        "Q322183",
+        "Q317508",
+        "Q16351499",
+        "Q3403080"
+      ],
+      "distance_m": 2396,
+      "walking_seconds": 1917,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "churches-and-chapels-around-riga-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Riga Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Riga",
+      "generated_by": "rules",
+      "stops": [
+        "Q654904",
+        "Q2568623",
+        "Q2672158",
+        "Q4065174",
+        "Q1133059",
+        "Q4165985",
+        "Q7587443",
+        "Q4390837"
+      ],
+      "distance_m": 1014,
+      "walking_seconds": 811,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "churches-and-chapels-around-st-gertrude-old-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St. Gertrude Old Church",
+      "title_pt": "Igrejas e capelas perto de St. Gertrude Old Church",
+      "generated_by": "rules",
+      "stops": ["Q2568547", "Q6497376", "Q2668017", "Q2672165", "Q2084448"],
+      "distance_m": 3266,
+      "walking_seconds": 2613,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "city-landmarks-around-akmens-tilts",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Akmens tilts",
+      "title_pt": "Marcos da cidade perto de Akmens tilts",
+      "generated_by": "rules",
+      "stops": ["Q3403110", "Q2041341", "Q6072354", "Q2041385", "Q4306181"],
+      "distance_m": 2937,
+      "walking_seconds": 2350,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "city-landmarks-around-riga-radio-and-tv-tower",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Riga Radio and TV Tower",
+      "title_pt": "Marcos da cidade perto de Torre de rádio e televisão de Riga",
+      "generated_by": "rules",
+      "stops": ["Q2498125", "Q4394515", "Q3581726", "Q830319"],
+      "distance_m": 3727,
+      "walking_seconds": 2982,
+      "visit_minutes": 100
+    },
+    {
+      "slug": "city-landmarks-around-brothers-cemetery",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Brothers' Cemetery",
+      "title_pt": "Marcos da cidade perto de Brothers' Cemetery",
+      "generated_by": "rules",
+      "stops": ["Q2564167", "Q4222826", "Q996777", "Q5108971", "Q7317832", "Q12908209"],
+      "distance_m": 3134,
+      "walking_seconds": 2507,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "churches-and-chapels-around-pokrov-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Pokrov Cemetery",
+      "title_pt": "Igrejas e capelas perto de Pokrov Cemetery",
+      "generated_by": "rules",
+      "stops": [
+        "Q5118036",
+        "Q7493985",
+        "Q5116832",
+        "Q4803830",
+        "Q2077659",
+        "Q7591677",
+        "Q2942895",
+        "Q3409348"
+      ],
+      "distance_m": 3531,
+      "walking_seconds": 2825,
+      "visit_minutes": 230
+    }
+  ]
+}

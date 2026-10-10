@@ -1,0 +1,148 @@
+{
+  "city": "rotterdam",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-euromast",
+      "theme": "museums",
+      "title_en": "Museums and collections around Euromast",
+      "title_pt": "Museus e coleções perto de Euromast",
+      "generated_by": "rules",
+      "stops": [
+        "Q2399655",
+        "Q1668856",
+        "Q3311591",
+        "Q2028427",
+        "Q969215",
+        "Q27135763",
+        "Q54667782",
+        "Q2130225"
+      ],
+      "distance_m": 3265,
+      "walking_seconds": 2612,
+      "visit_minutes": 455
+    },
+    {
+      "slug": "museums-and-collections-around-santa-claus",
+      "theme": "museums",
+      "title_en": "Museums and collections around Santa Claus",
+      "title_pt": "Museus e coleções perto de Santa Claus",
+      "generated_by": "rules",
+      "stops": [
+        "Q361792",
+        "Q20888634",
+        "Q62088324",
+        "Q679527",
+        "Q17465294",
+        "Q2090436",
+        "Q2488682",
+        "Q14007692"
+      ],
+      "distance_m": 844,
+      "walking_seconds": 675,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "city-landmarks-around-moments-contained",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Moments Contained",
+      "title_pt": "Marcos da cidade perto de Moments Contained",
+      "generated_by": "rules",
+      "stops": [
+        "Q16760837",
+        "Q1481214",
+        "Q1814138",
+        "Q2771655",
+        "Q2438549",
+        "Q119039709",
+        "Q2394032",
+        "Q1573958"
+      ],
+      "distance_m": 3747,
+      "walking_seconds": 2998,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-erasmusbrug",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Erasmusbrug",
+      "title_pt": "Destaques históricos perto de Ponte Erasmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q28870369",
+        "Q1991050",
+        "Q2191118",
+        "Q1348188",
+        "Q2134942",
+        "Q2542421",
+        "Q2042754",
+        "Q176278"
+      ],
+      "distance_m": 3565,
+      "walking_seconds": 2852,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-the-destroyed-city",
+      "theme": "highlights",
+      "title_en": "Historic highlights around The Destroyed City",
+      "title_pt": "Destaques históricos perto de A cidade destruída",
+      "generated_by": "rules",
+      "stops": [
+        "Q85801487",
+        "Q2789266",
+        "Q20888400",
+        "Q2149964",
+        "Q2755458",
+        "Q1219934",
+        "Q2542366",
+        "Q3899305"
+      ],
+      "distance_m": 1501,
+      "walking_seconds": 1201,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-de-hef",
+      "theme": "landmarks",
+      "title_en": "City landmarks around De Hef",
+      "title_pt": "Marcos da cidade perto de De Hef",
+      "generated_by": "rules",
+      "stops": [
+        "Q2797328",
+        "Q2530385",
+        "Q2238013",
+        "Q2804342",
+        "Q1416985",
+        "Q1180002",
+        "Q2177384",
+        "Q2793692"
+      ],
+      "distance_m": 2951,
+      "walking_seconds": 2361,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "museums-and-collections-around-stoom-stichting-nederland",
+      "theme": "museums",
+      "title_en": "Museums and collections around Stoom Stichting Nederland",
+      "title_pt": "Museus e coleções perto de Stoom Stichting Nederland",
+      "generated_by": "rules",
+      "stops": ["Q2351733", "Q2365602", "Q4241729", "Q3164339", "Q2632714"],
+      "distance_m": 4256,
+      "walking_seconds": 3405,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "museums-and-collections-around-fenix-museum-of-migration",
+      "theme": "museums",
+      "title_en": "Museums and collections around FENIX Museum of Migration",
+      "title_pt": "Museus e coleções perto de FENIX Museum of Migration",
+      "generated_by": "rules",
+      "stops": ["Q17465172", "Q46919682", "Q106603214", "Q2385010"],
+      "distance_m": 3318,
+      "walking_seconds": 2654,
+      "visit_minutes": 230
+    }
+  ]
+}

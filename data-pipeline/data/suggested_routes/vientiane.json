@@ -1,0 +1,26 @@
+{
+  "city": "vientiane",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-wat-si-saket",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Si Saket",
+      "title_pt": "Igrejas e capelas perto de Wat Si Saket",
+      "generated_by": "rules",
+      "stops": [
+        "Q18240007",
+        "Q7972946",
+        "Q17606819",
+        "Q4466863",
+        "Q1442048",
+        "Q15268539",
+        "Q25017398",
+        "Q1441659"
+      ],
+      "distance_m": 3196,
+      "walking_seconds": 2557,
+      "visit_minutes": 265
+    }
+  ]
+}

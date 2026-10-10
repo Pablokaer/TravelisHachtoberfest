@@ -1,0 +1,157 @@
+{
+  "city": "glasgow",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-equestrian-statue-of-the-duke-of-welli",
+      "theme": "landmarks",
+      "title_en": "City landmarks around equestrian statue of the Duke of Wellington",
+      "title_pt": "Marcos da cidade perto de Estátua equestre do Duque de Wellington, Glasgow",
+      "generated_by": "rules",
+      "stops": [
+        "Q7587884",
+        "Q7747302",
+        "Q7593116",
+        "Q7374157",
+        "Q3094799",
+        "Q7981506",
+        "Q5544754",
+        "Q5566778"
+      ],
+      "distance_m": 1312,
+      "walking_seconds": 1050,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "city-landmarks-around-riverside-museum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Riverside Museum",
+      "title_pt": "Marcos da cidade perto de Riverside Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q42887850",
+        "Q5588564",
+        "Q60750157",
+        "Q7338547",
+        "Q1807508",
+        "Q3533344",
+        "Q4883061",
+        "Q5136870"
+      ],
+      "distance_m": 2948,
+      "walking_seconds": 2358,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "churches-and-chapels-around-kelvingrove-art-gallery-and-muse",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Kelvingrove Art Gallery and Museum",
+      "title_pt": "Igrejas e capelas perto de Museu e Galeria de Arte de Kelvingrove",
+      "generated_by": "rules",
+      "stops": [
+        "Q6386767",
+        "Q17798254",
+        "Q17796410",
+        "Q7981349",
+        "Q1465387",
+        "Q7895464",
+        "Q1061094",
+        "Q1531015"
+      ],
+      "distance_m": 3538,
+      "walking_seconds": 2830,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "historic-highlights-around-glasgow-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Glasgow Cathedral",
+      "title_pt": "Destaques históricos perto de Glasgow Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q7290289",
+        "Q24197282",
+        "Q17567637",
+        "Q7252283",
+        "Q7594905",
+        "Q5052288",
+        "Q1473348",
+        "Q1529512"
+      ],
+      "distance_m": 1326,
+      "walking_seconds": 1061,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-glasgow-school-of-art",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Glasgow School of Art",
+      "title_pt": "Destaques históricos perto de Escola de Arte de Glasgow",
+      "generated_by": "rules",
+      "stops": [
+        "Q7699695",
+        "Q5523667",
+        "Q748106",
+        "Q7592306",
+        "Q4930901",
+        "Q7592873",
+        "Q7595617",
+        "Q5752957"
+      ],
+      "distance_m": 2383,
+      "walking_seconds": 1906,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-caledonian-railway-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Caledonian Railway Bridge",
+      "title_pt": "Marcos da cidade perto de Caledonian Railway Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q3493426",
+        "Q5123472",
+        "Q16902660",
+        "Q2002811",
+        "Q17567416",
+        "Q5566753",
+        "Q5019450",
+        "Q7832197"
+      ],
+      "distance_m": 1580,
+      "walking_seconds": 1264,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-people-s-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around People's Palace",
+      "title_pt": "Destaques históricos perto de People's Palace",
+      "generated_by": "rules",
+      "stops": [
+        "Q7845421",
+        "Q17567493",
+        "Q7592412",
+        "Q17568987",
+        "Q7165644",
+        "Q7401798",
+        "Q5566961",
+        "Q7383372"
+      ],
+      "distance_m": 4083,
+      "walking_seconds": 3266,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "museums-and-collections-around-burrell-collection",
+      "theme": "museums",
+      "title_en": "Museums and collections around Burrell Collection",
+      "title_pt": "Museus e coleções perto de Burrell Collection",
+      "generated_by": "rules",
+      "stops": ["Q1489852", "Q1016909", "Q5638720", "Q7225727"],
+      "distance_m": 3021,
+      "walking_seconds": 2417,
+      "visit_minutes": 290
+    }
+  ]
+}

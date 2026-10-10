@@ -1,0 +1,46 @@
+{
+  "city": "joao-pessoa",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-church-of-saint-francis-and-conv",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Saint Francis and Convent of Saint Antony",
+      "title_pt": "Igrejas e capelas perto de Centro Cultural São Francisco",
+      "generated_by": "rules",
+      "stops": [
+        "Q10353396",
+        "Q10332634",
+        "Q56351959",
+        "Q9709501",
+        "Q18482720",
+        "Q18483719",
+        "Q9698214",
+        "Q10298609"
+      ],
+      "distance_m": 2635,
+      "walking_seconds": 2108,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "city-landmarks-around-zoan",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Zoan",
+      "title_pt": "Marcos da cidade perto de Zoan",
+      "generated_by": "rules",
+      "stops": [
+        "Q20056244",
+        "Q86734053",
+        "Q10300408",
+        "Q9656767",
+        "Q18464940",
+        "Q10295971",
+        "Q9571037",
+        "Q8073157"
+      ],
+      "distance_m": 1941,
+      "walking_seconds": 1553,
+      "visit_minutes": 225
+    }
+  ]
+}

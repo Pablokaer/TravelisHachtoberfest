@@ -1,0 +1,166 @@
+{
+  "city": "siena",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-siena-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Siena Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Siena",
+      "generated_by": "rules",
+      "stops": [
+        "Q1279458",
+        "Q3902402",
+        "Q7604476",
+        "Q7402408",
+        "Q282554",
+        "Q3889551",
+        "Q1066935",
+        "Q869130"
+      ],
+      "distance_m": 304,
+      "walking_seconds": 243,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-piazza-del-campo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around piazza del Campo",
+      "title_pt": "Destaques históricos perto de Piazza del Campo",
+      "generated_by": "rules",
+      "stops": [
+        "Q16585999",
+        "Q3965724",
+        "Q3890845",
+        "Q536048",
+        "Q1061229",
+        "Q1190961",
+        "Q2472396",
+        "Q3961393"
+      ],
+      "distance_m": 579,
+      "walking_seconds": 463,
+      "visit_minutes": 465
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-palazzo-salimbeni",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Palazzo Salimbeni",
+      "title_pt": "Palácios e casas nobres perto de Palazzo Salimbeni",
+      "generated_by": "rules",
+      "stops": [
+        "Q3674085",
+        "Q19563329",
+        "Q3669825",
+        "Q3890994",
+        "Q3889665",
+        "Q3890923",
+        "Q925549",
+        "Q3669925"
+      ],
+      "distance_m": 550,
+      "walking_seconds": 440,
+      "visit_minutes": 465
+    },
+    {
+      "slug": "churches-and-chapels-around-basilica-of-san-domenico",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Basilica of San Domenico",
+      "title_pt": "Igrejas e capelas perto de Basílica de São Domingos",
+      "generated_by": "rules",
+      "stops": [
+        "Q3672030",
+        "Q3891314",
+        "Q3747505",
+        "Q810075",
+        "Q185303",
+        "Q3671584",
+        "Q24897814",
+        "Q3674012"
+      ],
+      "distance_m": 1261,
+      "walking_seconds": 1009,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-pinacoteca-nazionale-siena",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Pinacoteca Nazionale, Siena",
+      "title_pt": "Destaques históricos perto de Pinacoteca Nazionale di Siena",
+      "generated_by": "rules",
+      "stops": [
+        "Q3886280",
+        "Q1102250",
+        "Q3671760",
+        "Q2095405",
+        "Q3361291",
+        "Q3891253",
+        "Q3889847",
+        "Q3621769"
+      ],
+      "distance_m": 995,
+      "walking_seconds": 796,
+      "visit_minutes": 555
+    },
+    {
+      "slug": "churches-and-chapels-around-fortezza-medicea",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Fortezza Medicea",
+      "title_pt": "Igrejas e capelas perto de Fortezza Medicea",
+      "generated_by": "rules",
+      "stops": [
+        "Q16669882",
+        "Q3890974",
+        "Q3890118",
+        "Q3672424",
+        "Q3674335",
+        "Q3674136",
+        "Q3671757",
+        "Q3748706"
+      ],
+      "distance_m": 1620,
+      "walking_seconds": 1296,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-san-francesco",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of San Francesco",
+      "title_pt": "Destaques históricos perto de Basilica of San Francesco",
+      "generated_by": "rules",
+      "stops": [
+        "Q810074",
+        "Q3884503",
+        "Q25051769",
+        "Q3662246",
+        "Q3672155",
+        "Q3890653",
+        "Q28228910",
+        "Q25221138"
+      ],
+      "distance_m": 686,
+      "walking_seconds": 549,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "churches-and-chapels-around-santa-maria-dei-servi",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Santa Maria dei Servi",
+      "title_pt": "Igrejas e capelas perto de Santa Maria dei Servi",
+      "generated_by": "rules",
+      "stops": [
+        "Q3581520",
+        "Q1049041",
+        "Q25051816",
+        "Q3890816",
+        "Q3671846",
+        "Q3668695",
+        "Q810072",
+        "Q2104857"
+      ],
+      "distance_m": 1154,
+      "walking_seconds": 923,
+      "visit_minutes": 335
+    }
+  ]
+}

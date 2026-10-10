@@ -1,0 +1,85 @@
+{
+  "city": "tainan",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-fort-zeelandia",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fort Zeelandia",
+      "title_pt": "Destaques históricos perto de Forte Zeelândia",
+      "generated_by": "rules",
+      "stops": [
+        "Q7873871",
+        "Q697518",
+        "Q15924628",
+        "Q2072097",
+        "Q2245245",
+        "Q20706255",
+        "Q976557",
+        "Q10946667"
+      ],
+      "distance_m": 3154,
+      "walking_seconds": 2523,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "city-landmarks-around-fort-provintia",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Fort Provintia",
+      "title_pt": "Marcos da cidade perto de Fort Provintia",
+      "generated_by": "rules",
+      "stops": [
+        "Q10943998",
+        "Q15914783",
+        "Q714431",
+        "Q10934707",
+        "Q15079274",
+        "Q15911223",
+        "Q110221793",
+        "Q5809008"
+      ],
+      "distance_m": 2387,
+      "walking_seconds": 1910,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-tainan-confucian-temple",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Tainan Confucian Temple",
+      "title_pt": "Destaques históricos perto de Tainan Confucian Temple",
+      "generated_by": "rules",
+      "stops": [
+        "Q10955542",
+        "Q11411931",
+        "Q697776",
+        "Q18712645",
+        "Q2422289",
+        "Q10911370",
+        "Q15915271",
+        "Q24836770"
+      ],
+      "distance_m": 1517,
+      "walking_seconds": 1214,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "city-landmarks-around-koxinga-s-shrine",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Koxinga's Shrine",
+      "title_pt": "Marcos da cidade perto de Koxinga's Shrine",
+      "generated_by": "rules",
+      "stops": [
+        "Q15915292",
+        "Q15904288",
+        "Q2593582",
+        "Q8010918",
+        "Q107104922",
+        "Q15200807",
+        "Q7698759"
+      ],
+      "distance_m": 3699,
+      "walking_seconds": 2959,
+      "visit_minutes": 220
+    }
+  ]
+}

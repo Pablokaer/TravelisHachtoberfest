@@ -1,0 +1,139 @@
+{
+  "city": "nice",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-russian-orthodox-cathedral-nice",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Russian Orthodox Cathedral, Nice",
+      "title_pt": "Igrejas e capelas perto de Russian Orthodox Cathedral, Nice",
+      "generated_by": "rules",
+      "stops": [
+        "Q15945327",
+        "Q2205594",
+        "Q2886962",
+        "Q421502",
+        "Q3508075",
+        "Q3389982",
+        "Q3003360",
+        "Q2396560"
+      ],
+      "distance_m": 3279,
+      "walking_seconds": 2623,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-terra-amata",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Terra Amata",
+      "title_pt": "Destaques históricos perto de Terra Amata",
+      "generated_by": "rules",
+      "stops": [
+        "Q3323294",
+        "Q2942491",
+        "Q2970127",
+        "Q2972611",
+        "Q3389830",
+        "Q3323412",
+        "Q3580416",
+        "Q1857046"
+      ],
+      "distance_m": 2256,
+      "walking_seconds": 1805,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "museums-and-collections-around-promenade-des-anglais",
+      "theme": "museums",
+      "title_en": "Museums and collections around Promenade des Anglais",
+      "title_pt": "Museus e coleções perto de Promenade des Anglais",
+      "generated_by": "rules",
+      "stops": ["Q3330613", "Q1849491", "Q3330218", "Q3329270"],
+      "distance_m": 3273,
+      "walking_seconds": 2618,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "churches-and-chapels-around-nice-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Nice Cathedral",
+      "title_pt": "Igrejas e capelas perto de Nice Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q2957092",
+        "Q3360882",
+        "Q3581839",
+        "Q17355510",
+        "Q1084011",
+        "Q3361109",
+        "Q2957328",
+        "Q807839"
+      ],
+      "distance_m": 723,
+      "walking_seconds": 578,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "churches-and-chapels-around-musee-marc-chagall",
+      "theme": "churches",
+      "title_en": "Churches and chapels around musée Marc-Chagall",
+      "title_pt": "Igrejas e capelas perto de musée Marc-Chagall",
+      "generated_by": "rules",
+      "stops": [
+        "Q3107385",
+        "Q3329265",
+        "Q2413345",
+        "Q3330894",
+        "Q936859",
+        "Q2957473",
+        "Q3582555",
+        "Q3001619"
+      ],
+      "distance_m": 3811,
+      "walking_seconds": 3049,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "historic-highlights-around-musee-matisse",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Musée Matisse",
+      "title_pt": "Destaques históricos perto de Musée Matisse",
+      "generated_by": "rules",
+      "stops": [
+        "Q3584280",
+        "Q2820436",
+        "Q3320265",
+        "Q1563354",
+        "Q3329446",
+        "Q2866137",
+        "Q3323418",
+        "Q2944184"
+      ],
+      "distance_m": 4166,
+      "walking_seconds": 3333,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "castles-and-viewpoints-around-grotte-du-lazaret",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Grotte du Lazaret",
+      "title_pt": "Castelos e miradouros perto de Grotte du Lazaret",
+      "generated_by": "rules",
+      "stops": ["Q2957343", "Q2640864", "Q1547643", "Q2133894"],
+      "distance_m": 4171,
+      "walking_seconds": 3337,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "historic-highlights-around-russian-orthodox-cemetery-in-nice",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Russian Orthodox Cemetery in Nice",
+      "title_pt": "Destaques históricos perto de Russian Orthodox Cemetery in Nice",
+      "generated_by": "rules",
+      "stops": ["Q19910561", "Q2464410", "Q3330160"],
+      "distance_m": 1530,
+      "walking_seconds": 1224,
+      "visit_minutes": 140
+    }
+  ]
+}

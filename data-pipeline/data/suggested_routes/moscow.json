@@ -1,0 +1,130 @@
+{
+  "city": "moscow",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-lenin-s-mausoleum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Lenin's Mausoleum",
+      "title_pt": "Destaques históricos perto de Mausoléu de Lenin",
+      "generated_by": "rules",
+      "stops": [
+        "Q187531",
+        "Q2416732",
+        "Q930376",
+        "Q1130019",
+        "Q191414",
+        "Q41116",
+        "Q549498",
+        "Q1140429"
+      ],
+      "distance_m": 1007,
+      "walking_seconds": 806,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "historic-highlights-around-kremlin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kremlin",
+      "title_pt": "Destaques históricos perto de Kremlin",
+      "generated_by": "rules",
+      "stops": [
+        "Q2033910",
+        "Q748910",
+        "Q2307647",
+        "Q917830",
+        "Q957441",
+        "Q147875",
+        "Q147881",
+        "Q133274"
+      ],
+      "distance_m": 563,
+      "walking_seconds": 450,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-st-basil-s-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Basil's Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de São Basílio",
+      "generated_by": "rules",
+      "stops": [
+        "Q4092754",
+        "Q129846",
+        "Q1140402",
+        "Q2075146",
+        "Q2548788",
+        "Q1370087",
+        "Q1160154",
+        "Q2898604"
+      ],
+      "distance_m": 2166,
+      "walking_seconds": 1733,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "city-landmarks-around-lubyanka-building",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Lubyanka Building",
+      "title_pt": "Marcos da cidade perto de Lubianka",
+      "generated_by": "rules",
+      "stops": [
+        "Q2628618",
+        "Q1304121",
+        "Q2253418",
+        "Q3577654",
+        "Q3408535",
+        "Q2034313",
+        "Q2416242",
+        "Q646334"
+      ],
+      "distance_m": 2929,
+      "walking_seconds": 2343,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "city-landmarks-around-white-house",
+      "theme": "landmarks",
+      "title_en": "City landmarks around White House",
+      "title_pt": "Marcos da cidade perto de Casa Branca",
+      "generated_by": "rules",
+      "stops": ["Q3954120", "Q2308006", "Q671311", "Q2388422", "Q844124", "Q2570624"],
+      "distance_m": 3824,
+      "walking_seconds": 3059,
+      "visit_minutes": 120
+    },
+    {
+      "slug": "historic-highlights-around-tretyakov-gallery",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Tretyakov Gallery",
+      "title_pt": "Destaques históricos perto de Galeria Tretyakov",
+      "generated_by": "rules",
+      "stops": ["Q4343151", "Q1188019", "Q183334", "Q1504212", "Q4872", "Q1048694"],
+      "distance_m": 3751,
+      "walking_seconds": 3001,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-luzhniki-stadium",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Luzhniki Stadium",
+      "title_pt": "Marcos da cidade perto de Estádio Lujniki",
+      "generated_by": "rules",
+      "stops": ["Q4303894", "Q270725", "Q208175", "Q202163"],
+      "distance_m": 3619,
+      "walking_seconds": 2895,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "city-landmarks-around-ostankino-tower",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ostankino Tower",
+      "title_pt": "Marcos da cidade perto de Torre Ostankino",
+      "generated_by": "rules",
+      "stops": ["Q1627784", "Q2299609", "Q1638035", "Q181324"],
+      "distance_m": 2497,
+      "walking_seconds": 1998,
+      "visit_minutes": 220
+    }
+  ]
+}

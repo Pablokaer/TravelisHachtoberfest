@@ -1,0 +1,117 @@
+{
+  "city": "ghent",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-st-bavo-s-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St Bavo's Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de São Bavão",
+      "generated_by": "rules",
+      "stops": [
+        "Q1841314",
+        "Q815443",
+        "Q14906456",
+        "Q2084563",
+        "Q4557039",
+        "Q938154",
+        "Q55206588",
+        "Q3162713"
+      ],
+      "distance_m": 844,
+      "walking_seconds": 675,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-gravensteen",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Gravensteen",
+      "title_pt": "Destaques históricos perto de Gravensteen",
+      "generated_by": "rules",
+      "stops": [
+        "Q23889483",
+        "Q2358158",
+        "Q2083342",
+        "Q1543972",
+        "Q1344880",
+        "Q1809071",
+        "Q3481648",
+        "Q2371307"
+      ],
+      "distance_m": 1579,
+      "walking_seconds": 1263,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "churches-and-chapels-around-prinsenhof",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Prinsenhof",
+      "title_pt": "Igrejas e capelas perto de Prinsenhof",
+      "generated_by": "rules",
+      "stops": [
+        "Q2630952",
+        "Q1604760",
+        "Q13427924",
+        "Q2762897",
+        "Q1998993",
+        "Q1829869",
+        "Q3530353",
+        "Q1317676"
+      ],
+      "distance_m": 3357,
+      "walking_seconds": 2686,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "museums-and-collections-around-museum-of-fine-arts-ghent-msk",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museum of Fine Arts Ghent (MSK)",
+      "title_pt": "Museus e coleções perto de Museu de Belas Artes de Gante",
+      "generated_by": "rules",
+      "stops": [
+        "Q1928175",
+        "Q100263681",
+        "Q12012551",
+        "Q1540707",
+        "Q2365880",
+        "Q2781097",
+        "Q1815415",
+        "Q980285"
+      ],
+      "distance_m": 2791,
+      "walking_seconds": 2233,
+      "visit_minutes": 590
+    },
+    {
+      "slug": "churches-and-chapels-around-st-bavo-s-abbey-ghent",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St Bavo's Abbey, Ghent",
+      "title_pt": "Igrejas e capelas perto de St Bavo's Abbey, Ghent",
+      "generated_by": "rules",
+      "stops": [
+        "Q108073329",
+        "Q4842772",
+        "Q2316784",
+        "Q3584914",
+        "Q62060206",
+        "Q2350368",
+        "Q1635891",
+        "Q2245203"
+      ],
+      "distance_m": 3158,
+      "walking_seconds": 2526,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-kouter",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Kouter",
+      "title_pt": "Igrejas e capelas perto de Kouter",
+      "generated_by": "rules",
+      "stops": ["Q2885673", "Q2654750", "Q2155746"],
+      "distance_m": 2632,
+      "walking_seconds": 2106,
+      "visit_minutes": 80
+    }
+  ]
+}

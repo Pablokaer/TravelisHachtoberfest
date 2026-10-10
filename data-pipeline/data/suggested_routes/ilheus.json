@@ -1,0 +1,26 @@
+{
+  "city": "ilheus",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-bataclan-ilheus",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bataclan Ilhéus",
+      "title_pt": "Destaques históricos perto de Bataclan Ilhéus",
+      "generated_by": "rules",
+      "stops": [
+        "Q10302617",
+        "Q48877822",
+        "Q3361727",
+        "Q109628530",
+        "Q20059498",
+        "Q27925061",
+        "Q48877814",
+        "Q51882630"
+      ],
+      "distance_m": 2389,
+      "walking_seconds": 1911,
+      "visit_minutes": 305
+    }
+  ]
+}

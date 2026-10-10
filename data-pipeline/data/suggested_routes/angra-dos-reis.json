@@ -1,0 +1,17 @@
+{
+  "city": "angra-dos-reis",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-mother-church-of-our-lady-of-the",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Mother Church of Our Lady of the Conception",
+      "title_pt": "Igrejas e capelas perto de Igreja Matriz de Nossa Senhora da Conceição",
+      "generated_by": "rules",
+      "stops": ["Q20053514", "Q10300628", "Q9698274", "Q10300057", "Q14885537"],
+      "distance_m": 832,
+      "walking_seconds": 666,
+      "visit_minutes": 140
+    }
+  ]
+}

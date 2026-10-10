@@ -1,0 +1,112 @@
+{
+  "city": "taipei",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-legislative-yuan",
+      "theme": "museums",
+      "title_en": "Museums and collections around Legislative Yuan",
+      "title_pt": "Museus e coleções perto de Legislativo Yuan",
+      "generated_by": "rules",
+      "stops": [
+        "Q6726554",
+        "Q706692",
+        "Q15909604",
+        "Q14920625",
+        "Q715869",
+        "Q15228715",
+        "Q10923449",
+        "Q699040"
+      ],
+      "distance_m": 4533,
+      "walking_seconds": 3626,
+      "visit_minutes": 580
+    },
+    {
+      "slug": "city-landmarks-around-bangka-lungshan-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bangka Lungshan Temple",
+      "title_pt": "Marcos da cidade perto de Bangka Lungshan Temple",
+      "generated_by": "rules",
+      "stops": [
+        "Q11081294",
+        "Q706761",
+        "Q701295",
+        "Q2313150",
+        "Q6145247",
+        "Q5973840",
+        "Q8016022",
+        "Q10916553"
+      ],
+      "distance_m": 4453,
+      "walking_seconds": 3562,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-chiang-kai-shek-memorial-hall",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Chiang Kai-shek Memorial Hall",
+      "title_pt": "Destaques históricos perto de Memorial Chiang Kai-shek",
+      "generated_by": "rules",
+      "stops": ["Q3353078", "Q15209034", "Q717052", "Q6505219", "Q6541958", "Q540794", "Q5116373"],
+      "distance_m": 3498,
+      "walking_seconds": 2798,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "city-landmarks-around-dalongdong-baoan-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dalongdong Baoan Temple",
+      "title_pt": "Marcos da cidade perto de Dalongdong Baoan Temple",
+      "generated_by": "rules",
+      "stops": ["Q697319", "Q11612560", "Q136181", "Q699348", "Q24837610", "Q2421150"],
+      "distance_m": 4134,
+      "walking_seconds": 3307,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "museums-and-collections-around-national-revolutionary-martyr",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Revolutionary Martyrs' Shrine",
+      "title_pt": "Museus e coleções perto de National Revolutionary Martyrs' Shrine",
+      "generated_by": "rules",
+      "stops": ["Q51065676", "Q55602", "Q5956488", "Q6776837", "Q712387"],
+      "distance_m": 3634,
+      "walking_seconds": 2907,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "city-landmarks-around-taipei-grand-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Taipei Grand Mosque",
+      "title_pt": "Marcos da cidade perto de Taipei Grand Mosque",
+      "generated_by": "rules",
+      "stops": ["Q13499289", "Q14319036", "Q717882", "Q6116339"],
+      "distance_m": 3779,
+      "walking_seconds": 3023,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "museums-and-collections-around-ciyou-temple",
+      "theme": "museums",
+      "title_en": "Museums and collections around Ciyou Temple",
+      "title_pt": "Museus e coleções perto de Ciyou Temple",
+      "generated_by": "rules",
+      "stops": ["Q131444333", "Q16242281", "Q15901512", "Q701307"],
+      "distance_m": 3995,
+      "walking_seconds": 3196,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "museums-and-collections-around-nung-chan-monastery",
+      "theme": "museums",
+      "title_en": "Museums and collections around Nung Chan Monastery",
+      "title_pt": "Museus e coleções perto de Nung Chan Monastery",
+      "generated_by": "rules",
+      "stops": ["Q10902996", "Q10896465", "Q15224884", "Q7069824"],
+      "distance_m": 2736,
+      "walking_seconds": 2189,
+      "visit_minutes": 300
+    }
+  ]
+}

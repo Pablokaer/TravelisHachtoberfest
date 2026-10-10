@@ -1,0 +1,130 @@
+{
+  "city": "cardiff",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-senedd-building",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Senedd building",
+      "title_pt": "Marcos da cidade perto de Senedd",
+      "generated_by": "rules",
+      "stops": [
+        "Q7692405",
+        "Q1800343",
+        "Q3309562",
+        "Q5177684",
+        "Q20713741",
+        "Q5021714",
+        "Q4732277",
+        "Q5061833"
+      ],
+      "distance_m": 4137,
+      "walking_seconds": 3310,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-cardiff-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cardiff Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Cardiff",
+      "generated_by": "rules",
+      "stops": [
+        "Q17741148",
+        "Q5038498",
+        "Q1035742",
+        "Q5038461",
+        "Q5452077",
+        "Q5038382",
+        "Q110379202",
+        "Q7593750"
+      ],
+      "distance_m": 904,
+      "walking_seconds": 723,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "historic-highlights-around-national-museum-cardiff",
+      "theme": "highlights",
+      "title_en": "Historic highlights around National Museum Cardiff",
+      "title_pt": "Destaques históricos perto de Museu Nacional de Cardiff",
+      "generated_by": "rules",
+      "stops": [
+        "Q29502762",
+        "Q7961764",
+        "Q7981954",
+        "Q2974562",
+        "Q1321874",
+        "Q3883744",
+        "Q17741542",
+        "Q1350999"
+      ],
+      "distance_m": 2996,
+      "walking_seconds": 2397,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-statue-of-betty-campbell",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Statue of Betty Campbell",
+      "title_pt": "Destaques históricos perto de Statue of Betty Campbell",
+      "generated_by": "rules",
+      "stops": [
+        "Q20878097",
+        "Q23531475",
+        "Q29491690",
+        "Q13126550",
+        "Q108887935",
+        "Q19362323",
+        "Q7503879",
+        "Q18640408"
+      ],
+      "distance_m": 3518,
+      "walking_seconds": 2814,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "churches-and-chapels-around-cathays-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Cathays Cemetery",
+      "title_pt": "Igrejas e capelas perto de Cathays Cemetery",
+      "generated_by": "rules",
+      "stops": ["Q95677286", "Q5052159", "Q29379240", "Q29496271", "Q7735906"],
+      "distance_m": 2951,
+      "walking_seconds": 2361,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "historic-highlights-around-st-fagans-national-history-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St Fagans National History Museum",
+      "title_pt": "Destaques históricos perto de St Fagans National History Museum",
+      "generated_by": "rules",
+      "stops": ["Q13128105", "Q1954765", "Q9706060"],
+      "distance_m": 1039,
+      "walking_seconds": 831,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "churches-and-chapels-around-bishop-s-palace",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Bishop's Palace",
+      "title_pt": "Igrejas e capelas perto de Bishop's Palace",
+      "generated_by": "rules",
+      "stops": ["Q15199454", "Q136943228", "Q29491727", "Q7594634"],
+      "distance_m": 3897,
+      "walking_seconds": 3118,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-barry-tourist-railway",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Barry Tourist Railway",
+      "title_pt": "Destaques históricos perto de Barry Tourist Railway",
+      "generated_by": "rules",
+      "stops": ["Q4864125", "Q4864843", "Q3402116"],
+      "distance_m": 4071,
+      "walking_seconds": 3257,
+      "visit_minutes": 200
+    }
+  ]
+}

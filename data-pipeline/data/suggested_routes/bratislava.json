@@ -1,0 +1,148 @@
+{
+  "city": "bratislava",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-bratislava-castle",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Bratislava Castle",
+      "title_pt": "Igrejas e capelas perto de Castelo de Bratislava",
+      "generated_by": "rules",
+      "stops": [
+        "Q12769536",
+        "Q12776400",
+        "Q593311",
+        "Q16519697",
+        "Q239560",
+        "Q4177964",
+        "Q15111363",
+        "Q7264050"
+      ],
+      "distance_m": 1516,
+      "walking_seconds": 1213,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "historic-highlights-around-michael-s-gate",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Michael's Gate",
+      "title_pt": "Destaques históricos perto de Michael's Gate",
+      "generated_by": "rules",
+      "stops": [
+        "Q1744456",
+        "Q1717975",
+        "Q913415",
+        "Q752582",
+        "Q1450292",
+        "Q6188001",
+        "Q1512466",
+        "Q439356"
+      ],
+      "distance_m": 578,
+      "walking_seconds": 462,
+      "visit_minutes": 455
+    },
+    {
+      "slug": "historic-highlights-around-grassalkovich-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Grassalkovich Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Grassalkovich",
+      "generated_by": "rules",
+      "stops": [
+        "Q3545439",
+        "Q7303948",
+        "Q1420172",
+        "Q928414",
+        "Q1368596",
+        "Q568640",
+        "Q921212",
+        "Q1139905"
+      ],
+      "distance_m": 1661,
+      "walking_seconds": 1329,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-bridge-of-the-slovak-national-upr",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bridge of the Slovak National Uprising",
+      "title_pt": "Destaques históricos perto de Bridge of the Slovak National Uprising",
+      "generated_by": "rules",
+      "stops": [
+        "Q2006295",
+        "Q991467",
+        "Q1744024",
+        "Q1639599",
+        "Q662825",
+        "Q1861811",
+        "Q837291",
+        "Q7604488"
+      ],
+      "distance_m": 1823,
+      "walking_seconds": 1458,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "historic-highlights-around-cumil",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Čumil",
+      "title_pt": "Destaques históricos perto de Čumil",
+      "generated_by": "rules",
+      "stops": [
+        "Q873832",
+        "Q4178866",
+        "Q2047055",
+        "Q949192",
+        "Q9393844",
+        "Q12165965",
+        "Q938516",
+        "Q4597483"
+      ],
+      "distance_m": 672,
+      "walking_seconds": 538,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "historic-highlights-around-church-of-st-elisabeth",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of St. Elisabeth",
+      "title_pt": "Destaques históricos perto de Church of St. Elisabeth",
+      "generated_by": "rules",
+      "stops": [
+        "Q579043",
+        "Q3504298",
+        "Q616825",
+        "Q1470092",
+        "Q7104511",
+        "Q3498272",
+        "Q1870194",
+        "Q1093925"
+      ],
+      "distance_m": 1939,
+      "walking_seconds": 1551,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-slavin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Slavín",
+      "title_pt": "Destaques históricos perto de Slavín",
+      "generated_by": "rules",
+      "stops": ["Q13421643", "Q1553111", "Q4958040", "Q9149936", "Q3360956", "Q2397640"],
+      "distance_m": 3699,
+      "walking_seconds": 2959,
+      "visit_minutes": 265
+    },
+    {
+      "slug": "city-landmarks-around-stary-most",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Starý most",
+      "title_pt": "Marcos da cidade perto de Starý most",
+      "generated_by": "rules",
+      "stops": ["Q543863", "Q618937", "Q435423"],
+      "distance_m": 2383,
+      "walking_seconds": 1906,
+      "visit_minutes": 60
+    }
+  ]
+}

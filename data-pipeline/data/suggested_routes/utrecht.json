@@ -1,0 +1,108 @@
+{
+  "city": "utrecht",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-dom-tower-of-utrecht",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Dom Tower of Utrecht",
+      "title_pt": "Destaques históricos perto de Dom Tower of Utrecht",
+      "generated_by": "rules",
+      "stops": [
+        "Q2269681",
+        "Q2724638",
+        "Q39297398",
+        "Q936545",
+        "Q2199749",
+        "Q3368242",
+        "Q2150534",
+        "Q1624224"
+      ],
+      "distance_m": 627,
+      "walking_seconds": 502,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "museums-and-collections-around-rietveld-schroder-house",
+      "theme": "museums",
+      "title_en": "Museums and collections around Rietveld Schröder House",
+      "title_pt": "Museus e coleções perto de Casa Rietveld Schröder",
+      "generated_by": "rules",
+      "stops": [
+        "Q2782701",
+        "Q914231",
+        "Q1826074",
+        "Q847166",
+        "Q1519288",
+        "Q2681627",
+        "Q260913",
+        "Q2372424"
+      ],
+      "distance_m": 3793,
+      "walking_seconds": 3034,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "churches-and-chapels-around-st-catherine-s-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St Catherine's Cathedral",
+      "title_pt": "Igrejas e capelas perto de St Catherine's Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q1878995",
+        "Q7278796",
+        "Q2434699",
+        "Q1627233",
+        "Q1954426",
+        "Q1242547",
+        "Q2421518",
+        "Q2289593"
+      ],
+      "distance_m": 3072,
+      "walking_seconds": 2458,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "churches-and-chapels-around-st-willibrord-s-church-utrecht",
+      "theme": "churches",
+      "title_en": "Churches and chapels around St. Willibrord's Church, Utrecht",
+      "title_pt": "Igrejas e capelas perto de St. Willibrord's Church, Utrecht",
+      "generated_by": "rules",
+      "stops": [
+        "Q2772962",
+        "Q2033940",
+        "Q2624205",
+        "Q1682982",
+        "Q2094317",
+        "Q7476534",
+        "Q3065197",
+        "Q2395780"
+      ],
+      "distance_m": 2129,
+      "walking_seconds": 1703,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "city-landmarks-around-ulu-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ulu Mosque",
+      "title_pt": "Marcos da cidade perto de Ulu Mosque",
+      "generated_by": "rules",
+      "stops": ["Q15943762", "Q2508010", "Q2272973", "Q3022627"],
+      "distance_m": 4879,
+      "walking_seconds": 3903,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "castles-and-viewpoints-around-fectio",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Fectio",
+      "title_pt": "Castelos e miradouros perto de Fectio",
+      "generated_by": "rules",
+      "stops": ["Q18775928", "Q2311719", "Q18775907"],
+      "distance_m": 2499,
+      "walking_seconds": 1999,
+      "visit_minutes": 200
+    }
+  ]
+}

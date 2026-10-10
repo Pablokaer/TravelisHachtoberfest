@@ -1,0 +1,148 @@
+{
+  "city": "sofia",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-alexander-nevsky-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Alexander Nevsky Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Alexandre Nevsky",
+      "generated_by": "rules",
+      "stops": [
+        "Q1703313",
+        "Q3622570",
+        "Q43282",
+        "Q602853",
+        "Q585900",
+        "Q873892",
+        "Q2037523",
+        "Q110779966"
+      ],
+      "distance_m": 1525,
+      "walking_seconds": 1220,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "churches-and-chapels-around-serdica",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Serdica",
+      "title_pt": "Igrejas e capelas perto de Serdica",
+      "generated_by": "rules",
+      "stops": [
+        "Q790052",
+        "Q14550946",
+        "Q4067160",
+        "Q1766560",
+        "Q6489272",
+        "Q2598073",
+        "Q12293079",
+        "Q520753"
+      ],
+      "distance_m": 782,
+      "walking_seconds": 626,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-royal-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Royal Palace",
+      "title_pt": "Destaques históricos perto de Royal Palace",
+      "generated_by": "rules",
+      "stops": [
+        "Q5117315",
+        "Q921380",
+        "Q1497827",
+        "Q3400979",
+        "Q6057793",
+        "Q2991178",
+        "Q980970",
+        "Q6974486"
+      ],
+      "distance_m": 887,
+      "walking_seconds": 710,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "monuments-and-memorials-around-monument-to-the-soviet-army",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Monument to the Soviet Army",
+      "title_pt": "Monumentos e memoriais perto de Monument to the Soviet Army",
+      "generated_by": "rules",
+      "stops": [
+        "Q3400915",
+        "Q2989415",
+        "Q4996213",
+        "Q3137068",
+        "Q153525",
+        "Q358267",
+        "Q23833699",
+        "Q19705297"
+      ],
+      "distance_m": 2152,
+      "walking_seconds": 1722,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-central-synagogue-of-sofia",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Central Synagogue of Sofia",
+      "title_pt": "Destaques históricos perto de Central Synagogue of Sofia",
+      "generated_by": "rules",
+      "stops": [
+        "Q12294210",
+        "Q12285609",
+        "Q598811",
+        "Q12293090",
+        "Q942127",
+        "Q1138538",
+        "Q5117670",
+        "Q12283163"
+      ],
+      "distance_m": 3935,
+      "walking_seconds": 3148,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "churches-and-chapels-around-petko-r-slaveykov",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Petko R. Slaveykov",
+      "title_pt": "Igrejas e capelas perto de Petko R. Slaveykov",
+      "generated_by": "rules",
+      "stops": [
+        "Q61412859",
+        "Q3401326",
+        "Q67242150",
+        "Q26218450",
+        "Q16538408",
+        "Q66809497",
+        "Q12286470",
+        "Q19706812"
+      ],
+      "distance_m": 3529,
+      "walking_seconds": 2823,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "museums-and-collections-around-museum-of-socialist-art-sofia",
+      "theme": "museums",
+      "title_en": "Museums and collections around Museum of Socialist Art, Sofia",
+      "title_pt": "Museus e coleções perto de Museum of Socialist Art, Sofia",
+      "generated_by": "rules",
+      "stops": ["Q4306473", "Q12287843", "Q437854"],
+      "distance_m": 3343,
+      "walking_seconds": 2674,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-central-sofia-cemetery",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Central Sofia Cemetery",
+      "title_pt": "Destaques históricos perto de Cemitério Central de Sófia",
+      "generated_by": "rules",
+      "stops": ["Q7270400", "Q66757333", "Q3400970"],
+      "distance_m": 2370,
+      "walking_seconds": 1896,
+      "visit_minutes": 70
+    }
+  ]
+}

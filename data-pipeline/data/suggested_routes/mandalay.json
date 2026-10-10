@@ -1,0 +1,50 @@
+{
+  "city": "mandalay",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-kuthodaw-pagoda",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kuthodaw Pagoda",
+      "title_pt": "Marcos da cidade perto de Kuthodaw Pagoda",
+      "generated_by": "rules",
+      "stops": ["Q13062180", "Q19702014", "Q949750", "Q4072297", "Q3320246"],
+      "distance_m": 1605,
+      "walking_seconds": 1284,
+      "visit_minutes": 120
+    },
+    {
+      "slug": "historic-highlights-around-mandalay-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mandalay Palace",
+      "title_pt": "Destaques históricos perto de Mandalay Palace",
+      "generated_by": "rules",
+      "stops": ["Q23760608", "Q6747761", "Q2655670"],
+      "distance_m": 2527,
+      "walking_seconds": 2022,
+      "visit_minutes": 195
+    },
+    {
+      "slug": "city-landmarks-around-u-bein-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around U Bein Bridge",
+      "title_pt": "Marcos da cidade perto de U Bein Bridge",
+      "generated_by": "rules",
+      "stops": ["Q65336875", "Q2157246", "Q13062177"],
+      "distance_m": 2045,
+      "walking_seconds": 1636,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "city-landmarks-around-shweinbin-monastery",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Shweinbin Monastery",
+      "title_pt": "Marcos da cidade perto de Shweinbin Monastery",
+      "generated_by": "rules",
+      "stops": ["Q55615090", "Q20992080", "Q20992077", "Q19738093"],
+      "distance_m": 4539,
+      "walking_seconds": 3631,
+      "visit_minutes": 90
+    }
+  ]
+}

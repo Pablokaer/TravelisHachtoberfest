@@ -1,0 +1,119 @@
+{
+  "city": "nicosia",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-venetian-walls-of-nicosia",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Venetian walls of Nicosia",
+      "title_pt": "Destaques históricos perto de Muralhas de Nicósia",
+      "generated_by": "rules",
+      "stops": [
+        "Q26258422",
+        "Q20896012",
+        "Q4140950",
+        "Q9339030",
+        "Q7919752",
+        "Q30605496",
+        "Q6046232",
+        "Q12882686"
+      ],
+      "distance_m": 2008,
+      "walking_seconds": 1606,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-cyprus-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cyprus Museum",
+      "title_pt": "Destaques históricos perto de Cyprus Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q16960570",
+        "Q5358622",
+        "Q7558806",
+        "Q5200446",
+        "Q15714267",
+        "Q22815012",
+        "Q6024651",
+        "Q1148462"
+      ],
+      "distance_m": 1237,
+      "walking_seconds": 990,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "city-landmarks-around-ataturk-square",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Atatürk Square",
+      "title_pt": "Marcos da cidade perto de Atatürk Square",
+      "generated_by": "rules",
+      "stops": [
+        "Q20949018",
+        "Q6452341",
+        "Q24915591",
+        "Q6043590",
+        "Q4812893",
+        "Q20949715",
+        "Q21005832",
+        "Q4542914"
+      ],
+      "distance_m": 1457,
+      "walking_seconds": 1166,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "city-landmarks-around-saint-sophia-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Saint Sophia Cathedral",
+      "title_pt": "Marcos da cidade perto de Saint Sophia Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q65220562",
+        "Q20949616",
+        "Q1365162",
+        "Q61915313",
+        "Q1476251",
+        "Q61709721",
+        "Q61718350",
+        "Q24914491"
+      ],
+      "distance_m": 1278,
+      "walking_seconds": 1022,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-imprisoned-graves",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Imprisoned Graves",
+      "title_pt": "Destaques históricos perto de Imprisoned Graves",
+      "generated_by": "rules",
+      "stops": ["Q20949177", "Q19894838", "Q12809450", "Q7565213", "Q13637728", "Q6079508"],
+      "distance_m": 3790,
+      "walking_seconds": 3032,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "churches-and-chapels-around-faneromeni-square",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Faneromeni Square",
+      "title_pt": "Igrejas e capelas perto de Faneromeni Square",
+      "generated_by": "rules",
+      "stops": ["Q6535231", "Q20501271", "Q5433745", "Q20501264", "Q5051167"],
+      "distance_m": 645,
+      "walking_seconds": 516,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-presidential-palace-nicosia",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Presidential Palace, Nicosia",
+      "title_pt": "Destaques históricos perto de Presidential Palace, Nicosia",
+      "generated_by": "rules",
+      "stops": ["Q7241454", "Q7565211", "Q4793188"],
+      "distance_m": 2434,
+      "walking_seconds": 1947,
+      "visit_minutes": 125
+    }
+  ]
+}

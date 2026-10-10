@@ -1,0 +1,166 @@
+{
+  "city": "nuremberg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-germanisches-nationalmuseum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Germanisches Nationalmuseum",
+      "title_pt": "Museus e coleções perto de Museu Nacional Alemão",
+      "generated_by": "rules",
+      "stops": [
+        "Q1439511",
+        "Q2346008",
+        "Q549878",
+        "Q478695",
+        "Q2354270",
+        "Q1393860",
+        "Q458915",
+        "Q1954644"
+      ],
+      "distance_m": 1006,
+      "walking_seconds": 805,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "city-landmarks-around-st-lawrence",
+      "theme": "landmarks",
+      "title_en": "City landmarks around St. Lawrence",
+      "title_pt": "Marcos da cidade perto de St. Lawrence",
+      "generated_by": "rules",
+      "stops": [
+        "Q1736108",
+        "Q1616398",
+        "Q2250927",
+        "Q2311245",
+        "Q1954801",
+        "Q833679",
+        "Q985129",
+        "Q707357"
+      ],
+      "distance_m": 983,
+      "walking_seconds": 786,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "historic-highlights-around-nuremberg-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Nuremberg Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Nuremberg",
+      "generated_by": "rules",
+      "stops": [
+        "Q2327648",
+        "Q1541045",
+        "Q1620940",
+        "Q523148",
+        "Q2432227",
+        "Q1014793",
+        "Q707396",
+        "Q1301543"
+      ],
+      "distance_m": 745,
+      "walking_seconds": 596,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "historic-highlights-around-frauenkirche",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Frauenkirche",
+      "title_pt": "Destaques históricos perto de Frauenkirche",
+      "generated_by": "rules",
+      "stops": [
+        "Q2238837",
+        "Q1589543",
+        "Q368576",
+        "Q461314",
+        "Q1558805",
+        "Q695069",
+        "Q1578188",
+        "Q1451375"
+      ],
+      "distance_m": 937,
+      "walking_seconds": 750,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "historic-highlights-around-neues-museum-nurnberg",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Neues Museum Nürnberg",
+      "title_pt": "Destaques históricos perto de Neues Museum Nürnberg",
+      "generated_by": "rules",
+      "stops": [
+        "Q17124049",
+        "Q2581799",
+        "Q1451897",
+        "Q895720",
+        "Q2321040",
+        "Q1792415",
+        "Q1520447",
+        "Q1800440"
+      ],
+      "distance_m": 2097,
+      "walking_seconds": 1678,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "city-landmarks-around-st-elizabeth",
+      "theme": "landmarks",
+      "title_en": "City landmarks around St. Elizabeth",
+      "title_pt": "Marcos da cidade perto de St. Elizabeth",
+      "generated_by": "rules",
+      "stops": [
+        "Q1569173",
+        "Q138528",
+        "Q154364",
+        "Q2557138",
+        "Q261203",
+        "Q1453651",
+        "Q1378711",
+        "Q1981845"
+      ],
+      "distance_m": 2036,
+      "walking_seconds": 1629,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-city-walls-of-nuremberg",
+      "theme": "highlights",
+      "title_en": "Historic highlights around City walls of Nuremberg",
+      "title_pt": "Destaques históricos perto de Muralhas da cidade de Nuremberg",
+      "generated_by": "rules",
+      "stops": [
+        "Q538314",
+        "Q1254235",
+        "Q1538130",
+        "Q1807440",
+        "Q2318048",
+        "Q1721558",
+        "Q1297797",
+        "Q1786355"
+      ],
+      "distance_m": 1478,
+      "walking_seconds": 1182,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-nuremberg-toy-museum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Nuremberg Toy Museum",
+      "title_pt": "Marcos da cidade perto de Nuremberg Toy Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q2310413",
+        "Q1733910",
+        "Q1605295",
+        "Q1605293",
+        "Q2496747",
+        "Q1327984",
+        "Q1914287",
+        "Q1311217"
+      ],
+      "distance_m": 823,
+      "walking_seconds": 658,
+      "visit_minutes": 230
+    }
+  ]
+}

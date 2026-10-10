@@ -1,0 +1,166 @@
+{
+  "city": "verona",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-castelvecchio",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Castelvecchio",
+      "title_pt": "Destaques históricos perto de Castel Vecchio",
+      "generated_by": "rules",
+      "stops": [
+        "Q3670901",
+        "Q2885181",
+        "Q3889774",
+        "Q1153879",
+        "Q3889801",
+        "Q1049016",
+        "Q2518724",
+        "Q1809027"
+      ],
+      "distance_m": 748,
+      "walking_seconds": 598,
+      "visit_minutes": 475
+    },
+    {
+      "slug": "city-landmarks-around-piazza-delle-erbe",
+      "theme": "landmarks",
+      "title_en": "City landmarks around piazza delle Erbe",
+      "title_pt": "Marcos da cidade perto de piazza delle Erbe",
+      "generated_by": "rules",
+      "stops": [
+        "Q21263209",
+        "Q604541",
+        "Q2717102",
+        "Q1819804",
+        "Q3891268",
+        "Q1066627",
+        "Q3890381",
+        "Q3995415"
+      ],
+      "distance_m": 494,
+      "walking_seconds": 395,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "churches-and-chapels-around-basilica-of-san-zeno",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Basilica of San Zeno",
+      "title_pt": "Igrejas e capelas perto de Basílica de San Zenón",
+      "generated_by": "rules",
+      "stops": [
+        "Q3908816",
+        "Q3603254",
+        "Q1763642",
+        "Q19414267",
+        "Q3657362",
+        "Q3669629",
+        "Q778607",
+        "Q3908758"
+      ],
+      "distance_m": 2056,
+      "walking_seconds": 1645,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "historic-highlights-around-verona-arena",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Verona Arena",
+      "title_pt": "Destaques históricos perto de Arena de Verona",
+      "generated_by": "rules",
+      "stops": [
+        "Q1954257",
+        "Q3774323",
+        "Q1056360",
+        "Q3889598",
+        "Q641556",
+        "Q3671509",
+        "Q3891209",
+        "Q123046750"
+      ],
+      "distance_m": 955,
+      "walking_seconds": 764,
+      "visit_minutes": 475
+    },
+    {
+      "slug": "churches-and-chapels-around-verona-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Verona Cathedral",
+      "title_pt": "Igrejas e capelas perto de Verona Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q3908791",
+        "Q3670352",
+        "Q3674314",
+        "Q540546",
+        "Q3670559",
+        "Q2713844",
+        "Q3902195",
+        "Q3890486"
+      ],
+      "distance_m": 1293,
+      "walking_seconds": 1034,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "churches-and-chapels-around-palazzo-giusti-del-giardino",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Palazzo Giusti del Giardino",
+      "title_pt": "Igrejas e capelas perto de Palazzo Giusti del Giardino",
+      "generated_by": "rules",
+      "stops": [
+        "Q3672109",
+        "Q26258334",
+        "Q3668316",
+        "Q3657552",
+        "Q3891638",
+        "Q3670562",
+        "Q1052661",
+        "Q637111"
+      ],
+      "distance_m": 2352,
+      "walking_seconds": 1882,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "churches-and-chapels-around-porta-borsari",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Porta Borsari",
+      "title_pt": "Igrejas e capelas perto de Porta Borsari",
+      "generated_by": "rules",
+      "stops": [
+        "Q30888026",
+        "Q3670558",
+        "Q3672797",
+        "Q1406020",
+        "Q3671167",
+        "Q1063320",
+        "Q3889806",
+        "Q19893998"
+      ],
+      "distance_m": 837,
+      "walking_seconds": 670,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "churches-and-chapels-around-scaliger-tombs",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Scaliger Tombs",
+      "title_pt": "Igrejas e capelas perto de Scaliger Tombs",
+      "generated_by": "rules",
+      "stops": [
+        "Q3836434",
+        "Q3891343",
+        "Q2253540",
+        "Q4165388",
+        "Q3673253",
+        "Q19896052",
+        "Q1056442",
+        "Q3657363"
+      ],
+      "distance_m": 539,
+      "walking_seconds": 431,
+      "visit_minutes": 365
+    }
+  ]
+}

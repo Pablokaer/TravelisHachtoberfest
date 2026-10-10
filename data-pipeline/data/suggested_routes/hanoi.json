@@ -1,0 +1,99 @@
+{
+  "city": "hanoi",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-ho-chi-minh-mausoleum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ho Chi Minh Mausoleum",
+      "title_pt": "Destaques históricos perto de Mausoléu de Ho Chi Minh",
+      "generated_by": "rules",
+      "stops": [
+        "Q4568216",
+        "Q7928570",
+        "Q2234574",
+        "Q874234",
+        "Q1186292",
+        "Q1055897",
+        "Q5370392",
+        "Q864758"
+      ],
+      "distance_m": 1781,
+      "walking_seconds": 1425,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "historic-highlights-around-temple-of-literature",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Temple of Literature",
+      "title_pt": "Destaques históricos perto de Temple of Literature",
+      "generated_by": "rules",
+      "stops": [
+        "Q16481383",
+        "Q2027273",
+        "Q7273080",
+        "Q1202019",
+        "Q3654706",
+        "Q206219",
+        "Q864752",
+        "Q18415661"
+      ],
+      "distance_m": 3329,
+      "walking_seconds": 2663,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "city-landmarks-around-saint-joseph-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Saint Joseph Cathedral",
+      "title_pt": "Marcos da cidade perto de Saint Joseph Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q10743287",
+        "Q10743330",
+        "Q8079948",
+        "Q1134533",
+        "Q10752403",
+        "Q10810537",
+        "Q10841685",
+        "Q1923783"
+      ],
+      "distance_m": 2491,
+      "walking_seconds": 1993,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "city-landmarks-around-tran-quoc-pagoda",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Trấn Quốc Pagoda",
+      "title_pt": "Marcos da cidade perto de Trấn Quốc Pagoda",
+      "generated_by": "rules",
+      "stops": ["Q124982776", "Q10748429", "Q1088224", "Q5370148", "Q864770"],
+      "distance_m": 2863,
+      "walking_seconds": 2290,
+      "visit_minutes": 110
+    },
+    {
+      "slug": "museums-and-collections-around-national-museum-of-vietnamese",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Museum of Vietnamese History",
+      "title_pt": "Museus e coleções perto de National Museum of Vietnamese History",
+      "generated_by": "rules",
+      "stops": ["Q5370414", "Q5370340", "Q2021087", "Q1932222", "Q2817231"],
+      "distance_m": 2347,
+      "walking_seconds": 1878,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "museums-and-collections-around-vietnam-museum-of-ethnology",
+      "theme": "museums",
+      "title_en": "Museums and collections around Vietnam Museum of Ethnology",
+      "title_pt": "Museus e coleções perto de Vietnam Museum of Ethnology",
+      "generated_by": "rules",
+      "stops": ["Q10841709", "Q1048345", "Q10743288"],
+      "distance_m": 2598,
+      "walking_seconds": 2078,
+      "visit_minutes": 200
+    }
+  ]
+}

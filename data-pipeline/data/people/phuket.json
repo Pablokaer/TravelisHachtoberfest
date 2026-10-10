@@ -1,0 +1,27 @@
+{
+  "city": "phuket",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q66329894",
+      "name_en": "Pasha Technique",
+      "name_pt": "Pasha Technique",
+      "description_en": "Russian rapper (1984—2025)",
+      "description_pt": null,
+      "categories": ["music"],
+      "birth_year": 1984,
+      "death_year": 2025,
+      "born_here": false,
+      "died_here": true,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Pasha_Tehni_2019_%28edited%29.jpg/960px-Pasha_Tehni_2019_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "MEL СПОРТ",
+      "image_license": "CC BY 3.0",
+      "image_license_url": "https://creativecommons.org/licenses/by/3.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Pasha_Tehni_2019_(edited).jpg",
+      "wikipedia_en": "Pasha Technique",
+      "wikipedia_pt": null,
+      "sitelinks": 10
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "city": "nara",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-todai-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Tōdai-ji Temple",
+      "title_pt": "Marcos da cidade perto de Tōdai-ji",
+      "generated_by": "rules",
+      "stops": [
+        "Q11496939",
+        "Q3139218",
+        "Q3341341",
+        "Q11526469",
+        "Q460367",
+        "Q11457608",
+        "Q11549570",
+        "Q147312"
+      ],
+      "distance_m": 1810,
+      "walking_seconds": 1448,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "city-landmarks-around-horyu-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hōryū-ji Temple",
+      "title_pt": "Marcos da cidade perto de Horyu-ji",
+      "generated_by": "rules",
+      "stops": ["Q3198273", "Q1333799", "Q261932", "Q1091232", "Q655678"],
+      "distance_m": 2430,
+      "walking_seconds": 1944,
+      "visit_minutes": 110
+    },
+    {
+      "slug": "city-landmarks-around-kasuga-taisha",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kasuga-taisha",
+      "title_pt": "Marcos da cidade perto de Kasuga-taisha",
+      "generated_by": "rules",
+      "stops": ["Q1018450", "Q5765240", "Q3080305", "Q11388956", "Q11664929", "Q714559"],
+      "distance_m": 3128,
+      "walking_seconds": 2502,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "monuments-and-memorials-around-heijo-palace",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Heijō Palace",
+      "title_pt": "Monumentos e memoriais perto de Palácio Heijō",
+      "generated_by": "rules",
+      "stops": ["Q5587136", "Q11428650", "Q11383488", "Q211585", "Q3076936"],
+      "distance_m": 3890,
+      "walking_seconds": 3112,
+      "visit_minutes": 165
+    },
+    {
+      "slug": "city-landmarks-around-kofuku-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kōfuku-ji Temple",
+      "title_pt": "Marcos da cidade perto de Kofuku-ji",
+      "generated_by": "rules",
+      "stops": ["Q24807771", "Q1203099", "Q1070863", "Q11445231"],
+      "distance_m": 1386,
+      "walking_seconds": 1109,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "city-landmarks-around-isonokami-jingu",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Isonokami Jingū",
+      "title_pt": "Marcos da cidade perto de Isonokami Jingū",
+      "generated_by": "rules",
+      "stops": ["Q11523653", "Q17229261", "Q39088393", "Q708859"],
+      "distance_m": 2402,
+      "walking_seconds": 1922,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "city-landmarks-around-yakushi-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Yakushi-ji Temple",
+      "title_pt": "Marcos da cidade perto de Yakushi-ji",
+      "generated_by": "rules",
+      "stops": ["Q25051731", "Q945913", "Q973175"],
+      "distance_m": 3350,
+      "walking_seconds": 2680,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "city-landmarks-around-saidai-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Saidai-ji Temple",
+      "title_pt": "Marcos da cidade perto de Saidai-ji",
+      "generated_by": "rules",
+      "stops": ["Q11419051", "Q1203935", "Q4301475"],
+      "distance_m": 2802,
+      "walking_seconds": 2242,
+      "visit_minutes": 60
+    }
+  ]
+}

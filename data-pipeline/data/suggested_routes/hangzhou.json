@@ -1,0 +1,69 @@
+{
+  "city": "hangzhou",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-west-lake",
+      "theme": "landmarks",
+      "title_en": "City landmarks around West Lake",
+      "title_pt": "Marcos da cidade perto de Lago do Oeste",
+      "generated_by": "rules",
+      "stops": ["Q7985680", "Q66454843", "Q15943594", "Q502371", "Q1155765", "Q6202297"],
+      "distance_m": 4194,
+      "walking_seconds": 3355,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-tomb-of-yue-fei",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Tomb of Yue Fei",
+      "title_pt": "Marcos da cidade perto de Tomb of Yue Fei",
+      "generated_by": "rules",
+      "stops": ["Q16924408", "Q17163569", "Q1278762", "Q30943007", "Q977249", "Q11080709"],
+      "distance_m": 3707,
+      "walking_seconds": 2966,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "city-landmarks-around-cathedral-of-the-immaculate-conception",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Cathedral of the Immaculate Conception",
+      "title_pt": "Marcos da cidade perto de Cathedral of the Immaculate Conception",
+      "generated_by": "rules",
+      "stops": [
+        "Q19850220",
+        "Q17498538",
+        "Q1194992",
+        "Q2657130",
+        "Q15880457",
+        "Q65053107",
+        "Q2656946"
+      ],
+      "distance_m": 3675,
+      "walking_seconds": 2940,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "museums-and-collections-around-phoenix-mosque",
+      "theme": "museums",
+      "title_en": "Museums and collections around Phoenix Mosque",
+      "title_pt": "Museus e coleções perto de Phoenix Mosque",
+      "generated_by": "rules",
+      "stops": ["Q22099519", "Q5924742", "Q2089630"],
+      "distance_m": 1354,
+      "walking_seconds": 1083,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-liuhe-pagoda",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Liuhe Pagoda",
+      "title_pt": "Marcos da cidade perto de Liuhe Pagoda",
+      "generated_by": "rules",
+      "stops": ["Q1195294", "Q53272", "Q53295"],
+      "distance_m": 2399,
+      "walking_seconds": 1919,
+      "visit_minutes": 60
+    }
+  ]
+}

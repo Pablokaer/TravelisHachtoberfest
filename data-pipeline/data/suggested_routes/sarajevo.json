@@ -1,0 +1,166 @@
+{
+  "city": "sarajevo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-gazi-husrev-beg-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Gazi Husrev-beg Mosque",
+      "title_pt": "Marcos da cidade perto de Gazi Husrev-beg Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q1283757",
+        "Q65133307",
+        "Q1255835",
+        "Q1257048",
+        "Q1257060",
+        "Q1261159",
+        "Q13090746",
+        "Q1277685"
+      ],
+      "distance_m": 773,
+      "walking_seconds": 618,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-icar-canned-beef-monument",
+      "theme": "highlights",
+      "title_en": "Historic highlights around ICAR Canned Beef Monument",
+      "title_pt": "Destaques históricos perto de ICAR Canned Beef Monument",
+      "generated_by": "rules",
+      "stops": [
+        "Q20527324",
+        "Q19895372",
+        "Q1621007",
+        "Q568938",
+        "Q113729381",
+        "Q3509703",
+        "Q1266711",
+        "Q1568852"
+      ],
+      "distance_m": 1771,
+      "walking_seconds": 1417,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "city-landmarks-around-sarajevo-city-hall",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Sarajevo City Hall",
+      "title_pt": "Marcos da cidade perto de Vijećnica",
+      "generated_by": "rules",
+      "stops": [
+        "Q13082000",
+        "Q13091077",
+        "Q2625926",
+        "Q16831150",
+        "Q12630328",
+        "Q1062192",
+        "Q1257094",
+        "Q12956582"
+      ],
+      "distance_m": 689,
+      "walking_seconds": 551,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "museums-and-collections-around-zuta-tabija",
+      "theme": "museums",
+      "title_en": "Museums and collections around Žuta Tabija",
+      "title_pt": "Museus e coleções perto de Žuta Tabija",
+      "generated_by": "rules",
+      "stops": [
+        "Q1272929",
+        "Q700606",
+        "Q28654544",
+        "Q1397958",
+        "Q8502697",
+        "Q43958640",
+        "Q1564477",
+        "Q1269707"
+      ],
+      "distance_m": 2675,
+      "walking_seconds": 2140,
+      "visit_minutes": 650
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-of-jesus-heart",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral of Jesus' Heart",
+      "title_pt": "Destaques históricos perto de Cathedral of Jesus' Heart",
+      "generated_by": "rules",
+      "stops": [
+        "Q110291619",
+        "Q1271286",
+        "Q13090849",
+        "Q1282405",
+        "Q1267112",
+        "Q4947381",
+        "Q6471353",
+        "Q1564439"
+      ],
+      "distance_m": 1007,
+      "walking_seconds": 806,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "city-landmarks-around-eternal-flame-memorial",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Eternal Flame Memorial",
+      "title_pt": "Marcos da cidade perto de Eternal Flame Memorial",
+      "generated_by": "rules",
+      "stops": [
+        "Q12629270",
+        "Q42347508",
+        "Q3490665",
+        "Q107159719",
+        "Q43957716",
+        "Q1268899",
+        "Q1568830",
+        "Q8079798"
+      ],
+      "distance_m": 1355,
+      "walking_seconds": 1084,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "historic-highlights-around-vidovdan-heroes-chapel",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Vidovdan Heroes chapel",
+      "title_pt": "Destaques históricos perto de Capela dos Heróis de Vidovdan",
+      "generated_by": "rules",
+      "stops": [
+        "Q20435981",
+        "Q55610132",
+        "Q25555141",
+        "Q13081494",
+        "Q43958484",
+        "Q7422988",
+        "Q3441650",
+        "Q1246674"
+      ],
+      "distance_m": 2331,
+      "walking_seconds": 1865,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-kazani-pit-killings",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kazani pit killings",
+      "title_pt": "Destaques históricos perto de Kazani pit killings",
+      "generated_by": "rules",
+      "stops": [
+        "Q21734898",
+        "Q25387520",
+        "Q25425582",
+        "Q1564359",
+        "Q1628496",
+        "Q120693949",
+        "Q1564389",
+        "Q1568843"
+      ],
+      "distance_m": 2853,
+      "walking_seconds": 2282,
+      "visit_minutes": 310
+    }
+  ]
+}

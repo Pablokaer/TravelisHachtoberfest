@@ -1,0 +1,129 @@
+{
+  "city": "chiang-mai",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-wat-chedi-luang",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Chedi Luang",
+      "title_pt": "Igrejas e capelas perto de Wat Chedi Luang",
+      "generated_by": "rules",
+      "stops": [
+        "Q110820898",
+        "Q1454288",
+        "Q20097857",
+        "Q13017454",
+        "Q109237442",
+        "Q18046080",
+        "Q20475796",
+        "Q20643666"
+      ],
+      "distance_m": 1873,
+      "walking_seconds": 1498,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-chiang-man",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Chiang Man",
+      "title_pt": "Igrejas e capelas perto de Wat Chiang Man",
+      "generated_by": "rules",
+      "stops": [
+        "Q18663985",
+        "Q131606002",
+        "Q1699542",
+        "Q19364176",
+        "Q19159898",
+        "Q1515582",
+        "Q18608494",
+        "Q18713202"
+      ],
+      "distance_m": 2597,
+      "walking_seconds": 2078,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "churches-and-chapels-around-ban-ho-mosque",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Ban Ho Mosque",
+      "title_pt": "Igrejas e capelas perto de Ban Ho Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q19896645",
+        "Q56274188",
+        "Q109553727",
+        "Q4022414",
+        "Q131443158",
+        "Q13020896",
+        "Q4818120"
+      ],
+      "distance_m": 3794,
+      "walking_seconds": 3035,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-lok-moli",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Lok Moli",
+      "title_pt": "Igrejas e capelas perto de Wat Lok Moli",
+      "generated_by": "rules",
+      "stops": ["Q28405193", "Q1167874", "Q110313689", "Q18680596", "Q843027", "Q28405190"],
+      "distance_m": 4055,
+      "walking_seconds": 3244,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-phra-sing",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Phra Sing",
+      "title_pt": "Igrejas e capelas perto de Wat Phra Sing",
+      "generated_by": "rules",
+      "stops": [
+        "Q20155404",
+        "Q20155454",
+        "Q1657130",
+        "Q20155393",
+        "Q20155173",
+        "Q109985094",
+        "Q19473270",
+        "Q19462364"
+      ],
+      "distance_m": 2399,
+      "walking_seconds": 1919,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-si-suphan",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Si Suphan",
+      "title_pt": "Igrejas e capelas perto de Wat Si Suphan",
+      "generated_by": "rules",
+      "stops": ["Q13013059", "Q59641379", "Q139024589", "Q13016585", "Q111281783"],
+      "distance_m": 3653,
+      "walking_seconds": 2922,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-umong-suan-phutthatham",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Umong Suan Phutthatham",
+      "title_pt": "Igrejas e capelas perto de Wat Umong Suan Phutthatham",
+      "generated_by": "rules",
+      "stops": ["Q25538913", "Q1369391", "Q13020681"],
+      "distance_m": 2245,
+      "walking_seconds": 1796,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "museums-and-collections-around-wat-chet-yot",
+      "theme": "museums",
+      "title_en": "Museums and collections around Wat Chet Yot",
+      "title_pt": "Museus e coleções perto de Wat Chet Yot",
+      "generated_by": "rules",
+      "stops": ["Q7840310", "Q1642767", "Q2552284"],
+      "distance_m": 2249,
+      "walking_seconds": 1799,
+      "visit_minutes": 210
+    }
+  ]
+}

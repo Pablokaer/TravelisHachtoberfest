@@ -1,0 +1,139 @@
+{
+  "city": "toulouse",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-basilica-of-st-sernin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of St. Sernin",
+      "title_pt": "Destaques históricos perto de Basílica Saint-Sernin de Toulouse",
+      "generated_by": "rules",
+      "stops": [
+        "Q1010268",
+        "Q2375012",
+        "Q29398619",
+        "Q1376",
+        "Q2973244",
+        "Q3585905",
+        "Q3580780",
+        "Q3390578"
+      ],
+      "distance_m": 998,
+      "walking_seconds": 798,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-toulouse-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Toulouse Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Toulouse",
+      "generated_by": "rules",
+      "stops": [
+        "Q3360899",
+        "Q105733442",
+        "Q63762459",
+        "Q2737833",
+        "Q16670285",
+        "Q3390089",
+        "Q3001664",
+        "Q2711480"
+      ],
+      "distance_m": 1575,
+      "walking_seconds": 1260,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "city-landmarks-around-pont-neuf",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Pont-Neuf",
+      "title_pt": "Marcos da cidade perto de Pont-Neuf",
+      "generated_by": "rules",
+      "stops": [
+        "Q3582238",
+        "Q3389801",
+        "Q16303680",
+        "Q1460090",
+        "Q3397260",
+        "Q2968376",
+        "Q3583425",
+        "Q3396746"
+      ],
+      "distance_m": 2184,
+      "walking_seconds": 1747,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "churches-and-chapels-around-museum-de-toulouse",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Muséum de Toulouse",
+      "title_pt": "Igrejas e capelas perto de Museu de Toulouse",
+      "generated_by": "rules",
+      "stops": [
+        "Q3390071",
+        "Q3580740",
+        "Q16670680",
+        "Q2365596",
+        "Q3278998",
+        "Q3585959",
+        "Q422",
+        "Q167182"
+      ],
+      "distance_m": 2861,
+      "walking_seconds": 2289,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "churches-and-chapels-around-monastery-of-the-jacobins",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Monastery of the Jacobins",
+      "title_pt": "Igrejas e capelas perto de Monastery of the Jacobins",
+      "generated_by": "rules",
+      "stops": [
+        "Q3390113",
+        "Q3584182",
+        "Q3584181",
+        "Q2759640",
+        "Q3330403",
+        "Q25397571",
+        "Q21641394",
+        "Q2887166"
+      ],
+      "distance_m": 1366,
+      "walking_seconds": 1093,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "museums-and-collections-around-city-of-space",
+      "theme": "museums",
+      "title_en": "Museums and collections around City of Space",
+      "title_pt": "Museus e coleções perto de Cité de l’espace",
+      "generated_by": "rules",
+      "stops": ["Q78338188", "Q108596099", "Q1094325"],
+      "distance_m": 2716,
+      "walking_seconds": 2173,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "city-landmarks-around-les-abattoirs",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Les Abattoirs",
+      "title_pt": "Marcos da cidade perto de Les Abattoirs",
+      "generated_by": "rules",
+      "stops": ["Q3396739", "Q62614724", "Q3230368", "Q1520861"],
+      "distance_m": 3015,
+      "walking_seconds": 2412,
+      "visit_minutes": 150
+    },
+    {
+      "slug": "city-landmarks-around-clemence-isaure-fountain",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Clémence Isaure fountain",
+      "title_pt": "Marcos da cidade perto de Clémence Isaure fountain",
+      "generated_by": "rules",
+      "stops": ["Q3361117", "Q3076006", "Q3390181", "Q3507997", "Q3580997", "Q2972562"],
+      "distance_m": 3649,
+      "walking_seconds": 2919,
+      "visit_minutes": 185
+    }
+  ]
+}

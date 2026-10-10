@@ -1,0 +1,130 @@
+{
+  "city": "malacca",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-cheng-hoon-teng",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Cheng Hoon Teng",
+      "title_pt": "Marcos da cidade perto de Templo Cheng Hoon Teng",
+      "generated_by": "rules",
+      "stops": [
+        "Q19646423",
+        "Q1115016",
+        "Q24943576",
+        "Q2178942",
+        "Q3408536",
+        "Q4837359",
+        "Q7382682",
+        "Q7338517"
+      ],
+      "distance_m": 1807,
+      "walking_seconds": 1446,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "museums-and-collections-around-st-paul-s-church",
+      "theme": "museums",
+      "title_en": "Museums and collections around St. Paul's Church",
+      "title_pt": "Museus e coleções perto de Igreja de São Paulo de Malaca",
+      "generated_by": "rules",
+      "stops": [
+        "Q19457660",
+        "Q7406951",
+        "Q7591055",
+        "Q7393576",
+        "Q7393370",
+        "Q7393518",
+        "Q12697616",
+        "Q7393527"
+      ],
+      "distance_m": 1378,
+      "walking_seconds": 1102,
+      "visit_minutes": 515
+    },
+    {
+      "slug": "museums-and-collections-around-stadthuys",
+      "theme": "museums",
+      "title_en": "Museums and collections around Stadthuys",
+      "title_pt": "Museus e coleções perto de Stadthuys",
+      "generated_by": "rules",
+      "stops": [
+        "Q7393548",
+        "Q19458283",
+        "Q5108702",
+        "Q123964982",
+        "Q123279284",
+        "Q7393564",
+        "Q1954873",
+        "Q7393435"
+      ],
+      "distance_m": 408,
+      "walking_seconds": 326,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "museums-and-collections-around-a-famosa",
+      "theme": "museums",
+      "title_en": "Museums and collections around A Famosa",
+      "title_pt": "Museus e coleções perto de Fortaleza de Malaca",
+      "generated_by": "rules",
+      "stops": [
+        "Q7353928",
+        "Q7386272",
+        "Q1955098",
+        "Q19572835",
+        "Q7393320",
+        "Q19572840",
+        "Q7393382",
+        "Q7336631"
+      ],
+      "distance_m": 465,
+      "walking_seconds": 372,
+      "visit_minutes": 720
+    },
+    {
+      "slug": "city-landmarks-around-bukit-cina",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bukit Cina",
+      "title_pt": "Marcos da cidade perto de Bukit Cina",
+      "generated_by": "rules",
+      "stops": ["Q19646404", "Q15893855", "Q19646340", "Q4986887", "Q7338528"],
+      "distance_m": 3202,
+      "walking_seconds": 2562,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "city-landmarks-around-sri-poyatha-moorthi-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Sri Poyatha Moorthi Temple",
+      "title_pt": "Marcos da cidade perto de Templo Sri Poyatha Moorthi",
+      "generated_by": "rules",
+      "stops": ["Q133091321", "Q7368081", "Q7833451"],
+      "distance_m": 1632,
+      "walking_seconds": 1306,
+      "visit_minutes": 70
+    },
+    {
+      "slug": "city-landmarks-around-malacca-straits-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Malacca Straits Mosque",
+      "title_pt": "Marcos da cidade perto de Malacca Straits Mosque",
+      "generated_by": "rules",
+      "stops": ["Q20716035", "Q3237825", "Q10283722", "Q6740790"],
+      "distance_m": 4266,
+      "walking_seconds": 3413,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "museums-and-collections-around-al-azim-mosque",
+      "theme": "museums",
+      "title_en": "Museums and collections around Al Azim Mosque",
+      "title_pt": "Museus e coleções perto de Al Azim Mosque",
+      "generated_by": "rules",
+      "stops": ["Q19646453", "Q3407645", "Q19572830"],
+      "distance_m": 2540,
+      "walking_seconds": 2032,
+      "visit_minutes": 200
+    }
+  ]
+}

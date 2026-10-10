@@ -1,0 +1,148 @@
+{
+  "city": "wroclaw",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-wroclaw-town-hall",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Wrocław Town Hall",
+      "title_pt": "Destaques históricos perto de Wrocław Town Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q1545815",
+        "Q1548947",
+        "Q910225",
+        "Q106096055",
+        "Q11823220",
+        "Q1330584",
+        "Q18720342",
+        "Q444070"
+      ],
+      "distance_m": 1270,
+      "walking_seconds": 1016,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "city-landmarks-around-centennial-hall",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Centennial Hall",
+      "title_pt": "Marcos da cidade perto de Salão do Centenário em Wrocław",
+      "generated_by": "rules",
+      "stops": [
+        "Q3389843",
+        "Q8075698",
+        "Q1916589",
+        "Q11814615",
+        "Q489439",
+        "Q155743",
+        "Q8038593",
+        "Q875310"
+      ],
+      "distance_m": 2688,
+      "walking_seconds": 2150,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "historic-highlights-around-raclawice-panorama",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Racławice Panorama",
+      "title_pt": "Destaques históricos perto de Racławice Panorama",
+      "generated_by": "rules",
+      "stops": [
+        "Q2321469",
+        "Q7157339",
+        "Q1329563",
+        "Q1753248",
+        "Q6940763",
+        "Q11747624",
+        "Q11819126",
+        "Q1093429"
+      ],
+      "distance_m": 2260,
+      "walking_seconds": 1808,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "city-landmarks-around-grunwald-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Grunwald Bridge",
+      "title_pt": "Marcos da cidade perto de Grunwald Bridge",
+      "generated_by": "rules",
+      "stops": ["Q11823553", "Q11828311", "Q48840882", "Q7116782", "Q745733", "Q6940963"],
+      "distance_m": 4614,
+      "walking_seconds": 3691,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "churches-and-chapels-around-wroclaw-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wrocław Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Breslávia",
+      "generated_by": "rules",
+      "stops": [
+        "Q7852706",
+        "Q11747128",
+        "Q9386591",
+        "Q11741013",
+        "Q30076871",
+        "Q11823267",
+        "Q3581720",
+        "Q910211"
+      ],
+      "distance_m": 793,
+      "walking_seconds": 634,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "city-landmarks-around-wroclaw-opera",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Wrocław Opera",
+      "title_pt": "Marcos da cidade perto de Wrocław Opera",
+      "generated_by": "rules",
+      "stops": [
+        "Q11780319",
+        "Q19287486",
+        "Q11744937",
+        "Q1336270",
+        "Q1630974",
+        "Q11747414",
+        "Q866854",
+        "Q1623150"
+      ],
+      "distance_m": 1115,
+      "walking_seconds": 892,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-our-lady-on-the-sand-i",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Our Lady on the Sand in Wrocław",
+      "title_pt": "Igrejas e capelas perto de Church of Our Lady on the Sand in Wrocław",
+      "generated_by": "rules",
+      "stops": ["Q9162984", "Q9209666", "Q381449", "Q9187469", "Q2320729"],
+      "distance_m": 851,
+      "walking_seconds": 681,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-wroclaw-main-railway-station",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Wrocław Main Railway Station",
+      "title_pt": "Destaques históricos perto de Wrocław Main Railway Station",
+      "generated_by": "rules",
+      "stops": [
+        "Q9166715",
+        "Q11823348",
+        "Q11823116",
+        "Q2327204",
+        "Q11823148",
+        "Q18755665",
+        "Q428443",
+        "Q3581752"
+      ],
+      "distance_m": 2496,
+      "walking_seconds": 1997,
+      "visit_minutes": 240
+    }
+  ]
+}

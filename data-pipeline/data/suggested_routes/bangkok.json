@@ -1,0 +1,138 @@
+{
+  "city": "bangkok",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-grand-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Grand Palace",
+      "title_pt": "Destaques históricos perto de Grande Palácio de Bangkok",
+      "generated_by": "rules",
+      "stops": [
+        "Q767544",
+        "Q1045876",
+        "Q1502138",
+        "Q873769",
+        "Q1489076",
+        "Q2552382",
+        "Q6640527",
+        "Q1513232"
+      ],
+      "distance_m": 1540,
+      "walking_seconds": 1232,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "churches-and-chapels-around-sao-chingcha",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Sao Chingcha",
+      "title_pt": "Igrejas e capelas perto de Sao Chingcha",
+      "generated_by": "rules",
+      "stops": [
+        "Q1477699",
+        "Q1186076",
+        "Q1554856",
+        "Q2063818",
+        "Q2166761",
+        "Q1279344",
+        "Q1206639",
+        "Q6631976"
+      ],
+      "distance_m": 3094,
+      "walking_seconds": 2475,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-arun",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Arun",
+      "title_pt": "Igrejas e capelas perto de Wat Arun",
+      "generated_by": "rules",
+      "stops": [
+        "Q19884805",
+        "Q4919979",
+        "Q13020879",
+        "Q13018915",
+        "Q3890749",
+        "Q724970",
+        "Q6584164",
+        "Q1059910"
+      ],
+      "distance_m": 2646,
+      "walking_seconds": 2117,
+      "visit_minutes": 335
+    },
+    {
+      "slug": "historic-highlights-around-bangkok-national-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bangkok National Museum",
+      "title_pt": "Destaques históricos perto de Bangkok National Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q1696366",
+        "Q1255815",
+        "Q29580700",
+        "Q16138299",
+        "Q1477677",
+        "Q1395072",
+        "Q7530338",
+        "Q4924562"
+      ],
+      "distance_m": 3275,
+      "walking_seconds": 2620,
+      "visit_minutes": 455
+    },
+    {
+      "slug": "churches-and-chapels-around-golden-buddha",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Golden Buddha",
+      "title_pt": "Igrejas e capelas perto de Buda de Ouro",
+      "generated_by": "rules",
+      "stops": [
+        "Q2242870",
+        "Q134376264",
+        "Q2552433",
+        "Q2529957",
+        "Q18658070",
+        "Q4855203",
+        "Q2495658"
+      ],
+      "distance_m": 3843,
+      "walking_seconds": 3074,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-jim-thompson-house",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Jim Thompson House",
+      "title_pt": "Destaques históricos perto de Jim Thompson House",
+      "generated_by": "rules",
+      "stops": ["Q1235886", "Q2005446", "Q2315094", "Q1130188", "Q2916351", "Q493505"],
+      "distance_m": 3716,
+      "walking_seconds": 2973,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-dusit-palace",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Dusit Palace",
+      "title_pt": "Palácios e casas nobres perto de Dusit Palace",
+      "generated_by": "rules",
+      "stops": ["Q13020611", "Q6004353", "Q2089016", "Q14845126", "Q16305109", "Q2165719"],
+      "distance_m": 3932,
+      "walking_seconds": 3146,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "city-landmarks-around-sri-maha-mariamman-temple-bangkok",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Sri Maha Mariamman Temple, Bangkok",
+      "title_pt": "Marcos da cidade perto de Sri Maha Mariamman Temple, Bangkok",
+      "generated_by": "rules",
+      "stops": ["Q649644", "Q6761807", "Q1111480", "Q174106"],
+      "distance_m": 3318,
+      "walking_seconds": 2654,
+      "visit_minutes": 100
+    }
+  ]
+}

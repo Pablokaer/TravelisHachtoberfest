@@ -1,0 +1,147 @@
+{
+  "city": "minsk",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-church-of-saints-simon-and-helena",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Church of Saints Simon and Helena",
+      "title_pt": "Marcos da cidade perto de Church of Saints Simon and Helena",
+      "generated_by": "rules",
+      "stops": [
+        "Q36277414",
+        "Q2569179",
+        "Q6472793",
+        "Q1995558",
+        "Q1742825",
+        "Q4306308",
+        "Q2567982",
+        "Q4314968"
+      ],
+      "distance_m": 1483,
+      "walking_seconds": 1186,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-yama",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Yama",
+      "title_pt": "Destaques históricos perto de Yama",
+      "generated_by": "rules",
+      "stops": [
+        "Q14940881",
+        "Q2024954",
+        "Q1997300",
+        "Q3918904",
+        "Q3917580",
+        "Q3692806",
+        "Q4185754",
+        "Q3746178"
+      ],
+      "distance_m": 3155,
+      "walking_seconds": 2524,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "churches-and-chapels-around-holy-spirit-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Holy Spirit Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral do Espírito Santo",
+      "generated_by": "rules",
+      "stops": [
+        "Q17043441",
+        "Q2500923",
+        "Q2588857",
+        "Q13031037",
+        "Q12859205",
+        "Q4365767",
+        "Q1637149",
+        "Q2502875"
+      ],
+      "distance_m": 1007,
+      "walking_seconds": 806,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "museums-and-collections-around-belarusian-national-arts-muse",
+      "theme": "museums",
+      "title_en": "Museums and collections around Belarusian National Arts Museum",
+      "title_pt": "Museus e coleções perto de Museu Nacional de Arte da Bielorrússia",
+      "generated_by": "rules",
+      "stops": [
+        "Q36277551",
+        "Q2034395",
+        "Q3919614",
+        "Q2584571",
+        "Q18271178",
+        "Q11774076",
+        "Q1142146",
+        "Q4155952"
+      ],
+      "distance_m": 2366,
+      "walking_seconds": 1893,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "city-landmarks-around-belarusian-great-patriotic-war-museum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Belarusian Great Patriotic War Museum",
+      "title_pt": "Marcos da cidade perto de Museu Bielorrusso da Grande Guerra Patriótica",
+      "generated_by": "rules",
+      "stops": [
+        "Q83944615",
+        "Q2073524",
+        "Q9349920",
+        "Q2065850",
+        "Q4505160",
+        "Q9349229",
+        "Q12337378"
+      ],
+      "distance_m": 3914,
+      "walking_seconds": 3131,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "city-landmarks-around-victory-square",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Victory Square",
+      "title_pt": "Marcos da cidade perto de Praça da Vitória",
+      "generated_by": "rules",
+      "stops": [
+        "Q13030644",
+        "Q15008079",
+        "Q4165182",
+        "Q4295196",
+        "Q2635425",
+        "Q3831641",
+        "Q21531441",
+        "Q2976316"
+      ],
+      "distance_m": 1822,
+      "walking_seconds": 1458,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "city-landmarks-around-museum-of-jewish-history-and-culture-i",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Museum of Jewish History and Culture in Belarus",
+      "title_pt": "Marcos da cidade perto de Museum of Jewish History and Culture in Belarus",
+      "generated_by": "rules",
+      "stops": ["Q4306326", "Q9349577", "Q3919451", "Q13031506", "Q254993"],
+      "distance_m": 3989,
+      "walking_seconds": 3191,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "museums-and-collections-around-kalinin-square-minsk",
+      "theme": "museums",
+      "title_en": "Museums and collections around Kalinin Square, Minsk",
+      "title_pt": "Museus e coleções perto de Kalinin Square, Minsk",
+      "generated_by": "rules",
+      "stops": ["Q6511262", "Q5224060", "Q1985652"],
+      "distance_m": 1356,
+      "walking_seconds": 1085,
+      "visit_minutes": 200
+    }
+  ]
+}

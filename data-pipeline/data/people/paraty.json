@@ -1,0 +1,47 @@
+{
+  "city": "paraty",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q3335620",
+      "name_en": "Nanda Costa",
+      "name_pt": "Nanda Costa",
+      "description_en": "Brazilian actress",
+      "description_pt": "atriz brasileira",
+      "categories": ["music"],
+      "birth_year": 1986,
+      "death_year": null,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Nanda_Costa_em_2012_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image_author": "Nanda_Costa_em_2012.jpg : Alex Carvalho from Rio de Janeiro, Brasil derivative work: Yanguas",
+      "image_license": "CC BY-SA 2.0",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Nanda_Costa_em_2012_cropped.jpg",
+      "wikipedia_en": "Nanda Costa",
+      "wikipedia_pt": "Nanda Costa",
+      "sitelinks": 17
+    },
+    {
+      "wikidata_id": "Q78023",
+      "name_en": "Júlia da Silva Bruhns",
+      "name_pt": "Júlia da Silva Bruhns",
+      "description_en": "Wife of German politician (1851-1923)",
+      "description_pt": "escritora teuto-brasileira, e mãe dos escritores alemães Thomas e Heinrich Mann",
+      "categories": ["writer"],
+      "birth_year": 1851,
+      "death_year": 1923,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Julia_da_Silva-Bruhns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image_author": "Unknown author",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Julia_da_Silva-Bruhns.jpg",
+      "wikipedia_en": "Júlia da Silva Bruhns",
+      "wikipedia_pt": "Júlia da Silva Bruhns",
+      "sitelinks": 12
+    }
+  ]
+}

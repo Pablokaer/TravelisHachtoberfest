@@ -1,0 +1,166 @@
+{
+  "city": "toledo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-synagogue-of-santa-maria-la-blan",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Synagogue of Santa María la Blanca",
+      "title_pt": "Igrejas e capelas perto de Sinagoga de Santa María la Blanca",
+      "generated_by": "rules",
+      "stops": [
+        "Q30594018",
+        "Q1289106",
+        "Q1568115",
+        "Q1811506",
+        "Q6033742",
+        "Q3848124",
+        "Q5785692",
+        "Q3139146"
+      ],
+      "distance_m": 747,
+      "walking_seconds": 598,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "historic-highlights-around-plaza-de-zocodover-toledo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Plaza de Zocodover, Toledo",
+      "title_pt": "Destaques históricos perto de Plaza de Zocodover, Toledo",
+      "generated_by": "rules",
+      "stops": [
+        "Q6034428",
+        "Q30593484",
+        "Q2884002",
+        "Q6447254",
+        "Q1324080",
+        "Q1112601",
+        "Q29034131",
+        "Q56723710"
+      ],
+      "distance_m": 1154,
+      "walking_seconds": 923,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "churches-and-chapels-around-san-martin-bridge",
+      "theme": "churches",
+      "title_en": "Churches and chapels around San Martín bridge",
+      "title_pt": "Igrejas e capelas perto de San Martín bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q5785755",
+        "Q30594099",
+        "Q18969490",
+        "Q3775034",
+        "Q5786068",
+        "Q9064518",
+        "Q28868368",
+        "Q1518670"
+      ],
+      "distance_m": 2202,
+      "walking_seconds": 1762,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "churches-and-chapels-around-puerta-de-bisagra",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Puerta de Bisagra",
+      "title_pt": "Igrejas e capelas perto de Porta antiga de Bisagra",
+      "generated_by": "rules",
+      "stops": [
+        "Q14475457",
+        "Q18224912",
+        "Q5786066",
+        "Q7258527",
+        "Q5835968",
+        "Q2389665",
+        "Q1112621",
+        "Q7258531"
+      ],
+      "distance_m": 786,
+      "walking_seconds": 629,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "castles-and-viewpoints-around-castillo-de-san-servando",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Castillo de San Servando",
+      "title_pt": "Castelos e miradouros perto de Castelo de San Servando",
+      "generated_by": "rules",
+      "stops": [
+        "Q2993456",
+        "Q581532",
+        "Q3398982",
+        "Q5166196",
+        "Q2274725",
+        "Q18175538",
+        "Q29868661",
+        "Q29034132"
+      ],
+      "distance_m": 1063,
+      "walking_seconds": 850,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-san-roman",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of San Román",
+      "title_pt": "Igrejas e capelas perto de Church of San Román",
+      "generated_by": "rules",
+      "stops": [
+        "Q5116861",
+        "Q5785797",
+        "Q1107398",
+        "Q8350477",
+        "Q19360888",
+        "Q6051880",
+        "Q29560889",
+        "Q5785966"
+      ],
+      "distance_m": 838,
+      "walking_seconds": 670,
+      "visit_minutes": 275
+    },
+    {
+      "slug": "historic-highlights-around-toledo-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Toledo Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Toledo",
+      "generated_by": "rules",
+      "stops": [
+        "Q5776922",
+        "Q30594203",
+        "Q2881461",
+        "Q4119622",
+        "Q30594205",
+        "Q1123180",
+        "Q9290171",
+        "Q5910722"
+      ],
+      "distance_m": 972,
+      "walking_seconds": 778,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "churches-and-chapels-around-ancient-roman-circus-of-toletum",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Ancient Roman circus of Toletum",
+      "title_pt": "Igrejas e capelas perto de Ancient Roman circus of Toletum",
+      "generated_by": "rules",
+      "stops": [
+        "Q1985588",
+        "Q1100859",
+        "Q5911392",
+        "Q5552537",
+        "Q5785892",
+        "Q6150463",
+        "Q1032948",
+        "Q29586823"
+      ],
+      "distance_m": 1939,
+      "walking_seconds": 1551,
+      "visit_minutes": 220
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+name: Live data sources
+
+# Weekly check of the sources the checklist reads live (D-042): Open-Meteo (forecast and climate),
+# Frankfurter / ExchangeRate-API (exchange rates) and Global Affairs Canada (travel advisories),
+# through the production providers. A source that is down or changed its answer fails the run and
+# opens (or comments on) an issue labelled `data-source`.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    name: Probe the live providers
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        # Explicit bash = `-eo pipefail`: a failing check is not hidden by `| tee`.
+        shell: bash
+        working-directory: supabase/functions
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno run --allow-net checklist/live-check.ts | tee "$RUNNER_TEMP/providers.jsonl"
+      - name: Open or update the issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          # shellcheck disable=SC2016 # the backticks are a literal Markdown code fence
+          body="$(printf 'A live data source failed its weekly check: %s\n\n```\n%s\n```\n' "$RUN_URL" "$(cat "$RUNNER_TEMP/providers.jsonl" 2>/dev/null)")"
+          open="$(gh issue list --label data-source --state open --json number --jq '.[0].number')"
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body "$body"
+          else
+            gh label create data-source --color B60205 --description 'A live data source failed' 2>/dev/null || true
+            gh issue create --title 'Live data source check failed' --label data-source --body "$body"
+          fi

@@ -1,0 +1,35 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+# React Native libraries (MapLibre, Reanimated, etc.) are most reliable with a flat
+# node_modules layout. See docs/DECISIONS.md (D-003).
+nodeLinker: hoisted
+
+onlyBuiltDependencies:
+  - esbuild
+  - supabase
+  - unrs-resolver
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+
+# Patched versions forced where a vulnerable one only arrives through a dependency's dependency.
+# Drop an entry once the parent ships the fix itself.
+overrides:
+  # GHSA-pqg4-j6r4-53mv (critical): quote() command injection, via react-native >
+  # react-devtools-core (dev tools only); fixed in 1.11.0.
+  shell-quote: ^1.11.0
+  # GHSA-68fv-2mgg-jv7q (high): event-loop DoS from indexed source-map offsets, via
+  # @expo/metro-config > postcss (build only); fixed in 1.2.2.
+  source-map-js: ^1.2.2
+
+# Advisories with no fixed version that only reach dev tooling (not the app bundle).
+# Review on every Expo upgrade and drop an entry once a patch exists (D-049).
+auditConfig:
+  ignoreGhsas:
+    # node-forge RSA signature check, via expo > @expo/cli (dev server only); no patched version.
+    - GHSA-86w9-cpqp-85rv
+    # braces stack exhaustion on deeply nested patterns (published 2026-09-18), via jest, metro and
+    # @expo/cli (dev and build tools only; patterns come from our own config); no patched version.
+    - GHSA-vfj7-8cjw-p6xm

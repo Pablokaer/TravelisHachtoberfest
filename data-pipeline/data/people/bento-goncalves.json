@@ -1,0 +1,47 @@
+{
+  "city": "bento-goncalves",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q294241",
+      "name_en": "Ernesto Geisel",
+      "name_pt": "Ernesto Geisel",
+      "description_en": "military and president of Brazil (1974–1979)",
+      "description_pt": "29.º presidente do Brasil (1974–1979)",
+      "categories": ["history"],
+      "birth_year": 1907,
+      "death_year": 1996,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Foto_oficial_de_Ernesto_Geisel_%28corre%C3%A7%C3%A3o_de_cor%29.png/960px-Foto_oficial_de_Ernesto_Geisel_%28corre%C3%A7%C3%A3o_de_cor%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "Federal Government of Brazil",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Ernesto_Geisel_(corre%C3%A7%C3%A3o_de_cor).png",
+      "wikipedia_en": "Ernesto Geisel",
+      "wikipedia_pt": "Ernesto Geisel",
+      "sitelinks": 47
+    },
+    {
+      "wikidata_id": "Q2136353",
+      "name_en": "Redovino Rizzardo",
+      "name_pt": "Redovino Rizzardo",
+      "description_en": "Brazilian priest (1939-2016)",
+      "description_pt": null,
+      "categories": ["history"],
+      "birth_year": 1939,
+      "death_year": 2016,
+      "born_here": true,
+      "died_here": false,
+      "image_url": null,
+      "image_author": null,
+      "image_license": null,
+      "image_license_url": null,
+      "image_page_url": null,
+      "wikipedia_en": "Redovino Rizzardo",
+      "wikipedia_pt": "Redovino Rizzardo",
+      "sitelinks": 10
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "city": "vienna",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-hofburg-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Hofburg Palace",
+      "title_pt": "Destaques históricos perto de Palácio Imperial de Hofburg,",
+      "generated_by": "rules",
+      "stops": [
+        "Q877584",
+        "Q317701",
+        "Q46242",
+        "Q700128",
+        "Q672373",
+        "Q304037",
+        "Q3785350",
+        "Q693869"
+      ],
+      "distance_m": 878,
+      "walking_seconds": 702,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-st-stephen-s-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Stephen's Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de Santo Estêvão",
+      "generated_by": "rules",
+      "stops": [
+        "Q693884",
+        "Q688614",
+        "Q699937",
+        "Q701662",
+        "Q5943",
+        "Q5311218",
+        "Q701619",
+        "Q387667"
+      ],
+      "distance_m": 738,
+      "walking_seconds": 590,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-academy-of-fine-arts-vienna",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Academy of Fine Arts Vienna",
+      "title_pt": "Marcos da cidade perto de Academia de Belas-Artes de Viena",
+      "generated_by": "rules",
+      "stops": [
+        "Q700753",
+        "Q417645",
+        "Q265129",
+        "Q414219",
+        "Q702121",
+        "Q2132674",
+        "Q686580",
+        "Q688468"
+      ],
+      "distance_m": 3061,
+      "walking_seconds": 2449,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-belvedere",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Belvedere",
+      "title_pt": "Destaques históricos perto de Palácio Belvedere",
+      "generated_by": "rules",
+      "stops": [
+        "Q1826745",
+        "Q303139",
+        "Q211818",
+        "Q651030",
+        "Q177008",
+        "Q686552",
+        "Q505873",
+        "Q408847"
+      ],
+      "distance_m": 2085,
+      "walking_seconds": 1668,
+      "visit_minutes": 490
+    },
+    {
+      "slug": "museums-and-collections-around-kunsthistorisches-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Kunsthistorisches Museum",
+      "title_pt": "Museus e coleções perto de Museu de História da Arte em Viena",
+      "generated_by": "rules",
+      "stops": [
+        "Q2046959",
+        "Q688704",
+        "Q699952",
+        "Q21234884",
+        "Q95569",
+        "Q697208",
+        "Q699943",
+        "Q59435"
+      ],
+      "distance_m": 901,
+      "walking_seconds": 721,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "historic-highlights-around-imperial-crypt",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Imperial Crypt",
+      "title_pt": "Destaques históricos perto de Cripta Imperial de Viena",
+      "generated_by": "rules",
+      "stops": [
+        "Q692117",
+        "Q874905",
+        "Q697944",
+        "Q662652",
+        "Q371908",
+        "Q700199",
+        "Q805259",
+        "Q686488"
+      ],
+      "distance_m": 2129,
+      "walking_seconds": 1703,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "historic-highlights-around-vindobona",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Vindobona",
+      "title_pt": "Destaques históricos perto de Vindobona",
+      "generated_by": "rules",
+      "stops": [
+        "Q877807",
+        "Q253663",
+        "Q689008",
+        "Q701837",
+        "Q871525",
+        "Q390730",
+        "Q869983",
+        "Q670935"
+      ],
+      "distance_m": 1695,
+      "walking_seconds": 1356,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "museums-and-collections-around-votive-church",
+      "theme": "museums",
+      "title_en": "Museums and collections around Votive Church",
+      "title_pt": "Museus e coleções perto de Votive Church",
+      "generated_by": "rules",
+      "stops": ["Q686468", "Q950675", "Q254476", "Q694810", "Q1824069", "Q689043", "Q873715"],
+      "distance_m": 3093,
+      "walking_seconds": 2474,
+      "visit_minutes": 470
+    }
+  ]
+}

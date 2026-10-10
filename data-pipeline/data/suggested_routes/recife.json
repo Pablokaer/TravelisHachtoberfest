@@ -1,0 +1,139 @@
+{
+  "city": "recife",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-kahal-zur-israel-synagogue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kahal Zur Israel Synagogue",
+      "title_pt": "Destaques históricos perto de Sinagoga Kahal Zur Israel",
+      "generated_by": "rules",
+      "stops": [
+        "Q10351311",
+        "Q10299993",
+        "Q10353361",
+        "Q18481134",
+        "Q10333267",
+        "Q600198",
+        "Q25440244",
+        "Q25439784"
+      ],
+      "distance_m": 1878,
+      "walking_seconds": 1502,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "churches-and-chapels-around-basilica-and-convent-of-nossa-se",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Basilica and Convent of Nossa Senhora do Carmo",
+      "title_pt": "Igrejas e capelas perto de Basílica de Nossa Senhora do Carmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q9650880",
+        "Q30939711",
+        "Q18479027",
+        "Q16497092",
+        "Q30931383",
+        "Q10300550",
+        "Q10333489",
+        "Q65168477"
+      ],
+      "distance_m": 1118,
+      "walking_seconds": 894,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-palacio-do-campo-das-princesas",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palácio do Campo das Princesas",
+      "title_pt": "Destaques históricos perto de Palácio do Campo das Princesas",
+      "generated_by": "rules",
+      "stops": [
+        "Q30939708",
+        "Q18242384",
+        "Q9872737",
+        "Q10283668",
+        "Q10353437",
+        "Q10344043",
+        "Q56694190",
+        "Q10283691"
+      ],
+      "distance_m": 1259,
+      "walking_seconds": 1007,
+      "visit_minutes": 455
+    },
+    {
+      "slug": "historic-highlights-around-cine-sao-luiz",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cine São Luiz",
+      "title_pt": "Destaques históricos perto de Cine São Luiz",
+      "generated_by": "rules",
+      "stops": [
+        "Q10351388",
+        "Q10274960",
+        "Q10333766",
+        "Q10351320",
+        "Q51882456",
+        "Q10351404",
+        "Q30931399",
+        "Q10300139"
+      ],
+      "distance_m": 1894,
+      "walking_seconds": 1515,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "churches-and-chapels-around-basilica-and-monastery-of-st-ben",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Basilica and Monastery of St. Benedict, Olinda",
+      "title_pt": "Igrejas e capelas perto de Igreja e Mosteiro de São Bento",
+      "generated_by": "rules",
+      "stops": [
+        "Q19709774",
+        "Q19709758",
+        "Q10300411",
+        "Q10333783",
+        "Q10333756",
+        "Q20056067",
+        "Q10300967",
+        "Q19709764"
+      ],
+      "distance_m": 3197,
+      "walking_seconds": 2558,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "city-landmarks-around-centro-historico-do-recife",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Centro Histórico do Recife",
+      "title_pt": "Marcos da cidade perto de Centro Histórico do Recife",
+      "generated_by": "rules",
+      "stops": ["Q17167081", "Q97274504", "Q16482240", "Q30931027", "Q10283608", "Q5058742"],
+      "distance_m": 3613,
+      "walking_seconds": 2890,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "museums-and-collections-around-ponte-mauricio-de-nassau",
+      "theme": "museums",
+      "title_en": "Museums and collections around Ponte Maurício de Nassau",
+      "title_pt": "Museus e coleções perto de Ponte Maurício de Nassau",
+      "generated_by": "rules",
+      "stops": ["Q10300524", "Q10351360", "Q10333943", "Q10333668", "Q2463271"],
+      "distance_m": 3364,
+      "walking_seconds": 2691,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "monuments-and-memorials-around-sitio-trindade",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Sítio Trindade",
+      "title_pt": "Monumentos e memoriais perto de Sítio da Trindade",
+      "generated_by": "rules",
+      "stops": ["Q106646813", "Q10333902", "Q10376519", "Q2877286"],
+      "distance_m": 3038,
+      "walking_seconds": 2430,
+      "visit_minutes": 160
+    }
+  ]
+}

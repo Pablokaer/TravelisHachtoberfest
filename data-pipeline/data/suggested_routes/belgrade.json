@@ -1,0 +1,139 @@
+{
+  "city": "belgrade",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-church-of-saint-sava",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of Saint Sava",
+      "title_pt": "Destaques históricos perto de Catedral de São Sava",
+      "generated_by": "rules",
+      "stops": [
+        "Q16538404",
+        "Q330385",
+        "Q85773617",
+        "Q585938",
+        "Q613201",
+        "Q16084104",
+        "Q3007983",
+        "Q2403321"
+      ],
+      "distance_m": 3385,
+      "walking_seconds": 2708,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-belgrade-fortress",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Belgrade Fortress",
+      "title_pt": "Destaques históricos perto de Belgrade Fortress",
+      "generated_by": "rules",
+      "stops": [
+        "Q1287997",
+        "Q84158",
+        "Q1281959",
+        "Q25464753",
+        "Q1409017",
+        "Q204309",
+        "Q2443649",
+        "Q383098"
+      ],
+      "distance_m": 909,
+      "walking_seconds": 727,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "city-landmarks-around-national-museum-of-serbia",
+      "theme": "landmarks",
+      "title_en": "City landmarks around National Museum of Serbia",
+      "title_pt": "Marcos da cidade perto de Museu Nacional da Sérvia",
+      "generated_by": "rules",
+      "stops": [
+        "Q1453036",
+        "Q6940959",
+        "Q948346",
+        "Q2633804",
+        "Q3323369",
+        "Q1277393",
+        "Q736135",
+        "Q25464551"
+      ],
+      "distance_m": 1513,
+      "walking_seconds": 1210,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-eternal-flame-belgrade",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Eternal flame (Belgrade)",
+      "title_pt": "Destaques históricos perto de Eternal flame (Belgrade)",
+      "generated_by": "rules",
+      "stops": [
+        "Q15217011",
+        "Q1290510",
+        "Q1669926",
+        "Q1639822",
+        "Q3323350",
+        "Q1265998",
+        "Q898731",
+        "Q1264474"
+      ],
+      "distance_m": 4517,
+      "walking_seconds": 3614,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "museums-and-collections-around-singidunum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Singidunum",
+      "title_pt": "Museus e coleções perto de Singiduno",
+      "generated_by": "rules",
+      "stops": [
+        "Q2412558",
+        "Q1309687",
+        "Q1775086",
+        "Q804208",
+        "Q3330608",
+        "Q1291533",
+        "Q2860466",
+        "Q288915"
+      ],
+      "distance_m": 1266,
+      "walking_seconds": 1013,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "churches-and-chapels-around-house-of-the-national-assembly",
+      "theme": "churches",
+      "title_en": "Churches and chapels around House of the National Assembly",
+      "title_pt": "Igrejas e capelas perto de Casa da Assembleia Nacional",
+      "generated_by": "rules",
+      "stops": ["Q167017", "Q1261252", "Q12752424", "Q1590792", "Q4306134", "Q311642", "Q3685981"],
+      "distance_m": 2951,
+      "walking_seconds": 2361,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "museums-and-collections-around-house-of-flowers",
+      "theme": "museums",
+      "title_en": "Museums and collections around House of Flowers",
+      "title_pt": "Museus e coleções perto de Casa das Flores",
+      "generated_by": "rules",
+      "stops": ["Q3584203", "Q2338290", "Q734539", "Q1565996", "Q2291222"],
+      "distance_m": 3225,
+      "walking_seconds": 2580,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "churches-and-chapels-around-belgrade-new-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Belgrade New Cemetery",
+      "title_pt": "Igrejas e capelas perto de Novo Cemitério de Belgrado",
+      "generated_by": "rules",
+      "stops": ["Q1254795", "Q2035505", "Q25464861", "Q569556", "Q20438349"],
+      "distance_m": 3808,
+      "walking_seconds": 3046,
+      "visit_minutes": 130
+    }
+  ]
+}

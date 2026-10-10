@@ -1,0 +1,138 @@
+{
+  "city": "rio-de-janeiro",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-rio-de-janeiro-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Rio de Janeiro Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de São Sebastião do Rio de Janeiro",
+      "generated_by": "rules",
+      "stops": [
+        "Q579694",
+        "Q1864964",
+        "Q1579892",
+        "Q2411716",
+        "Q14947966",
+        "Q10300289",
+        "Q10300210",
+        "Q10353390"
+      ],
+      "distance_m": 2154,
+      "walking_seconds": 1723,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "historic-highlights-around-museum-of-tomorrow",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museum of Tomorrow",
+      "title_pt": "Destaques históricos perto de Museu do Amanhã",
+      "generated_by": "rules",
+      "stops": [
+        "Q20048515",
+        "Q10333798",
+        "Q10353330",
+        "Q10333874",
+        "Q2820360",
+        "Q10300658",
+        "Q82312",
+        "Q3284128"
+      ],
+      "distance_m": 3149,
+      "walking_seconds": 2519,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "museums-and-collections-around-gustavo-capanema-palace",
+      "theme": "museums",
+      "title_en": "Museums and collections around Gustavo Capanema Palace",
+      "title_pt": "Museus e coleções perto de Edifício Gustavo Capanema",
+      "generated_by": "rules",
+      "stops": [
+        "Q10300739",
+        "Q1954370",
+        "Q2598551",
+        "Q510993",
+        "Q1431995",
+        "Q10286368",
+        "Q2017454",
+        "Q965390"
+      ],
+      "distance_m": 4023,
+      "walking_seconds": 3218,
+      "visit_minutes": 575
+    },
+    {
+      "slug": "city-landmarks-around-old-cathedral-of-rio-de-janeiro",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Old Cathedral of Rio de Janeiro",
+      "title_pt": "Marcos da cidade perto de Igreja de Nossa Senhora do Carmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q9698055",
+        "Q9668628",
+        "Q2942273",
+        "Q9627844",
+        "Q10353359",
+        "Q3361206",
+        "Q2048490",
+        "Q10353328"
+      ],
+      "distance_m": 1648,
+      "walking_seconds": 1318,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "historic-highlights-around-catete-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Catete Palace",
+      "title_pt": "Destaques históricos perto de Palácio do Catete",
+      "generated_by": "rules",
+      "stops": [
+        "Q10343955",
+        "Q10353381",
+        "Q10316374",
+        "Q9703653",
+        "Q1142766",
+        "Q10300392",
+        "Q10300201"
+      ],
+      "distance_m": 3478,
+      "walking_seconds": 2782,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-america-football-club",
+      "theme": "highlights",
+      "title_en": "Historic highlights around America Football Club",
+      "title_pt": "Destaques históricos perto de America Football Club",
+      "generated_by": "rules",
+      "stops": ["Q10275936", "Q10333920", "Q2749982", "Q1850416", "Q16487677", "Q463147"],
+      "distance_m": 4522,
+      "walking_seconds": 3618,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "monuments-and-memorials-around-urca",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Urca",
+      "title_pt": "Monumentos e memoriais perto de Urca",
+      "generated_by": "rules",
+      "stops": ["Q10333423", "Q10302403", "Q1898482", "Q5472516"],
+      "distance_m": 4302,
+      "walking_seconds": 3442,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "historic-highlights-around-ilha-fiscal",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ilha Fiscal",
+      "title_pt": "Destaques históricos perto de Ilha Fiscal",
+      "generated_by": "rules",
+      "stops": ["Q10316364", "Q10300555", "Q985128"],
+      "distance_m": 2320,
+      "walking_seconds": 1856,
+      "visit_minutes": 70
+    }
+  ]
+}

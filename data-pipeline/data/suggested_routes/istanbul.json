@@ -1,0 +1,139 @@
+{
+  "city": "istanbul",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-topkap-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Topkapı Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Topkapı",
+      "generated_by": "rules",
+      "stops": [
+        "Q18871",
+        "Q216511",
+        "Q1187380",
+        "Q2656937",
+        "Q736676",
+        "Q636978",
+        "Q170495",
+        "Q1721042"
+      ],
+      "distance_m": 1640,
+      "walking_seconds": 1312,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "monuments-and-memorials-around-sultan-ahmed-mosque",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Sultan Ahmed Mosque",
+      "title_pt": "Monumentos e memoriais perto de Mesquita Azul",
+      "generated_by": "rules",
+      "stops": [
+        "Q322920",
+        "Q2728644",
+        "Q525939",
+        "Q742474",
+        "Q588892",
+        "Q763854",
+        "Q80541",
+        "Q2719230"
+      ],
+      "distance_m": 997,
+      "walking_seconds": 798,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "city-landmarks-around-suleymaniye-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Süleymaniye Mosque",
+      "title_pt": "Marcos da cidade perto de Mesquita Süleymaniye",
+      "generated_by": "rules",
+      "stops": [
+        "Q853064",
+        "Q6043077",
+        "Q66537010",
+        "Q911720",
+        "Q1137511",
+        "Q178643",
+        "Q644677",
+        "Q197094"
+      ],
+      "distance_m": 3926,
+      "walking_seconds": 3141,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-column-of-constantine",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Column of Constantine",
+      "title_pt": "Destaques históricos perto de Coluna de Constantino",
+      "generated_by": "rules",
+      "stops": [
+        "Q1247291",
+        "Q1430090",
+        "Q1247287",
+        "Q3150393",
+        "Q1187329",
+        "Q1231440",
+        "Q1003322",
+        "Q1144576"
+      ],
+      "distance_m": 3165,
+      "walking_seconds": 2532,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "museums-and-collections-around-galata-tower",
+      "theme": "museums",
+      "title_en": "Museums and collections around Galata Tower",
+      "title_pt": "Museus e coleções perto de Torre de Gálata",
+      "generated_by": "rules",
+      "stops": [
+        "Q1463961",
+        "Q862848",
+        "Q15961492",
+        "Q1662392",
+        "Q747244",
+        "Q91274",
+        "Q642478",
+        "Q81523"
+      ],
+      "distance_m": 3546,
+      "walking_seconds": 2837,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "city-landmarks-around-fatih-istanbul-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Fatih Istanbul Mosque",
+      "title_pt": "Marcos da cidade perto de Mesquita de Fatih",
+      "generated_by": "rules",
+      "stops": ["Q1420984", "Q1950180", "Q2565329", "Q756189", "Q13089982", "Q590900"],
+      "distance_m": 3447,
+      "walking_seconds": 2758,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "churches-and-chapels-around-chora-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Chora Church",
+      "title_pt": "Igrejas e capelas perto de Igreja de São Salvador em Chora",
+      "generated_by": "rules",
+      "stops": ["Q1581190", "Q849489", "Q1472490", "Q879941", "Q2094950"],
+      "distance_m": 1950,
+      "walking_seconds": 1560,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "city-landmarks-around-bosphorus-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bosphorus Bridge",
+      "title_pt": "Marcos da cidade perto de Ponte do Bósforo",
+      "generated_by": "rules",
+      "stops": ["Q911734", "Q176380", "Q4484", "Q794349"],
+      "distance_m": 3336,
+      "walking_seconds": 2669,
+      "visit_minutes": 190
+    }
+  ]
+}

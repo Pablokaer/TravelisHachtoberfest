@@ -1,0 +1,129 @@
+{
+  "city": "sao-paulo",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-sao-paulo-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around São Paulo Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral Metropolitana de São Paulo",
+      "generated_by": "rules",
+      "stops": [
+        "Q12117134",
+        "Q26869711",
+        "Q2914788",
+        "Q5994088",
+        "Q2880208",
+        "Q10325364",
+        "Q1050668",
+        "Q10343997"
+      ],
+      "distance_m": 1727,
+      "walking_seconds": 1382,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-pinacoteca-de-sao-paulo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Pinacoteca de São Paulo",
+      "title_pt": "Destaques históricos perto de Pinacoteca de São Paulo",
+      "generated_by": "rules",
+      "stops": [
+        "Q8343769",
+        "Q2820368",
+        "Q5648446",
+        "Q10295886",
+        "Q2422478",
+        "Q2095209",
+        "Q28677353",
+        "Q1954391"
+      ],
+      "distance_m": 2573,
+      "walking_seconds": 2058,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "city-landmarks-around-vale-do-anhangabau",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Vale do Anhangabaú",
+      "title_pt": "Marcos da cidade perto de Vale do Anhangabaú",
+      "generated_by": "rules",
+      "stops": [
+        "Q10353439",
+        "Q10316379",
+        "Q9092315",
+        "Q7924455",
+        "Q10316353",
+        "Q5994207",
+        "Q10353499",
+        "Q18482277"
+      ],
+      "distance_m": 3245,
+      "walking_seconds": 2596,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-sao-paulo-museum-of-art",
+      "theme": "landmarks",
+      "title_en": "City landmarks around São Paulo Museum of Art",
+      "title_pt": "Marcos da cidade perto de Museu de Arte de São Paulo",
+      "generated_by": "rules",
+      "stops": [
+        "Q10371792",
+        "Q10353363",
+        "Q5994022",
+        "Q9650988",
+        "Q15936526",
+        "Q1569524",
+        "Q82941"
+      ],
+      "distance_m": 4969,
+      "walking_seconds": 3975,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "museums-and-collections-around-monument-to-the-bandeiras",
+      "theme": "museums",
+      "title_en": "Museums and collections around Monument to the Bandeiras",
+      "title_pt": "Museus e coleções perto de Monumento às Bandeiras",
+      "generated_by": "rules",
+      "stops": ["Q8341735", "Q2916105", "Q10333377", "Q2914792", "Q1581634", "Q2557770"],
+      "distance_m": 4648,
+      "walking_seconds": 3718,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "city-landmarks-around-praca-da-liberdade",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Praça da Liberdade",
+      "title_pt": "Marcos da cidade perto de Praça da Liberdade (São Paulo)",
+      "generated_by": "rules",
+      "stops": ["Q10328971", "Q28677843", "Q18480579", "Q10353427"],
+      "distance_m": 2468,
+      "walking_seconds": 1974,
+      "visit_minutes": 100
+    },
+    {
+      "slug": "museums-and-collections-around-ipiranga-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Ipiranga Museum",
+      "title_pt": "Museus e coleções perto de Museu do Ipiranga",
+      "generated_by": "rules",
+      "stops": ["Q4193904", "Q371803", "Q3112581"],
+      "distance_m": 1241,
+      "walking_seconds": 993,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "city-landmarks-around-museu-da-pessoa",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Museu da Pessoa",
+      "title_pt": "Marcos da cidade perto de Museu da Pessoa",
+      "generated_by": "rules",
+      "stops": ["Q18483037", "Q10316343", "Q10333707"],
+      "distance_m": 3274,
+      "walking_seconds": 2619,
+      "visit_minutes": 130
+    }
+  ]
+}

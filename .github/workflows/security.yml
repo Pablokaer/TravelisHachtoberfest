@@ -1,0 +1,106 @@
+name: Security
+
+# Security and quality review of every pull request (D-049). The weekly run catches advisories
+# published after the code was merged, when nothing in the repo changed.
+on:
+  push:
+    # Not main: it only receives commits that already passed here on dev (D-075).
+    branches: [dev]
+  pull_request:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: security-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  GITLEAKS_VERSION: 8.30.1
+  ACTIONLINT_VERSION: 1.7.12
+
+jobs:
+  codeql:
+    name: CodeQL (${{ matrix.language }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      security-events: write # uploads the results to the repository's Security tab
+    strategy:
+      fail-fast: false
+      matrix:
+        # javascript-typescript covers the app, packages/shared and the Deno Edge Functions.
+        language: [javascript-typescript, python]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          build-mode: none
+          queries: security-and-quality
+      - uses: github/codeql-action/analyze@v3
+        with:
+          category: /language:${{ matrix.language }}
+
+  dependency-review:
+    name: New dependencies (licences · advisories)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+          # Same advisory as auditConfig.ignoreGhsas in pnpm-workspace.yaml: braces via dev/build tools
+          # only, no patched version yet. Drop it once one ships.
+          allow-ghsas: GHSA-vfj7-8cjw-p6xm
+          comment-summary-in-pr: never
+
+  secrets:
+    name: No secrets in the history (gitleaks)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # scans every commit, not only the last one
+      - name: Install gitleaks
+        run: |
+          curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" |
+            sudo tar -xz -C /usr/local/bin gitleaks
+      - run: gitleaks git --no-banner --redact --verbose .
+
+  audit:
+    name: Known vulnerabilities (pnpm audit · pip-audit)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      # High and critical fail; unpatched dev-only advisories are listed in pnpm-workspace.yaml.
+      - run: pnpm audit --audit-level high
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pip-audit
+      - run: pip-audit --progress-spinner off ./data-pipeline
+
+  workflows:
+    name: Workflows are valid (actionlint)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install actionlint
+        run: |
+          curl -sSfL "https://github.com/rhysd/actionlint/releases/download/v${ACTIONLINT_VERSION}/actionlint_${ACTIONLINT_VERSION}_linux_amd64.tar.gz" |
+            sudo tar -xz -C /usr/local/bin actionlint
+      - run: actionlint -color

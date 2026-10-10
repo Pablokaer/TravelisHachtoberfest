@@ -1,0 +1,138 @@
+{
+  "city": "belfast",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-belfast-city-hall",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Belfast City Hall",
+      "title_pt": "Destaques históricos perto de Belfast City Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q7577956",
+        "Q6553590",
+        "Q30323973",
+        "Q3351920",
+        "Q5295642",
+        "Q792272",
+        "Q7809806",
+        "Q7401756"
+      ],
+      "distance_m": 1229,
+      "walking_seconds": 983,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-st-anne-s-cathedral-belfast",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St Anne's Cathedral, Belfast",
+      "title_pt": "Destaques históricos perto de St Anne's Cathedral, Belfast",
+      "generated_by": "rules",
+      "stops": [
+        "Q5133319",
+        "Q2942467",
+        "Q7577807",
+        "Q7058536",
+        "Q2638495",
+        "Q7593125",
+        "Q4876007",
+        "Q29022151"
+      ],
+      "distance_m": 2269,
+      "walking_seconds": 1815,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-hms-caroline",
+      "theme": "highlights",
+      "title_en": "Historic highlights around HMS Caroline",
+      "title_pt": "Destaques históricos perto de HMS Caroline",
+      "generated_by": "rules",
+      "stops": [
+        "Q7721038",
+        "Q4091869",
+        "Q12066706",
+        "Q12066699",
+        "Q5222602",
+        "Q5284047",
+        "Q2287825",
+        "Q1504233"
+      ],
+      "distance_m": 3453,
+      "walking_seconds": 2762,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "churches-and-chapels-around-hm-prison-crumlin-road",
+      "theme": "churches",
+      "title_en": "Churches and chapels around HM Prison Crumlin Road",
+      "title_pt": "Igrejas e capelas perto de HM Prison Crumlin Road",
+      "generated_by": "rules",
+      "stops": [
+        "Q17860909",
+        "Q3403972",
+        "Q48800265",
+        "Q5134963",
+        "Q6071154",
+        "Q1144269",
+        "Q42852387"
+      ],
+      "distance_m": 3990,
+      "walking_seconds": 3192,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-ulster-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Ulster Museum",
+      "title_pt": "Destaques históricos perto de Ulster Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q7492438",
+        "Q113130830",
+        "Q65053114",
+        "Q6906904",
+        "Q130483850",
+        "Q6981122",
+        "Q3547979",
+        "Q65043920"
+      ],
+      "distance_m": 4023,
+      "walking_seconds": 3218,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "city-landmarks-around-milltown-cemetery",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Milltown Cemetery",
+      "title_pt": "Marcos da cidade perto de Milltown Cemetery",
+      "generated_by": "rules",
+      "stops": ["Q7595521", "Q7335884", "Q1117693", "Q4882254"],
+      "distance_m": 4135,
+      "walking_seconds": 3308,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "historic-highlights-around-belfast-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Belfast Castle",
+      "title_pt": "Destaques históricos perto de Belfast Castle",
+      "generated_by": "rules",
+      "stops": ["Q4882294", "Q17017301", "Q2716995"],
+      "distance_m": 2270,
+      "walking_seconds": 1816,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "city-landmarks-around-ravenhill-stadium",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ravenhill Stadium",
+      "title_pt": "Marcos da cidade perto de Ravenhill Stadium",
+      "generated_by": "rules",
+      "stops": ["Q49001734", "Q17860584", "Q49001731", "Q887517"],
+      "distance_m": 3106,
+      "walking_seconds": 2485,
+      "visit_minutes": 80
+    }
+  ]
+}

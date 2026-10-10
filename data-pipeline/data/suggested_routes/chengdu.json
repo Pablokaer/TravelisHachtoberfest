@@ -1,0 +1,59 @@
+{
+  "city": "chengdu",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-mao-zedong-statue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Mao Zedong Statue",
+      "title_pt": "Destaques históricos perto de Estátua de Mao Tsé-tung (Chengdu)",
+      "generated_by": "rules",
+      "stops": [
+        "Q17025263",
+        "Q10281190",
+        "Q7507431",
+        "Q55696247",
+        "Q976143",
+        "Q10939558",
+        "Q11880816",
+        "Q21018491"
+      ],
+      "distance_m": 3795,
+      "walking_seconds": 3036,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "churches-and-chapels-around-daci-temple",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Daci Temple",
+      "title_pt": "Igrejas e capelas perto de Daci Temple",
+      "generated_by": "rules",
+      "stops": ["Q10868216", "Q9907170", "Q9668845", "Q2118734"],
+      "distance_m": 3805,
+      "walking_seconds": 3044,
+      "visit_minutes": 95
+    },
+    {
+      "slug": "historic-highlights-around-chengdu-art-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Chengdu Art Museum",
+      "title_pt": "Destaques históricos perto de Chengdu Art Museum",
+      "generated_by": "rules",
+      "stops": ["Q109905582", "Q30308677", "Q1540709"],
+      "distance_m": 1958,
+      "walking_seconds": 1566,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "museums-and-collections-around-du-fu-thatched-cottage",
+      "theme": "museums",
+      "title_en": "Museums and collections around Du Fu Thatched Cottage",
+      "title_pt": "Museus e coleções perto de Du Fu Thatched Cottage",
+      "generated_by": "rules",
+      "stops": ["Q4390891", "Q10924774", "Q2121639"],
+      "distance_m": 1653,
+      "walking_seconds": 1322,
+      "visit_minutes": 200
+    }
+  ]
+}

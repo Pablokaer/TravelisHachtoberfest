@@ -1,0 +1,157 @@
+{
+  "city": "bern",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-bern-minster",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bern Minster",
+      "title_pt": "Destaques históricos perto de Bern Minster",
+      "generated_by": "rules",
+      "stops": [
+        "Q1355223",
+        "Q1019354",
+        "Q688315",
+        "Q6950566",
+        "Q686102",
+        "Q678445",
+        "Q684054",
+        "Q685445"
+      ],
+      "distance_m": 640,
+      "walking_seconds": 512,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "city-landmarks-around-federal-palace-of-switzerland",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Federal Palace of Switzerland",
+      "title_pt": "Marcos da cidade perto de Palácio Federal da Suíça",
+      "generated_by": "rules",
+      "stops": [
+        "Q1158062",
+        "Q30911",
+        "Q30933",
+        "Q1019153",
+        "Q1588585",
+        "Q559126",
+        "Q1624957",
+        "Q2083493"
+      ],
+      "distance_m": 893,
+      "walking_seconds": 714,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "historic-highlights-around-zentrum-paul-klee",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Zentrum Paul Klee",
+      "title_pt": "Destaques históricos perto de Zentrum Paul Klee",
+      "generated_by": "rules",
+      "stops": [
+        "Q2249115",
+        "Q191189",
+        "Q2499186",
+        "Q665373",
+        "Q1536420",
+        "Q1013356",
+        "Q2006078",
+        "Q458115"
+      ],
+      "distance_m": 2402,
+      "walking_seconds": 1922,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "historic-highlights-around-kindlifresserbrunnen",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kindlifresserbrunnen",
+      "title_pt": "Destaques históricos perto de Kindlifresserbrunnen",
+      "generated_by": "rules",
+      "stops": [
+        "Q436771",
+        "Q1450580",
+        "Q1784541",
+        "Q6432432",
+        "Q665800",
+        "Q246105",
+        "Q247322",
+        "Q390003"
+      ],
+      "distance_m": 720,
+      "walking_seconds": 576,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "city-landmarks-around-kunstmuseum-bern",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kunstmuseum Bern",
+      "title_pt": "Marcos da cidade perto de Museu de Belas Artes",
+      "generated_by": "rules",
+      "stops": [
+        "Q1870402",
+        "Q894639",
+        "Q194622",
+        "Q692277",
+        "Q1452707",
+        "Q1595348",
+        "Q4842697",
+        "Q997500"
+      ],
+      "distance_m": 1487,
+      "walking_seconds": 1190,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-fountain-of-justice",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fountain of Justice",
+      "title_pt": "Destaques históricos perto de Fountain of Justice",
+      "generated_by": "rules",
+      "stops": [
+        "Q670058",
+        "Q612774",
+        "Q452375",
+        "Q1743111",
+        "Q686056",
+        "Q606476",
+        "Q2132400",
+        "Q1784559"
+      ],
+      "distance_m": 1882,
+      "walking_seconds": 1506,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-natural-history-museum-of-ber",
+      "theme": "museums",
+      "title_en": "Museums and collections around Natural History Museum of Bern",
+      "title_pt": "Museus e coleções perto de Natural History Museum of Bern",
+      "generated_by": "rules",
+      "stops": [
+        "Q2323496",
+        "Q675617",
+        "Q1954633",
+        "Q1286799",
+        "Q27479802",
+        "Q1944096",
+        "Q681911",
+        "Q1426406"
+      ],
+      "distance_m": 2375,
+      "walking_seconds": 1900,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "museums-and-collections-around-tierpark-bern",
+      "theme": "museums",
+      "title_en": "Museums and collections around Tierpark Bern",
+      "title_pt": "Museus e coleções perto de Tierpark Bern",
+      "generated_by": "rules",
+      "stops": ["Q50920401", "Q1257641", "Q2374965", "Q1656910", "Q683361"],
+      "distance_m": 3935,
+      "walking_seconds": 3148,
+      "visit_minutes": 320
+    }
+  ]
+}

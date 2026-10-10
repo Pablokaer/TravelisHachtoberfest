@@ -1,0 +1,157 @@
+{
+  "city": "stockholm",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-stockholm-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Stockholm Palace",
+      "title_pt": "Destaques históricos perto de Palácio Real de Estocolmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q1133075",
+        "Q10661353",
+        "Q1968711",
+        "Q500533",
+        "Q783848",
+        "Q1636176",
+        "Q10671642",
+        "Q750444"
+      ],
+      "distance_m": 500,
+      "walking_seconds": 400,
+      "visit_minutes": 430
+    },
+    {
+      "slug": "museums-and-collections-around-vasa-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Vasa Museum",
+      "title_pt": "Museus e coleções perto de Museu do Vasa",
+      "generated_by": "rules",
+      "stops": [
+        "Q107176851",
+        "Q2743819",
+        "Q1640397",
+        "Q901371",
+        "Q1142142",
+        "Q1512169",
+        "Q1713506",
+        "Q1274511"
+      ],
+      "distance_m": 2384,
+      "walking_seconds": 1907,
+      "visit_minutes": 580
+    },
+    {
+      "slug": "historic-highlights-around-hedvig-eleonora-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Hedvig Eleonora Church",
+      "title_pt": "Destaques históricos perto de Igreja Hedvig Eleonora",
+      "generated_by": "rules",
+      "stops": [
+        "Q1726607",
+        "Q2036739",
+        "Q690002",
+        "Q2261112",
+        "Q1750652",
+        "Q474745",
+        "Q4346239",
+        "Q619484"
+      ],
+      "distance_m": 2108,
+      "walking_seconds": 1686,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "historic-highlights-around-nationalmuseum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Nationalmuseum",
+      "title_pt": "Destaques históricos perto de Museu Nacional de Belas-Artes da Suécia",
+      "generated_by": "rules",
+      "stops": [
+        "Q842858",
+        "Q1477827",
+        "Q2854887",
+        "Q717105",
+        "Q3048023",
+        "Q7899119",
+        "Q2164087",
+        "Q4920798"
+      ],
+      "distance_m": 1893,
+      "walking_seconds": 1514,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "historic-highlights-around-stockholm-city-hall",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Stockholm City Hall",
+      "title_pt": "Destaques históricos perto de Conselho Municipal de Estocolmo",
+      "generated_by": "rules",
+      "stops": [
+        "Q1540683",
+        "Q6419724",
+        "Q892231",
+        "Q1547268",
+        "Q657118",
+        "Q772914",
+        "Q648483",
+        "Q1112746"
+      ],
+      "distance_m": 2908,
+      "walking_seconds": 2326,
+      "visit_minutes": 415
+    },
+    {
+      "slug": "historic-highlights-around-sergels-torg",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Sergels torg",
+      "title_pt": "Destaques históricos perto de Sergels torg",
+      "generated_by": "rules",
+      "stops": [
+        "Q844426",
+        "Q113624778",
+        "Q1608760",
+        "Q360572",
+        "Q164289",
+        "Q4348177",
+        "Q681497",
+        "Q602694"
+      ],
+      "distance_m": 3377,
+      "walking_seconds": 2702,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "churches-and-chapels-around-katarina-elevator",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Katarina Elevator",
+      "title_pt": "Igrejas e capelas perto de Katarina Elevator",
+      "generated_by": "rules",
+      "stops": [
+        "Q3497031",
+        "Q1933896",
+        "Q615365",
+        "Q1736102",
+        "Q1193675",
+        "Q15042147",
+        "Q3905451",
+        "Q1967885"
+      ],
+      "distance_m": 2840,
+      "walking_seconds": 2272,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "museums-and-collections-around-skansen",
+      "theme": "museums",
+      "title_en": "Museums and collections around Skansen",
+      "title_pt": "Museus e coleções perto de Skansen",
+      "generated_by": "rules",
+      "stops": ["Q1721899", "Q1647895", "Q59482", "Q537", "Q725108", "Q836926", "Q951739"],
+      "distance_m": 4346,
+      "walking_seconds": 3477,
+      "visit_minutes": 400
+    }
+  ]
+}

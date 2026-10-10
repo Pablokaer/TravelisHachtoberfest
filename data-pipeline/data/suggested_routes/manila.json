@@ -1,0 +1,147 @@
+{
+  "city": "manila",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-rizal-monument",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Rizal Monument",
+      "title_pt": "Destaques históricos perto de Rizal Monument",
+      "generated_by": "rules",
+      "stops": [
+        "Q123815605",
+        "Q3330472",
+        "Q25221688",
+        "Q28451570",
+        "Q16256881",
+        "Q7110828",
+        "Q25038909",
+        "Q7339077"
+      ],
+      "distance_m": 2343,
+      "walking_seconds": 1874,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-black-nazarene",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Black Nazarene",
+      "title_pt": "Destaques históricos perto de Black Nazarene",
+      "generated_by": "rules",
+      "stops": [
+        "Q18344016",
+        "Q119813057",
+        "Q16507813",
+        "Q16898609",
+        "Q1408400",
+        "Q1899439",
+        "Q7203623",
+        "Q25247436"
+      ],
+      "distance_m": 1194,
+      "walking_seconds": 955,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "churches-and-chapels-around-san-agustin-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around San Agustin Church",
+      "title_pt": "Igrejas e capelas perto de San Agustin Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q131400169",
+        "Q1306513",
+        "Q2110598",
+        "Q39054929",
+        "Q18708321",
+        "Q773443",
+        "Q7203681",
+        "Q17361127"
+      ],
+      "distance_m": 1900,
+      "walking_seconds": 1520,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "city-landmarks-around-fort-santiago",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Fort Santiago",
+      "title_pt": "Marcos da cidade perto de Fort Santiago",
+      "generated_by": "rules",
+      "stops": [
+        "Q13906691",
+        "Q864029",
+        "Q18388981",
+        "Q39055142",
+        "Q25221974",
+        "Q7770292",
+        "Q7339081",
+        "Q478181"
+      ],
+      "distance_m": 1969,
+      "walking_seconds": 1575,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "city-landmarks-around-manila-city-hall",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Manila City Hall",
+      "title_pt": "Marcos da cidade perto de Manila City Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q104506312",
+        "Q12961833",
+        "Q2016674",
+        "Q55605741",
+        "Q25203997",
+        "Q2207397",
+        "Q25038193",
+        "Q7258510"
+      ],
+      "distance_m": 3179,
+      "walking_seconds": 2543,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "churches-and-chapels-around-malacanang-palace",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Malacañang Palace",
+      "title_pt": "Igrejas e capelas perto de Palácio de Malacañang",
+      "generated_by": "rules",
+      "stops": [
+        "Q1417648",
+        "Q174968",
+        "Q14830133",
+        "Q18391613",
+        "Q18618972",
+        "Q942688",
+        "Q18379603"
+      ],
+      "distance_m": 4160,
+      "walking_seconds": 3328,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "historic-highlights-around-malate-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Malate Church",
+      "title_pt": "Destaques históricos perto de Malate Church",
+      "generated_by": "rules",
+      "stops": ["Q6741382", "Q13453623", "Q4875029", "Q6825145", "Q5471974", "Q5073116"],
+      "distance_m": 2314,
+      "walking_seconds": 1851,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "churches-and-chapels-around-jones-bridge",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Jones Bridge",
+      "title_pt": "Igrejas e capelas perto de Jones Bridge",
+      "generated_by": "rules",
+      "stops": ["Q7420533", "Q21161319", "Q18356889", "Q55632471", "Q6275142"],
+      "distance_m": 3887,
+      "walking_seconds": 3110,
+      "visit_minutes": 130
+    }
+  ]
+}

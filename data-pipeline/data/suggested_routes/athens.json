@@ -1,0 +1,166 @@
+{
+  "city": "athens",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-parthenon",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Parthenon",
+      "title_pt": "Marcos da cidade perto de Partenon",
+      "generated_by": "rules",
+      "stops": [
+        "Q755221",
+        "Q131013",
+        "Q10288",
+        "Q111632444",
+        "Q950701",
+        "Q17051553",
+        "Q2070605",
+        "Q242741"
+      ],
+      "distance_m": 265,
+      "walking_seconds": 212,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "city-landmarks-around-classical-athens",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Classical Athens",
+      "title_pt": "Marcos da cidade perto de Atenas",
+      "generated_by": "rules",
+      "stops": [
+        "Q1125096",
+        "Q844930",
+        "Q1328165",
+        "Q384813",
+        "Q3407649",
+        "Q1349784",
+        "Q2615369",
+        "Q395367"
+      ],
+      "distance_m": 1397,
+      "walking_seconds": 1118,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "historic-highlights-around-panathenaic-stadium",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Panathenaic Stadium",
+      "title_pt": "Destaques históricos perto de Estádio Panathinaiko",
+      "generated_by": "rules",
+      "stops": [
+        "Q1567576",
+        "Q1123019",
+        "Q940907",
+        "Q1362125",
+        "Q208811",
+        "Q2629065",
+        "Q1230253",
+        "Q1018775"
+      ],
+      "distance_m": 3543,
+      "walking_seconds": 2834,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "monuments-and-memorials-around-athens",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Athens",
+      "title_pt": "Monumentos e memoriais perto de Atenas",
+      "generated_by": "rules",
+      "stops": [
+        "Q123834838",
+        "Q637187",
+        "Q618530",
+        "Q1573003",
+        "Q1550994",
+        "Q1524",
+        "Q425754",
+        "Q1628075"
+      ],
+      "distance_m": 2059,
+      "walking_seconds": 1647,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "monuments-and-memorials-around-acropolis-museum",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Acropolis Museum",
+      "title_pt": "Monumentos e memoriais perto de Museu da Acrópole de Atenas",
+      "generated_by": "rules",
+      "stops": [
+        "Q1760491",
+        "Q974300",
+        "Q421084",
+        "Q1722117",
+        "Q1160691",
+        "Q4400515",
+        "Q1137997",
+        "Q981372"
+      ],
+      "distance_m": 2703,
+      "walking_seconds": 2162,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-tower-of-the-winds",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Tower of the Winds",
+      "title_pt": "Destaques históricos perto de Torre dos Ventos",
+      "generated_by": "rules",
+      "stops": [
+        "Q372717",
+        "Q1435551",
+        "Q5445954",
+        "Q1455447",
+        "Q15958739",
+        "Q7131645",
+        "Q1728667",
+        "Q2790568"
+      ],
+      "distance_m": 1008,
+      "walking_seconds": 806,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-temple-of-hephaestus",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Temple of Hephaestus",
+      "title_pt": "Marcos da cidade perto de Templo de Hefesto",
+      "generated_by": "rules",
+      "stops": [
+        "Q3250992",
+        "Q745797",
+        "Q2405583",
+        "Q2872376",
+        "Q1235440",
+        "Q936234",
+        "Q1670679",
+        "Q756824"
+      ],
+      "distance_m": 545,
+      "walking_seconds": 436,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "city-landmarks-around-theatre-of-dionysus",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Theatre of Dionysus",
+      "title_pt": "Marcos da cidade perto de Teatro de Dionísio",
+      "generated_by": "rules",
+      "stops": [
+        "Q394211",
+        "Q2704249",
+        "Q11792032",
+        "Q3558923",
+        "Q1789503",
+        "Q492894",
+        "Q1227044",
+        "Q1905296"
+      ],
+      "distance_m": 760,
+      "walking_seconds": 608,
+      "visit_minutes": 160
+    }
+  ]
+}

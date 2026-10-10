@@ -1,0 +1,157 @@
+{
+  "city": "copenhagen",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-swedish-gustaf-church",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Swedish Gustaf Church",
+      "title_pt": "Igrejas e capelas perto de Swedish Gustaf Church",
+      "generated_by": "rules",
+      "stops": [
+        "Q2661965",
+        "Q1238512",
+        "Q834603",
+        "Q3580820",
+        "Q952817",
+        "Q214619",
+        "Q221812",
+        "Q4993212"
+      ],
+      "distance_m": 2158,
+      "walking_seconds": 1726,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "historic-highlights-around-amalienborg",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Amalienborg",
+      "title_pt": "Destaques históricos perto de Palácio de Amalienborg",
+      "generated_by": "rules",
+      "stops": [
+        "Q11977027",
+        "Q1280223",
+        "Q1589941",
+        "Q3432545",
+        "Q3424549",
+        "Q211053",
+        "Q1321231",
+        "Q536499"
+      ],
+      "distance_m": 2556,
+      "walking_seconds": 2045,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "museums-and-collections-around-rosenborg-castle",
+      "theme": "museums",
+      "title_en": "Museums and collections around Rosenborg Castle",
+      "title_pt": "Museus e coleções perto de Castelo Rosenborg",
+      "generated_by": "rules",
+      "stops": [
+        "Q2982867",
+        "Q671384",
+        "Q978464",
+        "Q206101",
+        "Q1201043",
+        "Q1033809",
+        "Q1140534",
+        "Q12323100"
+      ],
+      "distance_m": 1604,
+      "walking_seconds": 1283,
+      "visit_minutes": 575
+    },
+    {
+      "slug": "city-landmarks-around-ny-carlsberg-glyptotek",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ny Carlsberg Glyptotek",
+      "title_pt": "Marcos da cidade perto de Gliptoteca Ny Carlsberg",
+      "generated_by": "rules",
+      "stops": [
+        "Q13582398",
+        "Q1270418",
+        "Q1140507",
+        "Q12307746",
+        "Q648166",
+        "Q2398527",
+        "Q2010247",
+        "Q3071851"
+      ],
+      "distance_m": 1236,
+      "walking_seconds": 989,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-christiansborg-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Christiansborg Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Christiansborg",
+      "generated_by": "rules",
+      "stops": [
+        "Q872947",
+        "Q653100",
+        "Q940733",
+        "Q4585653",
+        "Q3434140",
+        "Q1992413",
+        "Q4563532",
+        "Q590286"
+      ],
+      "distance_m": 1309,
+      "walking_seconds": 1047,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "city-landmarks-around-christus",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Christus",
+      "title_pt": "Marcos da cidade perto de Christus",
+      "generated_by": "rules",
+      "stops": [
+        "Q4346882",
+        "Q1433264",
+        "Q1451811",
+        "Q5113613",
+        "Q3289837",
+        "Q3289863",
+        "Q4572749",
+        "Q3434130"
+      ],
+      "distance_m": 1438,
+      "walking_seconds": 1150,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "historic-highlights-around-church-of-our-saviour",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church of Our Saviour",
+      "title_pt": "Destaques históricos perto de Church of Our Saviour",
+      "generated_by": "rules",
+      "stops": [
+        "Q3434214",
+        "Q11963844",
+        "Q284914",
+        "Q491808",
+        "Q1082978",
+        "Q29157",
+        "Q3375972",
+        "Q841018"
+      ],
+      "distance_m": 3003,
+      "walking_seconds": 2402,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "city-landmarks-around-city-hall-square",
+      "theme": "landmarks",
+      "title_en": "City landmarks around City Hall Square",
+      "title_pt": "Marcos da cidade perto de City Hall Square",
+      "generated_by": "rules",
+      "stops": ["Q5643290", "Q2386053", "Q2178686", "Q747844"],
+      "distance_m": 2262,
+      "walking_seconds": 1810,
+      "visit_minutes": 150
+    }
+  ]
+}

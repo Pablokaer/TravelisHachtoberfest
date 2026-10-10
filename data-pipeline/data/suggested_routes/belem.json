@@ -1,0 +1,148 @@
+{
+  "city": "belem",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-our-lady-of-grace-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Our Lady of Grace Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral Metropolitana de Belém",
+      "generated_by": "rules",
+      "stops": [
+        "Q10343731",
+        "Q10353275",
+        "Q55995016",
+        "Q10281042",
+        "Q8342820",
+        "Q56641232",
+        "Q10333512",
+        "Q10343957"
+      ],
+      "distance_m": 580,
+      "walking_seconds": 464,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "monuments-and-memorials-around-theatro-da-paz",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Theatro da Paz",
+      "title_pt": "Monumentos e memoriais perto de Theatro da Paz",
+      "generated_by": "rules",
+      "stops": [
+        "Q10343714",
+        "Q10343719",
+        "Q10300436",
+        "Q25443220",
+        "Q3063375",
+        "Q116752711",
+        "Q10353432",
+        "Q10300528"
+      ],
+      "distance_m": 1972,
+      "walking_seconds": 1578,
+      "visit_minutes": 180
+    },
+    {
+      "slug": "monuments-and-memorials-around-ver-o-peso-market",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Ver-o-Peso Market",
+      "title_pt": "Monumentos e memoriais perto de Mercado Ver-o-Peso",
+      "generated_by": "rules",
+      "stops": [
+        "Q51882002",
+        "Q51882006",
+        "Q10389750",
+        "Q51882030",
+        "Q10353375",
+        "Q10333891",
+        "Q10284097",
+        "Q56694297"
+      ],
+      "distance_m": 692,
+      "walking_seconds": 554,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-church-and-former-college-of-sain",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Church and Former College of Saint Alexander",
+      "title_pt": "Destaques históricos perto de Igreja e Colégio de Santo Alexandre",
+      "generated_by": "rules",
+      "stops": [
+        "Q10353408",
+        "Q108399804",
+        "Q10343921",
+        "Q10333791",
+        "Q10300960",
+        "Q10300762",
+        "Q10300502",
+        "Q10343724"
+      ],
+      "distance_m": 1707,
+      "walking_seconds": 1366,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "monuments-and-memorials-around-basilica-of-our-lady-of-nazar",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Basilica of Our Lady of Nazareth of Exile",
+      "title_pt": "Monumentos e memoriais perto de Basílica de Nossa Senhora de Nazaré",
+      "generated_by": "rules",
+      "stops": [
+        "Q117477714",
+        "Q55359628",
+        "Q18483747",
+        "Q48873168",
+        "Q108399581",
+        "Q108400026",
+        "Q108399787",
+        "Q9650874"
+      ],
+      "distance_m": 2349,
+      "walking_seconds": 1879,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "churches-and-chapels-around-estacao-das-docas",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Estação das Docas",
+      "title_pt": "Igrejas e capelas perto de Estação das Docas",
+      "generated_by": "rules",
+      "stops": [
+        "Q108399611",
+        "Q10276249",
+        "Q10284050",
+        "Q10300457",
+        "Q25443225",
+        "Q20053178",
+        "Q10300666",
+        "Q9695355"
+      ],
+      "distance_m": 1368,
+      "walking_seconds": 1094,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "monuments-and-memorials-around-estadio-da-curuzu",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Estádio da Curuzú",
+      "title_pt": "Monumentos e memoriais perto de Estádio Leônidas Sodré de Castro",
+      "generated_by": "rules",
+      "stops": ["Q9255328", "Q111922136", "Q10328801", "Q113637532", "Q108400027", "Q3328425"],
+      "distance_m": 2569,
+      "walking_seconds": 2055,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "monuments-and-memorials-around-espaco-sao-jose-liberto",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Espaço São José Liberto",
+      "title_pt": "Monumentos e memoriais perto de São José Liberto",
+      "generated_by": "rules",
+      "stops": ["Q10353247", "Q120514405", "Q10375751", "Q10333830", "Q108429284", "Q10280147"],
+      "distance_m": 3329,
+      "walking_seconds": 2663,
+      "visit_minutes": 200
+    }
+  ]
+}

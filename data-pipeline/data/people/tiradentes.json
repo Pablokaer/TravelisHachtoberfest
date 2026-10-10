@@ -1,0 +1,47 @@
+{
+  "city": "tiradentes",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q44907",
+      "name_en": "José Mariano de Conceição Vellozo",
+      "name_pt": "José Mariano da Conceição Veloso",
+      "description_en": "Brazilian botanist (1742-1811)",
+      "description_pt": null,
+      "categories": ["history"],
+      "birth_year": 1742,
+      "death_year": 1811,
+      "born_here": true,
+      "died_here": false,
+      "image_url": null,
+      "image_author": null,
+      "image_license": null,
+      "image_license_url": null,
+      "image_page_url": null,
+      "wikipedia_en": "José Mariano de Conceição Vellozo",
+      "wikipedia_pt": "José Mariano da Conceição Veloso",
+      "sitelinks": 13
+    },
+    {
+      "wikidata_id": "Q1789371",
+      "name_en": "Basílio da Gama",
+      "name_pt": "Basílio da Gama",
+      "description_en": "Brazilian poet (1741-1795)",
+      "description_pt": "poeta luso-brasileiro",
+      "categories": ["writer"],
+      "birth_year": 1741,
+      "death_year": 1795,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Bas%C3%ADlio_da_Gama.jpg/960px-Bas%C3%ADlio_da_Gama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "F. Briguiet",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlio_da_Gama.jpg",
+      "wikipedia_en": "Basílio da Gama",
+      "wikipedia_pt": "Basílio da Gama",
+      "sitelinks": 11
+    }
+  ]
+}

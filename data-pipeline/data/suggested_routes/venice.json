@@ -1,0 +1,166 @@
+{
+  "city": "venice",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-st-mark-s-basilica",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St Mark's Basilica",
+      "title_pt": "Destaques históricos perto de Basílica de São Marcos",
+      "generated_by": "rules",
+      "stops": [
+        "Q217527",
+        "Q966625",
+        "Q754194",
+        "Q1994701",
+        "Q172988",
+        "Q2570221",
+        "Q189883",
+        "Q52517"
+      ],
+      "distance_m": 430,
+      "walking_seconds": 344,
+      "visit_minutes": 295
+    },
+    {
+      "slug": "historic-highlights-around-rialto-bridge",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Rialto Bridge",
+      "title_pt": "Destaques históricos perto de Ponte de Rialto",
+      "generated_by": "rules",
+      "stops": [
+        "Q533680",
+        "Q820872",
+        "Q922677",
+        "Q52505",
+        "Q1028202",
+        "Q1585745",
+        "Q1269436",
+        "Q615079"
+      ],
+      "distance_m": 1963,
+      "walking_seconds": 1570,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-santa-maria-della-salute",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Santa Maria della Salute",
+      "title_pt": "Palácios e casas nobres perto de Basílica de Santa Maria della Salute",
+      "generated_by": "rules",
+      "stops": [
+        "Q2603961",
+        "Q2047620",
+        "Q1049033",
+        "Q52629",
+        "Q3890678",
+        "Q52531",
+        "Q2931413",
+        "Q1068131"
+      ],
+      "distance_m": 1189,
+      "walking_seconds": 951,
+      "visit_minutes": 540
+    },
+    {
+      "slug": "historic-highlights-around-palazzo-pisani-moretta",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palazzo Pisani Moretta",
+      "title_pt": "Destaques históricos perto de Palazzo Pisani Moretta",
+      "generated_by": "rules",
+      "stops": [
+        "Q957551",
+        "Q1563366",
+        "Q1093901",
+        "Q1270723",
+        "Q5418235",
+        "Q224961",
+        "Q3372473",
+        "Q2717392"
+      ],
+      "distance_m": 1345,
+      "walking_seconds": 1076,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-san-giorgio-maggiore",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of San Giorgio Maggiore",
+      "title_pt": "Igrejas e capelas perto de Basílica de São Jorge Maior",
+      "generated_by": "rules",
+      "stops": [
+        "Q1470912",
+        "Q3747209",
+        "Q1813687",
+        "Q2898082",
+        "Q642615",
+        "Q713558",
+        "Q3320338",
+        "Q830807"
+      ],
+      "distance_m": 3199,
+      "walking_seconds": 2559,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "churches-and-chapels-around-piraeus-lion",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Piraeus Lion",
+      "title_pt": "Igrejas e capelas perto de Leão do Pireu",
+      "generated_by": "rules",
+      "stops": [
+        "Q2568227",
+        "Q521260",
+        "Q1559661",
+        "Q794876",
+        "Q1784082",
+        "Q1290662",
+        "Q428317",
+        "Q946542"
+      ],
+      "distance_m": 1535,
+      "walking_seconds": 1228,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "churches-and-chapels-around-cemetery-of-san-michele",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Cemetery of San Michele",
+      "title_pt": "Igrejas e capelas perto de Cemetery of San Michele",
+      "generated_by": "rules",
+      "stops": [
+        "Q3676942",
+        "Q46592",
+        "Q1273362",
+        "Q155225",
+        "Q473237",
+        "Q756807",
+        "Q1265593",
+        "Q861436"
+      ],
+      "distance_m": 3635,
+      "walking_seconds": 2908,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "churches-and-chapels-around-gallerie-dell-accademia",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Gallerie dell'Accademia",
+      "title_pt": "Igrejas e capelas perto de Accademia",
+      "generated_by": "rules",
+      "stops": [
+        "Q2931376",
+        "Q2356961",
+        "Q907964",
+        "Q974832",
+        "Q769514",
+        "Q52509",
+        "Q338330",
+        "Q1093909"
+      ],
+      "distance_m": 1420,
+      "walking_seconds": 1136,
+      "visit_minutes": 325
+    }
+  ]
+}

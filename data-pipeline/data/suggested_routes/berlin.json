@@ -1,0 +1,148 @@
+{
+  "city": "berlin",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-brandenburg-gate",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Brandenburg Gate",
+      "title_pt": "Monumentos e memoriais perto de Portão de Brandemburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q32660126",
+        "Q17354234",
+        "Q151897",
+        "Q151785",
+        "Q82425",
+        "Q156716",
+        "Q160700",
+        "Q568945"
+      ],
+      "distance_m": 1593,
+      "walking_seconds": 1274,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "museums-and-collections-around-berlin-cathedral",
+      "theme": "museums",
+      "title_en": "Museums and collections around Berlin Cathedral",
+      "title_pt": "Museus e coleções perto de Berliner Dom",
+      "generated_by": "rules",
+      "stops": [
+        "Q162111",
+        "Q254156",
+        "Q157316",
+        "Q664484",
+        "Q475394",
+        "Q156722",
+        "Q154563",
+        "Q20196262"
+      ],
+      "distance_m": 848,
+      "walking_seconds": 678,
+      "visit_minutes": 660
+    },
+    {
+      "slug": "historic-highlights-around-potsdamer-platz",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Potsdamer Platz",
+      "title_pt": "Destaques históricos perto de Potsdamer Platz",
+      "generated_by": "rules",
+      "stops": [
+        "Q131995",
+        "Q7941770",
+        "Q152252",
+        "Q569445",
+        "Q819081",
+        "Q382575",
+        "Q170103",
+        "Q315694"
+      ],
+      "distance_m": 4297,
+      "walking_seconds": 3438,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "historic-highlights-around-fernsehturm-berlin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fernsehturm Berlin",
+      "title_pt": "Destaques históricos perto de Berliner Fernsehturm",
+      "generated_by": "rules",
+      "stops": [
+        "Q679052",
+        "Q688353",
+        "Q573322",
+        "Q648165",
+        "Q679101",
+        "Q151356",
+        "Q186173",
+        "Q152783"
+      ],
+      "distance_m": 2472,
+      "walking_seconds": 1978,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "monuments-and-memorials-around-pergamon-museum",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Pergamon Museum",
+      "title_pt": "Monumentos e memoriais perto de Museu de Pérgamo",
+      "generated_by": "rules",
+      "stops": [
+        "Q152341",
+        "Q688335",
+        "Q1243007",
+        "Q860957",
+        "Q12496",
+        "Q157298",
+        "Q157825",
+        "Q246474"
+      ],
+      "distance_m": 1170,
+      "walking_seconds": 936,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "museums-and-collections-around-siegessaule",
+      "theme": "museums",
+      "title_en": "Museums and collections around Siegessäule",
+      "title_pt": "Museus e coleções perto de Siegessäule",
+      "generated_by": "rules",
+      "stops": [
+        "Q32659772",
+        "Q880798",
+        "Q165631",
+        "Q700216",
+        "Q704933",
+        "Q317091",
+        "Q679124",
+        "Q154987"
+      ],
+      "distance_m": 3803,
+      "walking_seconds": 3042,
+      "visit_minutes": 565
+    },
+    {
+      "slug": "historic-highlights-around-jewish-museum-berlin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Jewish Museum Berlin",
+      "title_pt": "Destaques históricos perto de Museu Judaico de Berlim",
+      "generated_by": "rules",
+      "stops": ["Q881611", "Q439297", "Q18191705", "Q699504", "Q170123", "Q157003", "Q706530"],
+      "distance_m": 3910,
+      "walking_seconds": 3128,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "museums-and-collections-around-invalids-cemetery",
+      "theme": "museums",
+      "title_en": "Museums and collections around Invalids' Cemetery",
+      "title_pt": "Museus e coleções perto de Cemitério dos Inválidos",
+      "generated_by": "rules",
+      "stops": ["Q95517", "Q643891", "Q584756", "Q161907", "Q314446"],
+      "distance_m": 4107,
+      "walking_seconds": 3286,
+      "visit_minutes": 310
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "city": "florence",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-florence-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Florence Cathedral",
+      "title_pt": "Destaques históricos perto de Santa Maria del Fiore",
+      "generated_by": "rules",
+      "stops": [
+        "Q2280593",
+        "Q3908938",
+        "Q732511",
+        "Q1140023",
+        "Q3699556",
+        "Q1200696",
+        "Q2252810",
+        "Q191739"
+      ],
+      "distance_m": 328,
+      "walking_seconds": 262,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "historic-highlights-around-david",
+      "theme": "highlights",
+      "title_en": "Historic highlights around David",
+      "title_pt": "Destaques históricos perto de David",
+      "generated_by": "rules",
+      "stops": [
+        "Q737232",
+        "Q911047",
+        "Q10855544",
+        "Q13453137",
+        "Q179900",
+        "Q866192",
+        "Q2287001",
+        "Q637237"
+      ],
+      "distance_m": 1187,
+      "walking_seconds": 950,
+      "visit_minutes": 385
+    },
+    {
+      "slug": "monuments-and-memorials-around-uffizi-gallery",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Uffizi Gallery",
+      "title_pt": "Monumentos e memoriais perto de Galeria Uffizi",
+      "generated_by": "rules",
+      "stops": [
+        "Q3731230",
+        "Q599034",
+        "Q1418108",
+        "Q3545179",
+        "Q1134128",
+        "Q51252",
+        "Q3918710",
+        "Q1668196"
+      ],
+      "distance_m": 335,
+      "walking_seconds": 268,
+      "visit_minutes": 285
+    },
+    {
+      "slug": "churches-and-chapels-around-palazzo-pitti",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Palazzo Pitti",
+      "title_pt": "Igrejas e capelas perto de Palácio Pitti",
+      "generated_by": "rules",
+      "stops": [
+        "Q526637",
+        "Q1062114",
+        "Q1519975",
+        "Q1996075",
+        "Q1799158",
+        "Q888825",
+        "Q29286",
+        "Q72786"
+      ],
+      "distance_m": 3046,
+      "walking_seconds": 2437,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "historic-highlights-around-palazzo-vecchio",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palazzo Vecchio",
+      "title_pt": "Destaques históricos perto de Palazzo Vecchio",
+      "generated_by": "rules",
+      "stops": [
+        "Q1626816",
+        "Q860816",
+        "Q3968679",
+        "Q645374",
+        "Q271928",
+        "Q1089115",
+        "Q913058",
+        "Q3746707"
+      ],
+      "distance_m": 421,
+      "walking_seconds": 337,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "churches-and-chapels-around-basilica-of-santa-maria-novella",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Basilica of Santa Maria Novella",
+      "title_pt": "Igrejas e capelas perto de Santa Maria Novella",
+      "generated_by": "rules",
+      "stops": [
+        "Q923702",
+        "Q2778991",
+        "Q2517185",
+        "Q51175",
+        "Q2593098",
+        "Q1357573",
+        "Q19521341",
+        "Q578805"
+      ],
+      "distance_m": 1499,
+      "walking_seconds": 1199,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-san-lorenzo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of San Lorenzo",
+      "title_pt": "Destaques históricos perto de Basílica de São Lourenço",
+      "generated_by": "rules",
+      "stops": [
+        "Q913148",
+        "Q3890636",
+        "Q3947208",
+        "Q1283790",
+        "Q13453381",
+        "Q521619",
+        "Q573881",
+        "Q660876"
+      ],
+      "distance_m": 1626,
+      "walking_seconds": 1301,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-santa-croce",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of Santa Croce",
+      "title_pt": "Destaques históricos perto de Basílica de Santa Cruz",
+      "generated_by": "rules",
+      "stops": [
+        "Q600355",
+        "Q51177",
+        "Q2418618",
+        "Q25060814",
+        "Q1017385",
+        "Q5002064",
+        "Q2627551",
+        "Q388448"
+      ],
+      "distance_m": 1081,
+      "walking_seconds": 865,
+      "visit_minutes": 320
+    }
+  ]
+}

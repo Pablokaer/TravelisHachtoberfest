@@ -1,0 +1,27 @@
+{
+  "city": "lencois",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q4690359",
+      "name_en": "Afrânio Peixoto",
+      "name_pt": "Afrânio Peixoto",
+      "description_en": "Brazilian writer and politician, member of the Brazilian Academy of Letters and federal deputy for the State of Bahia (1876–1947)",
+      "description_pt": "escritor e político brasileiro, membro da Academia Brasileira de Letras e deputado federal pelo Estado da Bahia",
+      "categories": ["history", "writer"],
+      "birth_year": 1876,
+      "death_year": 1947,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Afr%C3%A2nio_Peixoto%2C_1956.tif/lossy-page1-960px-Afr%C3%A2nio_Peixoto%2C_1956.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "Unknown",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Afr%C3%A2nio_Peixoto,_1956.tif",
+      "wikipedia_en": "Júlio Afrânio Peixoto",
+      "wikipedia_pt": "Afrânio Peixoto",
+      "sitelinks": 8
+    }
+  ]
+}

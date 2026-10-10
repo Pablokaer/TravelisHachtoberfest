@@ -1,0 +1,130 @@
+{
+  "city": "heidelberg",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-church-of-the-holy-spirit-heidelberg",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Church of the Holy Spirit, Heidelberg",
+      "title_pt": "Marcos da cidade perto de Church of the Holy Spirit, Heidelberg",
+      "generated_by": "rules",
+      "stops": [
+        "Q1169041",
+        "Q884093",
+        "Q574702",
+        "Q786016",
+        "Q24205470",
+        "Q435416",
+        "Q2139635",
+        "Q1594062"
+      ],
+      "distance_m": 1213,
+      "walking_seconds": 970,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-heidelberg-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Heidelberg Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Heidelberg",
+      "generated_by": "rules",
+      "stops": [
+        "Q327265",
+        "Q1205535",
+        "Q2536333",
+        "Q1784574",
+        "Q1700798",
+        "Q660785",
+        "Q23794224",
+        "Q1235173"
+      ],
+      "distance_m": 1139,
+      "walking_seconds": 911,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "historic-highlights-around-kurpfalzisches-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kurpfälzisches Museum",
+      "title_pt": "Destaques históricos perto de Kurpfälzisches Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q19628095",
+        "Q866529",
+        "Q1468403",
+        "Q874724",
+        "Q2113901",
+        "Q1355748",
+        "Q2079687",
+        "Q17123919"
+      ],
+      "distance_m": 2423,
+      "walking_seconds": 1938,
+      "visit_minutes": 325
+    },
+    {
+      "slug": "churches-and-chapels-around-sammlung-prinzhorn",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Sammlung Prinzhorn",
+      "title_pt": "Igrejas e capelas perto de Coleção Prinzhorn",
+      "generated_by": "rules",
+      "stops": [
+        "Q1087333",
+        "Q1573189",
+        "Q1465611",
+        "Q866441",
+        "Q19567335",
+        "Q435645",
+        "Q1280713",
+        "Q2322965"
+      ],
+      "distance_m": 3599,
+      "walking_seconds": 2879,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "city-landmarks-around-fernsehturm-heidelberg",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Fernsehturm Heidelberg",
+      "title_pt": "Marcos da cidade perto de Fernsehturm Heidelberg",
+      "generated_by": "rules",
+      "stops": ["Q1407063", "Q1407296", "Q1733998", "Q334066"],
+      "distance_m": 4294,
+      "walking_seconds": 3435,
+      "visit_minutes": 90
+    },
+    {
+      "slug": "churches-and-chapels-around-john-rabe-communication-centre",
+      "theme": "churches",
+      "title_en": "Churches and chapels around John Rabe Communication Centre",
+      "title_pt": "Igrejas e capelas perto de John Rabe Communication Centre",
+      "generated_by": "rules",
+      "stops": ["Q14545253", "Q1456792", "Q2431829", "Q1469028", "Q1701506"],
+      "distance_m": 2258,
+      "walking_seconds": 1806,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-bergfriedhof",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bergfriedhof",
+      "title_pt": "Marcos da cidade perto de Bergfriedhof (Heidelberg)",
+      "generated_by": "rules",
+      "stops": ["Q1746087", "Q819654", "Q1300095"],
+      "distance_m": 2522,
+      "walking_seconds": 2018,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "churches-and-chapels-around-kreuzkirche",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Kreuzkirche",
+      "title_pt": "Igrejas e capelas perto de Kreuzkirche",
+      "generated_by": "rules",
+      "stops": ["Q2317509", "Q15106417", "Q1788339"],
+      "distance_m": 486,
+      "walking_seconds": 389,
+      "visit_minutes": 90
+    }
+  ]
+}

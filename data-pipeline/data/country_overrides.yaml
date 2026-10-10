@@ -1,0 +1,153 @@
+# Curated corrections applied AFTER Wikidata (see wayfarer_pipeline/countries.py).
+# Each entry replaces only the listed fields and MUST cite a `source:`.
+# Verified 2026-09-27. Priority: launch destinations (GB FR TR IT CZ NL ES AT PT) and the main
+# home countries (BR US).
+
+GB:
+  source: "IEC World Plugs (type G, 230 V 50 Hz); gov.uk 'Call 999 or 112'; ITU E.164 +44"
+  plug_types: [G]
+  voltage: 230
+  frequency_hz: 50
+  emergency_number: '999' # 112 also works
+  police_number: '999'
+  ambulance_number: '999'
+  fire_number: '999'
+  languages: [en] # Welsh, Scottish Gaelic, Irish, Cornish are regional
+
+FR:
+  source: "IEC World Plugs (C, E; 230 V 50 Hz); service-public.fr numéros d'urgence (15/17/18/112)"
+  currency_codes: [EUR] # XPF is only used in overseas collectivities (PF, NC, WF)
+  plug_types: [C, E]
+  emergency_number: '112'
+  police_number: '17'
+  ambulance_number: '15'
+  fire_number: '18'
+
+TR:
+  source: 'IEC World Plugs (C, F; 230 V 50 Hz); Turkish 112 Emergency Call Centres (all services merged into 112); ITU E.164 +90'
+  calling_code: '+90'
+  plug_types: [C, F]
+  emergency_number: '112'
+  police_number: '112'
+  ambulance_number: '112'
+  fire_number: '112'
+
+IT:
+  source: "IEC World Plugs (C, F, L; 230 V 50 Hz); NUE 112 (Ministero dell'Interno)"
+  plug_types: [C, F, L]
+  emergency_number: '112'
+
+CZ:
+  source: 'IEC World Plugs (C, E; 230 V 50 Hz); HZS ČR emergency lines 112/150/155/158'
+  plug_types: [C, E]
+  currency_codes: [CZK]
+  police_number: '158'
+  ambulance_number: '155'
+  fire_number: '150'
+
+NL:
+  source: 'Wikidata Q55 (Netherlands, the European country) rather than Q29999 Kingdom; IEC World Plugs (C, F; 230 V 50 Hz); government.nl 112'
+  wikidata_id: Q55
+  name_en: Netherlands
+  name_pt: Países Baixos
+  currency_codes: [EUR] # AWG/XCG/USD are Caribbean parts of the Kingdom
+  plug_types: [C, F]
+  emergency_number: '112'
+  police_number: '112'
+  ambulance_number: '112'
+  fire_number: '112'
+
+ES:
+  source: 'IEC World Plugs (C, F; 230 V 50 Hz); 112 (Ley 112), Policía Nacional 091, 061 sanitary emergencies'
+  plug_types: [C, F]
+  emergency_number: '112'
+
+AT:
+  source: 'IEC World Plugs (C, F; 230 V 50 Hz); oesterreich.gv.at Notrufnummern 112/122/133/144'
+  plug_types: [C, F]
+
+PT:
+  source: 'IEC World Plugs (C, F; 230 V 50 Hz); INEM / PSP: 112 is the single emergency number'
+  plug_types: [C, F]
+  emergency_number: '112'
+  police_number: '112'
+  ambulance_number: '112'
+  fire_number: '112'
+
+BR:
+  source: 'IEC World Plugs (C, N; 127 V and 220 V, 60 Hz); Anatel emergency numbers 190/192/193'
+  # Brazil is mixed: 127 V in most of the South-East/North, 220 V in the North-East, DF and
+  # Santa Catarina. We store 220 V; the app should warn that 127 V is also common.
+  voltage: 220
+  frequency_hz: 60
+  plug_types: [C, N]
+  police_number: '190'
+  ambulance_number: '192'
+  fire_number: '193'
+
+US:
+  source: 'IEC World Plugs (A, B; 120 V 60 Hz); 911.gov; Executive Order 14224 (English as official language, 2025)'
+  plug_types: [A, B]
+  voltage: 120
+  frequency_hz: 60
+  emergency_number: '911'
+  police_number: '911'
+  ambulance_number: '911'
+  fire_number: '911'
+  languages: [en] # Wikidata lists territorial languages (ch, sm, es)
+
+# --- smaller corrections spotted in the Wikidata snapshot ---------------------------------
+CH:
+  source: 'ch.ch emergency numbers (112 general, 117 police, 144 ambulance, 118 fire)'
+  emergency_number: '112'
+GR:
+  source: '112 is operational in Greece (civilprotection.gov.gr)'
+  emergency_number: '112'
+'NO': # quoted: YAML 1.1 reads a bare NO as false
+  source: 'Norway: 112 police, 113 ambulance, 110 fire (helsenorge.no); no single general number'
+  emergency_number: '112'
+PL:
+  source: 'ISO 4217: PLZ withdrawn in 1995; PLN current'
+  currency_codes: [PLN]
+JE:
+  source: 'Jersey Electricity: 230 V 50 Hz'
+  voltage: 230
+  frequency_hz: 50
+SH:
+  source: 'ITU E.164: Saint Helena +290'
+  calling_code: '+290'
+ZW:
+  source: 'Reserve Bank of Zimbabwe: ZiG (ZWG) since 2024; USD in wide legal use'
+  currency_codes: [USD, ZWG]
+CN:
+  source: 'Common English short name'
+  name_en: China
+
+# --- Destinations added 2026-09-28 (20 more cities). Plugs, voltage, currency, calling codes and
+# emergency numbers from Wikidata were checked and are correct; only languages needed fixing.
+GR:
+  source: 'Constitution of Greece art. 1 / official language Greek (Wikidata P37 missing)'
+  languages: [el]
+
+PL:
+  source: 'Constitution of Poland art. 27: Polish is the official language (Wikidata lists Belarusian, a minority language)'
+  languages: [pl]
+
+SE:
+  source: 'Swedish Language Act (2009:600): Swedish is the principal language; Finnish, Yiddish etc. are recognised minority languages'
+  languages: [sv]
+
+# --- Destinations added 2026-09-28 (batch 3): FI, IS, EE, LV, LT, HR, SI, SK checked.
+LT:
+  source: 'IEC 60038 / EU harmonised 230 V mains; Lithuanian Emergency Response Centre: 112 is the single number (02 was a legacy police line)'
+  voltage: 230
+  police_number: null
+
+SI:
+  source: 'Constitution of Slovenia art. 11: Slovene is the official language (Hungarian and Italian only in their ethnic areas)'
+  languages: [sl]
+
+# --- Batch 4 (EU capitals) 2026-09-28: BG, CY, LU, MT, RO checked. BG uses EUR since 2026-01-01.
+CY:
+  source: 'Cyprus Police / Ministry of Health: emergency numbers are 112 and 199 (1400 is not an emergency line)'
+  ambulance_number: null

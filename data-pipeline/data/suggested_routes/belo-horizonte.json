@@ -1,0 +1,130 @@
+{
+  "city": "belo-horizonte",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-saint-joseph-church-belo-hori",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Saint Joseph Church (Belo Horizonte)",
+      "title_pt": "Monumentos e memoriais perto de Igreja São José (Belo Horizonte)",
+      "generated_by": "rules",
+      "stops": [
+        "Q10390066",
+        "Q10378844",
+        "Q28680236",
+        "Q10301599",
+        "Q10300227",
+        "Q18470509",
+        "Q30939509",
+        "Q10353374"
+      ],
+      "distance_m": 1971,
+      "walking_seconds": 1577,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-praca-da-liberdade",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Praça da Liberdade",
+      "title_pt": "Destaques históricos perto de Praça da Liberdade",
+      "generated_by": "rules",
+      "stops": [
+        "Q18484539",
+        "Q20059170",
+        "Q28679456",
+        "Q10333852",
+        "Q10333730",
+        "Q28680237",
+        "Q2349318",
+        "Q10270249"
+      ],
+      "distance_m": 1149,
+      "walking_seconds": 919,
+      "visit_minutes": 425
+    },
+    {
+      "slug": "historic-highlights-around-catedral-de-nossa-senhora-da-boa",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Catedral de Nossa Senhora da Boa Viagem (Belo Horizon",
+      "title_pt": "Destaques históricos perto de Catedral de Nossa Senhora da Boa Viagem (Belo Hori",
+      "generated_by": "rules",
+      "stops": [
+        "Q114902177",
+        "Q16497093",
+        "Q10333549",
+        "Q8342851",
+        "Q10300926",
+        "Q30938875",
+        "Q56694387",
+        "Q30926504"
+      ],
+      "distance_m": 2600,
+      "walking_seconds": 2080,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "monuments-and-memorials-around-mineirao",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Mineirão",
+      "title_pt": "Monumentos e memoriais perto de Estádio Governador Magalhães Pinto",
+      "generated_by": "rules",
+      "stops": ["Q40357761", "Q636642", "Q967063", "Q910370", "Q10333813"],
+      "distance_m": 2944,
+      "walking_seconds": 2355,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "monuments-and-memorials-around-praca-rui-barbosa",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Praça Rui Barbosa",
+      "title_pt": "Monumentos e memoriais perto de Praça Rui Barbosa",
+      "generated_by": "rules",
+      "stops": [
+        "Q10378868",
+        "Q48873326",
+        "Q9723674",
+        "Q7239113",
+        "Q106546858",
+        "Q10333800",
+        "Q17167642",
+        "Q10300155"
+      ],
+      "distance_m": 2760,
+      "walking_seconds": 2208,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "monuments-and-memorials-around-praca-raul-soares",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Praça Raul Soares",
+      "title_pt": "Monumentos e memoriais perto de Praça Raul Soares",
+      "generated_by": "rules",
+      "stops": ["Q18475656", "Q7239111", "Q10343990", "Q10353254", "Q10333496", "Q7239110"],
+      "distance_m": 4305,
+      "walking_seconds": 3444,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "churches-and-chapels-around-igreja-de-santa-rita-de-cassia-b",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Igreja de Santa Rita de Cássia (Belo Horizonte)",
+      "title_pt": "Igrejas e capelas perto de Igreja de Santa Rita de Cássia (Belo Horizonte)",
+      "generated_by": "rules",
+      "stops": ["Q48855717", "Q56694396", "Q10300656", "Q10300163", "Q10302624"],
+      "distance_m": 3410,
+      "walking_seconds": 2728,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "historic-highlights-around-lagoinha-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Lagoinha Church",
+      "title_pt": "Destaques históricos perto de Igreja Batista da Lagoinha",
+      "generated_by": "rules",
+      "stops": ["Q10299937", "Q55645369", "Q30938880", "Q9698812"],
+      "distance_m": 4317,
+      "walking_seconds": 3454,
+      "visit_minutes": 160
+    }
+  ]
+}

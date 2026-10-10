@@ -1,0 +1,165 @@
+{
+  "city": "edinburgh",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-holyrood-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Holyrood Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Holyrood",
+      "generated_by": "rules",
+      "stops": [
+        "Q5033342",
+        "Q6415559",
+        "Q5033345",
+        "Q11838982",
+        "Q3358350",
+        "Q2746031",
+        "Q505950",
+        "Q966862"
+      ],
+      "distance_m": 1142,
+      "walking_seconds": 914,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "historic-highlights-around-greyfriars-kirkyard",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Greyfriars Kirkyard",
+      "title_pt": "Destaques históricos perto de Greyfriars Kirkyard",
+      "generated_by": "rules",
+      "stops": [
+        "Q5338311",
+        "Q1543570",
+        "Q4211494",
+        "Q1453649",
+        "Q2876448",
+        "Q17570789",
+        "Q1633842",
+        "Q4879291"
+      ],
+      "distance_m": 1137,
+      "walking_seconds": 910,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-edinburgh-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Edinburgh Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Edimburgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q95568172",
+        "Q7437874",
+        "Q2061784",
+        "Q212065",
+        "Q6979345",
+        "Q4327251",
+        "Q7369346",
+        "Q7756122"
+      ],
+      "distance_m": 1116,
+      "walking_seconds": 893,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "city-landmarks-around-st-giles-cathedral",
+      "theme": "landmarks",
+      "title_en": "City landmarks around St Giles' Cathedral",
+      "title_pt": "Marcos da cidade perto de Catedral de Santo Egídio",
+      "generated_by": "rules",
+      "stops": [
+        "Q55076772",
+        "Q5338167",
+        "Q6818041",
+        "Q1547466",
+        "Q82603653",
+        "Q7138911",
+        "Q3752968",
+        "Q8038444"
+      ],
+      "distance_m": 776,
+      "walking_seconds": 621,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-scott-monument",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Scott Monument",
+      "title_pt": "Destaques históricos perto de Scott Monument",
+      "generated_by": "rules",
+      "stops": [
+        "Q3753005",
+        "Q17569435",
+        "Q25350037",
+        "Q942713",
+        "Q2502213",
+        "Q7592419",
+        "Q17570686",
+        "Q2441562"
+      ],
+      "distance_m": 1465,
+      "walking_seconds": 1172,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "monuments-and-memorials-around-national-monument-of-scotland",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around National Monument of Scotland",
+      "title_pt": "Monumentos e memoriais perto de Monumento Nacional da Escócia",
+      "generated_by": "rules",
+      "stops": [
+        "Q17811276",
+        "Q15122172",
+        "Q7210212",
+        "Q7083575",
+        "Q5312471",
+        "Q11838983",
+        "Q6974379",
+        "Q519072"
+      ],
+      "distance_m": 1523,
+      "walking_seconds": 1218,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "historic-highlights-around-st-mary-s-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St Mary's Cathedral",
+      "title_pt": "Destaques históricos perto de St Mary's Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q1889944",
+        "Q2679817",
+        "Q5246062",
+        "Q2324015",
+        "Q5246025",
+        "Q5086152",
+        "Q5117460",
+        "Q5338196"
+      ],
+      "distance_m": 3441,
+      "walking_seconds": 2753,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-south-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around South Bridge",
+      "title_pt": "Marcos da cidade perto de South Bridge",
+      "generated_by": "rules",
+      "stops": [
+        "Q11839033",
+        "Q7592777",
+        "Q7566401",
+        "Q7646188",
+        "Q1144643",
+        "Q5544755",
+        "Q11839020"
+      ],
+      "distance_m": 2730,
+      "walking_seconds": 2184,
+      "visit_minutes": 300
+    }
+  ]
+}

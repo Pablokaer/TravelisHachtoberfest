@@ -1,0 +1,130 @@
+{
+  "city": "bath",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-roman-baths",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Roman Baths",
+      "title_pt": "Destaques históricos perto de Termas romanas de Bath",
+      "generated_by": "rules",
+      "stops": [
+        "Q2450190",
+        "Q7926563",
+        "Q5615874",
+        "Q115241555",
+        "Q622992",
+        "Q2540426",
+        "Q4868973",
+        "Q7084669"
+      ],
+      "distance_m": 735,
+      "walking_seconds": 588,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-jane-austen-centre",
+      "theme": "museums",
+      "title_en": "Museums and collections around Jane Austen Centre",
+      "title_pt": "Museus e coleções perto de Jane Austen Centre",
+      "generated_by": "rules",
+      "stops": [
+        "Q5108670",
+        "Q3328433",
+        "Q5436742",
+        "Q15263396",
+        "Q6151132",
+        "Q7270509",
+        "Q4868941",
+        "Q3369709"
+      ],
+      "distance_m": 1202,
+      "walking_seconds": 962,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "churches-and-chapels-around-holburne-museum",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Holburne Museum",
+      "title_pt": "Igrejas e capelas perto de Holburne Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q7594276",
+        "Q5878811",
+        "Q5132072",
+        "Q17531984",
+        "Q4868887",
+        "Q4986599",
+        "Q7594741",
+        "Q7593538"
+      ],
+      "distance_m": 2666,
+      "walking_seconds": 2133,
+      "visit_minutes": 410
+    },
+    {
+      "slug": "historic-highlights-around-no-1-royal-crescent",
+      "theme": "highlights",
+      "title_en": "Historic highlights around No. 1 Royal Crescent",
+      "title_pt": "Destaques históricos perto de No. 1 Royal Crescent",
+      "generated_by": "rules",
+      "stops": [
+        "Q7734910",
+        "Q4375431",
+        "Q6842313",
+        "Q7926596",
+        "Q21521452",
+        "Q7593474",
+        "Q15260368",
+        "Q7595470"
+      ],
+      "distance_m": 3539,
+      "walking_seconds": 2831,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "churches-and-chapels-around-little-solsbury-hill",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Little Solsbury Hill",
+      "title_pt": "Igrejas e capelas perto de Little Solsbury Hill",
+      "generated_by": "rules",
+      "stops": ["Q15045840", "Q15978892", "Q135839184", "Q15713135", "Q548780"],
+      "distance_m": 3216,
+      "walking_seconds": 2573,
+      "visit_minutes": 200
+    },
+    {
+      "slug": "churches-and-chapels-around-bath-abbey-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Bath Abbey Cemetery",
+      "title_pt": "Igrejas e capelas perto de Bath Abbey Cemetery",
+      "generated_by": "rules",
+      "stops": ["Q5116953", "Q7594705", "Q18162319", "Q7595587", "Q4868883"],
+      "distance_m": 4007,
+      "walking_seconds": 3206,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "churches-and-chapels-around-beckford-s-tower-and-museum",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Beckford's Tower and Museum",
+      "title_pt": "Igrejas e capelas perto de Beckford's Tower and Museum",
+      "generated_by": "rules",
+      "stops": ["Q17531548", "Q17532141", "Q4878706", "Q4729355"],
+      "distance_m": 3290,
+      "walking_seconds": 2632,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "churches-and-chapels-around-locksbrook-cemetery-bath",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Locksbrook Cemetery, Bath",
+      "title_pt": "Igrejas e capelas perto de Locksbrook Cemetery, Bath",
+      "generated_by": "rules",
+      "stops": ["Q17532741", "Q6665815", "Q7140611"],
+      "distance_m": 2481,
+      "walking_seconds": 1985,
+      "visit_minutes": 80
+    }
+  ]
+}

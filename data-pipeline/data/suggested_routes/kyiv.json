@@ -1,0 +1,139 @@
+{
+  "city": "kyiv",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-mariinskyi-palace",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Mariinskyi Palace",
+      "title_pt": "Marcos da cidade perto de Palácio Mariyinsky",
+      "generated_by": "rules",
+      "stops": [
+        "Q3394393",
+        "Q16270932",
+        "Q2790684",
+        "Q732489",
+        "Q122728614",
+        "Q1189277",
+        "Q4333119",
+        "Q633737"
+      ],
+      "distance_m": 1676,
+      "walking_seconds": 1341,
+      "visit_minutes": 285
+    },
+    {
+      "slug": "churches-and-chapels-around-kyiv-pechersk-lavra",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Kyiv Pechersk Lavra",
+      "title_pt": "Igrejas e capelas perto de Monastério de Kiev-Petchersk",
+      "generated_by": "rules",
+      "stops": [
+        "Q2524402",
+        "Q3398656",
+        "Q2660193",
+        "Q897712",
+        "Q835932",
+        "Q3400166",
+        "Q242711",
+        "Q2260183"
+      ],
+      "distance_m": 1501,
+      "walking_seconds": 1201,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "city-landmarks-around-maidan-nezalezhnosti",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Maidan Nezalezhnosti",
+      "title_pt": "Marcos da cidade perto de Praça da Independência",
+      "generated_by": "rules",
+      "stops": [
+        "Q63078564",
+        "Q863759",
+        "Q1515426",
+        "Q3917633",
+        "Q2997168",
+        "Q2511681",
+        "Q4470581",
+        "Q2093733"
+      ],
+      "distance_m": 1320,
+      "walking_seconds": 1056,
+      "visit_minutes": 170
+    },
+    {
+      "slug": "city-landmarks-around-house-with-chimaeras",
+      "theme": "landmarks",
+      "title_en": "City landmarks around House with Chimaeras",
+      "title_pt": "Marcos da cidade perto de Casa com Quimeras",
+      "generated_by": "rules",
+      "stops": [
+        "Q6978237",
+        "Q4504385",
+        "Q2627311",
+        "Q2467688",
+        "Q4165554",
+        "Q1440653",
+        "Q7241406",
+        "Q966924"
+      ],
+      "distance_m": 2763,
+      "walking_seconds": 2210,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "monuments-and-memorials-around-the-wall-of-remembrance-of-th",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around The Wall of Remembrance of the Fallen for Ukraine",
+      "title_pt": "Monumentos e memoriais perto de The Wall of Remembrance of the Fallen for Ukrain",
+      "generated_by": "rules",
+      "stops": [
+        "Q16697761",
+        "Q3406857",
+        "Q4343088",
+        "Q3406783",
+        "Q56356293",
+        "Q4343109",
+        "Q64067623",
+        "Q4228449"
+      ],
+      "distance_m": 1593,
+      "walking_seconds": 1274,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "city-landmarks-around-taras-shevchenko-national-university-o",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Taras Shevchenko National University of Kyiv",
+      "title_pt": "Marcos da cidade perto de Universidade de Kiev",
+      "generated_by": "rules",
+      "stops": ["Q924845", "Q1428076", "Q84151", "Q1417441", "Q1427503", "Q787448"],
+      "distance_m": 2885,
+      "walking_seconds": 2308,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "museums-and-collections-around-ukrainian-national-chornobyl",
+      "theme": "museums",
+      "title_en": "Museums and collections around Ukrainian National Chornobyl Museum",
+      "title_pt": "Museus e coleções perto de Museu Nacional de Chernobil",
+      "generated_by": "rules",
+      "stops": ["Q167321", "Q2084457", "Q2502803", "Q2664327", "Q582258", "Q20076768"],
+      "distance_m": 3543,
+      "walking_seconds": 2834,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "monuments-and-memorials-around-mother-ukraine-monument",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Mother Ukraine Monument",
+      "title_pt": "Monumentos e memoriais perto de Mother Ukraine Monument",
+      "generated_by": "rules",
+      "stops": ["Q2642363", "Q4343542", "Q2457600", "Q142917", "Q680752"],
+      "distance_m": 3508,
+      "walking_seconds": 2806,
+      "visit_minutes": 180
+    }
+  ]
+}

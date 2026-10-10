@@ -1,0 +1,148 @@
+{
+  "city": "thessaloniki",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-basilica-of-agios-dimitrios-thessaloni",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Basilica of Agios Dimitrios, Thessaloniki",
+      "title_pt": "Marcos da cidade perto de Hagios Demetrios",
+      "generated_by": "rules",
+      "stops": [
+        "Q1650229",
+        "Q16932289",
+        "Q730019",
+        "Q12281975",
+        "Q12271333",
+        "Q1147957",
+        "Q16331559",
+        "Q1018764"
+      ],
+      "distance_m": 1735,
+      "walking_seconds": 1388,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "churches-and-chapels-around-walls-of-thessaloniki",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Walls of Thessaloniki",
+      "title_pt": "Igrejas e capelas perto de Walls of Thessaloniki",
+      "generated_by": "rules",
+      "stops": [
+        "Q25599435",
+        "Q1504317",
+        "Q3585934",
+        "Q1163620",
+        "Q962846",
+        "Q7963249",
+        "Q27183196",
+        "Q1572213"
+      ],
+      "distance_m": 2368,
+      "walking_seconds": 1894,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "historic-highlights-around-aristotelous-square",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Aristotelous Square",
+      "title_pt": "Destaques históricos perto de Praça Aristotélica",
+      "generated_by": "rules",
+      "stops": [
+        "Q111533968",
+        "Q20717313",
+        "Q643773",
+        "Q60315753",
+        "Q667472",
+        "Q2330528",
+        "Q1954602",
+        "Q25804928"
+      ],
+      "distance_m": 1203,
+      "walking_seconds": 962,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-ataturk-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Atatürk Museum",
+      "title_pt": "Museus e coleções perto de Atatürk Museum",
+      "generated_by": "rules",
+      "stops": ["Q383061", "Q3556658", "Q6940987", "Q7697790", "Q753756", "Q56279567", "Q12297917"],
+      "distance_m": 3657,
+      "walking_seconds": 2926,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "museums-and-collections-around-new-mosque",
+      "theme": "museums",
+      "title_en": "Museums and collections around New Mosque",
+      "title_pt": "Museus e coleções perto de New Mosque",
+      "generated_by": "rules",
+      "stops": [
+        "Q3563137",
+        "Q1163656",
+        "Q27343314",
+        "Q7968493",
+        "Q5058695",
+        "Q2658285",
+        "Q3563158",
+        "Q20732492"
+      ],
+      "distance_m": 3731,
+      "walking_seconds": 2985,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "churches-and-chapels-around-hagia-sophia",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Hagia Sophia",
+      "title_pt": "Igrejas e capelas perto de Hagia Sophia",
+      "generated_by": "rules",
+      "stops": [
+        "Q2330542",
+        "Q4857720",
+        "Q1568660",
+        "Q18745138",
+        "Q1584774",
+        "Q56279678",
+        "Q16152081",
+        "Q27414321"
+      ],
+      "distance_m": 1214,
+      "walking_seconds": 971,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "churches-and-chapels-around-arch-of-galerius-and-rotunda",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Arch of Galerius and Rotunda",
+      "title_pt": "Igrejas e capelas perto de Arco de Galério",
+      "generated_by": "rules",
+      "stops": [
+        "Q1584841",
+        "Q1504607",
+        "Q25489140",
+        "Q1728464",
+        "Q1258082",
+        "Q25344000",
+        "Q27336984",
+        "Q18692021"
+      ],
+      "distance_m": 962,
+      "walking_seconds": 770,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "churches-and-chapels-around-zeitenlik",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Zeitenlik",
+      "title_pt": "Igrejas e capelas perto de Zeitenlik",
+      "generated_by": "rules",
+      "stops": ["Q20652987", "Q3052315", "Q27147002", "Q1742795", "Q5274689", "Q1742784"],
+      "distance_m": 4192,
+      "walking_seconds": 3354,
+      "visit_minutes": 220
+    }
+  ]
+}

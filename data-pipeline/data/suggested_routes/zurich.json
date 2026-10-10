@@ -1,0 +1,148 @@
+{
+  "city": "zurich",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-st-peter",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Peter",
+      "title_pt": "Destaques históricos perto de St. Peter",
+      "generated_by": "rules",
+      "stops": [
+        "Q537986",
+        "Q7878010",
+        "Q24906106",
+        "Q768482",
+        "Q230416",
+        "Q690687",
+        "Q27229903",
+        "Q2027137"
+      ],
+      "distance_m": 847,
+      "walking_seconds": 678,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "museums-and-collections-around-fifa-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around FIFA Museum",
+      "title_pt": "Museus e coleções perto de FIFA Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q2364115",
+        "Q668300",
+        "Q22984572",
+        "Q14547532",
+        "Q1547517",
+        "Q27229968",
+        "Q1021608",
+        "Q2536345"
+      ],
+      "distance_m": 3933,
+      "walking_seconds": 3146,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "historic-highlights-around-kunsthaus-zurich",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Kunsthaus Zürich",
+      "title_pt": "Destaques históricos perto de Museu das Belas Artes",
+      "generated_by": "rules",
+      "stops": [
+        "Q25111216",
+        "Q1534318",
+        "Q18648709",
+        "Q18391860",
+        "Q18392442",
+        "Q808118",
+        "Q685038",
+        "Q815950"
+      ],
+      "distance_m": 1543,
+      "walking_seconds": 1234,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-grossmunster",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Grossmünster",
+      "title_pt": "Marcos da cidade perto de Grossmünster",
+      "generated_by": "rules",
+      "stops": [
+        "Q1112395",
+        "Q684948",
+        "Q477189",
+        "Q18716357",
+        "Q7849515",
+        "Q14545051",
+        "Q9315546",
+        "Q2132652"
+      ],
+      "distance_m": 962,
+      "walking_seconds": 770,
+      "visit_minutes": 250
+    },
+    {
+      "slug": "city-landmarks-around-national-museum-zurich",
+      "theme": "landmarks",
+      "title_en": "City landmarks around National Museum Zurich",
+      "title_pt": "Marcos da cidade perto de Museu Nacional Suíço",
+      "generated_by": "rules",
+      "stops": [
+        "Q1823936",
+        "Q1053678",
+        "Q18729862",
+        "Q801700",
+        "Q2256718",
+        "Q691896",
+        "Q27325130",
+        "Q668213"
+      ],
+      "distance_m": 2245,
+      "walking_seconds": 1796,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "city-landmarks-around-turicum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Turicum",
+      "title_pt": "Marcos da cidade perto de Turicum",
+      "generated_by": "rules",
+      "stops": [
+        "Q811859",
+        "Q21029727",
+        "Q248517",
+        "Q16785386",
+        "Q39374",
+        "Q18729875",
+        "Q190260",
+        "Q220270"
+      ],
+      "distance_m": 2606,
+      "walking_seconds": 2085,
+      "visit_minutes": 380
+    },
+    {
+      "slug": "museums-and-collections-around-pavillon-le-corbusier",
+      "theme": "museums",
+      "title_en": "Museums and collections around Pavillon Le Corbusier",
+      "title_pt": "Museus e coleções perto de Pavillon Le Corbusier",
+      "generated_by": "rules",
+      "stops": ["Q1792425", "Q666331", "Q686324", "Q638236", "Q15059954", "Q2121988"],
+      "distance_m": 3819,
+      "walking_seconds": 3055,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "museums-and-collections-around-natural-history-museum-of-the",
+      "theme": "museums",
+      "title_en": "Museums and collections around Natural History Museum of the University of Zuric",
+      "title_pt": "Museus e coleções perto de Natural History Museum of the University of Zurich",
+      "generated_by": "rules",
+      "stops": ["Q134929065", "Q252513", "Q2334546", "Q1236093", "Q76901204", "Q688143"],
+      "distance_m": 3523,
+      "walking_seconds": 2818,
+      "visit_minutes": 330
+    }
+  ]
+}

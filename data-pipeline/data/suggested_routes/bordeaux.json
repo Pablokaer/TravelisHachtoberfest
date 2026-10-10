@@ -1,0 +1,119 @@
+{
+  "city": "bordeaux",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-bordeaux-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bordeaux Cathedral",
+      "title_pt": "Destaques históricos perto de Bordeaux Cathedral",
+      "generated_by": "rules",
+      "stops": [
+        "Q3517667",
+        "Q954262",
+        "Q3390041",
+        "Q656738",
+        "Q1090719",
+        "Q1822513",
+        "Q2928315",
+        "Q3330168"
+      ],
+      "distance_m": 1031,
+      "walking_seconds": 825,
+      "visit_minutes": 375
+    },
+    {
+      "slug": "city-landmarks-around-place-des-quinconces",
+      "theme": "landmarks",
+      "title_en": "City landmarks around place des Quinconces",
+      "title_pt": "Marcos da cidade perto de Place des Quinconces",
+      "generated_by": "rules",
+      "stops": [
+        "Q3330869",
+        "Q2945071",
+        "Q1431600",
+        "Q1064990",
+        "Q3580511",
+        "Q3388433",
+        "Q3390666",
+        "Q3390346"
+      ],
+      "distance_m": 2644,
+      "walking_seconds": 2115,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "historic-highlights-around-basilica-of-st-michael-bordeaux",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of St. Michael, Bordeaux",
+      "title_pt": "Destaques históricos perto de Basilica of St. Michael, Bordeaux",
+      "generated_by": "rules",
+      "stops": [
+        "Q17515944",
+        "Q1064995",
+        "Q3399134",
+        "Q2887024",
+        "Q1773424",
+        "Q2105012",
+        "Q3583483",
+        "Q3117062"
+      ],
+      "distance_m": 2813,
+      "walking_seconds": 2250,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "historic-highlights-around-musee-des-beaux-arts-de-bordeaux",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Musée des Beaux-Arts de Bordeaux",
+      "title_pt": "Destaques históricos perto de Museu de Belas Artes de Bordéus",
+      "generated_by": "rules",
+      "stops": [
+        "Q15818400",
+        "Q3329534",
+        "Q5002063",
+        "Q3585030",
+        "Q3390417",
+        "Q954222",
+        "Q3398911",
+        "Q3389827"
+      ],
+      "distance_m": 1776,
+      "walking_seconds": 1421,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "museums-and-collections-around-cite-du-vin",
+      "theme": "museums",
+      "title_en": "Museums and collections around Cité du Vin",
+      "title_pt": "Museus e coleções perto de Cité du Vin",
+      "generated_by": "rules",
+      "stops": ["Q124069428", "Q9187870", "Q3396576", "Q16964634"],
+      "distance_m": 3580,
+      "walking_seconds": 2864,
+      "visit_minutes": 230
+    },
+    {
+      "slug": "city-landmarks-around-synagogue",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Synagogue",
+      "title_pt": "Marcos da cidade perto de Grande Sinagoga de Bordéus",
+      "generated_by": "rules",
+      "stops": ["Q3390464", "Q3398991", "Q1316358", "Q3330717", "Q3390134", "Q966584", "Q2055979"],
+      "distance_m": 4070,
+      "walking_seconds": 3256,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "city-landmarks-around-basilica-of-saint-severinus-of-bordeau",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Basilica of Saint Severinus of Bordeaux",
+      "title_pt": "Marcos da cidade perto de Basilica of Saint Severinus of Bordeaux",
+      "generated_by": "rules",
+      "stops": ["Q2972581", "Q59709805", "Q2887041", "Q1826410"],
+      "distance_m": 2402,
+      "walking_seconds": 1922,
+      "visit_minutes": 90
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "city": "xian",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-xi-an",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Xi'an",
+      "title_pt": "Marcos da cidade perto de Xian",
+      "generated_by": "rules",
+      "stops": [
+        "Q8030399",
+        "Q641427",
+        "Q1334336",
+        "Q1151087",
+        "Q5826",
+        "Q2742315",
+        "Q820842",
+        "Q1179018"
+      ],
+      "distance_m": 3596,
+      "walking_seconds": 2877,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "city-landmarks-around-giant-wild-goose-pagoda",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Giant Wild Goose Pagoda",
+      "title_pt": "Marcos da cidade perto de Pagode do Grande Ganso Selvagem",
+      "generated_by": "rules",
+      "stops": ["Q5370929", "Q1047061", "Q1151210"],
+      "distance_m": 1385,
+      "walking_seconds": 1108,
+      "visit_minutes": 130
+    },
+    {
+      "slug": "city-landmarks-around-small-wild-goose-pagoda",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Small Wild Goose Pagoda",
+      "title_pt": "Marcos da cidade perto de Small Wild Goose Pagoda",
+      "generated_by": "rules",
+      "stops": ["Q4155168", "Q15928831", "Q836192", "Q1194818"],
+      "distance_m": 1886,
+      "walking_seconds": 1509,
+      "visit_minutes": 150
+    }
+  ]
+}

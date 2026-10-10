@@ -1,0 +1,28 @@
+{
+  "city": "ubud",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-ubud-palace",
+      "theme": "museums",
+      "title_en": "Museums and collections around Ubud Palace",
+      "title_pt": "Museus e coleções perto de Ubud Palace",
+      "generated_by": "rules",
+      "stops": ["Q4924960", "Q7261229", "Q48841813", "Q19646466", "Q398622", "Q7260781"],
+      "distance_m": 3479,
+      "walking_seconds": 2783,
+      "visit_minutes": 385
+    },
+    {
+      "slug": "city-landmarks-around-goa-gajah",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Goa Gajah",
+      "title_pt": "Marcos da cidade perto de Goa Gajah",
+      "generated_by": "rules",
+      "stops": ["Q2037360", "Q7260864", "Q56391208", "Q19595604"],
+      "distance_m": 1970,
+      "walking_seconds": 1576,
+      "visit_minutes": 150
+    }
+  ]
+}

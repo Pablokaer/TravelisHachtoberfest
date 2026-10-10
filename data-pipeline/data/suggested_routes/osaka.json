@@ -1,0 +1,120 @@
+{
+  "city": "osaka",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-mario-kart-bowser-s-challenge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Mario Kart: Bowser's Challenge",
+      "title_pt": "Marcos da cidade perto de Mario Kart: Bowser's Challenge",
+      "generated_by": "rules",
+      "stops": ["Q11249107", "Q548263", "Q25110043", "Q104125924", "Q822344", "Q7572345"],
+      "distance_m": 2791,
+      "walking_seconds": 2233,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "historic-highlights-around-osaka-castle-park",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Osaka Castle Park",
+      "title_pt": "Destaques históricos perto de Osaka Castle Park",
+      "generated_by": "rules",
+      "stops": [
+        "Q11261312",
+        "Q11499410",
+        "Q28456931",
+        "Q7105564",
+        "Q704855",
+        "Q11440386",
+        "Q150118",
+        "Q1112927"
+      ],
+      "distance_m": 2813,
+      "walking_seconds": 2250,
+      "visit_minutes": 440
+    },
+    {
+      "slug": "city-landmarks-around-shitenno-ji-temple",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Shitennō-ji Temple",
+      "title_pt": "Marcos da cidade perto de Shitennō-ji",
+      "generated_by": "rules",
+      "stops": ["Q59536065", "Q9004920", "Q1148463", "Q3155710", "Q339859", "Q11443941"],
+      "distance_m": 3453,
+      "walking_seconds": 2762,
+      "visit_minutes": 255
+    },
+    {
+      "slug": "museums-and-collections-around-national-museum-of-art-osaka",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Museum of Art, Osaka",
+      "title_pt": "Museus e coleções perto de National Museum of Art",
+      "generated_by": "rules",
+      "stops": [
+        "Q50375431",
+        "Q1055037",
+        "Q875709",
+        "Q11563573",
+        "Q11464751",
+        "Q11440555",
+        "Q11261549",
+        "Q11660942"
+      ],
+      "distance_m": 3976,
+      "walking_seconds": 3181,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "city-landmarks-around-nipponbashi",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Nipponbashi",
+      "title_pt": "Marcos da cidade perto de Nipponbashi",
+      "generated_by": "rules",
+      "stops": [
+        "Q42162826",
+        "Q11574477",
+        "Q11428052",
+        "Q5191476",
+        "Q11555078",
+        "Q11495351",
+        "Q11659527"
+      ],
+      "distance_m": 3408,
+      "walking_seconds": 2726,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "city-landmarks-around-osaka-tenmangu",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ōsaka Tenmangū",
+      "title_pt": "Marcos da cidade perto de Ōsaka Tenmangū",
+      "generated_by": "rules",
+      "stops": ["Q849402", "Q385793", "Q11444501", "Q11607146", "Q751156"],
+      "distance_m": 3180,
+      "walking_seconds": 2544,
+      "visit_minutes": 100
+    },
+    {
+      "slug": "city-landmarks-around-sumiyoshi-taisha",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Sumiyoshi Taisha",
+      "title_pt": "Marcos da cidade perto de Sumiyoshi taisha",
+      "generated_by": "rules",
+      "stops": ["Q11657965", "Q11481047", "Q705949", "Q11381878"],
+      "distance_m": 2996,
+      "walking_seconds": 2397,
+      "visit_minutes": 135
+    },
+    {
+      "slug": "historic-highlights-around-fujita-art-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Fujita Art Museum",
+      "title_pt": "Destaques históricos perto de Fujita Art Museum",
+      "generated_by": "rules",
+      "stops": ["Q3514709", "Q11439944", "Q3608523", "Q3329563"],
+      "distance_m": 2977,
+      "walking_seconds": 2382,
+      "visit_minutes": 230
+    }
+  ]
+}

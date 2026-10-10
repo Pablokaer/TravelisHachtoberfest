@@ -1,0 +1,17 @@
+{
+  "city": "phuket",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-old-phuket-town",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Old Phuket Town",
+      "title_pt": "Marcos da cidade perto de Old Phuket Town",
+      "generated_by": "rules",
+      "stops": ["Q17063772", "Q97323619", "Q6631981"],
+      "distance_m": 936,
+      "walking_seconds": 749,
+      "visit_minutes": 60
+    }
+  ]
+}

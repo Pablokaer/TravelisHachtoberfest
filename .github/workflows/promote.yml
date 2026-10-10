@@ -1,0 +1,84 @@
+name: Promote
+
+# Release gate dev → main (D-075). Code reaches dev through pull requests; when CI and Security
+# both pass on a push to dev, this workflow waits for a manual approval (environment `release`),
+# then fast-forwards main to that exact commit and deploys it (deploy.yml). main is never merged
+# into or pushed to by hand (ruleset), so what runs in production is a commit every pipeline
+# already approved — not a new merge commit nobody tested.
+#
+# Approve: Actions → Promote → the waiting run → Review deployments → release → Approve.
+# A newer green commit on dev replaces a release still waiting for approval.
+
+on:
+  workflow_run:
+    workflows: [CI, Security]
+    types: [completed]
+    branches: [dev]
+
+permissions:
+  contents: read
+
+env:
+  RELEASE_SHA: ${{ github.event.workflow_run.head_sha }}
+
+jobs:
+  gate:
+    name: CI and Security passed on the tip of dev
+    # Each of the two workflows triggers a run; the one that completes second finds both green.
+    if: github.event.workflow_run.event == 'push' && github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+      contents: read
+    outputs:
+      ready: ${{ steps.verdict.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: verdict
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/release-gate.mjs "$RELEASE_SHA" CI Security
+
+  release:
+    name: Approve and fast-forward main
+    needs: gate
+    if: needs.gate.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # Required reviewers: the job waits here until someone approves it.
+    environment: release
+    concurrency:
+      group: release-approval
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASE_SHA }}
+          fetch-depth: 0
+          persist-credentials: false
+      # main's ruleset lets only deploy keys update it: GitHub Actions cannot be a ruleset bypass
+      # actor in a personal repository. The key is a secret of the `release` environment, so it
+      # exists in this job only after the approval. github.com's host key is pinned (`gh api meta`).
+      # A plain push: it fails, deploying nothing, if main has a commit dev does not (not a
+      # fast-forward).
+      - name: Fast-forward main
+        env:
+          RELEASE_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$RELEASE_DEPLOY_KEY" > ~/.ssh/release_key
+          chmod 600 ~/.ssh/release_key
+          echo 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' > ~/.ssh/known_hosts
+          export GIT_SSH_COMMAND='ssh -i ~/.ssh/release_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes'
+          git push "git@github.com:$GITHUB_REPOSITORY.git" "$RELEASE_SHA:refs/heads/main"
+          rm -f ~/.ssh/release_key
+      - run: echo "main → \`$RELEASE_SHA\`" >> "$GITHUB_STEP_SUMMARY"
+
+  deploy:
+    name: Deploy
+    needs: release
+    uses: ./.github/workflows/deploy.yml
+    with:
+      sha: ${{ github.event.workflow_run.head_sha }}
+    secrets: inherit

@@ -1,0 +1,130 @@
+{
+  "city": "budapest",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-shoes-on-the-danube-bank",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Shoes on the Danube Bank",
+      "title_pt": "Destaques históricos perto de Shoes on the Danube Bank",
+      "generated_by": "rules",
+      "stops": [
+        "Q16522996",
+        "Q473811",
+        "Q11819",
+        "Q920826",
+        "Q107536682",
+        "Q299975",
+        "Q17395483",
+        "Q1252448"
+      ],
+      "distance_m": 1881,
+      "walking_seconds": 1505,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-buda-castle",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Buda Castle",
+      "title_pt": "Destaques históricos perto de Castelo de Buda",
+      "generated_by": "rules",
+      "stops": [
+        "Q109933478",
+        "Q927806",
+        "Q161181",
+        "Q6791545",
+        "Q16854089",
+        "Q252071",
+        "Q46313",
+        "Q1434400"
+      ],
+      "distance_m": 1169,
+      "walking_seconds": 935,
+      "visit_minutes": 435
+    },
+    {
+      "slug": "historic-highlights-around-st-stephen-s-basilica",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St. Stephen's Basilica",
+      "title_pt": "Destaques históricos perto de Basílica de Santo Estêvão",
+      "generated_by": "rules",
+      "stops": [
+        "Q5567049",
+        "Q338665",
+        "Q854317",
+        "Q1111022",
+        "Q570848",
+        "Q1005927",
+        "Q904825",
+        "Q569083"
+      ],
+      "distance_m": 2979,
+      "walking_seconds": 2383,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "city-landmarks-around-dohany-street-synagogue",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dohány Street Synagogue",
+      "title_pt": "Marcos da cidade perto de Sinagoga de Budapeste",
+      "generated_by": "rules",
+      "stops": [
+        "Q725839",
+        "Q754397",
+        "Q914141",
+        "Q934011",
+        "Q837275",
+        "Q792586",
+        "Q699098",
+        "Q5221261"
+      ],
+      "distance_m": 3515,
+      "walking_seconds": 2812,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "museums-and-collections-around-heroes-square",
+      "theme": "museums",
+      "title_en": "Museums and collections around Heroes' Square",
+      "title_pt": "Museus e coleções perto de Praça dos Heróis",
+      "generated_by": "rules",
+      "stops": ["Q1114896", "Q636088", "Q368537", "Q299973", "Q840886", "Q1092030", "Q718278"],
+      "distance_m": 3329,
+      "walking_seconds": 2663,
+      "visit_minutes": 490
+    },
+    {
+      "slug": "city-landmarks-around-matthias-church",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Matthias Church",
+      "title_pt": "Marcos da cidade perto de Matthias Church",
+      "generated_by": "rules",
+      "stops": ["Q767163", "Q791408", "Q493133", "Q1298262", "Q30589610", "Q465534"],
+      "distance_m": 3726,
+      "walking_seconds": 2981,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-liberty-statue",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Liberty Statue",
+      "title_pt": "Destaques históricos perto de Liberty Statue",
+      "generated_by": "rules",
+      "stops": ["Q16540894", "Q206170", "Q933182", "Q839142", "Q915195", "Q720901"],
+      "distance_m": 3182,
+      "walking_seconds": 2546,
+      "visit_minutes": 210
+    },
+    {
+      "slug": "city-landmarks-around-house-of-terror-museum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around House of Terror Museum",
+      "title_pt": "Marcos da cidade perto de Casa do Terror",
+      "generated_by": "rules",
+      "stops": ["Q916120", "Q6433434", "Q1072717", "Q372376"],
+      "distance_m": 2914,
+      "walking_seconds": 2331,
+      "visit_minutes": 150
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "city": "ubatuba",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-sobrado-do-porto",
+      "theme": "museums",
+      "title_en": "Museums and collections around Sobrado do Porto",
+      "title_pt": "Museus e coleções perto de Sobrado do Porto",
+      "generated_by": "rules",
+      "stops": ["Q56694687", "Q67175809", "Q56692472"],
+      "distance_m": 2396,
+      "walking_seconds": 1917,
+      "visit_minutes": 200
+    }
+  ]
+}

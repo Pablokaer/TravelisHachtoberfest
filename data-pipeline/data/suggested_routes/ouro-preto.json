@@ -1,0 +1,108 @@
+{
+  "city": "ouro-preto",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-church-of-saint-francis-of-assis",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Saint Francis of Assisi (Ouro Preto)",
+      "title_pt": "Igrejas e capelas perto de Igreja de São Francisco de Assis (Ouro Preto)",
+      "generated_by": "rules",
+      "stops": [
+        "Q10299997",
+        "Q10300158",
+        "Q2337984",
+        "Q10333699",
+        "Q10333913",
+        "Q10300162",
+        "Q3845692",
+        "Q10353388"
+      ],
+      "distance_m": 915,
+      "walking_seconds": 732,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-our-lady-of-the-rosary",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Our Lady of the Rosary",
+      "title_pt": "Igrejas e capelas perto de Igreja de Nossa Senhora do Rosário (Ouro Preto)",
+      "generated_by": "rules",
+      "stops": [
+        "Q65163987",
+        "Q10300537",
+        "Q10300226",
+        "Q10300157",
+        "Q10344076",
+        "Q10333379",
+        "Q62063344",
+        "Q18480558"
+      ],
+      "distance_m": 2313,
+      "walking_seconds": 1850,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "historic-highlights-around-igreja-matriz-de-nossa-senhora-do",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Igreja Matriz de Nossa Senhora do Pilar (Ouro Preto)",
+      "title_pt": "Destaques históricos perto de Igreja Matriz de Nossa Senhora do Pilar (Ouro Pret",
+      "generated_by": "rules",
+      "stops": [
+        "Q104805742",
+        "Q10300071",
+        "Q10333788",
+        "Q10300748",
+        "Q106547282",
+        "Q10333435",
+        "Q18462652",
+        "Q10333424"
+      ],
+      "distance_m": 1889,
+      "walking_seconds": 1511,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-cathedral-basilica-of-our-lady-of",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Cathedral Basilica of Our Lady of Assumption, Mariana",
+      "title_pt": "Destaques históricos perto de Catedral Basílica Nossa Senhora da Assunção",
+      "generated_by": "rules",
+      "stops": [
+        "Q121812046",
+        "Q18482288",
+        "Q10333781",
+        "Q121812061",
+        "Q10300506",
+        "Q10300224",
+        "Q30933737",
+        "Q9698278"
+      ],
+      "distance_m": 564,
+      "walking_seconds": 451,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "churches-and-chapels-around-church-of-saint-peter-of-the-cle",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Church of Saint Peter of the Clergymen",
+      "title_pt": "Igrejas e capelas perto de Igreja de São Pedro dos Clérigos (Mariana)",
+      "generated_by": "rules",
+      "stops": ["Q18476630", "Q48879193", "Q10300840", "Q20053142", "Q124428278", "Q10300546"],
+      "distance_m": 1953,
+      "walking_seconds": 1562,
+      "visit_minutes": 285
+    },
+    {
+      "slug": "historic-highlights-around-sanctuary-of-bom-jesus-de-matosin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Sanctuary of Bom Jesus de Matosinhos",
+      "title_pt": "Destaques históricos perto de Santuário do Bom Jesus de Matosinhos",
+      "generated_by": "rules",
+      "stops": ["Q56693994", "Q1595417", "Q7857641"],
+      "distance_m": 282,
+      "walking_seconds": 226,
+      "visit_minutes": 140
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "city": "london",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-tower-of-london",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Tower of London",
+      "title_pt": "Destaques históricos perto de Torre de Londres",
+      "generated_by": "rules",
+      "stops": [
+        "Q922967",
+        "Q130206",
+        "Q607700",
+        "Q757178",
+        "Q1938714",
+        "Q62378",
+        "Q1528473",
+        "Q83125"
+      ],
+      "distance_m": 2297,
+      "walking_seconds": 1838,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "historic-highlights-around-big-ben",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Big Ben",
+      "title_pt": "Destaques históricos perto de Big Ben",
+      "generated_by": "rules",
+      "stops": [
+        "Q2459269",
+        "Q5933",
+        "Q1275898",
+        "Q62408",
+        "Q456960",
+        "Q41225",
+        "Q2896743",
+        "Q1024854"
+      ],
+      "distance_m": 1488,
+      "walking_seconds": 1190,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "historic-highlights-around-buckingham-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Buckingham Palace",
+      "title_pt": "Destaques históricos perto de Palácio de Buckingham",
+      "generated_by": "rules",
+      "stops": [
+        "Q7373706",
+        "Q622206",
+        "Q272162",
+        "Q565521",
+        "Q1333411",
+        "Q1459037",
+        "Q42182",
+        "Q739364"
+      ],
+      "distance_m": 2850,
+      "walking_seconds": 2280,
+      "visit_minutes": 475
+    },
+    {
+      "slug": "museums-and-collections-around-british-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around British Museum",
+      "title_pt": "Museus e coleções perto de Museu Britânico",
+      "generated_by": "rules",
+      "stops": [
+        "Q848912",
+        "Q238587",
+        "Q180788",
+        "Q1335201",
+        "Q2060860",
+        "Q6373",
+        "Q606662",
+        "Q797085"
+      ],
+      "distance_m": 4034,
+      "walking_seconds": 3227,
+      "visit_minutes": 445
+    },
+    {
+      "slug": "historic-highlights-around-st-paul-s-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around St Paul's Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral de São Paulo",
+      "generated_by": "rules",
+      "stops": [
+        "Q180887",
+        "Q193375",
+        "Q44057",
+        "Q173882",
+        "Q60308",
+        "Q81279",
+        "Q2301992",
+        "Q738950"
+      ],
+      "distance_m": 2803,
+      "walking_seconds": 2242,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "monuments-and-memorials-around-trafalgar-square",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Trafalgar Square",
+      "title_pt": "Monumentos e memoriais perto de Trafalgar Square",
+      "generated_by": "rules",
+      "stops": ["Q270920", "Q129143", "Q842089", "Q216185", "Q729177", "Q160659"],
+      "distance_m": 2581,
+      "walking_seconds": 2065,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "museums-and-collections-around-kensington-palace",
+      "theme": "museums",
+      "title_en": "Museums and collections around Kensington Palace",
+      "title_pt": "Museus e coleções perto de Palácio de Kensington",
+      "generated_by": "rules",
+      "stops": ["Q1769288", "Q213322", "Q309388", "Q674773", "Q281465", "Q207385"],
+      "distance_m": 2633,
+      "walking_seconds": 2106,
+      "visit_minutes": 395
+    },
+    {
+      "slug": "museums-and-collections-around-madame-tussauds",
+      "theme": "museums",
+      "title_en": "Museums and collections around Madame Tussauds",
+      "title_pt": "Museus e coleções perto de Madame Tussauds",
+      "generated_by": "rules",
+      "stops": ["Q510323", "Q845529", "Q1327919", "Q186309"],
+      "distance_m": 1832,
+      "walking_seconds": 1466,
+      "visit_minutes": 220
+    }
+  ]
+}

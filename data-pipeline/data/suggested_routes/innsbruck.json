@@ -1,0 +1,108 @@
+{
+  "city": "innsbruck",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-golden-roof",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Golden Roof",
+      "title_pt": "Destaques históricos perto de Golden Roof",
+      "generated_by": "rules",
+      "stops": [
+        "Q719669",
+        "Q719616",
+        "Q700208",
+        "Q258578",
+        "Q356289",
+        "Q2650841",
+        "Q18020538",
+        "Q262306"
+      ],
+      "distance_m": 455,
+      "walking_seconds": 364,
+      "visit_minutes": 445
+    },
+    {
+      "slug": "museums-and-collections-around-ambras-castle",
+      "theme": "museums",
+      "title_en": "Museums and collections around Ambras Castle",
+      "title_pt": "Museus e coleções perto de Palácio de Ambras",
+      "generated_by": "rules",
+      "stops": ["Q24707863", "Q24707872", "Q20479964", "Q3392861", "Q700764"],
+      "distance_m": 1737,
+      "walking_seconds": 1390,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "monuments-and-memorials-around-triumphpforte",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Triumphpforte",
+      "title_pt": "Monumentos e memoriais perto de Triumphpforte",
+      "generated_by": "rules",
+      "stops": [
+        "Q1306456",
+        "Q626388",
+        "Q1400334",
+        "Q564625",
+        "Q1479727",
+        "Q814224",
+        "Q35772372",
+        "Q786507"
+      ],
+      "distance_m": 1293,
+      "walking_seconds": 1034,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "churches-and-chapels-around-leopold-fountain",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Leopold Fountain",
+      "title_pt": "Igrejas e capelas perto de Leopold Fountain",
+      "generated_by": "rules",
+      "stops": [
+        "Q196954",
+        "Q686153",
+        "Q18215310",
+        "Q387643",
+        "Q1819966",
+        "Q874539",
+        "Q632657",
+        "Q1896578"
+      ],
+      "distance_m": 3179,
+      "walking_seconds": 2543,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "museums-and-collections-around-tyrol-panorama-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Tyrol Panorama Museum",
+      "title_pt": "Museus e coleções perto de Tyrol Panorama Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q20266923",
+        "Q109658974",
+        "Q877413",
+        "Q1315406",
+        "Q1664219",
+        "Q2436269",
+        "Q873095",
+        "Q1170557"
+      ],
+      "distance_m": 3458,
+      "walking_seconds": 2766,
+      "visit_minutes": 470
+    },
+    {
+      "slug": "churches-and-chapels-around-weiherburg",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Weiherburg",
+      "title_pt": "Igrejas e capelas perto de Weiherburg",
+      "generated_by": "rules",
+      "stops": ["Q18629414", "Q38067956", "Q21964298", "Q1407602"],
+      "distance_m": 4124,
+      "walking_seconds": 3299,
+      "visit_minutes": 170
+    }
+  ]
+}

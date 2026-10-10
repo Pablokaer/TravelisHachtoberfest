@@ -1,0 +1,148 @@
+{
+  "city": "paris",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "monuments-and-memorials-around-louvre-museum",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Louvre Museum",
+      "title_pt": "Monumentos e memoriais perto de Museu do Louvre",
+      "generated_by": "rules",
+      "stops": [
+        "Q631104",
+        "Q19675",
+        "Q1075988",
+        "Q216402",
+        "Q151952",
+        "Q517408",
+        "Q4945054",
+        "Q329948"
+      ],
+      "distance_m": 1074,
+      "walking_seconds": 859,
+      "visit_minutes": 340
+    },
+    {
+      "slug": "historic-highlights-around-notre-dame-de-paris",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Notre-Dame de Paris",
+      "title_pt": "Destaques históricos perto de Notre-Dame de Paris",
+      "generated_by": "rules",
+      "stops": [
+        "Q1394918",
+        "Q1710376",
+        "Q2981",
+        "Q270273",
+        "Q193193",
+        "Q2047247",
+        "Q1431547",
+        "Q640968"
+      ],
+      "distance_m": 2197,
+      "walking_seconds": 1758,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "historic-highlights-around-catacombs-of-paris",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Catacombs of Paris",
+      "title_pt": "Destaques históricos perto de Catacumbas de Paris",
+      "generated_by": "rules",
+      "stops": [
+        "Q392564",
+        "Q641548",
+        "Q583251",
+        "Q188856",
+        "Q3076041",
+        "Q329852",
+        "Q272208",
+        "Q28924"
+      ],
+      "distance_m": 4505,
+      "walking_seconds": 3604,
+      "visit_minutes": 305
+    },
+    {
+      "slug": "historic-highlights-around-musee-d-orsay",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Musée d'Orsay",
+      "title_pt": "Destaques históricos perto de Museu de Orsay",
+      "generated_by": "rules",
+      "stops": [
+        "Q273593",
+        "Q23402",
+        "Q726781",
+        "Q189503",
+        "Q3076336",
+        "Q1503331",
+        "Q936633",
+        "Q912192"
+      ],
+      "distance_m": 3445,
+      "walking_seconds": 2756,
+      "visit_minutes": 480
+    },
+    {
+      "slug": "historic-highlights-around-eiffel-tower",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Eiffel Tower",
+      "title_pt": "Destaques históricos perto de Torre Eiffel",
+      "generated_by": "rules",
+      "stops": [
+        "Q13360213",
+        "Q670268",
+        "Q290355",
+        "Q243",
+        "Q167863",
+        "Q1535247",
+        "Q3036228",
+        "Q1621256"
+      ],
+      "distance_m": 3215,
+      "walking_seconds": 2572,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "historic-highlights-around-centre-georges-pompidou",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Centre Georges Pompidou",
+      "title_pt": "Destaques históricos perto de Centro Georges Pompidou",
+      "generated_by": "rules",
+      "stops": [
+        "Q684594",
+        "Q1538826",
+        "Q1895953",
+        "Q178065",
+        "Q1338207",
+        "Q1429394",
+        "Q335277",
+        "Q1329141"
+      ],
+      "distance_m": 3568,
+      "walking_seconds": 2854,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "city-landmarks-around-arc-de-triomphe",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Arc de Triomphe",
+      "title_pt": "Marcos da cidade perto de Arco do Triunfo",
+      "generated_by": "rules",
+      "stops": ["Q1092107", "Q390243", "Q64436", "Q523312", "Q820892", "Q390418"],
+      "distance_m": 4438,
+      "walking_seconds": 3550,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "churches-and-chapels-around-elysee-palace",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Élysée Palace",
+      "title_pt": "Igrejas e capelas perto de Palácio do Eliseu",
+      "generated_by": "rules",
+      "stops": ["Q650519", "Q188190", "Q1062732", "Q330564", "Q643520"],
+      "distance_m": 4095,
+      "walking_seconds": 3276,
+      "visit_minutes": 245
+    }
+  ]
+}

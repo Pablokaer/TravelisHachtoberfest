@@ -1,0 +1,121 @@
+{
+  "city": "kuala-lumpur",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-national-mosque-of-malaysia",
+      "theme": "landmarks",
+      "title_en": "City landmarks around National Mosque of Malaysia",
+      "title_pt": "Marcos da cidade perto de National Mosque of Malaysia",
+      "generated_by": "rules",
+      "stops": [
+        "Q3043065",
+        "Q6973386",
+        "Q19117247",
+        "Q109345562",
+        "Q2494864",
+        "Q106179173",
+        "Q7586152",
+        "Q1356818"
+      ],
+      "distance_m": 1946,
+      "walking_seconds": 1557,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "museums-and-collections-around-national-monument",
+      "theme": "museums",
+      "title_en": "Museums and collections around National Monument",
+      "title_pt": "Museus e coleções perto de National Monument",
+      "generated_by": "rules",
+      "stops": [
+        "Q4845058",
+        "Q66041057",
+        "Q6738654",
+        "Q3330187",
+        "Q3015254",
+        "Q12697599",
+        "Q724745",
+        "Q4654181"
+      ],
+      "distance_m": 3456,
+      "walking_seconds": 2765,
+      "visit_minutes": 520
+    },
+    {
+      "slug": "historic-highlights-around-thean-hou-temple",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Thean Hou Temple",
+      "title_pt": "Destaques históricos perto de Thean Hou Temple",
+      "generated_by": "rules",
+      "stops": [
+        "Q123197508",
+        "Q917630",
+        "Q18394769",
+        "Q123609393",
+        "Q13161247",
+        "Q123604498",
+        "Q4984255",
+        "Q2639733"
+      ],
+      "distance_m": 3633,
+      "walking_seconds": 2906,
+      "visit_minutes": 330
+    },
+    {
+      "slug": "city-landmarks-around-saloma-link",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Saloma Link",
+      "title_pt": "Marcos da cidade perto de Saloma Link",
+      "generated_by": "rules",
+      "stops": ["Q3294835", "Q85513950", "Q17006400", "Q7408028", "Q3396984"],
+      "distance_m": 3366,
+      "walking_seconds": 2693,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "historic-highlights-around-sultan-abdul-samad-jamek-mosque",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Sultan Abdul Samad Jamek Mosque",
+      "title_pt": "Destaques históricos perto de Sultan Abdul Samad Jamek Mosque",
+      "generated_by": "rules",
+      "stops": ["Q8050516", "Q123451916", "Q5552448", "Q7393613", "Q6796899", "Q1143296"],
+      "distance_m": 2648,
+      "walking_seconds": 2118,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "city-landmarks-around-batu-caves",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Batu Caves",
+      "title_pt": "Marcos da cidade perto de Batu Caves",
+      "generated_by": "rules",
+      "stops": ["Q4702183", "Q6679799", "Q687629"],
+      "distance_m": 1366,
+      "walking_seconds": 1093,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "churches-and-chapels-around-wat-chetawan",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Wat Chetawan",
+      "title_pt": "Igrejas e capelas perto de Wat Chetawan",
+      "generated_by": "rules",
+      "stops": ["Q7588006", "Q27473082", "Q7972928", "Q3408450", "Q7586271"],
+      "distance_m": 3327,
+      "walking_seconds": 2662,
+      "visit_minutes": 190
+    },
+    {
+      "slug": "city-landmarks-around-kerinchi-pylon",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Kerinchi Pylon",
+      "title_pt": "Marcos da cidade perto de Kerinchi Pylon",
+      "generated_by": "rules",
+      "stops": ["Q3407638", "Q6393909", "Q27962665", "Q7393569"],
+      "distance_m": 3830,
+      "walking_seconds": 3064,
+      "visit_minutes": 150
+    }
+  ]
+}

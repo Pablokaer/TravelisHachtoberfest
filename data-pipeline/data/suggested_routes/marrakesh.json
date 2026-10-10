@@ -1,0 +1,88 @@
+{
+  "city": "marrakesh",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-koutoubia-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Koutoubia Mosque",
+      "title_pt": "Marcos da cidade perto de Mesquita de Koutoubia",
+      "generated_by": "rules",
+      "stops": [
+        "Q4837238",
+        "Q4837210",
+        "Q1137533",
+        "Q258348",
+        "Q117075309",
+        "Q96394004",
+        "Q3324857",
+        "Q58974467"
+      ],
+      "distance_m": 2345,
+      "walking_seconds": 1876,
+      "visit_minutes": 370
+    },
+    {
+      "slug": "city-landmarks-around-ben-youssef-madrasa",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ben Youssef Madrasa",
+      "title_pt": "Marcos da cidade perto de Madraça Ben Youssef",
+      "generated_by": "rules",
+      "stops": [
+        "Q15958582",
+        "Q3279792",
+        "Q1560540",
+        "Q966780",
+        "Q3090631",
+        "Q3412514",
+        "Q4886745",
+        "Q3076107"
+      ],
+      "distance_m": 1128,
+      "walking_seconds": 902,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-bahia-palace",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Bahia Palace",
+      "title_pt": "Destaques históricos perto de Palácio da Bahia",
+      "generated_by": "rules",
+      "stops": [
+        "Q92061407",
+        "Q1277747",
+        "Q3329095",
+        "Q3329122",
+        "Q2465115",
+        "Q3508008",
+        "Q19942087",
+        "Q12195501"
+      ],
+      "distance_m": 2977,
+      "walking_seconds": 2382,
+      "visit_minutes": 465
+    },
+    {
+      "slug": "city-landmarks-around-saadian-tombs",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Saadian Tombs",
+      "title_pt": "Marcos da cidade perto de Túmulos saadianos",
+      "generated_by": "rules",
+      "stops": ["Q65034641", "Q59956159", "Q1948938", "Q2152745", "Q4837219"],
+      "distance_m": 3317,
+      "walking_seconds": 2654,
+      "visit_minutes": 225
+    },
+    {
+      "slug": "historic-highlights-around-yves-saint-laurent-museum-in-marr",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Yves Saint Laurent Museum in Marrakesh",
+      "title_pt": "Destaques históricos perto de Yves Saint Laurent Museum in Marrakesh",
+      "generated_by": "rules",
+      "stops": ["Q30727522", "Q12195551", "Q3585929"],
+      "distance_m": 2513,
+      "walking_seconds": 2010,
+      "visit_minutes": 210
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "city": "york",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-york-castle",
+      "theme": "museums",
+      "title_en": "Museums and collections around York Castle",
+      "title_pt": "Museus e coleções perto de Castelo de York",
+      "generated_by": "rules",
+      "stops": [
+        "Q2024016",
+        "Q80637",
+        "Q4205980",
+        "Q46996724",
+        "Q8055440",
+        "Q15978988",
+        "Q17530659",
+        "Q1704043"
+      ],
+      "distance_m": 858,
+      "walking_seconds": 686,
+      "visit_minutes": 660
+    },
+    {
+      "slug": "historic-highlights-around-york-minster",
+      "theme": "highlights",
+      "title_en": "Historic highlights around York Minster",
+      "title_pt": "Destaques históricos perto de Catedral de Iorque",
+      "generated_by": "rules",
+      "stops": [
+        "Q17530543",
+        "Q111936599",
+        "Q108607039",
+        "Q7594874",
+        "Q104858776",
+        "Q8055505",
+        "Q252575",
+        "Q958954"
+      ],
+      "distance_m": 390,
+      "walking_seconds": 312,
+      "visit_minutes": 235
+    },
+    {
+      "slug": "historic-highlights-around-national-railway-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around National Railway Museum",
+      "title_pt": "Destaques históricos perto de National Railway Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q127375981",
+        "Q4857921",
+        "Q17549385",
+        "Q22919983",
+        "Q2883914",
+        "Q7594998",
+        "Q113256217",
+        "Q579958"
+      ],
+      "distance_m": 2577,
+      "walking_seconds": 2062,
+      "visit_minutes": 320
+    },
+    {
+      "slug": "city-landmarks-around-yorkshire-museum",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Yorkshire Museum",
+      "title_pt": "Marcos da cidade perto de Museu de Yorkshire",
+      "generated_by": "rules",
+      "stops": [
+        "Q98414085",
+        "Q17530580",
+        "Q2086562",
+        "Q4763423",
+        "Q7595635",
+        "Q26549193",
+        "Q100248601",
+        "Q8055361"
+      ],
+      "distance_m": 1089,
+      "walking_seconds": 871,
+      "visit_minutes": 310
+    },
+    {
+      "slug": "churches-and-chapels-around-treasurer-s-house-york",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Treasurer's House, York",
+      "title_pt": "Igrejas e capelas perto de Treasurer's House, York",
+      "generated_by": "rules",
+      "stops": [
+        "Q7084690",
+        "Q7836749",
+        "Q17530619",
+        "Q113212621",
+        "Q41235388",
+        "Q26550425",
+        "Q4861158",
+        "Q17549551"
+      ],
+      "distance_m": 1021,
+      "walking_seconds": 817,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "churches-and-chapels-around-guildhall-and-chamber-range-atki",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Guildhall and Chamber Range, Atkinson block, Common",
+      "title_pt": "Igrejas e capelas perto de Guildhall and Chamber Range, Atkinson block, Common H",
+      "generated_by": "rules",
+      "stops": [
+        "Q98414086",
+        "Q17549993",
+        "Q6751751",
+        "Q1553813",
+        "Q2647818",
+        "Q17549679",
+        "Q17530600",
+        "Q514750"
+      ],
+      "distance_m": 1051,
+      "walking_seconds": 841,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "churches-and-chapels-around-merchant-adventurers-hall",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Merchant Adventurers' Hall",
+      "title_pt": "Igrejas e capelas perto de Merchant Adventurers' Hall",
+      "generated_by": "rules",
+      "stops": [
+        "Q17530545",
+        "Q2647826",
+        "Q17549464",
+        "Q17549428",
+        "Q20128209",
+        "Q5205109",
+        "Q6818359",
+        "Q7592955"
+      ],
+      "distance_m": 1101,
+      "walking_seconds": 881,
+      "visit_minutes": 350
+    },
+    {
+      "slug": "churches-and-chapels-around-baile-hill",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Baile Hill",
+      "title_pt": "Igrejas e capelas perto de Colina Baile",
+      "generated_by": "rules",
+      "stops": [
+        "Q17530561",
+        "Q8055589",
+        "Q4848305",
+        "Q7588164",
+        "Q17530536",
+        "Q18210399",
+        "Q6481692"
+      ],
+      "distance_m": 3243,
+      "walking_seconds": 2594,
+      "visit_minutes": 260
+    }
+  ]
+}

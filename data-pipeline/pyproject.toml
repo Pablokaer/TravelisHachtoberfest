@@ -1,0 +1,33 @@
+[project]
+name = "wayfarer-pipeline"
+version = "0.1.0"
+description = "Data ingestion for Wayfarer (Wikidata, OpenStreetMap, Wikipedia pageviews)"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.8",
+  "PyYAML>=6.0",
+  "requests>=2.32",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+wayfarer-pipeline = "wayfarer_pipeline.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["wayfarer_pipeline"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

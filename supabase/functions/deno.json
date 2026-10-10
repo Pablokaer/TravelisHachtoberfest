@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "imports": {
+    "@wayfarer/shared": "./_shared/wayfarer/index.ts",
+    "zod": "npm:zod@^4.6.5",
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@^2.117.2",
+    "standardwebhooks": "npm:standardwebhooks@^1.0.0"
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    },
+    "exclude": [
+      "_shared/wayfarer/"
+    ]
+  },
+  "fmt": {
+    "singleQuote": true,
+    "lineWidth": 100,
+    "exclude": [
+      "_shared/wayfarer/"
+    ]
+  }
+}

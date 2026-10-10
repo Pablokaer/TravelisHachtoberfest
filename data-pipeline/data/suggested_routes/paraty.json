@@ -1,0 +1,25 @@
+{
+  "city": "paraty",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-mother-church-of-our-lady-of-rem",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Mother Church of Our Lady of Remedies",
+      "title_pt": "Igrejas e capelas perto de Igreja Matriz de Nossa Senhora dos Remédios (Paraty)",
+      "generated_by": "rules",
+      "stops": [
+        "Q101500337",
+        "Q36240487",
+        "Q10300449",
+        "Q10300078",
+        "Q10300554",
+        "Q10300659",
+        "Q55270818"
+      ],
+      "distance_m": 1566,
+      "walking_seconds": 1253,
+      "visit_minutes": 390
+    }
+  ]
+}

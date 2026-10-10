@@ -1,0 +1,28 @@
+{
+  "city": "aparecida",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-basilica-of-the-national-shrine-o",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Basilica of the National Shrine of Our Lady of Aparec",
+      "title_pt": "Destaques históricos perto de Basílica de Nossa Senhora Aparecida",
+      "generated_by": "rules",
+      "stops": ["Q18280761", "Q2886950", "Q10333596"],
+      "distance_m": 1570,
+      "walking_seconds": 1256,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "museums-and-collections-around-old-cathedral-of-st-anthony-g",
+      "theme": "museums",
+      "title_en": "Museums and collections around Old Cathedral of St. Anthony, Guaratinguetá",
+      "title_pt": "Museus e coleções perto de Catedral de Santo Antônio de Guaratinguetá",
+      "generated_by": "rules",
+      "stops": ["Q56694669", "Q20052586", "Q67001310", "Q48867343"],
+      "distance_m": 261,
+      "walking_seconds": 209,
+      "visit_minutes": 230
+    }
+  ]
+}

@@ -1,0 +1,3388 @@
+[
+  {
+    "route": "",
+    "url": "http://localhost:8083/",
+    "elements": [
+      {
+        "text": "Search cities",
+        "x": 111,
+        "y": 17,
+        "width": 254,
+        "height": 46,
+        "centerOffset": 43,
+        "textAlign": "start"
+      },
+      {
+        "text": "Where to next?",
+        "x": 20,
+        "y": 105,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Marina Campos Vinhal · CC BY 2.0Alto Paraíso de Goiás🇧🇷  Brazil1 place",
+        "x": 20,
+        "y": 181,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Jose A. · CC BY 2.0Amsterdam🇳🇱  Netherlands269 places",
+        "x": 20,
+        "y": 553.5,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Enfo · CC BY-SA 3.0Andorra la Vella🇦🇩  Andorra17 places",
+        "x": 20,
+        "y": 926,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Claus Bunks aka Afrobrasil on flickr · Public domainAngra dos Reis🇧🇷  Brazil18 places",
+        "x": 20,
+        "y": 1298.5,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Cobija · CC0Antalya🇹🇷  Turkey28 places",
+        "x": 20,
+        "y": 1671,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Rolf Kranz · CC BY-SA 4.0Antwerp🇧🇪  Belgium95 places",
+        "x": 20,
+        "y": 2043.5,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Barros0711 · CC BY-SA 4.0Aparecida🇧🇷  Brazil7 places",
+        "x": 20,
+        "y": 2416,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Tito Garcez · Public domainAracaju🇧🇷  Brazil18 places",
+        "x": 20,
+        "y": 2788.5,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Fulviusbsas · CC BY-SA 3.0Armação dos Búzios🇧🇷  Brazil5 places",
+        "x": 20,
+        "y": 3161,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Photo © Mário Sérgio Araujo dos Passos · Public domainArraial do Cabo🇧🇷  Brazil12 places",
+        "x": 20,
+        "y": 3533.5,
+        "width": 350,
+        "height": 340.5,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "trips",
+    "url": "http://localhost:8083/trips",
+    "elements": [
+      {
+        "text": "My Trips",
+        "x": 20,
+        "y": 24,
+        "width": 341,
+        "height": 38,
+        "centerOffset": -4.5,
+        "textAlign": "center"
+      },
+      {
+        "text": "No trips yet",
+        "x": 52,
+        "y": 412,
+        "width": 286,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Explore the map",
+        "x": 94.625,
+        "y": 534,
+        "width": 200.75,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "profile",
+    "url": "http://localhost:8083/profile",
+    "elements": [
+      {
+        "text": "Profile",
+        "x": 20,
+        "y": 24,
+        "width": 350,
+        "height": 38,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "LR",
+        "x": 57.5,
+        "y": 123,
+        "width": 30.984375,
+        "height": 32,
+        "centerOffset": -122.0078125,
+        "textAlign": "start"
+      },
+      {
+        "text": "Layout Review",
+        "x": 121,
+        "y": 115,
+        "width": 228,
+        "height": 26,
+        "centerOffset": 40,
+        "textAlign": "start"
+      },
+      {
+        "text": "Edit profile",
+        "x": 41,
+        "y": 187,
+        "width": 107,
+        "height": 40,
+        "centerOffset": -100.5,
+        "textAlign": "center"
+      },
+      {
+        "text": "Travel documents",
+        "x": 20,
+        "y": 272,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "NationalitiesBrazil",
+        "x": 21,
+        "y": 311,
+        "width": 348,
+        "height": 66,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Country you live inBrazil",
+        "x": 21,
+        "y": 378,
+        "width": 348,
+        "height": 66,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Passport expiry date (optional)Not set",
+        "x": 21,
+        "y": 445,
+        "width": 348,
+        "height": 66,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Preferences",
+        "x": 20,
+        "y": 536,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Account",
+        "x": 20,
+        "y": 1063,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Sign out",
+        "x": 20,
+        "y": 1171,
+        "width": 139.609375,
+        "height": 48,
+        "centerOffset": -105.1953125,
+        "textAlign": "center"
+      },
+      {
+        "text": "Delete account",
+        "x": 167.609375,
+        "y": 1171,
+        "width": 192.453125,
+        "height": 48,
+        "centerOffset": 68.8359375,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "edit-profile",
+    "url": "http://localhost:8083/edit-profile",
+    "elements": [
+      {
+        "text": "Edit profile",
+        "x": 153.28125,
+        "y": 22,
+        "width": 83.421875,
+        "height": 20,
+        "centerOffset": -0.0078125,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 316,
+        "y": 11,
+        "width": 74,
+        "height": 42,
+        "centerOffset": 158,
+        "textAlign": "center"
+      },
+      {
+        "text": "Profile photo",
+        "x": 20,
+        "y": 88,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "LR",
+        "x": 73.5,
+        "y": 185,
+        "width": 30.984375,
+        "height": 32,
+        "centerOffset": -106.0078125,
+        "textAlign": "start"
+      },
+      {
+        "text": "Add photo",
+        "x": 161,
+        "y": 147,
+        "width": 128.140625,
+        "height": 40,
+        "centerOffset": 30.0703125,
+        "textAlign": "center"
+      },
+      {
+        "text": "About you",
+        "x": 20,
+        "y": 300,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Name",
+        "x": 58,
+        "y": 386,
+        "width": 274,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Nickname",
+        "x": 58,
+        "y": 488,
+        "width": 274,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Your passports",
+        "x": 20,
+        "y": 798,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Brazil",
+        "x": 41,
+        "y": 887,
+        "width": 91.953125,
+        "height": 36,
+        "centerOffset": -108.0234375,
+        "textAlign": "center"
+      },
+      {
+        "text": "Add another",
+        "x": 140.953125,
+        "y": 885,
+        "width": 141.484375,
+        "height": 40,
+        "centerOffset": 16.6953125,
+        "textAlign": "center"
+      },
+      {
+        "text": "Brazil",
+        "x": 41,
+        "y": 1025,
+        "width": 91.953125,
+        "height": 36,
+        "centerOffset": -108.0234375,
+        "textAlign": "center"
+      },
+      {
+        "text": "Passport validity",
+        "x": 20,
+        "y": 1138,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Passport expiry date (optional)",
+        "x": 58,
+        "y": 1224,
+        "width": 274,
+        "height": 50,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Save",
+        "x": 20,
+        "y": 784,
+        "width": 350,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "short/lisbon",
+    "url": "http://localhost:8083/short/lisbon",
+    "elements": [
+      {
+        "text": "Lisbon",
+        "x": 166.375,
+        "y": 21.5,
+        "width": 57.234375,
+        "height": 21,
+        "centerOffset": -0.0078125,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon",
+        "x": 144.59375,
+        "y": 281.125,
+        "width": 100.8125,
+        "height": 38,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Explore attractions",
+        "x": 84.28125,
+        "y": 385.125,
+        "width": 221.4375,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "About Lisbon",
+        "x": 20,
+        "y": 457.125,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "History",
+        "x": 20,
+        "y": 2437.125,
+        "width": 350,
+        "height": 22,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Famous people of Lisbon",
+        "x": 20,
+        "y": 2841.125,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "MH",
+        "x": 5212.5625,
+        "y": 3016.125,
+        "width": 42.859375,
+        "height": 32,
+        "centerOffset": 5038.9921875,
+        "textAlign": "start"
+      },
+      {
+        "text": "PR",
+        "x": 7073.4375,
+        "y": 3016.125,
+        "width": 33.125,
+        "height": 32,
+        "centerOffset": 6895,
+        "textAlign": "start"
+      },
+      {
+        "text": "Upcoming meetups",
+        "x": 20,
+        "y": 3345.125,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "No meetups planned",
+        "x": 73,
+        "y": 3588.125,
+        "width": 244,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Top community walk lists",
+        "x": 20,
+        "y": 3771.125,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "No public walk lists yet",
+        "x": 52,
+        "y": 3929.125,
+        "width": 286,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Official walk lists",
+        "x": 20,
+        "y": 4067.125,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "No official walk lists yet",
+        "x": 52,
+        "y": 4261.125,
+        "width": 286,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Before you go",
+        "x": 20,
+        "y": 4406.125,
+        "width": 156.84375,
+        "height": 26,
+        "centerOffset": -96.578125,
+        "textAlign": "start"
+      },
+      {
+        "text": "Choose your dates",
+        "x": 184.84375,
+        "y": 4399.125,
+        "width": 185.15625,
+        "height": 40,
+        "centerOffset": 82.421875,
+        "textAlign": "center"
+      },
+      {
+        "text": "Try again",
+        "x": 146.46875,
+        "y": 4695.125,
+        "width": 97.0625,
+        "height": 40,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Reviews",
+        "x": 20,
+        "y": 4791.125,
+        "width": 350,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "Publish review",
+        "x": 41,
+        "y": 5108.125,
+        "width": 162.484375,
+        "height": 48,
+        "centerOffset": -72.7578125,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "city/lisbon",
+    "url": "http://localhost:8083/city/lisbon",
+    "elements": [
+      {
+        "text": "🇵🇹  Lisbon",
+        "x": 68,
+        "y": 16,
+        "width": 246,
+        "height": 48,
+        "centerOffset": -4,
+        "textAlign": "center"
+      },
+      {
+        "text": "",
+        "x": 330,
+        "y": 20,
+        "width": 40,
+        "height": 40,
+        "centerOffset": 155,
+        "textAlign": "center"
+      },
+      {
+        "text": "Search places in Lisbon",
+        "x": 63,
+        "y": 81,
+        "width": 302,
+        "height": 46,
+        "centerOffset": 19,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jerónimos Monastery",
+        "x": 70,
+        "y": 594,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -103,
+        "textAlign": "start"
+      },
+      {
+        "text": "25 de Abril Bridge",
+        "x": 130,
+        "y": 604,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -43,
+        "textAlign": "start"
+      },
+      {
+        "text": "Padrão dos Descobrimentos",
+        "x": 70,
+        "y": 605,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -103,
+        "textAlign": "start"
+      },
+      {
+        "text": "Castle of Saint George",
+        "x": 226,
+        "y": 549,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 53,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça do Comércio",
+        "x": 220,
+        "y": 567,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 47,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon Cathedral",
+        "x": 227,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 54,
+        "textAlign": "start"
+      },
+      {
+        "text": "Rua Augusta Arch",
+        "x": 219,
+        "y": 564,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 46,
+        "textAlign": "start"
+      },
+      {
+        "text": "Águas Livres Aqueduct",
+        "x": 154,
+        "y": 514,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -19,
+        "textAlign": "start"
+      },
+      {
+        "text": "Belém Palace",
+        "x": 81,
+        "y": 593,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -92,
+        "textAlign": "start"
+      },
+      {
+        "text": "Carmo Convent",
+        "x": 212,
+        "y": 554,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palace of Ajuda",
+        "x": 87,
+        "y": 567,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -86,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 225,
+        "y": 554,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 52,
+        "textAlign": "start"
+      },
+      {
+        "text": "Monastery of São Vicente de Fora",
+        "x": 238,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 65,
+        "textAlign": "start"
+      },
+      {
+        "text": "Pantheon of the House of Braganza",
+        "x": 240,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 67,
+        "textAlign": "start"
+      },
+      {
+        "text": "Rossio Square",
+        "x": 213,
+        "y": 549,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 40,
+        "textAlign": "start"
+      },
+      {
+        "text": "Calouste Gulbenkian Museum",
+        "x": 181,
+        "y": 486,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 8,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon Oceanarium",
+        "x": 312,
+        "y": 412,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 139,
+        "textAlign": "start"
+      },
+      {
+        "text": "Restauradores Square",
+        "x": 208,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 35,
+        "textAlign": "start"
+      },
+      {
+        "text": "São Bento Palace",
+        "x": 183,
+        "y": 553,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 10,
+        "textAlign": "start"
+      },
+      {
+        "text": "Estrela Basilica",
+        "x": 168,
+        "y": 551,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -5,
+        "textAlign": "start"
+      },
+      {
+        "text": "Marquess of Pombal Square",
+        "x": 190,
+        "y": 518,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 17,
+        "textAlign": "start"
+      },
+      {
+        "text": "Edward VII Park",
+        "x": 184,
+        "y": 509,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 11,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Santo António de Lisboa",
+        "x": 225,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 52,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de São Roque",
+        "x": 205,
+        "y": 550,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 32,
+        "textAlign": "start"
+      },
+      {
+        "text": "Necessidades Palace",
+        "x": 148,
+        "y": 569,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of Santa Engrácia",
+        "x": 244,
+        "y": 546,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 71,
+        "textAlign": "start"
+      },
+      {
+        "text": "Vasco da Gama Tower",
+        "x": 317,
+        "y": 381,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 144,
+        "textAlign": "start"
+      },
+      {
+        "text": "Campo Pequeno Bullring",
+        "x": 201,
+        "y": 470,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 28,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Museum of Ancient Art",
+        "x": 167,
+        "y": 573,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -6,
+        "textAlign": "start"
+      },
+      {
+        "text": "Prazeres Cemetery",
+        "x": 147,
+        "y": 549,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -26,
+        "textAlign": "start"
+      },
+      {
+        "text": "Rossio railway station",
+        "x": 207,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 34,
+        "textAlign": "start"
+      },
+      {
+        "text": "Torre do Tombo National Archive",
+        "x": 177,
+        "y": 436,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 4,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio da Bemposta",
+        "x": 216,
+        "y": 523,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 43,
+        "textAlign": "start"
+      },
+      {
+        "text": "Monument to the Restorers",
+        "x": 208,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 35,
+        "textAlign": "start"
+      },
+      {
+        "text": "statue of José I of Portugal",
+        "x": 220,
+        "y": 567,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 47,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museum of Art, Architecture and Technology",
+        "x": 96,
+        "y": 599,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -77,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Azulejo Museum",
+        "x": 268,
+        "y": 520,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 95,
+        "textAlign": "start"
+      },
+      {
+        "text": "Coliseu dos Recreios",
+        "x": 212,
+        "y": 541,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Graça Convent",
+        "x": 232,
+        "y": 541,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 59,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça da Figueira",
+        "x": 217,
+        "y": 550,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 44,
+        "textAlign": "start"
+      },
+      {
+        "text": "São Bento Mansion",
+        "x": 179,
+        "y": 552,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 6,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Nacional de São Carlos",
+        "x": 208,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 35,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon Zoo",
+        "x": 149,
+        "y": 468,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -24,
+        "textAlign": "start"
+      },
+      {
+        "text": "Alto de São João Cemetery",
+        "x": 251,
+        "y": 504,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 78,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of Nossa Senhora da Conceição Velha",
+        "x": 225,
+        "y": 563,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 52,
+        "textAlign": "start"
+      },
+      {
+        "text": "Feira da Ladra",
+        "x": 246,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 73,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça Martim Moniz",
+        "x": 219,
+        "y": 545,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 46,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Nacional D. Maria II",
+        "x": 213,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 40,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja da Memória",
+        "x": 78,
+        "y": 579,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -95,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon Central Mosque",
+        "x": 172,
+        "y": 489,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -1,
+        "textAlign": "start"
+      },
+      {
+        "text": "Navy Museum",
+        "x": 65,
+        "y": 596,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -108,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque Mayer",
+        "x": 198,
+        "y": 534,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Basilica of Our Lady of the Martyrs, Lisboa",
+        "x": 209,
+        "y": 559,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 36,
+        "textAlign": "start"
+      },
+      {
+        "text": "Monastery of São Dinis de Odivelas",
+        "x": 120,
+        "y": 335,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -53,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Coach Museum",
+        "x": 86,
+        "y": 597,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -87,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon Synagogue",
+        "x": 184,
+        "y": 531,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 11,
+        "textAlign": "start"
+      },
+      {
+        "text": "Pestana Palace",
+        "x": 111,
+        "y": 577,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -62,
+        "textAlign": "start"
+      },
+      {
+        "text": "Electricity Museum",
+        "x": 91,
+        "y": 600,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -82,
+        "textAlign": "start"
+      },
+      {
+        "text": "Bela Vista Park",
+        "x": 242,
+        "y": 452,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 69,
+        "textAlign": "start"
+      },
+      {
+        "text": "Berardo Collection Museum",
+        "x": 64,
+        "y": 600,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -109,
+        "textAlign": "start"
+      },
+      {
+        "text": "Burnay Palace",
+        "x": 116,
+        "y": 588,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -57,
+        "textAlign": "start"
+      },
+      {
+        "text": "Column of Pedro IV",
+        "x": 213,
+        "y": 549,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 40,
+        "textAlign": "start"
+      },
+      {
+        "text": "Cordoaria Nacional",
+        "x": 103,
+        "y": 595,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -70,
+        "textAlign": "start"
+      },
+      {
+        "text": "Estaus Palace",
+        "x": 212,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Nossa Senhora de Fátima (Lisbon)",
+        "x": 189,
+        "y": 478,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 16,
+        "textAlign": "start"
+      },
+      {
+        "text": "Madre de Deus Convent",
+        "x": 268,
+        "y": 519,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 95,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Archaeology Museum",
+        "x": 67,
+        "y": 595,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -106,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio dos Duques de Lafões",
+        "x": 284,
+        "y": 498,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 111,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça do Império",
+        "x": 66,
+        "y": 597,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -107,
+        "textAlign": "start"
+      },
+      {
+        "text": "Afonso de Albuquerque Square",
+        "x": 82,
+        "y": 597,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -91,
+        "textAlign": "start"
+      },
+      {
+        "text": "Campo dos Mártires da Pátria",
+        "x": 213,
+        "y": 527,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 40,
+        "textAlign": "start"
+      },
+      {
+        "text": "Galveias Palace",
+        "x": 204,
+        "y": 473,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 31,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Botânico Tropical",
+        "x": 77,
+        "y": 589,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -96,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon City Hall",
+        "x": 215,
+        "y": 565,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 42,
+        "textAlign": "start"
+      },
+      {
+        "text": "Monumento a Camões",
+        "x": 205,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 32,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Museum of Natural History and Science, Lisbon",
+        "x": 189,
+        "y": 538,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 16,
+        "textAlign": "start"
+      },
+      {
+        "text": "Pantheon of the Patriarchs of Lisbon",
+        "x": 240,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 67,
+        "textAlign": "start"
+      },
+      {
+        "text": "Chiado Museum",
+        "x": 210,
+        "y": 563,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 37,
+        "textAlign": "start"
+      },
+      {
+        "text": "Dr. Anastácio Gonçalves House-Museum",
+        "x": 198,
+        "y": 497,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Luís de Camões Square",
+        "x": 205,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 32,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu de Lisboa",
+        "x": 176,
+        "y": 426,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 3,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio da Ega",
+        "x": 106,
+        "y": 587,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -67,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio dos Condes de Almada",
+        "x": 213,
+        "y": 545,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 40,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Tivoli",
+        "x": 201,
+        "y": 531,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 28,
+        "textAlign": "start"
+      },
+      {
+        "text": "Tejo Power Station",
+        "x": 93,
+        "y": 599,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -80,
+        "textAlign": "start"
+      },
+      {
+        "text": "Carmo Archaeological Museum",
+        "x": 212,
+        "y": 554,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Centro de Arte Moderna Gulbenkian",
+        "x": 182,
+        "y": 489,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 9,
+        "textAlign": "start"
+      },
+      {
+        "text": "Cinemateca Portuguesa",
+        "x": 193,
+        "y": 530,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 20,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de Nossa Senhora da Luz",
+        "x": 115,
+        "y": 420,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -58,
+        "textAlign": "start"
+      },
+      {
+        "text": "Gulbenkian Park",
+        "x": 183,
+        "y": 486,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 10,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja do Sagrado Coração de Jesus",
+        "x": 197,
+        "y": 519,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 24,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja do Santo Condestável",
+        "x": 154,
+        "y": 545,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -19,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo do Carmo",
+        "x": 210,
+        "y": 555,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 37,
+        "textAlign": "start"
+      },
+      {
+        "text": "Miradouro da Senhora do Monte",
+        "x": 228,
+        "y": 535,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 55,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museum of the Orient",
+        "x": 146,
+        "y": 579,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -27,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça das Flores",
+        "x": 187,
+        "y": 546,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 14,
+        "textAlign": "start"
+      },
+      {
+        "text": "British Cemetery",
+        "x": 168,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -5,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of São Nicolau",
+        "x": 219,
+        "y": 557,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 46,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 186,
+        "y": 348,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 105,
+        "y": 493,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -68,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim da Estrela",
+        "x": 170,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -3,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim de São Pedro de Alcântara",
+        "x": 202,
+        "y": 545,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 29,
+        "textAlign": "start"
+      },
+      {
+        "text": "Miradouro de Santa Luzia",
+        "x": 233,
+        "y": 555,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 60,
+        "textAlign": "start"
+      },
+      {
+        "text": "Monument to the Heroes of the Peninsular War (Lisbon)",
+        "x": 194,
+        "y": 454,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 21,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio de Palhavã",
+        "x": 176,
+        "y": 486,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 3,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Foz",
+        "x": 206,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 33,
+        "textAlign": "start"
+      },
+      {
+        "text": "Penafiel Palace",
+        "x": 224,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 51,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro da Trindade",
+        "x": 206,
+        "y": 555,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 33,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Politeama in Lisbon",
+        "x": 210,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 37,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 128,
+        "y": 448,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -45,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja da Madalena",
+        "x": 223,
+        "y": 559,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 50,
+        "textAlign": "start"
+      },
+      {
+        "text": "Medeiros e Almeida House-Museum",
+        "x": 192,
+        "y": 528,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 19,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palace of the Dukes of Palmela",
+        "x": 183,
+        "y": 534,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 10,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque Tejo",
+        "x": 314,
+        "y": 354,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 141,
+        "textAlign": "start"
+      },
+      {
+        "text": "Pillory of Lisbon",
+        "x": 214,
+        "y": 565,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 41,
+        "textAlign": "start"
+      },
+      {
+        "text": "Chafariz d'El-Rei",
+        "x": 235,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 62,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de Nossa Senhora dos Remédios",
+        "x": 171,
+        "y": 569,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -2,
+        "textAlign": "start"
+      },
+      {
+        "text": "Fado Museum",
+        "x": 239,
+        "y": 557,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 66,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim do Príncipe Real",
+        "x": 193,
+        "y": 543,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 20,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo do Rato",
+        "x": 179,
+        "y": 532,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 6,
+        "textAlign": "start"
+      },
+      {
+        "text": "Monumento aos Combatentes do Ultramar",
+        "x": 44,
+        "y": 608,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -129,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu da Água",
+        "x": 257,
+        "y": 535,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 84,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Museum of Ethnology",
+        "x": 64,
+        "y": 574,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -109,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça de Espanha",
+        "x": 174,
+        "y": 483,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 1,
+        "textAlign": "start"
+      },
+      {
+        "text": "Restelo Hermitage",
+        "x": 53,
+        "y": 584,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -120,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Maria Vitória",
+        "x": 198,
+        "y": 534,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro São Luiz",
+        "x": 207,
+        "y": 562,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 34,
+        "textAlign": "start"
+      },
+      {
+        "text": "Casa Fernando Pessoa",
+        "x": 164,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -9,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de Rilhafoles",
+        "x": 208,
+        "y": 519,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 35,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento dos Cardais",
+        "x": 195,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 22,
+        "textAlign": "start"
+      },
+      {
+        "text": "Fonte Luminosa",
+        "x": 233,
+        "y": 484,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 60,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 35,
+        "y": 577,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -138,
+        "textAlign": "start"
+      },
+      {
+        "text": "Forte do Bom Sucesso",
+        "x": 43,
+        "y": 607,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -130,
+        "textAlign": "start"
+      },
+      {
+        "text": "Padrão do Senhor Roubado",
+        "x": 145,
+        "y": 349,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -28,
+        "textAlign": "start"
+      },
+      {
+        "text": "Pavilhão do Conhecimento - Ciência Viva Science Centre",
+        "x": 308,
+        "y": 415,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 135,
+        "textAlign": "start"
+      },
+      {
+        "text": "Rafael Bordalo Pinheiro Museum",
+        "x": 181,
+        "y": 424,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 8,
+        "textAlign": "start"
+      },
+      {
+        "text": "Tapada da Ajuda",
+        "x": 124,
+        "y": 565,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -49,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Capitólio",
+        "x": 198,
+        "y": 535,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Vale do Silêncio Park",
+        "x": 258,
+        "y": 403,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 85,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Nossa Senhora do Loreto",
+        "x": 206,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 33,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Santa Catarina",
+        "x": 194,
+        "y": 556,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 21,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Santa Luzia",
+        "x": 233,
+        "y": 555,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 60,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja do Menino Deus",
+        "x": 231,
+        "y": 550,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 58,
+        "textAlign": "start"
+      },
+      {
+        "text": "Miradouro da Graça",
+        "x": 230,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 57,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu da Farmácia",
+        "x": 196,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 23,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu Militar de Lisboa",
+        "x": 246,
+        "y": 551,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 73,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Sotto Mayor, anexos e logradouro",
+        "x": 196,
+        "y": 509,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 23,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça da Alegria",
+        "x": 201,
+        "y": 538,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 28,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Variedades",
+        "x": 199,
+        "y": 535,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 26,
+        "textAlign": "start"
+      },
+      {
+        "text": "Cinema Império",
+        "x": 224,
+        "y": 487,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 51,
+        "textAlign": "start"
+      },
+      {
+        "text": "Fábrica de Cerâmica da Viúva Lamego",
+        "x": 223,
+        "y": 529,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 50,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Santo Estêvão",
+        "x": 238,
+        "y": 554,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 65,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo de São Domingos",
+        "x": 214,
+        "y": 546,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 41,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisbon Portugal Temple",
+        "x": 292,
+        "y": 369,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 119,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio do Conde de Óbidos",
+        "x": 161,
+        "y": 576,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -12,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça do Município",
+        "x": 214,
+        "y": 565,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 41,
+        "textAlign": "start"
+      },
+      {
+        "text": "Saint George's Church",
+        "x": 168,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -5,
+        "textAlign": "start"
+      },
+      {
+        "text": "Viaduto Duarte Pacheco",
+        "x": 135,
+        "y": 524,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -38,
+        "textAlign": "start"
+      },
+      {
+        "text": "Ancient Roman theatre",
+        "x": 228,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 55,
+        "textAlign": "start"
+      },
+      {
+        "text": "Calouste Gulbenkian Foundation headquarters",
+        "x": 182,
+        "y": 484,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 9,
+        "textAlign": "start"
+      },
+      {
+        "text": "Campo de Santa Clara",
+        "x": 242,
+        "y": 545,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 69,
+        "textAlign": "start"
+      },
+      {
+        "text": "Capela de Santo Amaro (Alcântara)",
+        "x": 121,
+        "y": 582,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -52,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Botânico de Lisboa",
+        "x": 193,
+        "y": 537,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 20,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim do Torel",
+        "x": 209,
+        "y": 534,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 36,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo das Portas do Sol",
+        "x": 232,
+        "y": 553,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 59,
+        "textAlign": "start"
+      },
+      {
+        "text": "Macau Scientific and Cultural Centre Museum",
+        "x": 120,
+        "y": 585,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -53,
+        "textAlign": "start"
+      },
+      {
+        "text": "Mário Soares Garden",
+        "x": 187,
+        "y": 438,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 14,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu de Arte Popular",
+        "x": 64,
+        "y": 605,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -109,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu do Chiado",
+        "x": 210,
+        "y": 562,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 37,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio da Rosa",
+        "x": 223,
+        "y": 547,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 50,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio José Maria Eugénio",
+        "x": 185,
+        "y": 493,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 12,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Thalia",
+        "x": 149,
+        "y": 463,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -24,
+        "textAlign": "start"
+      },
+      {
+        "text": "World War I memorial in Lisbon",
+        "x": 201,
+        "y": 534,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 28,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of Nossa Senhora do Amparo",
+        "x": 78,
+        "y": 446,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -95,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of São João de Deus",
+        "x": 216,
+        "y": 476,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 43,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento da Encarnação, incluindo a igreja",
+        "x": 214,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 41,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de São Domingos de Benfica",
+        "x": 124,
+        "y": 472,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -49,
+        "textAlign": "start"
+      },
+      {
+        "text": "Entrecampos Square",
+        "x": 194,
+        "y": 454,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 21,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de São Francisco de Paula",
+        "x": 158,
+        "y": 575,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -15,
+        "textAlign": "start"
+      },
+      {
+        "text": "Maria Matos Theatre",
+        "x": 215,
+        "y": 460,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 42,
+        "textAlign": "start"
+      },
+      {
+        "text": "Mosteiro de Santa Mónica",
+        "x": 233,
+        "y": 546,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 60,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Museum of Costume",
+        "x": 158,
+        "y": 379,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -15,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palace of the Counts of Farrobo",
+        "x": 149,
+        "y": 463,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -24,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Belmonte",
+        "x": 230,
+        "y": 553,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 57,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque da Quinta das Conchas e dos Lilases",
+        "x": 179,
+        "y": 393,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 6,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça do Duque de Saldanha",
+        "x": 202,
+        "y": 494,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 29,
+        "textAlign": "start"
+      },
+      {
+        "text": "Reservatório da Mãe d'Água das Amoreiras",
+        "x": 178,
+        "y": 529,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 5,
+        "textAlign": "start"
+      },
+      {
+        "text": "Tapada das Necessidades",
+        "x": 148,
+        "y": 562,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Camões",
+        "x": 313,
+        "y": 419,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 140,
+        "textAlign": "start"
+      },
+      {
+        "text": "Verride Palace",
+        "x": 197,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 24,
+        "textAlign": "start"
+      },
+      {
+        "text": "Villaret Theatre",
+        "x": 198,
+        "y": 504,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Design Museum",
+        "x": 219,
+        "y": 562,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 46,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palace of the Counts of Azambuja",
+        "x": 199,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 26,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Sinel de Cordes",
+        "x": 244,
+        "y": 543,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 71,
+        "textAlign": "start"
+      },
+      {
+        "text": "Capela de Nossa Senhora do Monte",
+        "x": 228,
+        "y": 534,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 55,
+        "textAlign": "start"
+      },
+      {
+        "text": "Ceramics Museum of Sacavém",
+        "x": 293,
+        "y": 327,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 120,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of São João de Brito",
+        "x": 217,
+        "y": 435,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 44,
+        "textAlign": "start"
+      },
+      {
+        "text": "Fort of Sacavém",
+        "x": 295,
+        "y": 322,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 122,
+        "textAlign": "start"
+      },
+      {
+        "text": "Galerias Romanas da Rua da Prata",
+        "x": 219,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 46,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja paroquial de São Cristóvão",
+        "x": 222,
+        "y": 552,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 49,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu da Marioneta",
+        "x": 178,
+        "y": 565,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 5,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Alverca",
+        "x": 212,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Calheta",
+        "x": 78,
+        "y": 584,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -95,
+        "textAlign": "start"
+      },
+      {
+        "text": "Saint Andrew's Church",
+        "x": 161,
+        "y": 572,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -12,
+        "textAlign": "start"
+      },
+      {
+        "text": "Atelier-Museu Júlio Pomar",
+        "x": 190,
+        "y": 556,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 17,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Nossa Senhora de Jesus",
+        "x": 189,
+        "y": 553,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 16,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Botânico da Ajuda",
+        "x": 81,
+        "y": 570,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -92,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Aberto",
+        "x": 172,
+        "y": 487,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -1,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro da Rua dos Condes",
+        "x": 208,
+        "y": 541,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 35,
+        "textAlign": "start"
+      },
+      {
+        "text": "Arco de São Bento",
+        "x": 174,
+        "y": 483,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 1,
+        "textAlign": "start"
+      },
+      {
+        "text": "Bairro Grandela",
+        "x": 117,
+        "y": 459,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -56,
+        "textAlign": "start"
+      },
+      {
+        "text": "Capela do Rato",
+        "x": 179,
+        "y": 530,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 6,
+        "textAlign": "start"
+      },
+      {
+        "text": "Capela e Convento das Flamengas",
+        "x": 128,
+        "y": 576,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -45,
+        "textAlign": "start"
+      },
+      {
+        "text": "Cemitério da Ajuda",
+        "x": 74,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -99,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de Santos-o-Novo",
+        "x": 260,
+        "y": 529,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 87,
+        "textAlign": "start"
+      },
+      {
+        "text": "Forte de Santa Apolónia",
+        "x": 262,
+        "y": 522,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 89,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Cristo-Rei da Portela",
+        "x": 276,
+        "y": 362,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 103,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de São Miguel",
+        "x": 235,
+        "y": 557,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 62,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de São Sebastião da Pedreira",
+        "x": 188,
+        "y": 498,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 15,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja dos Anjos",
+        "x": 224,
+        "y": 520,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 51,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museum of the Presidency of the Republic",
+        "x": 80,
+        "y": 595,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -93,
+        "textAlign": "start"
+      },
+      {
+        "text": "Antigo Convento de Santa Teresa de Jesus da Ordem das Carmelitas Descalças e de Santo Alberto",
+        "x": 104,
+        "y": 416,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -69,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu Arpad Szenes - Vieira da Silva",
+        "x": 178,
+        "y": 526,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 5,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio Ludovice",
+        "x": 203,
+        "y": 549,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 30,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 203,
+        "y": 441,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 30,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of Nossa Senhora dos Navegantes",
+        "x": 307,
+        "y": 352,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 134,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de São Francisco de Xabregas",
+        "x": 273,
+        "y": 514,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 100,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento e Igreja do Corpus Christi (antigos)",
+        "x": 220,
+        "y": 557,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 47,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Chelas",
+        "x": 260,
+        "y": 476,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 87,
+        "textAlign": "start"
+      },
+      {
+        "text": "National Theatre and Dance Museum",
+        "x": 154,
+        "y": 381,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -19,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Ginásio",
+        "x": 207,
+        "y": 556,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 34,
+        "textAlign": "start"
+      },
+      {
+        "text": "Antigo Convento de Nossa Senhora de Jesus",
+        "x": 191,
+        "y": 551,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 18,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of São Mamede",
+        "x": 186,
+        "y": 535,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja e antigo Convento de Nossa Senhora da Boa Hora",
+        "x": 94,
+        "y": 576,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -79,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo de Dona Estefânia (Lisbon)",
+        "x": 210,
+        "y": 500,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 37,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo do Chiado",
+        "x": 207,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 34,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque Silva Porto",
+        "x": 74,
+        "y": 453,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -99,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça do Chile (Lisbon)",
+        "x": 224,
+        "y": 495,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 51,
+        "textAlign": "start"
+      },
+      {
+        "text": "Capela do Paço da Bemposta",
+        "x": 215,
+        "y": 523,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 42,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento de São Pedro de Alcântara",
+        "x": 200,
+        "y": 546,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 27,
+        "textAlign": "start"
+      },
+      {
+        "text": "Imóvel sito na Calçada de Sant' Ana, 208 a 216, tornejando para a Rua do Instituto Bacteriológico, 8",
+        "x": 214,
+        "y": 537,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 41,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Amália Rodrigues",
+        "x": 180,
+        "y": 501,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 7,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim do Arco do Cego",
+        "x": 207,
+        "y": 488,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 34,
+        "textAlign": "start"
+      },
+      {
+        "text": "Miradouro de Santa Catarina",
+        "x": 195,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 22,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu de São Roque",
+        "x": 205,
+        "y": 551,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 32,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio do Marquês de Angeja",
+        "x": 93,
+        "y": 595,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -80,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque Botânico do Monteiro-Mor",
+        "x": 156,
+        "y": 379,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -17,
+        "textAlign": "start"
+      },
+      {
+        "text": "Praça Francisco Sá Carneiro",
+        "x": 226,
+        "y": 471,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 53,
+        "textAlign": "start"
+      },
+      {
+        "text": "Chafariz da Esperança",
+        "x": 183,
+        "y": 563,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 10,
+        "textAlign": "start"
+      },
+      {
+        "text": "Chafariz de Dentro",
+        "x": 238,
+        "y": 556,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 65,
+        "textAlign": "start"
+      },
+      {
+        "text": "Convento das Bernardas",
+        "x": 177,
+        "y": 565,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 4,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Nossa Senhora da Saúde e Santo André",
+        "x": 280,
+        "y": 331,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 107,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Teófilo Braga",
+        "x": 158,
+        "y": 538,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -15,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio do Cunhal das Bolas",
+        "x": 199,
+        "y": 550,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 26,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 188,
+        "y": 562,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 15,
+        "textAlign": "start"
+      },
+      {
+        "text": "Pedro Álvares Cabral Monument",
+        "x": 172,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -1,
+        "textAlign": "start"
+      },
+      {
+        "text": "Santo António",
+        "x": 203,
+        "y": 441,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 30,
+        "textAlign": "start"
+      },
+      {
+        "text": "Teatro Armando Cortez",
+        "x": 99,
+        "y": 419,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -74,
+        "textAlign": "start"
+      },
+      {
+        "text": "Estação Elevatória a Vapor dos Barbadinhos",
+        "x": 256,
+        "y": 533,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 83,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja do Santíssimo Nome de Jesus, Matriz de Odivelas",
+        "x": 123,
+        "y": 334,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -50,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja e antigo Convento do Grilo",
+        "x": 281,
+        "y": 503,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 108,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja Paroquial de Santiago",
+        "x": 232,
+        "y": 555,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 59,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Constantino",
+        "x": 218,
+        "y": 502,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 45,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 221,
+        "y": 555,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 48,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museum of Lisbon - Saint Anthony",
+        "x": 225,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 52,
+        "textAlign": "start"
+      },
+      {
+        "text": "Olivais Cemetery",
+        "x": 280,
+        "y": 410,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 107,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio do Marquês de Abrantes",
+        "x": 176,
+        "y": 567,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 3,
+        "textAlign": "start"
+      },
+      {
+        "text": "Bergantim Real",
+        "x": 62,
+        "y": 595,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -111,
+        "textAlign": "start"
+      },
+      {
+        "text": "Church of São Pedro em Alcântara",
+        "x": 135,
+        "y": 570,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -38,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja do Bairro da Encarnação",
+        "x": 261,
+        "y": 383,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 88,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Afonso de Albuquerque",
+        "x": 82,
+        "y": 597,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -91,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Fernando Pessa",
+        "x": 218,
+        "y": 468,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 45,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo de São Carlos (Lisbon)",
+        "x": 208,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 35,
+        "textAlign": "start"
+      },
+      {
+        "text": "Lisboa Story Centre – Memórias da Cidade",
+        "x": 222,
+        "y": 567,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 49,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Nossa Senhora da Porciúncula, do Convento dos Barbadinhos",
+        "x": 256,
+        "y": 535,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 83,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim 9 de Abril",
+        "x": 163,
+        "y": 575,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -10,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim da Praça Dom Luís",
+        "x": 198,
+        "y": 568,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 25,
+        "textAlign": "start"
+      },
+      {
+        "text": "Memorial de Odivelas",
+        "x": 125,
+        "y": 337,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -48,
+        "textAlign": "start"
+      },
+      {
+        "text": "Vasco da Gama Garden",
+        "x": 76,
+        "y": 598,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -97,
+        "textAlign": "start"
+      },
+      {
+        "text": "Casa Museu João da Silva",
+        "x": 181,
+        "y": 537,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 8,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja de Santo António de Moscavide",
+        "x": 294,
+        "y": 368,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 121,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque Recreativo do Alvito",
+        "x": 112,
+        "y": 533,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -61,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Alfredo Keil",
+        "x": 201,
+        "y": 538,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 28,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Braancamp Freire",
+        "x": 212,
+        "y": 528,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Roque Gameiro",
+        "x": 204,
+        "y": 572,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 31,
+        "textAlign": "start"
+      },
+      {
+        "text": "Largo da Academia Nacional De Belas Artes",
+        "x": 212,
+        "y": 563,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 39,
+        "textAlign": "start"
+      },
+      {
+        "text": "Museu da Cerveja",
+        "x": 222,
+        "y": 564,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 49,
+        "textAlign": "start"
+      },
+      {
+        "text": "Palácio da Flor da Murta (antigo)",
+        "x": 185,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 12,
+        "textAlign": "start"
+      },
+      {
+        "text": "Arquiparque",
+        "x": 25,
+        "y": 546,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -148,
+        "textAlign": "start"
+      },
+      {
+        "text": "Igreja Paroquial de São João da Praça",
+        "x": 232,
+        "y": 561,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 59,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim 5 de Outubro",
+        "x": 169,
+        "y": 551,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -4,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim da Quinta de Santa Clara",
+        "x": 166,
+        "y": 363,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -7,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim do Cabeço das Rolas",
+        "x": 302,
+        "y": 421,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 129,
+        "textAlign": "start"
+      },
+      {
+        "text": "Jardim Teixeira Rebelo",
+        "x": 118,
+        "y": 418,
+        "width": 44,
+        "height": 44,
+        "centerOffset": -55,
+        "textAlign": "start"
+      },
+      {
+        "text": "Parque Urbano do Vale Fundão",
+        "x": 280,
+        "y": 446,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 107,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 301,
+        "y": 467,
+        "width": 44,
+        "height": 44,
+        "centerOffset": 128,
+        "textAlign": "start"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "route",
+    "url": "http://localhost:8083/route",
+    "elements": [
+      {
+        "text": "Walking route",
+        "x": 141.78125,
+        "y": 22,
+        "width": 106.4375,
+        "height": 20,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 316,
+        "y": 11,
+        "width": 74,
+        "height": 42,
+        "centerOffset": 158,
+        "textAlign": "center"
+      },
+      {
+        "text": "Your route is empty",
+        "x": 32,
+        "y": 425,
+        "width": 326,
+        "height": 26,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Back to the map",
+        "x": 94.984375,
+        "y": 523,
+        "width": 200.015625,
+        "height": 48,
+        "centerOffset": -0.0078125,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "route": "checklist/lisbon",
+    "url": "http://localhost:8083/checklist/lisbon",
+    "elements": [
+      {
+        "text": "Before you go: Lisbon",
+        "x": 110.90625,
+        "y": 22,
+        "width": 168.1875,
+        "height": 20,
+        "centerOffset": 0,
+        "textAlign": "start"
+      },
+      {
+        "text": "",
+        "x": 316,
+        "y": 11,
+        "width": 74,
+        "height": 42,
+        "centerOffset": 158,
+        "textAlign": "center"
+      },
+      {
+        "text": "Lisbon",
+        "x": 20,
+        "y": 88,
+        "width": 350,
+        "height": 32,
+        "centerOffset": 0,
+        "textAlign": "center"
+      },
+      {
+        "text": "Arrival",
+        "x": 84,
+        "y": 244,
+        "width": 248,
+        "height": 50,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Departure",
+        "x": 84,
+        "y": 338,
+        "width": 248,
+        "height": 50,
+        "centerOffset": 13,
+        "textAlign": "start"
+      },
+      {
+        "text": "Update checklist",
+        "x": 41,
+        "y": 405,
+        "width": 308,
+        "height": 48,
+        "centerOffset": 0,
+        "textAlign": "center"
+      }
+    ],
+    "overflow": false
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "city": "canela",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q10271950",
+      "name_en": "Eliseu Padilha",
+      "name_pt": "Eliseu Padilha",
+      "description_en": "Brazilian lawyer and politician",
+      "description_pt": "advogado e político brasileiro, Ex-ministro-chefe da Casa Civil",
+      "categories": ["history"],
+      "birth_year": 1945,
+      "death_year": 2023,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ex_Ministro_e_Deputado_Federal_Eliseu_Padilha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image_author": "Eliseupadilha",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Ex_Ministro_e_Deputado_Federal_Eliseu_Padilha.jpg",
+      "wikipedia_en": "Eliseu Padilha",
+      "wikipedia_pt": "Eliseu Padilha",
+      "sitelinks": 9
+    }
+  ]
+}

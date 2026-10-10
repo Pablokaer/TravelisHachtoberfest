@@ -1,0 +1,103 @@
+{
+  "city": "siem-reap",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-bayon",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Bayon",
+      "title_pt": "Marcos da cidade perto de Bayon",
+      "generated_by": "rules",
+      "stops": [
+        "Q834830",
+        "Q767080",
+        "Q1377254",
+        "Q584347",
+        "Q40889217",
+        "Q790118",
+        "Q223665",
+        "Q654024"
+      ],
+      "distance_m": 1730,
+      "walking_seconds": 1384,
+      "visit_minutes": 215
+    },
+    {
+      "slug": "city-landmarks-around-angkor-wat",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Angkor Wat",
+      "title_pt": "Marcos da cidade perto de Angkor Wat",
+      "generated_by": "rules",
+      "stops": ["Q111950645", "Q2654910", "Q43473", "Q15530942", "Q578075", "Q789081", "Q11335399"],
+      "distance_m": 3273,
+      "walking_seconds": 2618,
+      "visit_minutes": 140
+    },
+    {
+      "slug": "city-landmarks-around-ta-prohm",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Ta Prohm",
+      "title_pt": "Marcos da cidade perto de Ta Prohm",
+      "generated_by": "rules",
+      "stops": ["Q609935", "Q1794663", "Q601605", "Q592846", "Q117743335"],
+      "distance_m": 3207,
+      "walking_seconds": 2566,
+      "visit_minutes": 100
+    },
+    {
+      "slug": "city-landmarks-around-preah-khan",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Preah Khan",
+      "title_pt": "Marcos da cidade perto de Preah Khan",
+      "generated_by": "rules",
+      "stops": ["Q944217", "Q2480644", "Q597206", "Q874573"],
+      "distance_m": 3927,
+      "walking_seconds": 3142,
+      "visit_minutes": 80
+    },
+    {
+      "slug": "city-landmarks-around-terrace-of-the-leper-king",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Terrace of the Leper King",
+      "title_pt": "Marcos da cidade perto de Terrace of the Leper King",
+      "generated_by": "rules",
+      "stops": ["Q2399488", "Q50635", "Q616520", "Q3518241", "Q2107828"],
+      "distance_m": 2820,
+      "walking_seconds": 2256,
+      "visit_minutes": 100
+    },
+    {
+      "slug": "city-landmarks-around-west-baray",
+      "theme": "landmarks",
+      "title_en": "City landmarks around West Baray",
+      "title_pt": "Marcos da cidade perto de West Baray",
+      "generated_by": "rules",
+      "stops": ["Q1074982", "Q807293", "Q599465"],
+      "distance_m": 99,
+      "walking_seconds": 79,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "city-landmarks-around-pre-rup",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Pre Rup",
+      "title_pt": "Marcos da cidade perto de Pre Rup",
+      "generated_by": "rules",
+      "stops": ["Q1075826", "Q307181", "Q307080"],
+      "distance_m": 1912,
+      "walking_seconds": 1530,
+      "visit_minutes": 60
+    },
+    {
+      "slug": "city-landmarks-around-neak-pean",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Neak Pean",
+      "title_pt": "Marcos da cidade perto de Neak Pean",
+      "generated_by": "rules",
+      "stops": ["Q1092609", "Q281329", "Q1066013"],
+      "distance_m": 3286,
+      "walking_seconds": 2629,
+      "visit_minutes": 60
+    }
+  ]
+}

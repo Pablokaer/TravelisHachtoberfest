@@ -1,0 +1,148 @@
+{
+  "city": "munich",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-frauenkirche",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Frauenkirche",
+      "title_pt": "Destaques históricos perto de Frauenkirche",
+      "generated_by": "rules",
+      "stops": [
+        "Q686997",
+        "Q152979",
+        "Q1419864",
+        "Q707645",
+        "Q824403",
+        "Q252648",
+        "Q167193",
+        "Q265745"
+      ],
+      "distance_m": 1363,
+      "walking_seconds": 1090,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "museums-and-collections-around-alte-pinakothek",
+      "theme": "museums",
+      "title_en": "Museums and collections around Alte Pinakothek",
+      "title_pt": "Museus e coleções perto de Antiga Pinacoteca",
+      "generated_by": "rules",
+      "stops": [
+        "Q1961427",
+        "Q162077",
+        "Q464872",
+        "Q154568",
+        "Q170152",
+        "Q812285",
+        "Q258597",
+        "Q250195"
+      ],
+      "distance_m": 1607,
+      "walking_seconds": 1286,
+      "visit_minutes": 720
+    },
+    {
+      "slug": "historic-highlights-around-munich-residence",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Munich Residence",
+      "title_pt": "Destaques históricos perto de Residência de Munique",
+      "generated_by": "rules",
+      "stops": [
+        "Q880394",
+        "Q1788660",
+        "Q201939",
+        "Q259799",
+        "Q259839",
+        "Q686548",
+        "Q445129",
+        "Q315084"
+      ],
+      "distance_m": 1849,
+      "walking_seconds": 1479,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "historic-highlights-around-deutsches-museum",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Deutsches Museum",
+      "title_pt": "Destaques históricos perto de Deutsches Museum",
+      "generated_by": "rules",
+      "stops": [
+        "Q2375540",
+        "Q131617",
+        "Q321485",
+        "Q454217",
+        "Q260660",
+        "Q2345797",
+        "Q251087",
+        "Q439458"
+      ],
+      "distance_m": 2953,
+      "walking_seconds": 2362,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "historic-highlights-around-asam-church",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Asam Church",
+      "title_pt": "Destaques históricos perto de Asamkirche",
+      "generated_by": "rules",
+      "stops": [
+        "Q686629",
+        "Q452685",
+        "Q161751",
+        "Q320903",
+        "Q254394",
+        "Q152973",
+        "Q251948",
+        "Q567400"
+      ],
+      "distance_m": 1889,
+      "walking_seconds": 1511,
+      "visit_minutes": 460
+    },
+    {
+      "slug": "museums-and-collections-around-haus-der-kunst",
+      "theme": "museums",
+      "title_en": "Museums and collections around Haus der Kunst",
+      "title_pt": "Museus e coleções perto de Haus der Kunst",
+      "generated_by": "rules",
+      "stops": [
+        "Q504642",
+        "Q523652",
+        "Q631056",
+        "Q636743",
+        "Q697782",
+        "Q250951",
+        "Q2618617",
+        "Q254294"
+      ],
+      "distance_m": 2601,
+      "walking_seconds": 2081,
+      "visit_minutes": 450
+    },
+    {
+      "slug": "city-landmarks-around-theresienwiese",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Theresienwiese",
+      "title_pt": "Marcos da cidade perto de Theresienwiese",
+      "generated_by": "rules",
+      "stops": ["Q707669", "Q847155", "Q700887", "Q247638", "Q881386", "Q279303", "Q152974"],
+      "distance_m": 4248,
+      "walking_seconds": 3398,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "museums-and-collections-around-konigsplatz",
+      "theme": "museums",
+      "title_en": "Museums and collections around Königsplatz",
+      "title_pt": "Museus e coleções perto de Königsplatz",
+      "generated_by": "rules",
+      "stops": ["Q2542466", "Q473832", "Q262234", "Q822301", "Q561084", "Q707981"],
+      "distance_m": 2784,
+      "walking_seconds": 2227,
+      "visit_minutes": 400
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "city": "andorra-la-vella",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-pont-d-engordany",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Pont d'Engordany",
+      "title_pt": "Marcos da cidade perto de Pont d'Engordany",
+      "generated_by": "rules",
+      "stops": [
+        "Q7228021",
+        "Q7228015",
+        "Q36374033",
+        "Q5397737",
+        "Q27043086",
+        "Q7228022",
+        "Q11251566",
+        "Q7228007"
+      ],
+      "distance_m": 3414,
+      "walking_seconds": 2731,
+      "visit_minutes": 260
+    },
+    {
+      "slug": "city-landmarks-around-esglesia-de-santa-coloma-d-andorra",
+      "theme": "landmarks",
+      "title_en": "City landmarks around església de Santa Coloma d'Andorra",
+      "title_pt": "Marcos da cidade perto de Igreja de Santa Coloma",
+      "generated_by": "rules",
+      "stops": ["Q20106858", "Q3780675", "Q3137862", "Q21055525", "Q55595738"],
+      "distance_m": 2620,
+      "walking_seconds": 2096,
+      "visit_minutes": 120
+    }
+  ]
+}

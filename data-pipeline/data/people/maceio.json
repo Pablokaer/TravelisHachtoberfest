@@ -1,0 +1,47 @@
+{
+  "city": "maceio",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q238688",
+      "name_en": "Floriano Peixoto",
+      "name_pt": "Floriano Peixoto",
+      "description_en": "Brazilian politician (1839-1895)",
+      "description_pt": "2.º presidente do Brasil (1891–1894)",
+      "categories": ["history"],
+      "birth_year": 1839,
+      "death_year": 1895,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Florianovieirapeixoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "image_author": "Unknown author",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Florianovieirapeixoto.jpg",
+      "wikipedia_en": "Floriano Peixoto",
+      "wikipedia_pt": "Floriano Peixoto",
+      "sitelinks": 46
+    },
+    {
+      "wikidata_id": "Q9050242",
+      "name_en": "Nise da Silveira",
+      "name_pt": "Nise da Silveira",
+      "description_en": "Brazilian psychiatrist (1905-1999)",
+      "description_pt": "médica psiquiatra brasileira",
+      "categories": ["writer"],
+      "birth_year": 1905,
+      "death_year": 1999,
+      "born_here": true,
+      "died_here": false,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Nise_da_Silveira.tif/lossless-page1-960px-Nise_da_Silveira.tif.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "Unknown author",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Nise_da_Silveira.tif",
+      "wikipedia_en": "Nise da Silveira",
+      "wikipedia_pt": "Nise da Silveira",
+      "sitelinks": 35
+    }
+  ]
+}

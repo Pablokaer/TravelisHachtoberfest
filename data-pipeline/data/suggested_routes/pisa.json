@@ -1,0 +1,166 @@
+{
+  "city": "pisa",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-baptistry-of-san-giovanni",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Baptistry of San Giovanni",
+      "title_pt": "Destaques históricos perto de Batistério de Pisa",
+      "generated_by": "rules",
+      "stops": [
+        "Q3506514",
+        "Q3505132",
+        "Q3035643",
+        "Q894670",
+        "Q3328416",
+        "Q3925516",
+        "Q1278477",
+        "Q1031614"
+      ],
+      "distance_m": 1552,
+      "walking_seconds": 1242,
+      "visit_minutes": 455
+    },
+    {
+      "slug": "churches-and-chapels-around-leaning-tower-of-pisa",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Leaning Tower of Pisa",
+      "title_pt": "Igrejas e capelas perto de Torre de Pisa",
+      "generated_by": "rules",
+      "stops": [
+        "Q3671848",
+        "Q783096",
+        "Q3672967",
+        "Q3328407",
+        "Q39054",
+        "Q3925517",
+        "Q1754247",
+        "Q750245"
+      ],
+      "distance_m": 846,
+      "walking_seconds": 677,
+      "visit_minutes": 270
+    },
+    {
+      "slug": "historic-highlights-around-santa-maria-della-spina",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Santa Maria della Spina",
+      "title_pt": "Destaques históricos perto de Santa Maria della Spina",
+      "generated_by": "rules",
+      "stops": [
+        "Q585547",
+        "Q3891131",
+        "Q3889504",
+        "Q55674421",
+        "Q1426967",
+        "Q966515",
+        "Q3671449",
+        "Q3891542"
+      ],
+      "distance_m": 840,
+      "walking_seconds": 672,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "palaces-and-noble-houses-around-torre-dei-gualandi",
+      "theme": "palaces",
+      "title_en": "Palaces and noble houses around Torre dei Gualandi",
+      "title_pt": "Palácios e casas nobres perto de Torre dei Gualandi",
+      "generated_by": "rules",
+      "stops": [
+        "Q2265910",
+        "Q3968668",
+        "Q1784719",
+        "Q3891272",
+        "Q3891270",
+        "Q1102884",
+        "Q753046",
+        "Q1088273"
+      ],
+      "distance_m": 226,
+      "walking_seconds": 181,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "churches-and-chapels-around-san-francesco",
+      "theme": "churches",
+      "title_en": "Churches and chapels around San Francesco",
+      "title_pt": "Igrejas e capelas perto de San Francesco",
+      "generated_by": "rules",
+      "stops": [
+        "Q3678366",
+        "Q3671060",
+        "Q3670542",
+        "Q428178",
+        "Q3890318",
+        "Q3671012",
+        "Q3670083",
+        "Q3505107"
+      ],
+      "distance_m": 2860,
+      "walking_seconds": 2288,
+      "visit_minutes": 345
+    },
+    {
+      "slug": "churches-and-chapels-around-museo-delle-navi-antiche",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Museo delle Navi Antiche",
+      "title_pt": "Igrejas e capelas perto de Museo delle Navi Antiche",
+      "generated_by": "rules",
+      "stops": [
+        "Q3661128",
+        "Q3504760",
+        "Q3668916",
+        "Q3673712",
+        "Q3672682",
+        "Q1423910",
+        "Q3328411",
+        "Q2974397"
+      ],
+      "distance_m": 2537,
+      "walking_seconds": 2030,
+      "visit_minutes": 405
+    },
+    {
+      "slug": "churches-and-chapels-around-national-museum-of-san-matteo",
+      "theme": "churches",
+      "title_en": "Churches and chapels around National Museum of San Matteo",
+      "title_pt": "Igrejas e capelas perto de Museu Nacional de San Matteo",
+      "generated_by": "rules",
+      "stops": [
+        "Q3902469",
+        "Q3891590",
+        "Q3504816",
+        "Q3891006",
+        "Q3890473",
+        "Q941727",
+        "Q1081881",
+        "Q3504833"
+      ],
+      "distance_m": 1147,
+      "walking_seconds": 918,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "historic-highlights-around-san-michele-in-borgo",
+      "theme": "highlights",
+      "title_en": "Historic highlights around San Michele in Borgo",
+      "title_pt": "Destaques históricos perto de San Michele in Borgo",
+      "generated_by": "rules",
+      "stops": [
+        "Q3506968",
+        "Q3961387",
+        "Q3504517",
+        "Q3506865",
+        "Q3661809",
+        "Q3397718",
+        "Q3890716",
+        "Q3890175"
+      ],
+      "distance_m": 781,
+      "walking_seconds": 625,
+      "visit_minutes": 300
+    }
+  ]
+}

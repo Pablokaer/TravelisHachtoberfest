@@ -1,0 +1,147 @@
+{
+  "city": "liverpool",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "museums-and-collections-around-u-534",
+      "theme": "museums",
+      "title_en": "Museums and collections around U-534",
+      "title_pt": "Museus e coleções perto de U-534",
+      "generated_by": "rules",
+      "stops": [
+        "Q8026995",
+        "Q5645156",
+        "Q4916447",
+        "Q689369",
+        "Q517612",
+        "Q6053221",
+        "Q4306068",
+        "Q6244561"
+      ],
+      "distance_m": 3446,
+      "walking_seconds": 2757,
+      "visit_minutes": 510
+    },
+    {
+      "slug": "historic-highlights-around-superlambanana",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Superlambanana",
+      "title_pt": "Destaques históricos perto de Superlambanana",
+      "generated_by": "rules",
+      "stops": [
+        "Q126478264",
+        "Q28405572",
+        "Q4343277",
+        "Q1967497",
+        "Q16834884",
+        "Q6936202",
+        "Q2455251",
+        "Q980795"
+      ],
+      "distance_m": 2115,
+      "walking_seconds": 1692,
+      "visit_minutes": 300
+    },
+    {
+      "slug": "historic-highlights-around-liverpool-metropolitan-cathedral",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Liverpool Metropolitan Cathedral",
+      "title_pt": "Destaques históricos perto de Catedral Metropolitana de Liverpool",
+      "generated_by": "rules",
+      "stops": [
+        "Q1720584",
+        "Q2319549",
+        "Q42852357",
+        "Q5158505",
+        "Q7591419",
+        "Q1470975",
+        "Q7926720",
+        "Q4666835"
+      ],
+      "distance_m": 3188,
+      "walking_seconds": 2550,
+      "visit_minutes": 245
+    },
+    {
+      "slug": "historic-highlights-around-walker-art-gallery",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Walker Art Gallery",
+      "title_pt": "Destaques históricos perto de Walker Art Gallery",
+      "generated_by": "rules",
+      "stops": [
+        "Q5117037",
+        "Q1536471",
+        "Q104853511",
+        "Q7926878",
+        "Q126126516",
+        "Q1855296",
+        "Q52076796",
+        "Q5116963"
+      ],
+      "distance_m": 2818,
+      "walking_seconds": 2254,
+      "visit_minutes": 390
+    },
+    {
+      "slug": "churches-and-chapels-around-liverpool-cathedral",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Liverpool Cathedral",
+      "title_pt": "Igrejas e capelas perto de Catedral de Liverpool",
+      "generated_by": "rules",
+      "stops": [
+        "Q5117022",
+        "Q5117482",
+        "Q7755268",
+        "Q1866506",
+        "Q7593483",
+        "Q5117430",
+        "Q5601848",
+        "Q7244477"
+      ],
+      "distance_m": 2296,
+      "walking_seconds": 1837,
+      "visit_minutes": 220
+    },
+    {
+      "slug": "museums-and-collections-around-beatles-statue-pier-head",
+      "theme": "museums",
+      "title_en": "Museums and collections around Beatles statue, Pier Head",
+      "title_pt": "Museus e coleções perto de The Beatles Statue",
+      "generated_by": "rules",
+      "stops": [
+        "Q3305518",
+        "Q4970375",
+        "Q113698986",
+        "Q6940928",
+        "Q12061716",
+        "Q26205061",
+        "Q5621056"
+      ],
+      "distance_m": 2018,
+      "walking_seconds": 1614,
+      "visit_minutes": 360
+    },
+    {
+      "slug": "churches-and-chapels-around-mendips-menlove-avenue",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Mendips, Menlove Avenue",
+      "title_pt": "Igrejas e capelas perto de Mendips, Menlove Avenue",
+      "generated_by": "rules",
+      "stops": ["Q17675606", "Q2814706", "Q4732150", "Q2702874", "Q15979435", "Q7591335"],
+      "distance_m": 4106,
+      "walking_seconds": 3285,
+      "visit_minutes": 290
+    },
+    {
+      "slug": "churches-and-chapels-around-anfield-cemetery",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Anfield Cemetery",
+      "title_pt": "Igrejas e capelas perto de Anfield Cemetery",
+      "generated_by": "rules",
+      "stops": ["Q15979429", "Q7594058", "Q4761788", "Q7593134"],
+      "distance_m": 3982,
+      "walking_seconds": 3186,
+      "visit_minutes": 110
+    }
+  ]
+}

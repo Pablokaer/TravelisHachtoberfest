@@ -1,0 +1,67 @@
+{
+  "city": "florianopolis",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-our-lady-of-exile-and-st-catherin",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Our Lady of Exile and St. Catherine of Alexandria Cat",
+      "title_pt": "Destaques históricos perto de Catedral Metropolitana de Florianópolis",
+      "generated_by": "rules",
+      "stops": [
+        "Q65160886",
+        "Q10302538",
+        "Q56693951",
+        "Q3360846",
+        "Q65164685",
+        "Q2942664",
+        "Q3390051",
+        "Q57254430"
+      ],
+      "distance_m": 1223,
+      "walking_seconds": 978,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "city-landmarks-around-hercilio-luz-bridge",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Hercilio Luz Bridge",
+      "title_pt": "Marcos da cidade perto de Ponte Hercílio Luz",
+      "generated_by": "rules",
+      "stops": [
+        "Q124326573",
+        "Q10283980",
+        "Q3078241",
+        "Q1500721",
+        "Q3396512",
+        "Q3396683",
+        "Q10284027"
+      ],
+      "distance_m": 4040,
+      "walking_seconds": 3232,
+      "visit_minutes": 420
+    },
+    {
+      "slug": "historic-highlights-around-museu-homem-do-sambaqui",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Museu Homem do Sambaqui",
+      "title_pt": "Destaques históricos perto de Museu do Homem do Sambaqui",
+      "generated_by": "rules",
+      "stops": ["Q61000810", "Q60999963", "Q3078239", "Q61000864", "Q10333638", "Q10284035"],
+      "distance_m": 4536,
+      "walking_seconds": 3629,
+      "visit_minutes": 400
+    },
+    {
+      "slug": "museums-and-collections-around-santa-catarina-art-museum",
+      "theme": "museums",
+      "title_en": "Museums and collections around Santa Catarina Art Museum",
+      "title_pt": "Museus e coleções perto de Museu de Arte de Santa Catarina",
+      "generated_by": "rules",
+      "stops": ["Q61000185", "Q7419279", "Q10284113"],
+      "distance_m": 2937,
+      "walking_seconds": 2350,
+      "visit_minutes": 270
+    }
+  ]
+}

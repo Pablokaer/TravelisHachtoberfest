@@ -1,0 +1,27 @@
+{
+  "city": "ilheus",
+  "retrieved": "2026-10-05",
+  "sources": ["wikidata", "wikimedia-commons"],
+  "people": [
+    {
+      "wikidata_id": "Q2562632",
+      "name_en": "Adonias Filho",
+      "name_pt": "Adonias Filho",
+      "description_en": "Journalist, literary critic, essayist, librarian and Brazilian novelist (1915-1990)",
+      "description_pt": "Jornalista, crítico literário, ensaísta, bibliotecário e romancista brasileiro",
+      "categories": ["history", "writer"],
+      "birth_year": 1915,
+      "death_year": 1990,
+      "born_here": false,
+      "died_here": true,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Adonias_Aguiar_Filho.tiff/lossy-page1-500px-Adonias_Aguiar_Filho.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image_author": "Unknown",
+      "image_license": "Public domain",
+      "image_license_url": null,
+      "image_page_url": "https://commons.wikimedia.org/wiki/File:Adonias_Aguiar_Filho.tiff",
+      "wikipedia_en": "Adonias Filho",
+      "wikipedia_pt": "Adonias Filho",
+      "sitelinks": 13
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "city": "vitoria",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-penha-convent",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Penha Convent",
+      "title_pt": "Destaques históricos perto de Convento da Penha",
+      "generated_by": "rules",
+      "stops": [
+        "Q56694283",
+        "Q10300543",
+        "Q10333519",
+        "Q17167640",
+        "Q7162813",
+        "Q10283983",
+        "Q2499931",
+        "Q10332511"
+      ],
+      "distance_m": 3711,
+      "walking_seconds": 2969,
+      "visit_minutes": 530
+    },
+    {
+      "slug": "historic-highlights-around-palacio-anchieta",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Palácio Anchieta",
+      "title_pt": "Destaques históricos perto de Palácio Anchieta",
+      "generated_by": "rules",
+      "stops": [
+        "Q111017313",
+        "Q22077452",
+        "Q28680367",
+        "Q28047531",
+        "Q79171956",
+        "Q28055050",
+        "Q9054313",
+        "Q56695425"
+      ],
+      "distance_m": 1158,
+      "walking_seconds": 926,
+      "visit_minutes": 315
+    },
+    {
+      "slug": "historic-highlights-around-florentino-avidos-bridge-ponte-se",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Florentino Avidos Bridge (Ponte Seca)",
+      "title_pt": "Destaques históricos perto de Ponte Florentino Avidos (Ponte Seca)",
+      "generated_by": "rules",
+      "stops": ["Q10333796", "Q28047723", "Q67000610", "Q67000612", "Q10333476", "Q2103710"],
+      "distance_m": 3102,
+      "walking_seconds": 2482,
+      "visit_minutes": 280
+    },
+    {
+      "slug": "monuments-and-memorials-around-monjardim-manor-house",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around Monjardim Manor House",
+      "title_pt": "Monumentos e memoriais perto de Museu Solar Monjardim",
+      "generated_by": "rules",
+      "stops": ["Q111738549", "Q28046807", "Q67000614", "Q67000611", "Q28309483", "Q10333630"],
+      "distance_m": 3036,
+      "walking_seconds": 2429,
+      "visit_minutes": 270
+    }
+  ]
+}

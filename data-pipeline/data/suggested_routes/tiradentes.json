@@ -1,0 +1,26 @@
+{
+  "city": "tiradentes",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "churches-and-chapels-around-parish-church-of-saint-antony",
+      "theme": "churches",
+      "title_en": "Churches and chapels around Parish Church of Saint Antony",
+      "title_pt": "Igrejas e capelas perto de Igreja Matriz de Santo Antônio",
+      "generated_by": "rules",
+      "stops": [
+        "Q25438312",
+        "Q25444807",
+        "Q105062226",
+        "Q25444815",
+        "Q20059112",
+        "Q105062183",
+        "Q25438301",
+        "Q25438297"
+      ],
+      "distance_m": 2443,
+      "walking_seconds": 1954,
+      "visit_minutes": 350
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "city": "fez",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "city-landmarks-around-dar-al-makhzen-fez",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Dar al-Makhzen Fez",
+      "title_pt": "Marcos da cidade perto de Dar al-Makhzen Fez",
+      "generated_by": "rules",
+      "stops": [
+        "Q85786488",
+        "Q96386830",
+        "Q85740372",
+        "Q11907487",
+        "Q100540579",
+        "Q4120596",
+        "Q3042276",
+        "Q20406528"
+      ],
+      "distance_m": 1537,
+      "walking_seconds": 1230,
+      "visit_minutes": 355
+    },
+    {
+      "slug": "castles-and-viewpoints-around-bou-inania-madrasa",
+      "theme": "castles",
+      "title_en": "Castles and viewpoints around Bou Inania Madrasa",
+      "title_pt": "Castelos e miradouros perto de Madraça Bu Inania",
+      "generated_by": "rules",
+      "stops": [
+        "Q48815178",
+        "Q12195536",
+        "Q16743362",
+        "Q85748417",
+        "Q2881543",
+        "Q29660",
+        "Q85739519",
+        "Q3330322"
+      ],
+      "distance_m": 868,
+      "walking_seconds": 694,
+      "visit_minutes": 495
+    },
+    {
+      "slug": "historic-highlights-around-marinid-tombs",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Marinid Tombs",
+      "title_pt": "Destaques históricos perto de Marinid Tombs",
+      "generated_by": "rules",
+      "stops": [
+        "Q28499094",
+        "Q20407063",
+        "Q9276395",
+        "Q2911082",
+        "Q96096510",
+        "Q64896422",
+        "Q83516087",
+        "Q11929683"
+      ],
+      "distance_m": 4409,
+      "walking_seconds": 3527,
+      "visit_minutes": 535
+    },
+    {
+      "slug": "city-landmarks-around-fes-el-bali",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Fes el Bali",
+      "title_pt": "Marcos da cidade perto de Fes el Bali",
+      "generated_by": "rules",
+      "stops": [
+        "Q15845487",
+        "Q29080943",
+        "Q2072102",
+        "Q48816370",
+        "Q25391717",
+        "Q12204282",
+        "Q99278916",
+        "Q12241648"
+      ],
+      "distance_m": 1023,
+      "walking_seconds": 818,
+      "visit_minutes": 160
+    },
+    {
+      "slug": "city-landmarks-around-al-attarine-madrasa",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Al-Attarine Madrasa",
+      "title_pt": "Marcos da cidade perto de Madraça Attarine",
+      "generated_by": "rules",
+      "stops": [
+        "Q48852373",
+        "Q85757201",
+        "Q12192652",
+        "Q4702240",
+        "Q124053499",
+        "Q609167",
+        "Q91895465",
+        "Q48816742"
+      ],
+      "distance_m": 1227,
+      "walking_seconds": 982,
+      "visit_minutes": 240
+    },
+    {
+      "slug": "city-landmarks-around-andalusian-mosque",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Andalusian Mosque",
+      "title_pt": "Marcos da cidade perto de Mesquita dos Andaluzes",
+      "generated_by": "rules",
+      "stops": [
+        "Q96375952",
+        "Q96386828",
+        "Q12195531",
+        "Q85773732",
+        "Q57265877",
+        "Q48815673",
+        "Q3324925",
+        "Q85740348"
+      ],
+      "distance_m": 2639,
+      "walking_seconds": 2111,
+      "visit_minutes": 285
+    },
+    {
+      "slug": "city-landmarks-around-jnan-sbil-gardens",
+      "theme": "landmarks",
+      "title_en": "City landmarks around Jnan Sbil Gardens",
+      "title_pt": "Marcos da cidade perto de Jnan Sbil Gardens",
+      "generated_by": "rules",
+      "stops": ["Q12206205", "Q96371644", "Q85764284", "Q12195518", "Q20406879"],
+      "distance_m": 1214,
+      "walking_seconds": 971,
+      "visit_minutes": 265
+    }
+  ]
+}

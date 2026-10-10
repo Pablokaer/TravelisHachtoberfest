@@ -1,0 +1,37 @@
+{
+  "city": "aracaju",
+  "generated": "2026-10-10",
+  "routes": [
+    {
+      "slug": "historic-highlights-around-largo-da-gente-sergipana",
+      "theme": "highlights",
+      "title_en": "Historic highlights around Largo da Gente Sergipana",
+      "title_pt": "Destaques históricos perto de Largo da Gente Sergipana",
+      "generated_by": "rules",
+      "stops": [
+        "Q86740355",
+        "Q10333684",
+        "Q59693620",
+        "Q10343961",
+        "Q25044279",
+        "Q81723489",
+        "Q67206716",
+        "Q18482282"
+      ],
+      "distance_m": 1184,
+      "walking_seconds": 947,
+      "visit_minutes": 365
+    },
+    {
+      "slug": "monuments-and-memorials-around-general-valadao-square",
+      "theme": "monuments",
+      "title_en": "Monuments and memorials around General Valadão square",
+      "title_pt": "Monumentos e memoriais perto de Praça General Valadão",
+      "generated_by": "rules",
+      "stops": ["Q106547312", "Q67206708", "Q97161106"],
+      "distance_m": 2412,
+      "walking_seconds": 1930,
+      "visit_minutes": 60
+    }
+  ]
+}

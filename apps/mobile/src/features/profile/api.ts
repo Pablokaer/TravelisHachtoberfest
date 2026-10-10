@@ -28,6 +28,8 @@ export type Profile = {
   avatarPath: string | null;
   /** Whether the welcome email went out (D-066); the app asks for it until it has. */
   welcomeEmailSent: boolean;
+  /** Countries the trip planner must not propose (D-082), as ISO codes. */
+  avoidCountries: string[];
 };
 
 export const profileKeys = {
@@ -56,7 +58,7 @@ async function fetchProfile(userId: string): Promise<Profile> {
     await supabase
       .from('profiles')
       .select(
-        'id, display_name, nickname, home_country, language, units, theme, passport_expiry, onboarded_at, avatar_path, welcome_email_sent_at, profile_nationalities(country_code)',
+        'id, display_name, nickname, home_country, language, units, theme, passport_expiry, onboarded_at, avatar_path, welcome_email_sent_at, avoid_countries, profile_nationalities(country_code)',
       )
       .eq('id', userId)
       .single(),
@@ -75,6 +77,7 @@ async function fetchProfile(userId: string): Promise<Profile> {
     avatarPath: row.avatar_path,
     // Only an explicit null means "not yet": a row without the column never triggers a send.
     welcomeEmailSent: row.welcome_email_sent_at !== null,
+    avoidCountries: row.avoid_countries ?? [],
   };
 }
 
@@ -156,6 +159,37 @@ export function useUpdatePreferences() {
       return { previous };
     },
     onError: (_error, _patch, context) => {
+      if (context?.previous) queryClient.setQueryData(key, context.previous);
+    },
+    onSettled: () => queryClient.invalidateQueries({ queryKey: ['profile'] }),
+  });
+}
+
+/**
+ * Keeps the countries the traveller never wants proposed (D-082) in their profile. The cached
+ * profile is patched first, and rolled back if the save fails.
+ * @example useSaveAvoidedCountries().mutate(['MT', 'IT'])
+ */
+export function useSaveAvoidedCountries() {
+  const { session } = useAuth();
+  const queryClient = useQueryClient();
+  const key = profileKeys.profile(session?.user.id ?? 'anonymous');
+  return useMutation({
+    mutationFn: async (codes: string[]) => {
+      check(
+        await supabase
+          .from('profiles')
+          .update({ avoid_countries: codes })
+          .eq('id', session!.user.id),
+      );
+    },
+    onMutate: async (codes) => {
+      await queryClient.cancelQueries({ queryKey: key });
+      const previous = queryClient.getQueryData<Profile>(key);
+      if (previous) queryClient.setQueryData<Profile>(key, { ...previous, avoidCountries: codes });
+      return { previous };
+    },
+    onError: (_error, _codes, context) => {
       if (context?.previous) queryClient.setQueryData(key, context.previous);
     },
     onSettled: () => queryClient.invalidateQueries({ queryKey: ['profile'] }),

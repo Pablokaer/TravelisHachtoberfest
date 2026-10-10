@@ -1,0 +1,11 @@
+{
+  "city": "fortaleza",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2578483,
+  "inception_year": 1726,
+  "beach_count": 29
+}

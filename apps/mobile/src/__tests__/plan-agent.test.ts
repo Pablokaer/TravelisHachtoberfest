@@ -4,6 +4,10 @@ import { HttpPlanAgent } from '@/features/plan/plan-agent';
 import { coreQuestion, fallbackQuestion } from '@/features/plan/questions';
 
 const t = i18n.getFixedT('en');
+const COUNTRIES = [
+  { code: 'IT', name: 'Italy' },
+  { code: 'MT', name: 'Malta' },
+];
 
 /** A fetch that answers with one canned response, or fails like a service that is not running. */
 class FakeFetch {
@@ -22,18 +26,21 @@ class FakeFetch {
 
 describe('questions (D-081)', () => {
   test('the seven core questions are written in the language of the interface', () => {
-    const asked = CORE_QUESTION_IDS.map((id) => coreQuestion(id, t));
+    const asked = CORE_QUESTION_IDS.map((id) => coreQuestion(id, t, COUNTRIES));
     expect(asked.map((q) => q.kind)).toEqual([
       'origin',
       'date',
       'single',
       'single',
+      'countries',
       'multi',
       'multi',
       'multi',
     ]);
     expect(asked[3]!.text).toBe('How far from home are you willing to go?');
-    expect(asked[4]!.options.map((o) => o.label)).toContain('Snow');
+    expect(asked[5]!.options.map((o) => o.label)).toContain('Snow');
+    expect(asked[4]!.text).toBe('Are there countries you do not want as options?');
+    expect(asked[4]!.options).toEqual(COUNTRIES.map((c) => ({ value: c.code, label: c.name })));
     expect(asked.every((q) => q.source === 'core' && q.allowOther)).toBe(true);
   });
 
@@ -41,13 +48,12 @@ describe('questions (D-081)', () => {
     const asked = Array.from({ length: FOLLOW_UP_COUNT }, (_, i) => fallbackQuestion(i, t));
     expect(asked.map((q) => [q.id, q.kind, q.source])).toEqual([
       ['pace', 'single', 'fallback'],
-      ['company', 'single', 'fallback'],
       ['extra', 'text', 'fallback'],
     ]);
   });
 
   test('a fallback index out of range is an error naming it', () => {
-    expect(() => fallbackQuestion(FOLLOW_UP_COUNT, t)).toThrow(/3.*0 to 2/);
+    expect(() => fallbackQuestion(FOLLOW_UP_COUNT, t)).toThrow(/2.*0 to 1/);
   });
 });
 

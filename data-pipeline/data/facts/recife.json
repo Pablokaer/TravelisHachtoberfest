@@ -1,0 +1,11 @@
+{
+  "city": "recife",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1588376,
+  "inception_year": 1537,
+  "beach_count": 8
+}

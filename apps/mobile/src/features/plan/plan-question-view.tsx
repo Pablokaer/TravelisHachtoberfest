@@ -9,8 +9,10 @@ import { ListRow, RowGroup } from '@/components/list-row';
 import { TextField } from '@/components/text-field';
 import type { City } from '@/features/destinations/api';
 import { spacing } from '@/theme/colors';
+import { CountryPicker } from './country-picker';
 import { OriginPicker } from './origin-picker';
 import type { PlanAnswer, PlanQuestion } from './plan-flow';
+import type { CountryOption } from './questions';
 import type { Origin } from './use-plan-wizard';
 
 type Props = {
@@ -22,6 +24,9 @@ type Props = {
   cities: City[];
   /** Today as YYYY-MM-DD. */
   today: string;
+  /** Whether the countries ticked are also saved in the profile (D-082). */
+  remember: boolean;
+  onRemember: (remember: boolean) => void;
 };
 
 const EMPTY: PlanAnswer = { values: [], other: '' };
@@ -84,6 +89,34 @@ function OtherField({
   );
 }
 
+/** The countries to avoid: a picker, the choice to keep them in the profile, and a box to type. */
+function AvoidCountries(props: Props) {
+  const { t } = useTranslation();
+  const { question, answer, onAnswer } = props;
+  const countries: CountryOption[] = question.options.map((o) => ({
+    code: o.value,
+    name: o.label,
+  }));
+  return (
+    <View style={styles.box}>
+      <CountryPicker
+        countries={countries}
+        selected={answer?.values ?? []}
+        onChange={(values) => onAnswer({ other: answer?.other ?? '', values })}
+      />
+      <Chip
+        icon={props.remember ? 'bookmarked' : 'bookmark'}
+        label={t('plan.rememberAvoid')}
+        selected={props.remember}
+        onPress={() => props.onRemember(!props.remember)}
+      />
+      {question.allowOther ? (
+        <OtherField question={question} answer={answer} onAnswer={onAnswer} />
+      ) : null}
+    </View>
+  );
+}
+
 /**
  * @example <PlanQuestionView question={q} answer={a} onAnswer={setAnswer} origin={o} … />
  */
@@ -92,6 +125,7 @@ export function PlanQuestionView(props: Props) {
   if (question.kind === 'origin') {
     return <OriginPicker origin={props.origin} cities={props.cities} onOrigin={props.onOrigin} />;
   }
+  if (question.kind === 'countries') return <AvoidCountries {...props} />;
   if (question.kind === 'date') {
     return (
       <CalendarDropdown

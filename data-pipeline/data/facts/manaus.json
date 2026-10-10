@@ -1,0 +1,11 @@
+{
+  "city": "manaus",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2303732,
+  "inception_year": 1669,
+  "beach_count": 1
+}

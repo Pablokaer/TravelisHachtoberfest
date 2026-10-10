@@ -11,11 +11,15 @@ import {
 
 type CoreId = (typeof CORE_QUESTION_IDS)[number];
 
+/** A country the traveller can rule out: its ISO code and its name in the interface language. */
+export type CountryOption = { code: string; name: string };
+
 const CORE_KINDS: Record<CoreId, QuestionKind> = {
   origin: 'origin',
   date: 'date',
   length: 'single',
   distance: 'single',
+  avoid: 'countries',
   weather: 'multi',
   attractions: 'multi',
   character: 'multi',
@@ -29,13 +33,11 @@ const OPTIONS: Record<string, readonly string[]> = {
   attractions: ['beaches', 'castles', 'history', 'museums', 'nature', 'churches', 'viewpoints'],
   character: ['ancient', 'big-city', 'small-quiet', 'tech', 'food'],
   pace: ['relaxed', 'balanced', 'packed'],
-  company: ['solo', 'couple', 'family', 'friends'],
 };
 
 /** Follow-ups used when the model cannot write them, in the order asked. */
 const FALLBACKS: readonly { id: string; kind: QuestionKind }[] = [
   { id: 'pace', kind: 'single' },
-  { id: 'company', kind: 'single' },
   { id: 'extra', kind: 'text' },
 ];
 
@@ -63,10 +65,17 @@ function build(
 }
 
 /**
+ * The countries question lists `countries`; the others have their own options.
  * @example coreQuestion('weather', t).options[0] // { value: 'sunny', label: 'Sunny' }
  */
-export function coreQuestion(id: CoreId, t: TFunction): PlanQuestion {
-  return build(id, CORE_KINDS[id], 'core', t);
+export function coreQuestion(
+  id: CoreId,
+  t: TFunction,
+  countries: readonly CountryOption[] = [],
+): PlanQuestion {
+  const question = build(id, CORE_KINDS[id], 'core', t);
+  if (id !== 'avoid') return question;
+  return { ...question, options: countries.map((c) => ({ value: c.code, label: c.name })) };
 }
 
 /**

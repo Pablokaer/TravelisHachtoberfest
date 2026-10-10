@@ -1,0 +1,11 @@
+{
+  "city": "porto-alegre",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1388794,
+  "inception_year": 1772,
+  "beach_count": 15
+}

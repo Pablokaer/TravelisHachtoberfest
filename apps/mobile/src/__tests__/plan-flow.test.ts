@@ -27,6 +27,7 @@ const ORIGIN = { lat: -23.55, lng: -46.63 };
 const answers: AnswerMap = {
   date: { values: ['2026-12-10'], other: '' },
   distance: { values: ['km-4000'], other: '' },
+  avoid: { values: ['MT', 'IT'], other: '' },
   weather: { values: ['sunny', 'warm'], other: '' },
   attractions: { values: ['beaches', 'castles'], other: '' },
   character: { values: ['ancient', 'tech'], other: '' },
@@ -57,12 +58,18 @@ describe('preferencesFrom', () => {
     expect(preferencesFrom(answers, ORIGIN)).toEqual({
       origin: ORIGIN,
       maxKm: 4000,
+      excludedCountries: ['MT', 'IT'],
       month: 12,
       weather: ['sunny', 'warm'],
       attractions: ['beaches', 'castles'],
       // "tech" has no data behind it: it goes to the model as text, not to the scoring.
       character: ['ancient'],
     });
+  });
+
+  test('no avoided countries means none are left out', () => {
+    const { avoid: _avoid, ...rest } = answers;
+    expect(preferencesFrom(rest, ORIGIN).excludedCountries).toEqual([]);
   });
 
   test('a missing date is an error naming what is missing', () => {

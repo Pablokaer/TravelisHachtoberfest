@@ -1,0 +1,11 @@
+{
+  "city": "tainan",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1849762,
+  "inception_year": 2010,
+  "beach_count": 5
+}

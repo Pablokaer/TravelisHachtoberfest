@@ -1,0 +1,11 @@
+{
+  "city": "xian",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 12952907,
+  "inception_year": null,
+  "beach_count": 0
+}

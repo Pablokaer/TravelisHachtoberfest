@@ -1,0 +1,11 @@
+{
+  "city": "jakarta",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 11135191,
+  "inception_year": 1527,
+  "beach_count": 7
+}

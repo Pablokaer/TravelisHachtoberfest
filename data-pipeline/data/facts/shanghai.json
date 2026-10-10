@@ -1,0 +1,11 @@
+{
+  "city": "shanghai",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 24870895,
+  "inception_year": 1292,
+  "beach_count": 0
+}

@@ -11,7 +11,10 @@ jest.mock('expo-location', () => ({
   requestForegroundPermissionsAsync: async () => ({ granted: false }),
   getCurrentPositionAsync: async () => ({ coords: { latitude: 0, longitude: 0 } }),
 }));
-jest.mock('@/features/profile/api', () => ({ useProfile: () => ({ data: undefined }) }));
+jest.mock('@/features/profile/api', () => ({
+  useProfile: () => ({ data: undefined }),
+  useSaveAvoidedCountries: () => ({ mutate: jest.fn() }),
+}));
 jest.mock('@/features/reviews/api', () => ({ useRatingSummary: () => ({ data: undefined }) }));
 jest.mock('@/features/suggested/use-city-search', () => ({
   SEARCH_MIN_LETTERS: 3,

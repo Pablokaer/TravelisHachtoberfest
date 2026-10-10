@@ -1,0 +1,11 @@
+{
+  "city": "olinda",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 364717,
+  "inception_year": 1535,
+  "beach_count": 23
+}

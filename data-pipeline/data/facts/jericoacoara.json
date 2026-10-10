@@ -1,0 +1,11 @@
+{
+  "city": "jericoacoara",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 28198,
+  "inception_year": 1991,
+  "beach_count": 9
+}

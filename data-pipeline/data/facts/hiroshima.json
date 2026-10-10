@@ -1,0 +1,11 @@
+{
+  "city": "hiroshima",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1198021,
+  "inception_year": 1889,
+  "beach_count": 6
+}

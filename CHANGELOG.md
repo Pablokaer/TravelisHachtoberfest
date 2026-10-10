@@ -13,6 +13,7 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 
 ### Added
 
+- **Countries to avoid** (D-082): a question in **Plan trip** asks which countries you do not want as options (searchable, optional); they never reach the proposals. Tick **Remember these countries in my profile** to keep them (`profiles.avoid_countries`, migration `20261011000300`); **Profile** lists them and lets you take each off.
 - **Plan trip** (D-081): a side-bar entry with a ten-question interview, one question at a time — where you start from, a date from a calendar drop-down, trip length, how far you will go, weather, attractions and the kind of city, then three follow-ups written by the local model — each with a box to type your own answer. The destinations that fit (distance, month and weather checked by code, ranked and explained by the local model) can be ticked and saved to **Future trips**.
 - **Future trips** tab (D-081): the saved destinations as city cards (open the city page, its lists and attractions), with the reason and the planned day; new table `future_trips` (owner-only).
 - Climate and city facts (D-081): tables `city_climate` (monthly normals from Open-Meteo), `city_facts` (population, year of foundation, beaches) and the `city_profiles` view; pipeline commands `climate` and `facts`; the city builder fetches them for cities it builds. `POST /plan/question` and `POST /plan/rank` on the city-builder service.

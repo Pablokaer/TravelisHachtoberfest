@@ -1,0 +1,11 @@
+{
+  "city": "cabo-frio",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 238438,
+  "inception_year": 1615,
+  "beach_count": 46
+}

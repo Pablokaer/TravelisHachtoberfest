@@ -21,7 +21,7 @@ import {
   type PlanQuestion,
   type Proposal,
 } from './plan-flow';
-import { coreQuestion, fallbackQuestion } from './questions';
+import { coreQuestion, fallbackQuestion, type CountryOption } from './questions';
 
 export type Origin = LatLng & { label: string };
 
@@ -31,6 +31,10 @@ export type WizardDeps = {
   /** Climate, facts and profiles of every city for the chosen month. */
   loadCities: (month: number) => Promise<PlanCity[]>;
   cities: readonly City[];
+  /** Countries that can be ruled out, in the language of the interface. */
+  countries: readonly CountryOption[];
+  /** Countries saved in the profile, ticked from the start (D-082). */
+  avoidedCountries: readonly string[];
   t: TFunction;
   language: string;
 };
@@ -68,10 +72,10 @@ export type PlanWizard = {
   restart: () => void;
 };
 
-const initialState = (t: TFunction): State => ({
+const initialState = (t: TFunction, avoided: readonly string[]): State => ({
   asked: [coreQuestion('origin', t)],
   index: 0,
-  answers: {},
+  answers: avoided.length > 0 ? { avoid: { values: [...avoided], other: '' } } : {},
   origin: null,
   phase: 'asking',
   proposals: [],
@@ -82,7 +86,7 @@ const initialState = (t: TFunction): State => ({
 /** The question after the ones asked: a fixed one, or the model's (the fixed list as a fallback). */
 async function questionAfter(state: State, deps: WizardDeps): Promise<PlanQuestion> {
   const core = CORE_QUESTION_IDS[state.asked.length];
-  if (core) return coreQuestion(core, deps.t);
+  if (core) return coreQuestion(core, deps.t, deps.countries);
   const fallback = fallbackQuestion(state.asked.length - CORE_QUESTION_IDS.length, deps.t);
   const written = await deps.agent?.nextQuestion(
     answerSummary(state.asked, state.answers),
@@ -113,6 +117,8 @@ const canAdvance = (state: State): boolean => {
   const question = state.asked[state.index]!;
   const answer = state.answers[question.id];
   if (question.kind === 'origin') return state.origin !== null;
+  // Ruling out no country at all is a fine answer.
+  if (question.kind === 'countries') return true;
   if (question.kind === 'date') return !!answer?.values[0];
   return isAnswered(question, answer);
 };
@@ -121,7 +127,7 @@ const canAdvance = (state: State): boolean => {
  * @example const wizard = usePlanWizard({ agent, loadCities, cities, t, language: 'en' });
  */
 export function usePlanWizard(deps: WizardDeps): PlanWizard {
-  const [state, setState] = useState<State>(() => initialState(deps.t));
+  const [state, setState] = useState<State>(() => initialState(deps.t, deps.avoidedCountries));
   const patch = (changes: Partial<State>) => setState((s) => ({ ...s, ...changes }));
   const question = state.asked[state.index]!;
 
@@ -168,6 +174,6 @@ export function usePlanWizard(deps: WizardDeps): PlanWizard {
     setOrigin,
     next,
     back: () => patch({ index: Math.max(0, state.index - 1), phase: 'asking' }),
-    restart: () => setState(initialState(deps.t)),
+    restart: () => setState(initialState(deps.t, deps.avoidedCountries)),
   };
 }

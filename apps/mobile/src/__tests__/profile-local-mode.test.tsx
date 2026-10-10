@@ -16,6 +16,7 @@ jest.mock('@/features/profile/api', () => ({
   useProfile: () => ({ data: undefined }),
   useCountries: () => ({ data: [] }),
   useUpdatePreferences: () => ({ mutate: jest.fn() }),
+  useSaveAvoidedCountries: () => ({ mutate: jest.fn() }),
 }));
 
 describe('profile in local mode (D-078)', () => {

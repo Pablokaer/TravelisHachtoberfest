@@ -515,7 +515,10 @@
     "themeName": {
       "light": "Claro",
       "dark": "Escuro"
-    }
+    },
+    "avoidTitle": "Países que não quero visitar",
+    "avoidNone": "Ainda nenhum. Pode excluir países ao planear uma viagem.",
+    "avoidRemove": "Deixar de evitar {{country}}"
   },
   "about": {
     "title": "Sobre",
@@ -866,7 +869,7 @@
     "resultsTitle": "Para onde poderia ir?",
     "resultsBody": "Assinale os lugares que o tentam e guarde-os em Viagens futuras.",
     "noResults": "Nenhuma cidade serve todas as suas respostas",
-    "noResultsBody": "Experimente uma distância maior, outro mês ou menos desejos.",
+    "noResultsBody": "Experimente uma distância maior, outro mês, menos desejos ou menos países excluídos.",
     "startOver": "Recomeçar",
     "relaxed": "Poucas cidades têm o tempo que pediu, por isso estas são as que mais se aproximam.",
     "byModel": "Escolhido pela IA local",
@@ -947,19 +950,17 @@
           "packed": "Intenso, ver tudo"
         }
       },
-      "company": {
-        "text": "Quem viaja?",
-        "opt": {
-          "solo": "Só eu",
-          "couple": "Em casal",
-          "family": "Em família",
-          "friends": "Com amigos"
-        }
-      },
       "extra": {
         "text": "Mais alguma coisa que a viagem deva ter, ou evitar?"
+      },
+      "avoid": {
+        "text": "Há países que não quer como opção?"
       }
     },
-    "myLocation": "A minha localização"
+    "myLocation": "A minha localização",
+    "countriesSearch": "Pesquisar um país",
+    "avoidedNone": "Nenhum país excluído",
+    "rememberAvoid": "Guardar estes países no meu perfil",
+    "avoidSaved": "Guardado no seu perfil"
   }
 }

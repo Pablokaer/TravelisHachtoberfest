@@ -60,6 +60,7 @@ const profile = (avatarPath: string | null): Profile => ({
   nationalities: ['GB'],
   avatarPath,
   welcomeEmailSent: true,
+  avoidCountries: [],
 });
 
 beforeEach(() => MockProfilePhotoServer.reset());

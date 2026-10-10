@@ -1,0 +1,11 @@
+{
+  "city": "nara",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 352377,
+  "inception_year": 1898,
+  "beach_count": 1
+}

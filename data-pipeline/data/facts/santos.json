@@ -1,0 +1,11 @@
+{
+  "city": "santos",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 429547,
+  "inception_year": 1546,
+  "beach_count": 17
+}

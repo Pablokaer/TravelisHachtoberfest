@@ -13,9 +13,11 @@ type Props = {
   onPress?: () => void;
   onRemove?: () => void;
   icon?: IconName;
+  /** Spoken name when it differs from the label (e.g. a longer "Stop avoiding Malta"). */
+  accessibilityLabel?: string;
 };
 
-export function Chip({ label, selected, onPress, onRemove, icon }: Props) {
+export function Chip({ label, selected, onPress, onRemove, icon, accessibilityLabel }: Props) {
   const theme = useTheme();
   const handler = onRemove ?? onPress;
   const fg = selected ? theme.onPrimary : theme.text;
@@ -23,7 +25,7 @@ export function Chip({ label, selected, onPress, onRemove, icon }: Props) {
     <Tappable
       onPress={handler}
       accessibilityRole={onRemove ? 'button' : 'checkbox'}
-      accessibilityLabel={label}
+      accessibilityLabel={accessibilityLabel ?? label}
       accessibilityState={onRemove ? undefined : { checked: !!selected }}
       hitSlop={6}
       pressScale={0.95}

@@ -28,8 +28,12 @@ class FakeAgent implements PlanAgent {
   }
 }
 
-const rio = fakeCity({ slug: 'rio', nameEn: 'Rio', lat: -22.9, lng: -43.2 });
-const oslo = fakeCity({ slug: 'oslo', nameEn: 'Oslo', lat: 59.9, lng: 10.7 });
+const rio = fakeCity({ slug: 'rio', nameEn: 'Rio', countryCode: 'BR', lat: -22.9, lng: -43.2 });
+const oslo = fakeCity({ slug: 'oslo', nameEn: 'Oslo', countryCode: 'NO', lat: 59.9, lng: 10.7 });
+const COUNTRIES = [
+  { code: 'BR', name: 'Brazil' },
+  { code: 'NO', name: 'Norway' },
+];
 const cities: City[] = [rio, oslo];
 const planCity = (
   slug: string,
@@ -40,7 +44,7 @@ const planCity = (
   slug,
   lat,
   lng,
-  countryCode: 'XX',
+  countryCode: slug === 'oslo' ? 'NO' : 'BR',
   climate: { tempMeanC: 26, tempMaxC: 31, precipMm: 60, snowfallCm: 0, sunshineHours: 9 },
   facts: null,
   profile: null,
@@ -62,8 +66,18 @@ const aiQuestion = (id: string): PlanQuestion => ({
   source: 'ai',
 });
 
-function setup(agent: PlanAgent | null) {
-  return renderHook(() => usePlanWizard({ agent, loadCities, cities, t, language: 'en' }));
+function setup(agent: PlanAgent | null, avoidedCountries: string[] = []) {
+  return renderHook(() =>
+    usePlanWizard({
+      agent,
+      loadCities,
+      cities,
+      countries: COUNTRIES,
+      avoidedCountries,
+      t,
+      language: 'en',
+    }),
+  );
 }
 
 /** Answers the current question with this answer and moves on, waiting for the next question. */
@@ -83,7 +97,10 @@ async function answerCoreQuestions(hook: ReturnType<typeof setup>) {
   await act(async () => hook.result.current.next());
   await answer(hook, ['2026-12-10'], '', 'length');
   await answer(hook, ['week'], '', 'distance');
-  await answer(hook, ['km-4000'], '', 'weather');
+  await answer(hook, ['km-4000'], '', 'avoid');
+  // Left as it is (empty, or ticked from the profile): the avoid question needs no answer.
+  await act(async () => hook.result.current.next());
+  await waitFor(() => expect(hook.result.current.question.id).toBe('weather'));
   await answer(hook, ['sunny', 'warm'], '', 'attractions');
   await answer(hook, ['beaches'], '', 'character');
 }
@@ -118,11 +135,12 @@ describe('usePlanWizard (D-081)', () => {
   });
 
   test('after the core questions the model writes the follow-ups from the answers so far', async () => {
-    const agent = new FakeAgent([aiQuestion('ai-7'), aiQuestion('ai-8'), aiQuestion('ai-9')]);
+    const agent = new FakeAgent([aiQuestion('ai-8'), aiQuestion('ai-9')]);
     const hook = setup(agent);
     await answerCoreQuestions(hook);
-    await answer(hook, ['ancient'], '', 'ai-7');
+    await answer(hook, ['ancient'], '', 'ai-8');
     expect(hook.result.current.question.source).toBe('ai');
+    // The avoid question was left empty, so there is nothing to tell the model about it.
     expect(agent.asked[0]!.map((a) => a.id)).toEqual([
       'origin',
       'date',
@@ -132,7 +150,6 @@ describe('usePlanWizard (D-081)', () => {
       'attractions',
       'character',
     ]);
-    await answer(hook, ['a'], '', 'ai-8');
     await answer(hook, ['a'], '', 'ai-9');
     expect(hook.result.current.index).toBe(9);
   });
@@ -141,8 +158,7 @@ describe('usePlanWizard (D-081)', () => {
     const hook = setup(null);
     await answerCoreQuestions(hook);
     await answer(hook, ['ancient'], '', 'pace');
-    await answer(hook, ['relaxed'], '', 'company');
-    await answer(hook, ['couple'], '', 'extra');
+    await answer(hook, ['relaxed'], '', 'extra');
     expect(hook.result.current.question.kind).toBe('text');
   });
 
@@ -158,14 +174,13 @@ describe('usePlanWizard (D-081)', () => {
 
   test('the last answer shows the destinations the model picked among the cities that fit', async () => {
     const agent = new FakeAgent(
-      [null, null, null],
+      [null, null],
       [{ slug: 'rio', reason: 'Warm beaches in December.' }],
     );
     const hook = setup(agent);
     await answerCoreQuestions(hook);
     await answer(hook, ['ancient'], '', 'pace');
-    await answer(hook, ['relaxed'], '', 'company');
-    await answer(hook, ['couple'], '', 'extra');
+    await answer(hook, ['relaxed'], '', 'extra');
     await answer(hook, [], 'near a night market');
     await waitFor(() => expect(hook.result.current.phase).toBe('results'));
     expect(
@@ -179,12 +194,42 @@ describe('usePlanWizard (D-081)', () => {
     const hook = setup(null);
     await answerCoreQuestions(hook);
     await answer(hook, ['ancient'], '', 'pace');
-    await answer(hook, ['relaxed'], '', 'company');
-    await answer(hook, ['couple'], '', 'extra');
+    await answer(hook, ['relaxed'], '', 'extra');
     await answer(hook, [], 'anything');
     await waitFor(() => expect(hook.result.current.phase).toBe('results'));
     expect(hook.result.current.proposals.map((p) => [p.destination.slug, p.byModel])).toEqual([
       ['rio', false],
     ]);
+  });
+
+  test('the avoid question may be left empty, and countries saved in the profile come ticked', async () => {
+    const hook = setup(null, ['NO']);
+    await answerCoreQuestions(hook);
+    act(() => hook.result.current.back());
+    act(() => hook.result.current.back());
+    act(() => hook.result.current.back());
+    expect(hook.result.current.question.id).toBe('avoid');
+    expect(hook.result.current.question.kind).toBe('countries');
+    expect(hook.result.current.answer).toEqual({ values: ['NO'], other: '' });
+    expect(hook.result.current.canNext).toBe(true);
+    act(() => hook.result.current.setAnswer({ values: [], other: '' }));
+    expect(hook.result.current.canNext).toBe(true);
+  });
+
+  test('an avoided country is never proposed, and the model is told which', async () => {
+    const agent = new FakeAgent([null, null], [{ slug: 'rio', reason: 'Warm.' }]);
+    const hook = setup(agent, ['BR']);
+    await answerCoreQuestions(hook);
+    // The traveller keeps the saved avoidance of Brazil (the ticked answer is not changed).
+    await answer(hook, ['ancient'], '', 'pace');
+    await answer(hook, ['relaxed'], '', 'extra');
+    await answer(hook, [], 'anything');
+    await waitFor(() => expect(hook.result.current.phase).toBe('results'));
+    expect(hook.result.current.proposals).toEqual([]);
+    expect(agent.asked[0]).toContainEqual({
+      id: 'avoid',
+      question: 'Are there countries you do not want as options?',
+      answer: 'Brazil',
+    });
   });
 });

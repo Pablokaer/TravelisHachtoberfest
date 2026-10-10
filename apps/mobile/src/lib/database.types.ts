@@ -302,13 +302,13 @@ isOneToOne: false
                   ]
                 },"profiles": {
                   Row: {
-                    "avatar_path": string | null,"created_at": string,"display_name": string | null,"home_country": string | null,"id": string,"language": string,"nickname": string | null,"onboarded_at": string | null,"passport_expiry": string | null,"public_id": string,"theme": string,"units": string,"updated_at": string,"welcome_email_sent_at": string | null
+                    "avatar_path": string | null,"avoid_countries": (string)[],"created_at": string,"display_name": string | null,"home_country": string | null,"id": string,"language": string,"nickname": string | null,"onboarded_at": string | null,"passport_expiry": string | null,"public_id": string,"theme": string,"units": string,"updated_at": string,"welcome_email_sent_at": string | null
                   }
                   Insert: {
-                    "avatar_path"?: string | null,"created_at"?: string,"display_name"?: string | null,"home_country"?: string | null,"id": string,"language"?: string,"nickname"?: string | null,"onboarded_at"?: string | null,"passport_expiry"?: string | null,"public_id"?: string,"theme"?: string,"units"?: string,"updated_at"?: string,"welcome_email_sent_at"?: string | null
+                    "avatar_path"?: string | null,"avoid_countries"?: (string)[],"created_at"?: string,"display_name"?: string | null,"home_country"?: string | null,"id": string,"language"?: string,"nickname"?: string | null,"onboarded_at"?: string | null,"passport_expiry"?: string | null,"public_id"?: string,"theme"?: string,"units"?: string,"updated_at"?: string,"welcome_email_sent_at"?: string | null
                   }
                   Update: {
-                    "avatar_path"?: string | null,"created_at"?: string,"display_name"?: string | null,"home_country"?: string | null,"id"?: string,"language"?: string,"nickname"?: string | null,"onboarded_at"?: string | null,"passport_expiry"?: string | null,"public_id"?: string,"theme"?: string,"units"?: string,"updated_at"?: string,"welcome_email_sent_at"?: string | null
+                    "avatar_path"?: string | null,"avoid_countries"?: (string)[],"created_at"?: string,"display_name"?: string | null,"home_country"?: string | null,"id"?: string,"language"?: string,"nickname"?: string | null,"onboarded_at"?: string | null,"passport_expiry"?: string | null,"public_id"?: string,"theme"?: string,"units"?: string,"updated_at"?: string,"welcome_email_sent_at"?: string | null
                   }
                   Relationships: [
                     {

@@ -35,6 +35,7 @@ const SAO_PAULO = { lat: -23.55, lng: -46.63 };
 const prefs = (over: Partial<PlanPreferences> = {}): PlanPreferences => ({
   origin: SAO_PAULO,
   maxKm: null,
+  excludedCountries: [],
   month: 12,
   weather: [],
   attractions: [],
@@ -168,5 +169,15 @@ describe('shortlistDestinations', () => {
     const result = shortlistDestinations([cold], prefs({ weather: ['hot'] }), 10, 3);
     expect(result.relaxed).toBe(true);
     expect(result.destinations.map((d) => d.slug)).toEqual(['cold']);
+  });
+
+  test('a country the traveller never wants is left out, however well it fits', () => {
+    const malta = city('valletta', 35.9, 14.5, { countryCode: 'MT' });
+    const italy = city('rome', 41.9, 12.5, { countryCode: 'IT' });
+    const { destinations } = shortlistDestinations(
+      [malta, italy],
+      prefs({ excludedCountries: ['MT'] }),
+    );
+    expect(destinations.map((d) => d.slug)).toEqual(['rome']);
   });
 });

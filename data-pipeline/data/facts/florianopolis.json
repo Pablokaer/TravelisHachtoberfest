@@ -1,0 +1,11 @@
+{
+  "city": "florianopolis",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 587486,
+  "inception_year": 1726,
+  "beach_count": 114
+}

@@ -14,7 +14,7 @@ import {
 
 import type { FutureTrip } from '@/features/future-trips/api';
 
-export type QuestionKind = 'origin' | 'date' | 'single' | 'multi' | 'text';
+export type QuestionKind = 'origin' | 'date' | 'single' | 'multi' | 'countries' | 'text';
 
 export type PlanQuestion = {
   id: string;
@@ -37,12 +37,13 @@ export const CORE_QUESTION_IDS = [
   'date',
   'length',
   'distance',
+  'avoid',
   'weather',
   'attractions',
   'character',
 ] as const;
 /** Questions written by the model (or a fixed list when it is not there) after the core ones. */
-export const FOLLOW_UP_COUNT = 3;
+export const FOLLOW_UP_COUNT = 2;
 export const TOTAL_QUESTIONS = CORE_QUESTION_IDS.length + FOLLOW_UP_COUNT;
 /** Destinations shown at the end. */
 export const PROPOSAL_COUNT = 6;
@@ -82,6 +83,11 @@ const valuesOf = <T extends string>(
   known: readonly string[],
 ): T[] => (answer?.values.filter((v) => known.includes(v)) ?? []) as T[];
 
+/** The countries ticked in the avoid question, as upper-case ISO codes. */
+export function countryCodesFrom(answer: PlanAnswer | undefined): string[] {
+  return (answer?.values ?? []).filter((code) => /^[A-Z]{2}$/.test(code));
+}
+
 /**
  * The answers as the hard limits and wishes the scoring understands.
  * @example preferencesFrom(answers, { lat: -23.55, lng: -46.63 }).month // 12
@@ -92,6 +98,7 @@ export function preferencesFrom(answers: AnswerMap, origin: LatLng): PlanPrefere
   return {
     origin,
     maxKm: maxKmFrom(answers.distance),
+    excludedCountries: countryCodesFrom(answers.avoid),
     month: monthOf(date),
     weather: valuesOf<WeatherWish>(answers.weather, WEATHER),
     attractions: valuesOf<AttractionWish>(answers.attractions, ATTRACTIONS),

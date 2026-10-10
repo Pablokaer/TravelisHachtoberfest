@@ -1,0 +1,11 @@
+{
+  "city": "tokyo",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 14264798,
+  "inception_year": 1868,
+  "beach_count": 14
+}

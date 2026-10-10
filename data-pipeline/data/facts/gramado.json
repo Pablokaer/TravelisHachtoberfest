@@ -1,0 +1,11 @@
+{
+  "city": "gramado",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 41705,
+  "inception_year": 1954,
+  "beach_count": 1
+}

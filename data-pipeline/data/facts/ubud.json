@@ -1,0 +1,11 @@
+{
+  "city": "ubud",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": null,
+  "inception_year": null,
+  "beach_count": 0
+}

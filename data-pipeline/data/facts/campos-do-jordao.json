@@ -1,0 +1,11 @@
+{
+  "city": "campos-do-jordao",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 47956,
+  "inception_year": 1874,
+  "beach_count": 0
+}

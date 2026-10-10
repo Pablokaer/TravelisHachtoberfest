@@ -1,0 +1,11 @@
+{
+  "city": "salvador",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2564204,
+  "inception_year": 1549,
+  "beach_count": 115
+}

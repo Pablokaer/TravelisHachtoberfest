@@ -515,7 +515,10 @@
     "themeName": {
       "light": "Light",
       "dark": "Dark"
-    }
+    },
+    "avoidTitle": "Countries I do not want to visit",
+    "avoidNone": "None yet. You can rule countries out when you plan a trip.",
+    "avoidRemove": "Stop avoiding {{country}}"
   },
   "about": {
     "title": "About",
@@ -866,7 +869,7 @@
     "resultsTitle": "Where could you go?",
     "resultsBody": "Tick the places that tempt you and save them to Future trips.",
     "noResults": "No city fits all your answers",
-    "noResultsBody": "Try a longer distance, another month or fewer wishes.",
+    "noResultsBody": "Try a longer distance, another month, fewer wishes or fewer countries ruled out.",
     "startOver": "Start over",
     "relaxed": "Few cities match the weather you asked for, so these are the closest fits.",
     "byModel": "Chosen by the local AI",
@@ -947,19 +950,17 @@
           "packed": "Packed, see everything"
         }
       },
-      "company": {
-        "text": "Who is travelling?",
-        "opt": {
-          "solo": "Just me",
-          "couple": "As a couple",
-          "family": "With family",
-          "friends": "With friends"
-        }
-      },
       "extra": {
         "text": "Anything else the trip should have, or avoid?"
+      },
+      "avoid": {
+        "text": "Are there countries you do not want as options?"
       }
     },
-    "myLocation": "My location"
+    "myLocation": "My location",
+    "countriesSearch": "Search a country",
+    "avoidedNone": "No country ruled out",
+    "rememberAvoid": "Remember these countries in my profile",
+    "avoidSaved": "Saved in your profile"
   }
 }

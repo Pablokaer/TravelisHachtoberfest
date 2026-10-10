@@ -1,0 +1,11 @@
+{
+  "city": "osaka",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 2751862,
+  "inception_year": 1889,
+  "beach_count": 32
+}

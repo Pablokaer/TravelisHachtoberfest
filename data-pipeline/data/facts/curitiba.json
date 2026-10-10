@@ -1,0 +1,11 @@
+{
+  "city": "curitiba",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 1830795,
+  "inception_year": 1693,
+  "beach_count": 2
+}

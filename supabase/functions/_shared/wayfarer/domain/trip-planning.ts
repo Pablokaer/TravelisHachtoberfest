@@ -53,6 +53,8 @@ export type PlanPreferences = {
   origin: LatLng;
   /** Farthest the traveller will go, in km; null for any distance. */
   maxKm: number | null;
+  /** Countries (ISO codes) the traveller never wants proposed (D-082). */
+  excludedCountries: string[];
   /** Month of the trip, 1–12. */
   month: number;
   weather: WeatherWish[];
@@ -184,14 +186,15 @@ function scoreCity(city: PlanCity, prefs: PlanPreferences, distanceKm: number): 
 
 function withinReach(city: PlanCity, prefs: PlanPreferences): ScoredDestination | null {
   if (!city.climate) return null;
+  if (prefs.excludedCountries.includes(city.countryCode)) return null;
   const distanceKm = haversineMeters(prefs.origin, city) / 1000;
   if (prefs.maxKm !== null && distanceKm > prefs.maxKm) return null;
   return scoreCity(city, prefs, distanceKm);
 }
 
 /**
- * The cities that can fit the answers, best first: within the distance, with climate for the
- * month, and (while enough remain) a weather fit of at least 0.4.
+ * The cities that can fit the answers, best first: in a country that is not avoided, within the
+ * distance, with climate for the month, and (while enough remain) a weather fit of at least 0.4.
  * @example shortlistDestinations(cities, { origin, maxKm: 3000, month: 12, … }).destinations
  */
 export function shortlistDestinations(

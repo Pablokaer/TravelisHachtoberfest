@@ -1,0 +1,11 @@
+{
+  "city": "fernando-de-noronha",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 3341,
+  "inception_year": null,
+  "beach_count": 16
+}

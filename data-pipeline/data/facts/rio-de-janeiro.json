@@ -1,0 +1,11 @@
+{
+  "city": "rio-de-janeiro",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 6730729,
+  "inception_year": 1565,
+  "beach_count": 119
+}

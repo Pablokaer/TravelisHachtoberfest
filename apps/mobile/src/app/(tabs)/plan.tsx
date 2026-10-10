@@ -8,9 +8,10 @@ import { Card } from '@/components/card';
 import { PageHeader, Screen } from '@/components/screen';
 import { LoadingState } from '@/components/states';
 import { Text } from '@/components/text';
-import { useCities, type City } from '@/features/destinations/api';
+import { countryOf, useCities, type City } from '@/features/destinations/api';
 import { useSaveFutureTrips } from '@/features/future-trips/api';
 import { defaultPlanAgent } from '@/features/plan/default-agent';
+import { useProfile, useSaveAvoidedCountries } from '@/features/profile/api';
 import { fetchPlanCities } from '@/features/plan/plan-data';
 import { futureTripsFrom } from '@/features/plan/plan-flow';
 import { PlanQuestionView } from '@/features/plan/plan-question-view';
@@ -52,7 +53,16 @@ function ProgressBar({ index, total }: { index: number; total: number }) {
 }
 
 /** One question in its window, with Back and Next. */
-function QuestionWindow({ wizard, cities }: { wizard: PlanWizard; cities: City[] }) {
+type WindowProps = {
+  wizard: PlanWizard;
+  cities: City[];
+  /** Whether the countries ticked are also kept in the profile (D-082). */
+  remember: boolean;
+  onRemember: (remember: boolean) => void;
+  onNext: () => void;
+};
+
+function QuestionWindow({ wizard, cities, remember, onRemember, onNext }: WindowProps) {
   const { t } = useTranslation();
   const last = wizard.index === wizard.total - 1;
   return (
@@ -67,6 +77,8 @@ function QuestionWindow({ wizard, cities }: { wizard: PlanWizard; cities: City[]
         onOrigin={wizard.setOrigin}
         cities={cities}
         today={todayIso()}
+        remember={remember}
+        onRemember={onRemember}
       />
       <View style={styles.buttons}>
         <Button
@@ -78,7 +90,7 @@ function QuestionWindow({ wizard, cities }: { wizard: PlanWizard; cities: City[]
         <Button
           label={last ? t('plan.finish') : t('plan.next')}
           disabled={!wizard.canNext}
-          onPress={() => void wizard.next()}
+          onPress={onNext}
         />
       </View>
     </Card>
@@ -106,35 +118,72 @@ function Failure({ wizard }: { wizard: PlanWizard }) {
   );
 }
 
+/** The countries the app has cities in, by name in the language of the interface. */
+function countriesOf(cities: City[], language: string) {
+  const byCode = new Map(cities.map((c) => [c.countryCode, countryOf(c, language)]));
+  return [...byCode]
+    .map(([code, name]) => ({ code, name }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
 /**
  * Plan your next trip (D-081): one question at a time, a shortlist of destinations that fit the
  * answers (distance, month, weather, attractions) ranked by the local model, and a way to keep the
- * ones that tempt in Future trips.
+ * ones that tempt in Future trips. The countries ruled out can be kept in the profile (D-082).
  */
 export default function PlanScreen() {
+  const { t } = useTranslation();
+  const profile = useProfile();
+  // The interview starts with the avoided countries of the profile, so wait for them.
+  const loading = profile.isPending && profile.fetchStatus !== 'idle';
+  return (
+    <Screen>
+      <PageHeader title={t('plan.title')} subtitle={t('plan.subtitle')} />
+      {loading ? <LoadingState /> : <Interview avoided={profile.data?.avoidCountries ?? []} />}
+    </Screen>
+  );
+}
+
+function Interview({ avoided }: { avoided: string[] }) {
   const { t, i18n } = useTranslation();
+  const language = i18n.resolvedLanguage ?? 'en';
   const cities = useCities();
   const save = useSaveFutureTrips();
+  const saveAvoided = useSaveAvoidedCountries();
   const [started, setStarted] = useState(false);
+  const [remember, setRemember] = useState(avoided.length > 0);
   const list = cities.data ?? [];
   const wizard = usePlanWizard({
     agent: defaultPlanAgent,
     loadCities: (month) => fetchPlanCities(list, month),
     cities: list,
+    countries: countriesOf(list, language),
+    avoidedCountries: avoided,
     t,
-    language: i18n.resolvedLanguage ?? 'en',
+    language,
   });
+  const goNext = () => {
+    if (wizard.question.id === 'avoid' && remember) {
+      saveAvoided.mutate(wizard.answer?.values ?? []);
+    }
+    void wizard.next();
+  };
   const saveAll = (picked: { slug: string; reason: string | null }[]) =>
     save.mutate(futureTripsFrom(picked, wizard.plannedFor), {
       onSuccess: () => router.navigate('/future-trips'),
     });
   return (
-    <Screen>
-      <PageHeader title={t('plan.title')} subtitle={t('plan.subtitle')} />
+    <>
       <View style={styles.body}>
         {!started ? <Intro onStart={() => setStarted(true)} /> : null}
         {started && wizard.phase === 'asking' ? (
-          <QuestionWindow wizard={wizard} cities={list} />
+          <QuestionWindow
+            wizard={wizard}
+            cities={list}
+            remember={remember}
+            onRemember={setRemember}
+            onNext={goNext}
+          />
         ) : null}
         {started && wizard.phase === 'loadingQuestion' ? (
           <Waiting title={t('plan.loadingQuestion')} />
@@ -154,7 +203,7 @@ export default function PlanScreen() {
           />
         ) : null}
       </View>
-    </Screen>
+    </>
   );
 }
 

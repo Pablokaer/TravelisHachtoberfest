@@ -13,11 +13,13 @@ import { Text } from '@/components/text';
 import { deleteAccount, signOut } from '@/features/auth/api';
 import { useAuth } from '@/features/auth/auth-provider';
 import { FormError } from '@/features/auth/components';
+import { AvoidedCountriesSection } from '@/features/profile/avoided-countries-section';
 import { avatarUrl } from '@/features/profile/avatar-api';
 import {
   countryName,
   useCountries,
   useProfile,
+  useSaveAvoidedCountries,
   useUpdatePreferences,
 } from '@/features/profile/api';
 import { formatDate } from '@/lib/format';
@@ -36,6 +38,7 @@ export default function ProfileScreen() {
   const profile = useProfile();
   const countries = useCountries();
   const update = useUpdatePreferences();
+  const saveAvoided = useSaveAvoidedCountries();
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -164,6 +167,14 @@ export default function ProfileScreen() {
           </View>
         </Section>
       </View>
+
+      {p ? (
+        <AvoidedCountriesSection
+          codes={p.avoidCountries}
+          nameOf={name}
+          onChange={(codes) => saveAvoided.mutate(codes)}
+        />
+      ) : null}
 
       <SubscriptionSection />
 

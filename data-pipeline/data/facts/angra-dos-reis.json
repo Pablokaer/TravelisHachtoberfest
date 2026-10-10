@@ -1,0 +1,11 @@
+{
+  "city": "angra-dos-reis",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 179142,
+  "inception_year": 1556,
+  "beach_count": 317
+}

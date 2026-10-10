@@ -1,0 +1,11 @@
+{
+  "city": "bonito",
+  "retrieved": "2026-10-10",
+  "sources": [
+    "wikidata",
+    "openstreetmap"
+  ],
+  "population": 25034,
+  "inception_year": 1948,
+  "beach_count": 2
+}

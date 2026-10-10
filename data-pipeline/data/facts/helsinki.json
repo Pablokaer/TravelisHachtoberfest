@@ -1,10 +1,7 @@
 {
   "city": "helsinki",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 694392,
   "inception_year": 1550,
   "beach_count": 199

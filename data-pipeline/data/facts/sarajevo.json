@@ -1,10 +1,7 @@
 {
   "city": "sarajevo",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 275524,
   "inception_year": 1462,
   "beach_count": 0

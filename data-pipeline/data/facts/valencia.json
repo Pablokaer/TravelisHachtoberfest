@@ -1,10 +1,7 @@
 {
   "city": "valencia",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 840792,
   "inception_year": -137,
   "beach_count": 24

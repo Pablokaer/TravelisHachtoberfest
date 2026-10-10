@@ -1,10 +1,7 @@
 {
   "city": "athens",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 643452,
   "inception_year": -7000,
   "beach_count": 44

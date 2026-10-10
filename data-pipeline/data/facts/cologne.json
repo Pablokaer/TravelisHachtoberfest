@@ -1,10 +1,7 @@
 {
   "city": "cologne",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1025523,
   "inception_year": null,
   "beach_count": 56

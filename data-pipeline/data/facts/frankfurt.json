@@ -1,0 +1,8 @@
+{
+  "city": "frankfurt",
+  "retrieved": "2026-10-11",
+  "sources": ["wikidata", "openstreetmap"],
+  "population": 760656,
+  "inception_year": 100,
+  "beach_count": 7
+}

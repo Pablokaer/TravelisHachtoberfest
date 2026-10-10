@@ -1,10 +1,7 @@
 {
   "city": "joao-pessoa",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 897633,
   "inception_year": 1585,
   "beach_count": 16

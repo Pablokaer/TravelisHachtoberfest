@@ -1,10 +1,7 @@
 {
   "city": "york",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 208400,
   "inception_year": 71,
   "beach_count": 2

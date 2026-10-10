@@ -1,10 +1,7 @@
 {
   "city": "kyoto",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1448964,
   "inception_year": 794,
   "beach_count": 0

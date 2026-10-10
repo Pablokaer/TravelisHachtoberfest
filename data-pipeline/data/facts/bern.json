@@ -1,10 +1,7 @@
 {
   "city": "bern",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 146455,
   "inception_year": 1191,
   "beach_count": 1

@@ -1,10 +1,7 @@
 {
   "city": "oslo",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 717710,
   "inception_year": 1048,
   "beach_count": 292

@@ -1,10 +1,7 @@
 {
   "city": "sao-paulo",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 11904961,
   "inception_year": 1554,
   "beach_count": 9

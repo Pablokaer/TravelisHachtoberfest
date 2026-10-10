@@ -1,10 +1,7 @@
 {
   "city": "lviv",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 717273,
   "inception_year": 1256,
   "beach_count": 19

@@ -1,10 +1,7 @@
 {
   "city": "marrakesh",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1002697,
   "inception_year": 1065,
   "beach_count": 0

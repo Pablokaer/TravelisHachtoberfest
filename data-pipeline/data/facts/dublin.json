@@ -1,10 +1,7 @@
 {
   "city": "dublin",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 592713,
   "inception_year": 841,
   "beach_count": 13

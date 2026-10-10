@@ -1,10 +1,7 @@
 {
   "city": "moscow",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 13274285,
   "inception_year": null,
   "beach_count": 55

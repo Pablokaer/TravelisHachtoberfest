@@ -1,10 +1,7 @@
 {
   "city": "saint-petersburg",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 5652922,
   "inception_year": 1703,
   "beach_count": 229

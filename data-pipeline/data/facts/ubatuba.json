@@ -1,0 +1,8 @@
+{
+  "city": "ubatuba",
+  "retrieved": "2026-10-10",
+  "sources": ["wikidata", "openstreetmap"],
+  "population": 97096,
+  "inception_year": 1637,
+  "beach_count": 93
+}

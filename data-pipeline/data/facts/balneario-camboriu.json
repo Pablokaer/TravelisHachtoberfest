@@ -1,10 +1,7 @@
 {
   "city": "balneario-camboriu",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 151674,
   "inception_year": 1964,
   "beach_count": 11

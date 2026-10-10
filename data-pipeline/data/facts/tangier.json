@@ -1,10 +1,7 @@
 {
   "city": "tangier",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1275428,
   "inception_year": -401,
   "beach_count": 14

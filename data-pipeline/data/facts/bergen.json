@@ -1,10 +1,7 @@
 {
   "city": "bergen",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 291189,
   "inception_year": 1070,
   "beach_count": 138

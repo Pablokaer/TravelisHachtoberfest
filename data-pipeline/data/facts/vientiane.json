@@ -1,10 +1,7 @@
 {
   "city": "vientiane",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1003004,
   "inception_year": 1560,
   "beach_count": 0

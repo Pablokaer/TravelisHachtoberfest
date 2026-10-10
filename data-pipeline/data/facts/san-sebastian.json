@@ -1,10 +1,7 @@
 {
   "city": "san-sebastian",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 189866,
   "inception_year": 1180,
   "beach_count": 10

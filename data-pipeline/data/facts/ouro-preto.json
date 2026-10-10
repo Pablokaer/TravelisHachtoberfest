@@ -1,10 +1,7 @@
 {
   "city": "ouro-preto",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 77914,
   "inception_year": 1711,
   "beach_count": 0

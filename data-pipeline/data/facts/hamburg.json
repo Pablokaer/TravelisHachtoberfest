@@ -1,10 +1,7 @@
 {
   "city": "hamburg",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1869473,
   "inception_year": null,
   "beach_count": 70

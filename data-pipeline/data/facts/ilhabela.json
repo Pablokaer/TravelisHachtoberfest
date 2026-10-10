@@ -1,10 +1,7 @@
 {
   "city": "ilhabela",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 36559,
   "inception_year": 1805,
   "beach_count": 78

@@ -1,10 +1,7 @@
 {
   "city": "canela",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 50715,
   "inception_year": 1944,
   "beach_count": 0

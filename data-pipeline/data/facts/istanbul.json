@@ -1,10 +1,7 @@
 {
   "city": "istanbul",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 15655924,
   "inception_year": 1453,
   "beach_count": 46

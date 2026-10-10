@@ -1,10 +1,7 @@
 {
   "city": "split",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 160577,
   "inception_year": null,
   "beach_count": 36

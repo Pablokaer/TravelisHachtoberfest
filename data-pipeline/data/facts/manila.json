@@ -1,10 +1,7 @@
 {
   "city": "manila",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1902590,
   "inception_year": 1571,
   "beach_count": 2

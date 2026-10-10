@@ -1,10 +1,7 @@
 {
   "city": "arraial-do-cabo",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 32822,
   "inception_year": 1503,
   "beach_count": 24

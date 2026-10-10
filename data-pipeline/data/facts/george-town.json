@@ -1,10 +1,7 @@
 {
   "city": "george-town",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 794313,
   "inception_year": 1786,
   "beach_count": 8

@@ -1,10 +1,7 @@
 {
   "city": "paris",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 2103778,
   "inception_year": -300,
   "beach_count": 2

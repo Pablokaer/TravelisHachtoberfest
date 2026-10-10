@@ -1,10 +1,7 @@
 {
   "city": "gothenburg",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 674529,
   "inception_year": 1621,
   "beach_count": 59

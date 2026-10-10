@@ -1,10 +1,7 @@
 {
   "city": "brasilia",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 2996899,
   "inception_year": 1960,
   "beach_count": 2

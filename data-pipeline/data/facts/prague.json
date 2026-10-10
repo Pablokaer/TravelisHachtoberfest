@@ -1,10 +1,7 @@
 {
   "city": "prague",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 1397880,
   "inception_year": 800,
   "beach_count": 12

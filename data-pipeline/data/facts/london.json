@@ -1,10 +1,7 @@
 {
   "city": "london",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 8799728,
   "inception_year": 47,
   "beach_count": 110

@@ -1,10 +1,7 @@
 {
   "city": "edinburgh",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 488050,
   "inception_year": 601,
   "beach_count": 27

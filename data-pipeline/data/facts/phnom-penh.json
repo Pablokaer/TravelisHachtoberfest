@@ -1,10 +1,7 @@
 {
   "city": "phnom-penh",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 2129371,
   "inception_year": 1372,
   "beach_count": 4

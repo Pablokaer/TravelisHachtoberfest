@@ -1,0 +1,8 @@
+{
+  "city": "vitoria",
+  "retrieved": "2026-10-10",
+  "sources": ["wikidata", "openstreetmap"],
+  "population": 343378,
+  "inception_year": 1551,
+  "beach_count": 47
+}

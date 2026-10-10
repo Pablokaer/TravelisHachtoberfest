@@ -1,10 +1,7 @@
 {
   "city": "dubrovnik",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 41562,
   "inception_year": 700,
   "beach_count": 55

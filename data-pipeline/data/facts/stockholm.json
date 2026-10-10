@@ -1,10 +1,7 @@
 {
   "city": "stockholm",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 984748,
   "inception_year": 1187,
   "beach_count": 117

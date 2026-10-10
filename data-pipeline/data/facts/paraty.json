@@ -1,10 +1,7 @@
 {
   "city": "paraty",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 47668,
   "inception_year": 1597,
   "beach_count": 115

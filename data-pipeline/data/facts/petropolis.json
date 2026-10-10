@@ -1,0 +1,8 @@
+{
+  "city": "petropolis",
+  "retrieved": "2026-10-10",
+  "sources": ["wikidata", "openstreetmap"],
+  "population": 294926,
+  "inception_year": 1843,
+  "beach_count": 0
+}

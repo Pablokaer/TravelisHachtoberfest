@@ -1,10 +1,7 @@
 {
   "city": "pisa",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 88737,
   "inception_year": null,
   "beach_count": 27

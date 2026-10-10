@@ -16,3 +16,6 @@ test-results
 supabase/functions
 apps/mobile/src/lib/database.types.ts
 docs/CITIES.md
+
+# Cities built on demand for one local install (D-079): not versioned, not checked.
+data-pipeline/data/local

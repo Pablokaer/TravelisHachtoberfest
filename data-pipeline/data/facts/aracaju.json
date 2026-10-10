@@ -1,10 +1,7 @@
 {
   "city": "aracaju",
   "retrieved": "2026-10-10",
-  "sources": [
-    "wikidata",
-    "openstreetmap"
-  ],
+  "sources": ["wikidata", "openstreetmap"],
   "population": 630932,
   "inception_year": 1855,
   "beach_count": 4

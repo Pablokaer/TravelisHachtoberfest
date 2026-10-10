@@ -1,0 +1,8 @@
+{
+  "city": "petrolina",
+  "retrieved": "2026-10-10",
+  "sources": ["wikidata", "openstreetmap"],
+  "population": 418444,
+  "inception_year": 1870,
+  "beach_count": 3
+}

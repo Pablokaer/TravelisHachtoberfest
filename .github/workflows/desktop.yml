@@ -73,7 +73,8 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/cli"
           gh release download "$SUPABASE_CLI" -R supabase/cli -p "${{ matrix.cli }}" -D "$RUNNER_TEMP/cli"
-          tar -xzf "$RUNNER_TEMP/cli/${{ matrix.cli }}" -C "$RUNNER_TEMP/cli"
+          # From inside the folder: GNU tar reads "D:" in a Windows path as a remote host.
+          cd "$RUNNER_TEMP/cli" && tar -xzf "${{ matrix.cli }}"
         env:
           GH_TOKEN: ${{ github.token }}
 

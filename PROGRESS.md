@@ -223,6 +223,7 @@ Monaco, Andorra la Vella, Kyiv, Lviv, Moscow, Saint Petersburg, Minsk — Monaco
 
 ## Remaining (M5 and launch)
 
+- Desktop executables (D-093): `Travelist-<v>-win-x64-setup.exe` / `-portable.exe` and `-linux-x64.AppImage`, built by `desktop.yml`. 32 node tests for the stack; the Windows package passed `--smoke`; the full start with Docker, and anything on Linux, are not yet exercised end to end.
 - Offline trips (D-092): Save for offline (stops, street path, places with their texts, photos, and a map area on a phone); with no connection a saved trip, its places and My Trips open from the copy and in-app navigation keeps working. 718 app tests; the web path was exercised in a browser with the backend cut, which also found that the app could not start offline (fixed). The phone-only parts (files, map pack) are not run on a device, and the APK of `v0.1.0` does not include any of this.
 - Releases (D-091): `v0.1.0` with the Android APK (rebuilt with every feature up to prices), the Linux `.tar.gz` and the Windows `.zip` of the local stack. The Windows package's web app was served from a clean extract and checked in a browser; the launchers were syntax-checked, not run end to end, and nothing was tried on Linux or on a phone.
 - My city, **City page** button (D-089): next to **Explore attractions** on the city card of My city. Unit-tested (667 app tests); not yet pressed on a phone.

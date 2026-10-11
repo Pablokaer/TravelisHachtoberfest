@@ -973,6 +973,12 @@ There is no desktop application (Travelist is an Expo app for phones and the web
 
 To build them: `pnpm build:web` with the local addresses (see `docs/RELEASES.md`), then `python -m wayfarer_pipeline release --version 0.1.0` → `dist/release/`; the APK is `pnpm build:android` (from a path without parentheses). Full steps, what was verified and what was not: [docs/RELEASES.md](./docs/RELEASES.md).
 
+### Desktop app: Windows and Linux executables (D-093)
+
+`Travelist-<v>-win-x64-setup.exe`, `Travelist-<v>-win-x64-portable.exe` and `Travelist-<v>-linux-x64.AppImage` are real programs: open one and a window starts everything Travelist needs on your machine (the local database on Docker, the route functions, the city and trip-planner service, the web app) and then shows the app. **Docker must be running** (Docker Desktop on Windows); nothing else is required, and `ollama pull gemma3:4b` is optional for the AI planner. The first start downloads the database images and loads the data (minutes); the window says which step it is on, and a failed step is shown with its last output lines.
+
+Your data lives in the user data folder (`%APPDATA%\Travelist` on Windows, `~/.config/Travelist` on Linux): the database project, `state/` (cities built on demand), `logs/` and **`keys.env`**. **Travelist menu → Edit keys file** opens `keys.env` (`SERPAPI_API_KEY`, `ELEVENLABS_API_KEY`, `MONGODB_*`, `SENTRY_DSN`, `OLLAMA_MODEL`; an empty one keeps that feature off); keys are read at start. Quitting stops the database. They are built by `.github/workflows/desktop.yml` (Actions → Desktop app → Run workflow, with the release tag); the Windows build was run and smoke-tested on a Windows machine, the Linux one only by the workflow's smoke check (the install is complete and its programs run). Not code-signed: Windows SmartScreen asks for confirmation.
+
 ## Deploying (hosted)
 
 **Production today (D-073):** the web app at **https://travelist.live** is static files on a VPS behind Apache; the backend is the Supabase Cloud project `travelist` (ref `llrrofuzaxfffwwegxwr`, West EU / Ireland). Public values for the build are in the git-ignored `.env.production`; server secrets live in Supabase; the database password is kept outside the repository.

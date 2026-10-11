@@ -46,3 +46,7 @@ blob-report/
 *.egg-info/
 apps/mobile/public/maplibre/
 .vs/
+
+# desktop app (D-093)
+desktop/node_modules/
+desktop/resources/

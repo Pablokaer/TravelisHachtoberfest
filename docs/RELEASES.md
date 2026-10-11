@@ -55,3 +55,7 @@ gh release create v0.1.0 --prerelease dist/release/*.tar.gz dist/release/*.zip d
   installed on a phone, and the Windows zip was not tried on a machine without the repository.
 - The APK is debug-signed (installable by hand, not for the Play Store) and carries the address of the
   machine that built it.
+
+## Desktop executables (D-093)
+
+Since `v0.3.0` Windows and Linux also have real executables: `Travelist-<v>-win-x64-setup.exe`, `Travelist-<v>-win-x64-portable.exe` and `Travelist-<v>-linux-x64.AppImage`. They are built by `.github/workflows/desktop.yml` (Actions → Desktop app → Run workflow, input: the release tag), which builds the web export, the PyInstaller service and the Electron app on a Windows and a Linux runner, runs `--smoke` and attaches the files to that release. Locally (Windows): build the service with PyInstaller (see the workflow), then `cd desktop && npm ci && node scripts/prepare.mjs --web ../apps/mobile/dist --service <dir> --supabase-bin <supabase.exe> && npx electron-builder --win`. The archives above remain.

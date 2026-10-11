@@ -1,0 +1,34 @@
+appId: app.travelist.desktop
+productName: Travelist
+directories:
+  output: dist
+files:
+  - src/**
+  - package.json
+extraResources:
+  - from: resources/web
+    to: web
+  - from: resources/stack
+    to: stack
+  - from: resources/service
+    to: service
+  - from: resources/bin
+    to: bin
+win:
+  target:
+    - nsis
+    - portable
+  icon: build/icon.ico
+nsis:
+  artifactName: Travelist-${version}-win-x64-setup.exe
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+portable:
+  artifactName: Travelist-${version}-win-x64-portable.exe
+linux:
+  target:
+    - AppImage
+  icon: build/icon.png
+  category: Utility
+  executableName: travelist
+  artifactName: Travelist-${version}-linux-x64.${ext}

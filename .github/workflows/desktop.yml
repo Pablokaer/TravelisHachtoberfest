@@ -1,0 +1,107 @@
+name: Desktop app
+
+# Builds the Windows and Linux executables of Travelist (D-093) and attaches them to the release
+# of the tag. Run by hand (Actions → Desktop app → Run workflow) with the tag, e.g. v0.3.0.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to attach the executables to (e.g. v0.3.0)
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  SUPABASE_CLI: v2.118.0
+
+jobs:
+  build:
+    name: ${{ matrix.label }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            label: Windows (.exe)
+            cli: supabase_windows_amd64.tar.gz
+            builder: --win
+          - os: ubuntu-latest
+            label: Linux (.AppImage)
+            cli: supabase_linux_amd64.tar.gz
+            builder: --linux
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Web export, pointed at the local stack
+        shell: bash
+        env:
+          EXPO_PUBLIC_SUPABASE_URL: http://127.0.0.1:54321
+          EXPO_PUBLIC_LOCAL_MODE: 'true'
+          EXPO_PUBLIC_CITY_BUILDER_URL: http://127.0.0.1:8787
+        run: |
+          export EXPO_PUBLIC_SUPABASE_ANON_KEY="$(node desktop/scripts/demo-anon-key.mjs)"
+          pnpm install --frozen-lockfile
+          pnpm --filter ./apps/mobile build:web
+
+      - name: City service (PyInstaller)
+        shell: bash
+        working-directory: data-pipeline
+        run: |
+          python -m pip install requests pydantic PyYAML sentry-sdk pymongo pyinstaller
+          python -m PyInstaller --noconfirm --onedir --name travelist-service \
+            --distpath "$RUNNER_TEMP/svc" --workpath "$RUNNER_TEMP/svc-work" --specpath "$RUNNER_TEMP/svc-work" \
+            --paths . --collect-submodules wayfarer_pipeline --hidden-import sentry_sdk --hidden-import pymongo \
+            --add-data "data${PATH_SEP:-:}data" --add-data "cities.yaml${PATH_SEP:-:}." travelist_service.py
+        env:
+          PATH_SEP: ${{ runner.os == 'Windows' && ';' || ':' }}
+
+      - name: Supabase CLI
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/cli"
+          gh release download "$SUPABASE_CLI" -R supabase/cli -p "${{ matrix.cli }}" -D "$RUNNER_TEMP/cli"
+          tar -xzf "$RUNNER_TEMP/cli/${{ matrix.cli }}" -C "$RUNNER_TEMP/cli"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Package
+        shell: bash
+        working-directory: desktop
+        run: |
+          npm ci --no-audit --no-fund
+          CLI="$RUNNER_TEMP/cli/supabase"; [ -f "$CLI.exe" ] && CLI="$CLI.exe"
+          node scripts/prepare.mjs --web ../apps/mobile/dist --service "$RUNNER_TEMP/svc/travelist-service" --supabase-bin "$CLI"
+          npx electron-builder ${{ matrix.builder }} --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+
+      - name: Smoke test (the install is complete and its programs run)
+        shell: bash
+        working-directory: desktop
+        run: |
+          if [ "$RUNNER_OS" = Linux ]; then
+            xvfb-run -a ./dist/linux-unpacked/travelist --no-sandbox --smoke
+          else
+            ./dist/win-unpacked/Travelist.exe --smoke
+          fi
+
+      - name: Attach to the release
+        shell: bash
+        working-directory: desktop/dist
+        run: |
+          for file in Travelist-*.exe Travelist-*.AppImage; do
+            [ -f "$file" ] && gh release upload "${{ inputs.tag }}" "$file" -R "$GITHUB_REPOSITORY" --clobber
+          done
+        env:
+          GH_TOKEN: ${{ github.token }}

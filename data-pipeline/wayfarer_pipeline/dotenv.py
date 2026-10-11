@@ -12,7 +12,8 @@ from pathlib import Path
 
 from .paths import REPO_ROOT
 
-ENV_FILE = REPO_ROOT / ".env"
+# TRAVELIST_ENV_FILE: the desktop app keeps the keys in a file of the user's (D-093).
+ENV_FILE = Path(os.environ.get("TRAVELIST_ENV_FILE") or REPO_ROOT / ".env")
 
 
 def _unquote(value: str) -> str:

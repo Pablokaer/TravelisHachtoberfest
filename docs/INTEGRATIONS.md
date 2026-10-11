@@ -99,11 +99,10 @@ for the model: create one from the AI/ML-ready image in the same VPC, run
    on an organisation's repository an organisation or enterprise administrator controls it. GitHub's
    guide: [use the cloud agent on GitHub](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-on-github)
    — you then assign an issue to **Copilot** in its sidebar, or ask it for a pull request.
-2. **Get the setup workflow onto the default branch.** GitHub only uses
+2. **The setup workflow is already where Copilot looks.** GitHub only uses
    `copilot-setup-steps.yml` when it is on the repository's **default branch**
    ([docs](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-environment)),
-   and here the default is `main`, which only moves through the **Promote** workflow (D-075). Until
-   a promotion, Copilot runs without our setup steps.
+   and this repository's default branch is `dev`, where it was pushed: nothing to promote.
 
 To have Copilot review pull requests, add a branch ruleset on `dev` with _Automatically request
 Copilot code review_ (I could not confirm the exact menu names from GitHub's documentation: look

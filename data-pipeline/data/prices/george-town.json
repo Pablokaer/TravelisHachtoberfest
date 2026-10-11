@@ -1,0 +1,27 @@
+{
+  "city": "george-town",
+  "country": "MY",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.334,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 2.09,
+    "soft_drink": 0.89,
+    "cocktail": 3.87,
+    "coffee": 1.34,
+    "meal_cheap": 5.07,
+    "meal_mid": 11.32,
+    "local_dish": 6.56,
+    "big_mac": 3.18,
+    "transport_ticket": 0.74,
+    "taxi_5km": 4.77
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

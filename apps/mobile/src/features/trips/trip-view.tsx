@@ -9,8 +9,12 @@ import { PageHeader, Screen, Section } from '@/components/screen';
 import { AttractionRow } from '@/features/destinations/components';
 import { MapView } from '@/features/map/map-view';
 import { boundsOf } from '@/features/map/map-view.types';
+import { useNavigationStore } from '@/features/navigation/navigation-store';
+import { NavigationPanel } from '@/features/navigation/navigation-panel';
+import { useTripNavigation } from '@/features/navigation/use-trip-navigation';
 import { NavigationLinks, RouteTotals } from '@/features/route/components';
 import type { TripDetail } from '@/features/trips/api';
+import { streetGeometryOf } from '@/features/trips/street-geometry';
 import { env } from '@/lib/env';
 import { formatDate } from '@/lib/format';
 import { radius, spacing } from '@/theme/colors';
@@ -34,17 +38,23 @@ function TripMap({ trip, onOpenStop }: Pick<Props, 'trip' | 'onOpenStop'>) {
   const theme = useTheme();
   const shadows = useShadows();
   const { isDesktop } = useBreakpoint();
+  // While this trip is navigated (D-086): the next stop stands out, reached ones fade, and the
+  // traveller's dot is followed.
+  const streetPath = streetGeometryOf(trip);
+  const navigating = useNavigationStore((s) => s.tripId === trip.id && s.status !== 'idle');
+  const nextIndex = useNavigationStore((s) => s.index);
+  const position = useNavigationStore((s) => (s.tripId === trip.id ? s.position : null));
   const points = useMemo(
     () =>
       trip.stops.map((s, i) => ({
         id: s.id,
         lat: s.lat,
         lng: s.lng,
-        color: theme.primary,
-        selected: true,
+        color: navigating && i < nextIndex ? theme.textSecondary : theme.primary,
+        selected: navigating ? i === nextIndex : true,
         order: i + 1,
       })),
-    [trip.stops, theme.primary],
+    [trip.stops, theme.primary, theme.textSecondary, navigating, nextIndex],
   );
   return (
     <View style={[styles.map, isDesktop && styles.mapDesktop, { boxShadow: shadows.card }]}>
@@ -54,8 +64,10 @@ function TripMap({ trip, onOpenStop }: Pick<Props, 'trip' | 'onOpenStop'>) {
         styleUrl={env.mapStyleUrl}
         bounds={boundsOf(trip.stops, [-180, -85, 180, 85])}
         points={points}
-        routes={trip.geometry ? [{ geometry: trip.geometry, color: theme.primary }] : []}
+        routes={streetPath ? [{ geometry: streetPath, color: theme.primary }] : []}
         onPointPress={onOpenStop}
+        userPosition={position}
+        followUser={navigating}
       />
     </View>
   );
@@ -63,8 +75,10 @@ function TripMap({ trip, onOpenStop }: Pick<Props, 'trip' | 'onOpenStop'>) {
 
 function TripDetails({ trip, units, onOpenStop, children }: Omit<Props, 'notice'>) {
   const { t } = useTranslation();
+  const navigation = useTripNavigation(trip);
   return (
     <View style={styles.column}>
+      <NavigationPanel tripId={trip.id} stops={trip.stops} onOpenStop={onOpenStop} />
       <RouteTotals
         distanceM={trip.distanceM}
         walkingSeconds={trip.walkingSeconds}
@@ -83,7 +97,7 @@ function TripDetails({ trip, units, onOpenStop, children }: Omit<Props, 'notice'
           />
         ))}
       </Section>
-      <NavigationLinks stops={trip.stops} />
+      <NavigationLinks stops={trip.stops} navigation={navigation} />
       {children}
     </View>
   );

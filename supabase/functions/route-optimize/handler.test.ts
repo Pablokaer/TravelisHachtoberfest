@@ -2,9 +2,9 @@ import { assert, assertEquals } from 'jsr:@std/assert@1';
 
 import { cacheKey, createCached, noCache } from '../_shared/cache.ts';
 import { HttpError } from '../_shared/http.ts';
-import { createHandler, FALLBACK_TTL, normalizeRouteInput } from './handler.ts';
-import { createOrsRouting, FALLBACK_ATTRIBUTION, ORS_ATTRIBUTION } from './routing.ts';
-import { fakeOrsFetch, memoryStore, ok, post } from './test-fakes.ts';
+import { createHandler, normalizeRouteInput } from './handler.ts';
+import { createOrsRouting, createOsmFootRouting, ORS_ATTRIBUTION } from './routing.ts';
+import { echoOsmFetch, fakeOrsFetch, memoryStore, ok, post } from './test-fakes.ts';
 
 // Lisbon: Belém tower, Jerónimos, Praça do Comércio, Castelo de São Jorge.
 const STOPS = [
@@ -101,43 +101,33 @@ Deno.test('route: ORS order, legs and geometry from a single VROOM call', async 
   assertEquals(optBody.jobs.every((j) => j.service === 0), true);
 });
 
-Deno.test('route: no ORS key → fallback (cached 1 h)', async () => {
+Deno.test('route: no street router → no route (503), never a straight line (D-087)', async () => {
   const { store, rows } = memoryStore();
-  const t0 = new Date('2026-09-27T00:00:00Z');
-  const cached = createCached(store, { now: () => t0, random: () => 1 });
-  const r = await ok({ ors: null, cached }, { stops: STOPS });
-  assertEquals(r.isFallback, true);
-  assertEquals(r.provider, 'fallback');
-  assertEquals(r.attribution, FALLBACK_ATTRIBUTION);
-  assertEquals(r.order[0], 'belem');
-  assertEquals(new Set(r.order).size, 4);
-  assertEquals(r.legs.length, 3);
-  assertEquals(r.geometry.coordinates[0], [-9.216, 38.6916]);
-  assertEquals(r.distanceM, r.legs.reduce((a, l) => a + l.distanceM, 0));
-  const [row] = [...rows.values()];
-  assertEquals(row!.expiresAt.getTime() - t0.getTime(), FALLBACK_TTL * 1000);
+  const res = await post({ ors: null, cached: createCached(store) }, { stops: STOPS });
+  assertEquals(res.status, 503);
+  assertEquals((await res.json()).error, 'street_routing_unavailable');
+  assertEquals(rows.size, 0, 'a failure is not cached');
 });
 
-Deno.test('route: ORS error → fallback, not cached', async () => {
+Deno.test('route: ORS error and no other router → 503, not cached', async () => {
   const { store, rows } = memoryStore();
   const { fetchJson } = fakeOrsFetch({
     error: new HttpError('https://api.openrouteservice.org/optimization', 503, 'busy'),
   });
   const ors = createOrsRouting({ apiKey: 'k', fetchJson });
-  const r = await ok({ ors, cached: createCached(store) }, { stops: STOPS });
-  assertEquals(r.isFallback, true);
-  assertEquals(r.provider, 'fallback');
+  const res = await post({ ors, cached: createCached(store) }, { stops: STOPS });
+  assertEquals(res.status, 503);
   assertEquals(rows.size, 0);
 });
 
-Deno.test('route: malformed ORS response (unassigned job) → fallback', async () => {
+Deno.test('route: malformed ORS response (unassigned job) → 503, not a straight line', async () => {
   const { fetchJson } = fakeOrsFetch({ optimization: { ...VROOM_OK, unassigned: [{ id: 2 }] } });
   const ors = createOrsRouting({ apiKey: 'k', fetchJson });
-  const r = await ok({ ors, cached: noCache }, { stops: STOPS });
-  assertEquals(r.provider, 'fallback');
+  const res = await post({ ors, cached: noCache }, { stops: STOPS });
+  assertEquals(res.status, 503);
 });
 
-Deno.test('route: VROOM answer without geometry or step totals → fallback', async () => {
+Deno.test('route: VROOM answer without geometry or step totals → 503, not a straight line', async () => {
   const [route] = VROOM_OK.routes;
   const noGeometry = { ...VROOM_OK, routes: [{ ...route!, geometry: undefined }] };
   const noTotals = {
@@ -149,8 +139,8 @@ Deno.test('route: VROOM answer without geometry or step totals → fallback', as
       apiKey: 'k',
       fetchJson: fakeOrsFetch({ optimization }).fetchJson,
     });
-    const r = await ok({ ors, cached: noCache }, { stops: STOPS });
-    assertEquals(r.provider, 'fallback');
+    const res = await post({ ors, cached: noCache }, { stops: STOPS });
+    assertEquals(res.status, 503);
   }
 });
 
@@ -176,9 +166,10 @@ Deno.test('route: keepFirst=false lets the optimiser pick the start', async () =
     { id: 'c', lat: 38.7, lng: -9.14, visitMinutes: 10 },
     { id: 'd', lat: 38.7, lng: -9.13, visitMinutes: 10 },
   ];
-  const kept = await ok({ ors: null, cached: noCache }, { stops: line });
+  const osm = createOsmFootRouting({ fetchJson: echoOsmFetch().fetchJson });
+  const kept = await ok({ ors: null, osm, cached: noCache }, { stops: line });
   assertEquals(kept.order[0], 'b');
-  const free = await ok({ ors: null, cached: noCache }, { stops: line, keepFirst: false });
+  const free = await ok({ ors: null, osm, cached: noCache }, { stops: line, keepFirst: false });
   assert(['a', 'd'].includes(free.order[0]!));
   assert(free.distanceM < kept.distanceM);
 });
@@ -198,7 +189,8 @@ Deno.test('route: up to 20 stops are routed; 21 are rejected', async () => {
     id: `s${i}`,
     lng: STOPS[0].lng + i * 0.002,
   }));
-  const r = await ok({ ors: null, cached: noCache }, { stops: many });
+  const osm = createOsmFootRouting({ fetchJson: echoOsmFetch().fetchJson });
+  const r = await ok({ ors: null, osm, cached: noCache }, { stops: many });
   assertEquals(r.order.length, 20);
   assertEquals(r.order[0], 's0');
   assertEquals(r.legs.length, 19);

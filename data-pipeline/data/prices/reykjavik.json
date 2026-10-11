@@ -1,0 +1,27 @@
+{
+  "city": "reykjavik",
+  "country": "IS",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 1.297,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": false,
+  "prices": {
+    "beer": 8.1,
+    "soft_drink": 3.47,
+    "cocktail": 15.05,
+    "coffee": 5.21,
+    "meal_cheap": 19.68,
+    "meal_mid": 43.98,
+    "local_dish": 25.46,
+    "big_mac": 7.2,
+    "transport_ticket": 2.89,
+    "taxi_5km": 18.52
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

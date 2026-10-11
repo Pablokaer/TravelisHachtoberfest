@@ -1,0 +1,27 @@
+{
+  "city": "sarajevo",
+  "country": "BA",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.443,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": false,
+  "prices": {
+    "beer": 2.77,
+    "soft_drink": 1.19,
+    "cocktail": 5.14,
+    "coffee": 1.78,
+    "meal_cheap": 6.72,
+    "meal_mid": 15.02,
+    "local_dish": 8.7,
+    "big_mac": 2.46,
+    "transport_ticket": 0.99,
+    "taxi_5km": 6.33
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

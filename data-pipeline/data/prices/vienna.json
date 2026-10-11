@@ -1,0 +1,27 @@
+{
+  "city": "vienna",
+  "country": "AT",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.848,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 5.3,
+    "soft_drink": 2.27,
+    "cocktail": 9.84,
+    "coffee": 3.4,
+    "meal_cheap": 12.86,
+    "meal_mid": 28.75,
+    "local_dish": 16.65,
+    "big_mac": 6.32,
+    "transport_ticket": 1.89,
+    "taxi_5km": 12.11
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

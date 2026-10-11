@@ -1,6 +1,7 @@
 // Routing providers for route-optimize: OpenRouteService — VROOM optimisation on the walking
 // network, and the foot-walking directions that follow the streets for an order already known
-// (D-046) — and the offline straight-line fallback from @wayfarer/shared.
+// (D-046) — and the keyless OpenStreetMap foot router (D-087). Straight lines from @wayfarer/shared
+// are only used to pick which stop goes first, never as a route.
 import {
   estimateLegs,
   type LineString,
@@ -44,7 +45,6 @@ export const ORS_TIMEOUT_MS = 8000;
 export const ORS_COOL_DOWN_SECONDS = 60;
 export const ORS_ATTRIBUTION =
   '© openrouteservice.org by HeiGIT | Map data © OpenStreetMap contributors';
-export const FALLBACK_ATTRIBUTION = 'Estimated straight-line route';
 
 const lngLat = (p: RoutePoint): [number, number] => [p.lng, p.lat];
 
@@ -263,4 +263,144 @@ function createOrsCalls(deps: OrsDeps): OrsRouting {
   };
 
   return { optimize, directions };
+}
+
+// ---------------------------------------------------------------------------
+// OpenStreetMap foot router (OSRM), no key (D-087)
+// ---------------------------------------------------------------------------
+
+/** FOSSGIS' public OSRM instance with the foot profile: a free service, with a fair-use policy. */
+export const OSM_FOOT_BASE_URL = 'https://routing.openstreetmap.de/routed-foot';
+export const OSM_TIMEOUT_MS = 10_000;
+export const OSM_ATTRIBUTION =
+  'Routes © OpenStreetMap contributors, routing by FOSSGIS (OSRM, foot)';
+
+/** The part of an OSRM `/route` and `/trip` answer we read. */
+type OsrmRoute = {
+  geometry?: { coordinates?: number[][] };
+  legs?: { distance?: number; duration?: number }[];
+};
+type OsrmRouteResponse = { code: string; message?: string; routes?: OsrmRoute[] };
+type OsrmTripResponse = {
+  code: string;
+  message?: string;
+  trips?: OsrmRoute[];
+  /** One per stop sent, in the order sent: where that stop falls in the trip. */
+  waypoints?: { waypoint_index: number }[];
+};
+
+/** The street path of an OSRM route; never fewer than two points (a line needs both ends). */
+function osrmPath(route: OsrmRoute | undefined): [number, number][] {
+  const coordinates = (route?.geometry?.coordinates ?? []).map(
+    (c) => [c[0]!, c[1]!] as [number, number],
+  );
+  if (coordinates.length < 2) throw new Error('OSM foot router returned no street geometry');
+  return coordinates;
+}
+
+function osrmLegs(ordered: readonly RoutePoint[], route: OsrmRoute): RouteLeg[] {
+  const legs = route.legs ?? [];
+  if (legs.length !== ordered.length - 1) {
+    throw new Error(
+      `OSM foot router returned ${legs.length} legs for ${ordered.length} stops, expected ${
+        ordered.length - 1
+      }`,
+    );
+  }
+  return legs.map((leg, i) => ({
+    fromId: ordered[i]!.id,
+    toId: ordered[i + 1]!.id,
+    distanceM: Math.round(leg.distance ?? 0),
+    durationS: Math.round(leg.duration ?? 0),
+  }));
+}
+
+/**
+ * Pure: the walking order, legs and street path of an OSRM `/trip` answer for `stops` (sent in
+ * this order). Throws on anything that is not a complete street route.
+ * @example parseOsrmTrip(stops, answer).order // ['belem', 'jeronimos', 'comercio']
+ */
+export function parseOsrmTrip(stops: readonly RoutePoint[], res: OsrmTripResponse): RoutingResult {
+  if (res.code !== 'Ok') throw new Error(`OSM foot router error ${res.code}: ${res.message ?? ''}`);
+  const waypoints = res.waypoints ?? [];
+  if (waypoints.length !== stops.length) {
+    throw new Error(
+      `OSM foot router returned ${waypoints.length} waypoints for ${stops.length} stops`,
+    );
+  }
+  const ordered: RoutePoint[] = [];
+  waypoints.forEach((w, i) => (ordered[w.waypoint_index] = stops[i]!));
+  if (ordered.filter(Boolean).length !== stops.length) {
+    throw new Error(`OSM foot router did not visit each stop once: ${JSON.stringify(waypoints)}`);
+  }
+  const trip = res.trips?.[0];
+  if (!trip) throw new Error('OSM foot router returned no trip');
+  return {
+    order: ordered.map((p) => p.id),
+    legs: osrmLegs(ordered, trip),
+    geometry: { type: 'LineString', coordinates: osrmPath(trip) },
+  };
+}
+
+/**
+ * Pure: legs and street path of an OSRM `/route` answer for `ordered` stops.
+ * @example parseOsrmRoute([a, b, c], answer).legs.length // 2
+ */
+export function parseOsrmRoute(
+  ordered: readonly RoutePoint[],
+  res: OsrmRouteResponse,
+): RoutingResult {
+  if (res.code !== 'Ok') throw new Error(`OSM foot router error ${res.code}: ${res.message ?? ''}`);
+  const route = res.routes?.[0];
+  if (!route) throw new Error('OSM foot router returned no route');
+  return {
+    order: ordered.map((p) => p.id),
+    legs: osrmLegs(ordered, route),
+    geometry: { type: 'LineString', coordinates: osrmPath(route) },
+  };
+}
+
+type OsmDeps = {
+  fetchJson: FetchJson;
+  baseUrl?: string;
+  timeoutMs?: number;
+  breaker?: CircuitBreaker;
+};
+
+const coordinatesPath = (stops: readonly RoutePoint[]) =>
+  stops.map((s) => `${s.lng},${s.lat}`).join(';');
+
+/**
+ * The public OpenStreetMap foot router: `optimize` asks `/trip` for the shortest walking order
+ * from the first stop, `directions` asks `/route` for the street path of an order already known.
+ * Both answers come from the pedestrian network, so a route follows streets and paths a person can
+ * walk. Each has its own breaker name, like ORS (D-063).
+ * @example const route = await createOsmFootRouting({ fetchJson }).directions(orderedStops);
+ */
+export function createOsmFootRouting(deps: OsmDeps): OrsRouting {
+  const base = deps.baseUrl ?? OSM_FOOT_BASE_URL;
+  const breaker = deps.breaker ?? new CircuitBreaker(ORS_COOL_DOWN_SECONDS);
+  const get = <T>(path: string) =>
+    deps.fetchJson<T>(`${base}${path}`, { timeoutMs: deps.timeoutMs ?? OSM_TIMEOUT_MS });
+  const overview = 'overview=full&geometries=geojson&steps=false';
+
+  const optimize: RoutingProvider = async (stops, fixedStart) => {
+    // OSRM cannot leave both ends free: choose the start with the exact straight-line solution
+    // (only to pick which stop goes first) and let the foot router order the rest on the streets.
+    const startId = fixedStart ? stops[0]!.id : bestStartFallback(stops).order[0]!;
+    const start = stops.find((s) => s.id === startId)!;
+    const sent = [start, ...stops.filter((s) => s !== start)];
+    const query = `roundtrip=false&source=first&destination=any&${overview}`;
+    return parseOsrmTrip(sent, await get(`/trip/v1/foot/${coordinatesPath(sent)}?${query}`));
+  };
+
+  const directions: PathProvider = async (ordered) =>
+    parseOsrmRoute(ordered, await get(`/route/v1/foot/${coordinatesPath(ordered)}?${overview}`));
+
+  return {
+    optimize: (stops, fixedStart) =>
+      breaker.run('osm:optimize', () => optimize(stops, fixedStart), isUpstreamOutage),
+    directions: (ordered) =>
+      breaker.run('osm:directions', () => directions(ordered), isUpstreamOutage),
+  };
 }

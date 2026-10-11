@@ -1,0 +1,31 @@
+# DigitalOcean App Platform spec (D-084): the city-builder service in a container.
+#   doctl apps create --spec .do/app.yaml      (then fill the secrets in the dashboard)
+name: travelist-city-builder
+region: fra
+services:
+  - name: city-builder
+    dockerfile_path: data-pipeline/Dockerfile
+    source_dir: data-pipeline
+    github:
+      repo: REPLACE_WITH_OWNER/REPLACE_WITH_REPO
+      branch: dev
+      deploy_on_push: true
+    http_port: 8787
+    instance_size_slug: apps-s-1vcpu-1gb
+    health_check:
+      http_path: /health
+    envs:
+      - key: DATABASE_URL # a DEMO Supabase/Postgres: the service writes cities into it
+        type: SECRET
+      - key: PLANNER # "ollama" with the GPU Droplet below, else "rules"
+        value: rules
+      - key: OLLAMA_URL # http://<droplet private IP>:11434
+        value: ''
+      - key: SENTRY_DSN
+        type: SECRET
+      - key: SERPAPI_API_KEY
+        type: SECRET
+      - key: ELEVENLABS_API_KEY
+        type: SECRET
+      - key: MONGODB_URI
+        type: SECRET

@@ -40,6 +40,13 @@ class MockAttractionServer {
 }
 
 jest.mock('expo-web-browser', () => ({ openBrowserAsync: jest.fn() }));
+jest.mock('@/features/auth/auth-provider', () => ({
+  useAuth: () => ({ session: { user: { id: 'u1' } } }),
+}));
+jest.mock('@/features/visited/api', () => ({
+  useVisitedIds: () => ({ isPending: false, data: new Set<string>() }),
+  useSetVisited: () => ({ mutate: jest.fn(), isPending: false }),
+}));
 jest.mock('expo-router', () => ({
   Stack: { Screen: () => null },
   useLocalSearchParams: () => ({ id: 'a1' }),
@@ -69,6 +76,11 @@ test('the average rating sits with the title, and the reviews section is on the 
   expect(within(title).getByTestId('rating-summary')).toHaveTextContent('4.6 ★ · 128 reviews');
   expect(screen.getByText('Reviews')).toBeTruthy();
   expect(screen.getByTestId('review-form')).toBeTruthy();
+});
+
+test('the page offers to mark the place as visited (D-085)', () => {
+  render(<AttractionScreen />);
+  expect(screen.getByRole('button', { name: "I've been here" })).toBeOnTheScreen();
 });
 
 test('the page adds a sixth place to the route: no plan limit (D-065)', async () => {

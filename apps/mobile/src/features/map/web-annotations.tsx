@@ -6,9 +6,56 @@ import { memo, useEffect, useRef, useState, type ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 
 import { MARKER_SELECTED_SIZE, PhotoMarker } from './photo-marker';
-import { popupPanY, samePhotoMarker, type MapInsets, type MapPoint } from './map-view.types';
+import {
+  FOLLOW_ZOOM,
+  popupPanY,
+  samePhotoMarker,
+  USER_DOT_COLOR,
+  USER_DOT_SIZE,
+  type MapInsets,
+  type MapPoint,
+} from './map-view.types';
 
 type MapLibre = typeof import('maplibre-gl');
+
+/**
+ * The traveller's blue dot (D-086), placed by maplibre-gl's own Marker; with `follow` the map
+ * eases to each new position.
+ */
+export function WebUserDot({
+  lib,
+  map,
+  position,
+  follow,
+}: {
+  lib: MapLibre;
+  map: MapLibreMap;
+  position: { lat: number; lng: number };
+  follow: boolean;
+}) {
+  const [dot] = useState(() => {
+    const el = document.createElement('div');
+    el.setAttribute('role', 'img');
+    el.setAttribute('aria-label', 'You');
+    el.style.cssText =
+      `width:${USER_DOT_SIZE}px;height:${USER_DOT_SIZE}px;border-radius:50%;` +
+      `background:${USER_DOT_COLOR};border:3px solid #fff;box-shadow:0 0 0 2px ${USER_DOT_COLOR}55;`;
+    return el;
+  });
+  const [marker] = useState(() => new lib.Marker({ element: dot }));
+  useEffect(() => {
+    marker.setLngLat([position.lng, position.lat]).addTo(map);
+    if (follow) {
+      map.easeTo({
+        center: [position.lng, position.lat],
+        zoom: Math.max(map.getZoom(), FOLLOW_ZOOM),
+        duration: 500,
+      });
+    }
+  }, [marker, map, position.lat, position.lng, follow]);
+  useEffect(() => () => void marker.remove(), [marker]);
+  return null;
+}
 
 /** Stacking order: the selected place above route stops, route stops above the rest. */
 function markerZIndex(point: MapPoint): string {

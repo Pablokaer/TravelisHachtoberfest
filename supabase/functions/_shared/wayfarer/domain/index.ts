@@ -8,5 +8,7 @@ export * from './power.ts';
 export * from './route-plan.ts';
 export * from './route.ts';
 export * from './suggested-routes.ts';
+export * from './trip-costs.ts';
 export * from './trip-planning.ts';
 export * from './visa.ts';
+export * from './walk-guidance.ts';

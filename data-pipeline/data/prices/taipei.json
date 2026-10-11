@@ -1,0 +1,27 @@
+{
+  "city": "taipei",
+  "country": "TW",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.39,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 2.43,
+    "soft_drink": 1.04,
+    "cocktail": 4.52,
+    "coffee": 1.56,
+    "meal_cheap": 5.91,
+    "meal_mid": 13.21,
+    "local_dish": 7.65,
+    "big_mac": 2.16,
+    "transport_ticket": 0.87,
+    "taxi_5km": 5.56
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

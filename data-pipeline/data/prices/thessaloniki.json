@@ -1,0 +1,27 @@
+{
+  "city": "thessaloniki",
+  "country": "GR",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.655,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 4.09,
+    "soft_drink": 1.75,
+    "cocktail": 7.6,
+    "coffee": 2.63,
+    "meal_cheap": 9.94,
+    "meal_mid": 22.23,
+    "local_dish": 12.87,
+    "big_mac": 6.32,
+    "transport_ticket": 1.46,
+    "taxi_5km": 9.36
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

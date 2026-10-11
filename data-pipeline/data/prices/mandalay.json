@@ -1,0 +1,27 @@
+{
+  "city": "mandalay",
+  "country": "MM",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.315,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": false,
+  "prices": {
+    "beer": 1.97,
+    "soft_drink": 0.84,
+    "cocktail": 3.66,
+    "coffee": 1.27,
+    "meal_cheap": 4.78,
+    "meal_mid": 10.69,
+    "local_dish": 6.19,
+    "big_mac": 1.75,
+    "transport_ticket": 0.7,
+    "taxi_5km": 4.5
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

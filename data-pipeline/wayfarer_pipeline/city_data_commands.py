@@ -16,11 +16,11 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from . import climate, countries, facts, regions, seed_city_data
+from . import climate, countries, facts, prices, regions, seed_city_data
 from .config import CitiesConfig, City, load_cities
 from .local.database import Database, choose_database
 from .local.store import LocalStore
-from .paths import CLIMATE_DIR, FACTS_DIR, LOCAL_DIR, prettier
+from .paths import CLIMATE_DIR, FACTS_DIR, LOCAL_DIR, PRICES_DIR, prettier
 
 
 @dataclass
@@ -140,8 +140,36 @@ def run_facts(
     return result
 
 
+def run_prices(
+    client: Any,
+    cities: list[City],
+    directory: Path = PRICES_DIR,
+    refresh: bool = False,
+    today: date | None = None,
+    format_json: bool = False,
+) -> RunResult:
+    """Price snapshots for ``cities``: the public sources are read once, then each city is
+    priced from them (D-088)."""
+    result = RunResult()
+    todo = _pending(cities, directory, refresh, result)
+    if not todo:
+        return result
+    basket, sources = prices.load_basket(), prices.fetch_sources(client)
+
+    def one(city: City) -> Path:
+        return prices.save(prices.build_city(city, basket, sources, today), directory, False)
+
+    paths = _each(todo, one, result, "prices")
+    if format_json and paths:
+        prettier(*paths)
+    return result
+
+
 def load_into_database(
-    db: Database, climate_docs: dict[str, Any], facts_docs: dict[str, Any]
+    db: Database,
+    climate_docs: dict[str, Any],
+    facts_docs: dict[str, Any],
+    prices_docs: dict[str, Any] | None = None,
 ) -> None:
     """Upserts the given snapshots into the database in one transaction (nothing: no call)."""
     scripts = []
@@ -149,6 +177,8 @@ def load_into_database(
         scripts.append(seed_city_data.climate_sql(climate_docs))
     if facts_docs:
         scripts.append(seed_city_data.facts_sql(facts_docs))
+    if prices_docs:
+        scripts.append(seed_city_data.prices_sql(prices_docs))
     if scripts:
         db.apply("\n".join(scripts))
 
@@ -201,4 +231,14 @@ def cmd_facts(args: argparse.Namespace, client: Any) -> int:
     print(result.line("facts"))
     if args.local:
         load_into_database(choose_database(args.db_url), {}, facts.load_all(folder))
+    return 1 if result.failed else 0
+
+
+def cmd_prices(args: argparse.Namespace, client: Any) -> int:
+    cities, base = targets(args)
+    folder = base / "prices"
+    result = run_prices(client, cities, folder, args.refresh, format_json=not args.local)
+    print(result.line("prices"))
+    if args.local:
+        load_into_database(choose_database(args.db_url), {}, {}, prices.load_all(folder))
     return 1 if result.failed else 0

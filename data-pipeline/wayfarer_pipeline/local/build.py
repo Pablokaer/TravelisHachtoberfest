@@ -47,6 +47,7 @@ class BuildDeps:
     planner: Callable[[], RoutePlanner]
     climate: Callable[[City], Doc]
     facts: Callable[[City], Doc]
+    prices: Callable[[City], Doc]
     countries: dict[str, dict[str, Any]]
     zone_coords: ZoneCoords
 
@@ -80,6 +81,8 @@ def city_script(
         parts.append(seed_city_data.climate_sql({city.slug: extras["climate"]}))
     if "facts" in extras:
         parts.append(seed_city_data.facts_sql({city.slug: extras["facts"]}))
+    if "prices" in extras:
+        parts.append(seed_city_data.prices_sql({city.slug: extras["prices"]}))
     return "\n".join(parts)
 
 
@@ -117,10 +120,16 @@ class CityBuilder:
         return BuildResult(city.slug, len(doc["attractions"]), len(routes["routes"]))
 
     def _extras(self, city: City) -> dict[str, Doc]:
-        """Climate and facts (D-081). Each is optional: Open-Meteo or Overpass can throttle, and
-        a city without them is still worth building; the failure is logged, not raised."""
+        """Climate, facts (D-081) and prices (D-088). Each is optional: Open-Meteo or Overpass can
+        throttle, and a city without them is still worth building; the failure is logged, not
+        raised."""
         found: dict[str, Doc] = {}
-        for name, fetch in (("climate", self.deps.climate), ("facts", self.deps.facts)):
+        wanted = (
+            ("climate", self.deps.climate),
+            ("facts", self.deps.facts),
+            ("prices", self.deps.prices),
+        )
+        for name, fetch in wanted:
             try:
                 found[name] = fetch(city)
                 self.deps.store.save_doc(city.slug, name, found[name])

@@ -165,6 +165,30 @@ def fake_facts(city: City) -> dict[str, Any]:
     return {"city": city.slug, "population": 385000, "inception_year": None, "beach_count": 3}
 
 
+def fake_prices(city: City) -> dict[str, Any]:
+    items = [
+        "beer",
+        "soft_drink",
+        "cocktail",
+        "coffee",
+        "meal_cheap",
+        "meal_mid",
+        "local_dish",
+        "big_mac",
+        "transport_ticket",
+        "taxi_5km",
+    ]
+    return {
+        "city": city.slug,
+        "country": "PT",
+        "retrieved": "2026-10-11",
+        "currency": "EUR",
+        "price_level": 0.6,
+        "big_mac_is_real": True,
+        "prices": {item: 3.0 for item in items},
+    }
+
+
 def make_builder(
     tmp_path: Path,
     db: FakeDatabase | None = None,
@@ -184,6 +208,7 @@ def make_builder(
         planner=lambda: RuleBasedRoutePlanner(),
         climate=fake_climate,
         facts=fake_facts,
+        prices=fake_prices,
         countries={"PT": COUNTRY_PT},
         zone_coords={"Europe/Lisbon": (38.7, -9.1), "Atlantic/Azores": (37.7, -25.7)},
     )

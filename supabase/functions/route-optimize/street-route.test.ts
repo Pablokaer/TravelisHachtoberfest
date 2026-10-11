@@ -1,6 +1,6 @@
 // Street-following walking routes (D-046): the path always comes from the walking network when
-// OpenRouteService answers at all — the optimisation, or the directions for a known order —
-// and the straight-line estimate is only the last resort.
+// OpenRouteService answers at all — the optimisation, or the directions for a known order. With
+// no answer there is no route (503): a straight line is never one (D-087).
 import { assert, assertEquals, assertThrows } from 'jsr:@std/assert@1';
 
 import { CircuitBreaker } from '../_shared/breaker.ts';
@@ -9,7 +9,7 @@ import { FakeClock } from '../_shared/fake-clock.ts';
 import { HttpError } from '../_shared/http.ts';
 import { normalizeRouteInput } from './handler.ts';
 import { createOrsRouting, ORS_COOL_DOWN_SECONDS, parseDirections } from './routing.ts';
-import { fakeOrsFetch, memoryStore, ok } from './test-fakes.ts';
+import { fakeOrsFetch, memoryStore, ok, post } from './test-fakes.ts';
 
 // Lisbon: Belém tower, Jerónimos, Praça do Comércio.
 const STOPS = [
@@ -108,16 +108,14 @@ Deno.test('street route: a kept order is cached by that order, not by the set of
   assert(a !== b, 'another order is another route');
 });
 
-Deno.test('street route: without any ORS answer, the kept order is walked in straight lines', async () => {
+Deno.test('street route: without any ORS answer, a kept order is no route (503), not straight lines', async () => {
   const { fetchJson } = fakeOrsFetch({ error: QUOTA });
   const manual = [STOPS[0]!, STOPS[1]!, STOPS[2]!]; // belem → comercio → jeronimos, as chosen
-  const r = await ok({ ors: createOrsRouting({ apiKey: 'k', fetchJson }), cached: noCache }, {
+  const res = await post({ ors: createOrsRouting({ apiKey: 'k', fetchJson }), cached: noCache }, {
     stops: manual,
     keepOrder: true,
   });
-  assertEquals(r.provider, 'fallback');
-  assertEquals(r.isFallback, true);
-  assertEquals(r.order, ['belem', 'comercio', 'jeronimos'], 'still in the chosen order');
+  assertEquals(res.status, 503);
 });
 
 Deno.test('street route: during an ORS outage, later requests skip ORS until the cool-down ends', async () => {
@@ -126,19 +124,13 @@ Deno.test('street route: during an ORS outage, later requests skip ORS until the
   const clock = new FakeClock();
   const breaker = new CircuitBreaker(ORS_COOL_DOWN_SECONDS, clock.now);
   const deps = { ors: createOrsRouting({ apiKey: 'k', fetchJson, breaker }), cached: noCache };
-  assertEquals((await ok(deps, { stops: STOPS })).provider, 'fallback');
+  assertEquals((await post(deps, { stops: STOPS })).status, 503);
   assertEquals(calls.length, 2, 'optimisation, then directions for the local order');
-  assertEquals((await ok(deps, { stops: STOPS })).provider, 'fallback');
-  assertEquals(calls.length, 2, 'straight to the straight lines: no call waits on ORS');
+  assertEquals((await post(deps, { stops: STOPS })).status, 503);
+  assertEquals(calls.length, 2, 'no call waits on ORS while it cools down');
   clock.advance(ORS_COOL_DOWN_SECONDS);
-  await ok(deps, { stops: STOPS });
+  await post(deps, { stops: STOPS });
   assertEquals(calls.length, 4, 'ORS is asked again after the cool-down');
-});
-
-Deno.test('street route: without a key, a kept order is kept too', async () => {
-  const manual = [STOPS[0]!, STOPS[1]!, STOPS[2]!];
-  const r = await ok({ ors: null, cached: noCache }, { stops: manual, keepOrder: true });
-  assertEquals(r.order, ['belem', 'comercio', 'jeronimos']);
 });
 
 Deno.test('parseDirections: legs match the segments; a malformed answer is an error', () => {

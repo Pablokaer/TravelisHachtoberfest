@@ -205,6 +205,14 @@ def _history(answers: list[Answer]) -> str:
     return "\n".join(f"- Q: {a['question']}\n  A: {a['answer']}" for a in answers) or "(none yet)"
 
 
+def _reply_in(language: str) -> str:
+    """The language instruction for the end of the user message. A model that reads English
+    answers can lose a language stated only in the system prompt (Gemma 4B answered a Portuguese
+    request in English), so it is said again where the model looks last."""
+    name = LANGUAGE_NAMES[language]
+    return f"Reply in {name}." if language == "en" else f"Write in {name}."
+
+
 def _question_messages(language: str, answers: list[Answer]) -> list[dict[str, str]]:
     system = (
         "You help a traveller choose their next trip by asking ONE short follow-up question at "
@@ -220,7 +228,10 @@ def _question_messages(language: str, answers: list[Answer]) -> list[dict[str, s
     )
     return [
         {"role": "system", "content": system},
-        {"role": "user", "content": f"Answers so far:\n{_history(answers)}"},
+        {
+            "role": "user",
+            "content": f"Answers so far:\n{_history(answers)}\n\n{_reply_in(language)}",
+        },
     ]
 
 
@@ -249,7 +260,10 @@ def _rank_messages(
         f"a beach quiet). Write in {LANGUAGE_NAMES[language]}."
     )
     cities = "\n".join(_candidate_line(c) for c in candidates)
-    user = f"Answers:\n{_history(answers)}\n\nCities (one JSON object per line):\n{cities}"
+    user = (
+        f"Answers:\n{_history(answers)}\n\nCities (one JSON object per line):\n{cities}"
+        f"\n\n{_reply_in(language)}"
+    )
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
 

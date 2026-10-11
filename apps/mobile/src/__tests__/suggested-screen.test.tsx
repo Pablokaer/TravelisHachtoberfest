@@ -17,6 +17,11 @@ class MockRoutesServer {
   static routes: SuggestedRoute[] = [];
 }
 
+/** The attractions the traveller marked as visited in each test (D-085). */
+class MockVisitedPlaces {
+  static ids = new Set<string>();
+}
+
 const UNAVAILABLE: OwnCity = {
   phase: 'unavailable',
   slug: null,
@@ -71,6 +76,9 @@ jest.mock('@/features/destinations/api', () => ({
     ],
   }),
 }));
+jest.mock('@/features/visited/api', () => ({
+  useVisitedIds: () => ({ isPending: false, data: MockVisitedPlaces.ids }),
+}));
 jest.mock('@/features/suggested/api', () => ({
   ...jest.requireActual('@/features/suggested/api'),
   useSuggestedRoutes: (slug: string | null) => ({
@@ -121,6 +129,7 @@ function userIsAt(lat: number, lng: number) {
 
 beforeEach(() => {
   MockRoutesServer.routes = [oldTown, riverside];
+  MockVisitedPlaces.ids = new Set();
   MockCityBuilder.own = UNAVAILABLE;
   MockWorldSearch.result = { available: true, isSearching: false, matches: [] };
   useSavedPlaces.setState({ slugs: [] });
@@ -150,6 +159,36 @@ describe('SuggestedScreen', () => {
     const card = await screen.findByTestId('suggested-route-old-town');
     expect(card).toHaveTextContent(/1\s*Place a3/);
     expect(card).toHaveTextContent(/Starts \d+ m from you/);
+  });
+
+  test('a visited place is no priority: the route starts at the nearest new stop (D-085)', async () => {
+    MockVisitedPlaces.ids = new Set(['a3']);
+    userIsAt(38.72, -9.14 + 2.2 / 86.8); // next to a3, which was already visited
+    render(<SuggestedScreen />);
+    const card = await screen.findByTestId('suggested-route-old-town');
+    expect(card).toHaveTextContent(/1\s*Place a2/);
+    expect(screen.getByTestId('visited-count-old-town')).toHaveTextContent(
+      '1 stop already visited',
+    );
+  });
+
+  test('a route with every stop visited goes last, however near it is (D-085)', async () => {
+    MockVisitedPlaces.ids = new Set(['b1', 'b2']);
+    userIsAt(38.72, -9.14 + 6.5 / 86.8); // beside the riverside route, which is all visited
+    render(<SuggestedScreen />);
+    await screen.findByText('Near you: Lisbon');
+    const titles = screen.getAllByRole('header').map((h) => h.props.children);
+    expect(titles.indexOf('Old town walk')).toBeLessThan(titles.indexOf('Riverside walk'));
+    expect(screen.getByTestId('visited-count-riverside')).toHaveTextContent(
+      '2 stops already visited',
+    );
+  });
+
+  test('a route without visited stops shows no visited line', async () => {
+    userIsAt(38.72, -9.14);
+    render(<SuggestedScreen />);
+    await screen.findByTestId('suggested-route-old-town');
+    expect(screen.queryByTestId('visited-count-old-town')).toBeNull();
   });
 
   test('Start this route loads the tray in that order and opens the route builder', async () => {
@@ -236,6 +275,17 @@ describe('SuggestedScreen', () => {
     await userEvent.press(screen.getByText('Explore attractions'));
     expect(router.push).toHaveBeenCalledWith({
       pathname: '/city/[slug]',
+      params: { slug: 'lisbon' },
+    });
+  });
+
+  test('a button next to Explore attractions opens the city page (D-089)', async () => {
+    userIsAt(38.72, -9.14);
+    render(<SuggestedScreen />);
+    await screen.findByTestId('city-hero');
+    await userEvent.press(screen.getByRole('button', { name: 'City page' }));
+    expect(router.push).toHaveBeenCalledWith({
+      pathname: '/short/[slug]',
       params: { slug: 'lisbon' },
     });
   });

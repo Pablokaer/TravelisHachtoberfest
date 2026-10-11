@@ -1,0 +1,27 @@
+{
+  "city": "sofia",
+  "country": "BG",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.239,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": false,
+  "prices": {
+    "beer": 1.49,
+    "soft_drink": 0.64,
+    "cocktail": 2.77,
+    "coffee": 0.96,
+    "meal_cheap": 3.62,
+    "meal_mid": 8.1,
+    "local_dish": 4.69,
+    "big_mac": 1.33,
+    "transport_ticket": 0.53,
+    "taxi_5km": 3.41
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

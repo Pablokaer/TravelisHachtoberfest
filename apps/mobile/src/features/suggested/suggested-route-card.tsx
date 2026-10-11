@@ -60,6 +60,11 @@ function Facts({ route, showStartDistance }: Pick<Props, 'route' | 'showStartDis
       <Text variant="caption" secondary>
         {items.join(' · ')}
       </Text>
+      {route.visitedStops > 0 ? (
+        <Text variant="caption" secondary testID={`visited-count-${route.slug}`}>
+          {t('suggested.alreadyVisited', { count: route.visitedStops })}
+        </Text>
+      ) : null}
       {showStartDistance ? (
         <View style={styles.startsAt}>
           <Icon name="pin" size={14} color={theme.primary} />

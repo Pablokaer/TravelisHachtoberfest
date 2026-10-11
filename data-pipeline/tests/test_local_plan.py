@@ -353,3 +353,27 @@ def test_bad_plan_requests_are_400_naming_the_value(
 
 def test_bad_request_is_the_services_own_error_type() -> None:
     assert issubclass(BadRequest, ValueError)
+
+
+def test_the_language_is_repeated_at_the_end_of_the_user_message_for_the_question() -> None:
+    """A small model (Gemma 4B) loses a language set only in the system prompt, because the
+    answers it reads are in English: the user message ends with it too (D-084)."""
+    wizard, ollama = assistant(says(GOOD_QUESTION))
+    ask(wizard, language="pt")
+    last = ollama.posts[0]["messages"][-1]
+    assert last["role"] == "user"
+    assert last["content"].rstrip().endswith("never Brazilian Portuguese.")
+
+
+def test_the_language_is_repeated_at_the_end_of_the_user_message_for_the_ranking() -> None:
+    wizard, ollama = assistant(GOOD_PICKS)
+    rank(wizard, language="pt")
+    last = ollama.posts[0]["messages"][-1]
+    assert last["role"] == "user"
+    assert last["content"].rstrip().endswith("never Brazilian Portuguese.")
+
+
+def test_english_is_asked_for_in_english_in_the_user_message_too() -> None:
+    wizard, ollama = assistant(says(GOOD_QUESTION))
+    ask(wizard, language="en")
+    assert ollama.posts[0]["messages"][-1]["content"].rstrip().endswith("Reply in English.")

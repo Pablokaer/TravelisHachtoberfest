@@ -8,6 +8,29 @@ import '@/lib/i18n';
 
 jest.mock('@/features/profile/api', () => ({ useProfile: () => ({ data: undefined }) }));
 
+/** The estimated prices per city slug in each test; a city without one shows no price line. */
+class MockPrices {
+  static bySlug: Record<string, object> = {};
+}
+jest.mock('@/features/prices/api', () => ({
+  useCityPrices: (slug: string) => ({ data: MockPrices.bySlug[slug] ?? null }),
+}));
+const ESTIMATE = {
+  currency: 'EUR',
+  prices: {
+    beer: 4,
+    softDrink: 2,
+    cocktail: 9,
+    coffee: 3,
+    mealCheap: 10,
+    mealMid: 22,
+    localDish: 14,
+    bigMac: 6,
+    transportTicket: 1.6,
+    taxi5km: 9,
+  },
+};
+
 const destination = (slug: string, distanceKm: number): ScoredDestination => ({
   slug,
   lat: 0,
@@ -32,6 +55,27 @@ const proposals: Proposal[] = [
 ];
 
 describe('PlanResults (D-081)', () => {
+  beforeEach(() => {
+    MockPrices.bySlug = { rio: ESTIMATE };
+  });
+
+  test('a destination with an estimate shows what a typical day of food and drinks costs (D-088)', () => {
+    render(
+      <PlanResults proposals={proposals} cities={cities} relaxed={false} onSave={jest.fn()} />,
+    );
+    // two cheap meals (20) + a restaurant meal (22) + two beers (8)
+    expect(screen.getByTestId('proposal-price-rio')).toHaveTextContent(
+      /About €50 a day for food and drinks/,
+    );
+  });
+
+  test('a destination without an estimate shows no price line', () => {
+    render(
+      <PlanResults proposals={proposals} cities={cities} relaxed={false} onSave={jest.fn()} />,
+    );
+    expect(screen.queryByTestId('proposal-price-lima')).toBeNull();
+  });
+
   test('each destination shows why it fits, how far it is and its climate that month', () => {
     render(
       <PlanResults proposals={proposals} cities={cities} relaxed={false} onSave={jest.fn()} />,

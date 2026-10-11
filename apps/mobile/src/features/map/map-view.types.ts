@@ -72,6 +72,10 @@ export type MapViewProps = {
   popup?: ReactNode;
   /** A press on the map that hits no marker or popup (e.g. to close the popup). */
   onMapPress?: () => void;
+  /** The traveller's live position, drawn as a blue dot (in-app navigation, D-086). */
+  userPosition?: { lat: number; lng: number } | null;
+  /** With a `userPosition`: the map moves to keep it in view as it changes. */
+  followUser?: boolean;
   /**
    * Bands of the map covered by the app's floating UI (px from the top and bottom edges); the
    * map pans an opening popup out of them.
@@ -126,6 +130,12 @@ export function boundsOf(
     Math.max(...lats) + pad,
   ];
 }
+
+/** Zoom a followed position is shown at: street level, where a walking route can be read. */
+export const FOLLOW_ZOOM = 16;
+/** Size of the blue dot that marks the traveller. */
+export const USER_DOT_SIZE = 18;
+export const USER_DOT_COLOR = '#1A73E8';
 
 export const circlePaint = {
   'circle-color': ['get', 'color'],

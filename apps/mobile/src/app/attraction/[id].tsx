@@ -25,6 +25,7 @@ import { routeNotice } from '@/features/route/notice';
 import { useRatingSummary } from '@/features/reviews/api';
 import { RatingSummaryLine } from '@/features/reviews/components';
 import { ReviewsSection } from '@/features/reviews/reviews-section';
+import { VisitedButton } from '@/features/visited/visited-button';
 import { useRouteStore } from '@/features/route/store';
 import { radius, spacing } from '@/theme/colors';
 import { useBreakpoint } from '@/theme/use-theme';
@@ -150,6 +151,7 @@ function AttractionHeader({
           <Badge icon={categoryIcon(a.category)} label={t(`category.${a.category}`)} />
           {a.isUnesco ? <Badge icon="globe" label={t('attraction.unesco')} /> : null}
         </View>
+        <VisitedButton attractionId={a.id} />
       </View>
     </>
   );

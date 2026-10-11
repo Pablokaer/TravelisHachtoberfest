@@ -21,6 +21,7 @@ import { spacing } from '@/theme/colors';
 
 const openStop = (id: string) => router.push({ pathname: '/attraction/[id]', params: { id } });
 const openCityMap = (slug: string) => router.push({ pathname: '/city/[slug]', params: { slug } });
+const openCityPage = (slug: string) => router.push({ pathname: '/short/[slug]', params: { slug } });
 
 /** The city builder is still looking up or preparing the traveller's own city (D-079). */
 const isPreparing = (here: RoutesHere) =>
@@ -92,7 +93,11 @@ function Routes({ here }: { here: RoutesHere }) {
   const heading = position && !here.chosenCity ? 'suggested.nearYou' : 'suggested.inCity';
   return (
     <View style={styles.routes}>
-      <CityHero city={city} onExplore={() => openCityMap(city.slug)} />
+      <CityHero
+        city={city}
+        onExplore={() => openCityMap(city.slug)}
+        onOpenCity={() => openCityPage(city.slug)}
+      />
       <Text variant="heading">{t(heading, { city: place })}</Text>
       {ranked.length === 0 ? (
         <EmptyState icon="route" title={t('suggested.empty', { city: place })} />

@@ -14,7 +14,7 @@ import {
   type MapViewProps,
 } from './map-view.types';
 import { loadStylesheet } from './stylesheet';
-import { WebPhotoMarker, WebPopup } from './web-annotations';
+import { WebPhotoMarker, WebPopup, WebUserDot } from './web-annotations';
 
 type Loaded = { lib: typeof import('maplibre-gl'); map: MapLibreMap };
 
@@ -51,6 +51,8 @@ export function MapView({
   selectedId,
   popup,
   onMapPress,
+  userPosition,
+  followUser = false,
   overlayInsets,
   style,
   testID,
@@ -175,6 +177,9 @@ export function MapView({
             />
           ))
         : null}
+      {ready && userPosition ? (
+        <WebUserDot lib={ready.lib} map={ready.map} position={userPosition} follow={followUser} />
+      ) : null}
       {ready && selected && popup ? (
         <WebPopup
           lib={ready.lib}

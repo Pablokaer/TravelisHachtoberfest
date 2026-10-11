@@ -9,7 +9,8 @@ ids, so it cannot name a place that does not exist. Code still validates the ans
 from __future__ import annotations
 
 import json
-from collections.abc import Sequence
+import os
+from collections.abc import Mapping, Sequence
 from typing import Any, Protocol
 
 import requests
@@ -19,6 +20,18 @@ from .model import Candidate, PlannerContext, PlannerError, Proposal
 
 DEFAULT_URL = "http://localhost:11434"
 DEFAULT_MODEL = "qwen2.5:7b"
+
+
+def default_model(env: Mapping[str, str] | None = None) -> str:
+    """The model to use when ``--model`` is not given: ``OLLAMA_MODEL`` when set (for example
+    ``gemma3:4b``, D-084), else Qwen.
+
+    >>> default_model({"OLLAMA_MODEL": "gemma3:4b"})  # "gemma3:4b"
+    """
+    chosen = (os.environ if env is None else env).get("OLLAMA_MODEL", "").strip()
+    return chosen or DEFAULT_MODEL
+
+
 # Low: the same group should keep getting the same kind of route when the pipeline is re-run.
 TEMPERATURE = 0.2
 DESCRIPTION_CHARS = 120

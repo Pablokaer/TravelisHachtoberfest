@@ -46,6 +46,19 @@ export function formatNumber(value: number, locale: string, digits = 2) {
   }).format(value);
 }
 
+/**
+ * An amount of money in a currency, without needless decimals: €4, €6.32.
+ * @example formatMoney(6.32, 'EUR', 'en') // '€6.32'
+ */
+export function formatMoney(amount: number, currency: string, locale: string) {
+  return new Intl.NumberFormat(locale, {
+    style: 'currency',
+    currency,
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2,
+  }).format(amount);
+}
+
 export function todayIso() {
   return new Date().toISOString().slice(0, 10);
 }

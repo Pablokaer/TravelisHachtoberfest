@@ -1,0 +1,27 @@
+{
+  "city": "ghent",
+  "country": "BE",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.872,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 5.45,
+    "soft_drink": 2.33,
+    "cocktail": 10.12,
+    "coffee": 3.5,
+    "meal_cheap": 13.23,
+    "meal_mid": 29.57,
+    "local_dish": 17.12,
+    "big_mac": 6.32,
+    "transport_ticket": 1.95,
+    "taxi_5km": 12.45
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

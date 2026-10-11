@@ -1,0 +1,27 @@
+{
+  "city": "lviv",
+  "country": "UA",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.285,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 1.78,
+    "soft_drink": 0.76,
+    "cocktail": 3.3,
+    "coffee": 1.14,
+    "meal_cheap": 4.32,
+    "meal_mid": 9.65,
+    "local_dish": 5.59,
+    "big_mac": 2.98,
+    "transport_ticket": 0.63,
+    "taxi_5km": 4.06
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

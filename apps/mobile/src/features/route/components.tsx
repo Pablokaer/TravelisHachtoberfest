@@ -80,8 +80,20 @@ export function RouteTotals({
   );
 }
 
-/** Links that open the walking route in Google Maps / Apple Maps. */
-export function NavigationLinks({ stops }: { stops: AttractionSummary[] }) {
+/** What the in-app navigation button needs (D-086); without it only the map links show. */
+export type InAppNavigation = { active: boolean; onStart: () => void; onStop: () => void };
+
+/**
+ * Navigate in the app (above), and links that open the walking route in Google Maps / Apple Maps.
+ * @example <NavigationLinks stops={trip.stops} navigation={{ active, onStart, onStop }} />
+ */
+export function NavigationLinks({
+  stops,
+  navigation,
+}: {
+  stops: AttractionSummary[];
+  navigation?: InAppNavigation;
+}) {
   const { t, i18n } = useTranslation();
   const theme = useTheme();
   const lang = i18n.resolvedLanguage ?? 'en';
@@ -89,6 +101,16 @@ export function NavigationLinks({ stops }: { stops: AttractionSummary[] }) {
   const open = (url: string) => void Linking.openURL(url);
   return (
     <Section title={t('route.navigate')}>
+      {navigation ? (
+        <Button
+          testID="navigate-in-app"
+          icon="walk"
+          variant={navigation.active ? 'secondary' : 'primary'}
+          label={navigation.active ? t('navigation.stop') : t('navigation.start')}
+          accessibilityHint={navigation.active ? undefined : t('navigation.startHint')}
+          onPress={navigation.active ? navigation.onStop : navigation.onStart}
+        />
+      ) : null}
       <Button
         variant="secondary"
         icon="directions"

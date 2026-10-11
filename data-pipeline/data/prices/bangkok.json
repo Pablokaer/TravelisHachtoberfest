@@ -1,0 +1,27 @@
+{
+  "city": "bangkok",
+  "country": "TH",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.323,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 2.01,
+    "soft_drink": 0.86,
+    "cocktail": 3.74,
+    "coffee": 1.3,
+    "meal_cheap": 4.89,
+    "meal_mid": 10.94,
+    "local_dish": 6.33,
+    "big_mac": 3.58,
+    "transport_ticket": 0.72,
+    "taxi_5km": 4.61
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

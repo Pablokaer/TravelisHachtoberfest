@@ -1,0 +1,27 @@
+{
+  "city": "helsinki",
+  "country": "FI",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.906,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 5.66,
+    "soft_drink": 2.43,
+    "cocktail": 10.51,
+    "coffee": 3.64,
+    "meal_cheap": 13.75,
+    "meal_mid": 30.73,
+    "local_dish": 17.79,
+    "big_mac": 6.32,
+    "transport_ticket": 2.02,
+    "taxi_5km": 12.94
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

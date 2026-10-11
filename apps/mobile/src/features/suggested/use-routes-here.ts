@@ -4,6 +4,7 @@ import { nearestCity, rankByProximity, type LatLng, type RankedRoute } from '@wa
 import { useEffect, useMemo } from 'react';
 
 import { useCities, type City } from '@/features/destinations/api';
+import { useVisitedIds } from '@/features/visited/api';
 import { useSuggestedRoutes, type SuggestedRoute } from './api';
 import type { CityBuilder, PlaceHint } from './city-builder';
 import { defaultBuilder } from './default-builder';
@@ -70,10 +71,12 @@ export function useRoutesHere(
   // Without a position the routes start at the stop nearest to the city centre.
   const fromLat = position?.lat ?? city?.lat;
   const fromLng = position?.lng ?? city?.lng;
+  // Places already visited are not a priority, however near (D-085).
+  const visited = useVisitedIds().data;
   const ranked = useMemo(() => {
     if (!routes.data || fromLat === undefined || fromLng === undefined) return [];
-    return rankByProximity(routes.data, { lat: fromLat, lng: fromLng });
-  }, [routes.data, fromLat, fromLng]);
+    return rankByProximity(routes.data, { lat: fromLat, lng: fromLng }, visited);
+  }, [routes.data, fromLat, fromLng, visited]);
   return {
     cities,
     city,

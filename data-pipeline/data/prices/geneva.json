@@ -1,0 +1,27 @@
+{
+  "city": "geneva",
+  "country": "CH",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 1.282,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 8.01,
+    "soft_drink": 3.43,
+    "cocktail": 14.87,
+    "coffee": 5.15,
+    "meal_cheap": 19.44,
+    "meal_mid": 43.46,
+    "local_dish": 25.16,
+    "big_mac": 8.07,
+    "transport_ticket": 2.86,
+    "taxi_5km": 18.3
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

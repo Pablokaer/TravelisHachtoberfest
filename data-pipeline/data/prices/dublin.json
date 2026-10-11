@@ -1,0 +1,27 @@
+{
+  "city": "dublin",
+  "country": "IE",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 1.021,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 6.38,
+    "soft_drink": 2.73,
+    "cocktail": 11.85,
+    "coffee": 4.1,
+    "meal_cheap": 15.5,
+    "meal_mid": 34.64,
+    "local_dish": 20.05,
+    "big_mac": 6.32,
+    "transport_ticket": 2.28,
+    "taxi_5km": 14.58
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

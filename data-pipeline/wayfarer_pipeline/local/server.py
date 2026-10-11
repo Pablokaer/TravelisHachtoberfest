@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import sys
+from collections.abc import Callable
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any
 from urllib.parse import parse_qs, urlsplit
@@ -27,6 +28,13 @@ def _handler_class(service: CityService) -> type[BaseHTTPRequestHandler]:
                 return self._send(200, {"ok": True})
             if url.path == "/places/search":
                 return self._search(parse_qs(url.query))
+            extras = {
+                "/places/web": service.extras.web_tips,
+                "/search/attractions": service.extras.attractions,
+                "/plan/history": service.extras.history,
+            }
+            if url.path in extras:
+                return self._answer(lambda: (200, extras[url.path](parse_qs(url.query))))
             prefix = "/jobs/"
             if url.path.startswith(prefix):
                 job = service.job(url.path[len(prefix) :])
@@ -43,7 +51,32 @@ def _handler_class(service: CityService) -> type[BaseHTTPRequestHandler]:
             except Exception as exc:  # noqa: BLE001 - Nominatim down: reported as a bad gateway
                 self._failed(502, f"{type(exc).__name__}: {exc}")
 
+        def _answer(self, make: Callable[[], tuple[int, dict[str, Any]]]) -> None:
+            """One JSON answer, with the status each kind of failure maps to."""
+            try:
+                status, body = make()
+            except BadRequest as exc:
+                return self._failed(400, str(exc))
+            except PlanUnavailable as exc:
+                return self._failed(503, str(exc))
+            except Exception as exc:  # noqa: BLE001 - a partner service failed: bad gateway
+                return self._failed(502, f"{type(exc).__name__}: {exc}")
+            self._send(status, body)
+
+        def _narrate(self) -> None:
+            try:
+                audio = service.extras.narrate(self._read_json())
+            except BadRequest as exc:
+                return self._failed(400, str(exc))
+            except PlanUnavailable as exc:
+                return self._failed(503, str(exc))
+            except Exception as exc:  # noqa: BLE001 - ElevenLabs failed: bad gateway
+                return self._failed(502, f"{type(exc).__name__}: {exc}")
+            self._send_bytes(200, audio, "audio/mpeg")
+
         def do_POST(self) -> None:
+            if self.path == "/narrate":
+                return self._narrate()
             routes = {
                 "/places/resolve": service.resolve,
                 "/plan/question": lambda payload: (200, service.plan_question(payload)),
@@ -83,10 +116,12 @@ def _handler_class(service: CityService) -> type[BaseHTTPRequestHandler]:
             self._send(status, {"status": "failed", "message": message})
 
         def _send(self, status: int, body: dict[str, Any]) -> None:
-            payload = json.dumps(body).encode("utf-8")
+            self._send_bytes(status, json.dumps(body).encode("utf-8"), "application/json")
+
+        def _send_bytes(self, status: int, payload: bytes, content_type: str) -> None:
             self.send_response(status)
             self._cors()
-            self.send_header("Content-Type", "application/json")
+            self.send_header("Content-Type", content_type)
             self.send_header("Content-Length", str(len(payload)))
             self.end_headers()
             self.wfile.write(payload)

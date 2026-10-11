@@ -1,0 +1,27 @@
+{
+  "city": "vilnius",
+  "country": "LT",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.621,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 3.88,
+    "soft_drink": 1.66,
+    "cocktail": 7.2,
+    "coffee": 2.49,
+    "meal_cheap": 9.42,
+    "meal_mid": 21.06,
+    "local_dish": 12.19,
+    "big_mac": 6.32,
+    "transport_ticket": 1.39,
+    "taxi_5km": 8.87
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

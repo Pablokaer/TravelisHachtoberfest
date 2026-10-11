@@ -1,0 +1,27 @@
+{
+  "city": "warsaw",
+  "country": "PL",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.549,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 3.43,
+    "soft_drink": 1.47,
+    "cocktail": 6.36,
+    "coffee": 2.2,
+    "meal_cheap": 8.32,
+    "meal_mid": 18.6,
+    "local_dish": 10.77,
+    "big_mac": 5.55,
+    "transport_ticket": 1.22,
+    "taxi_5km": 7.83
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

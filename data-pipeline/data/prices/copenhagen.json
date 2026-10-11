@@ -1,0 +1,27 @@
+{
+  "city": "copenhagen",
+  "country": "DK",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 1.045,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 6.53,
+    "soft_drink": 2.8,
+    "cocktail": 12.13,
+    "coffee": 4.2,
+    "meal_cheap": 15.86,
+    "meal_mid": 35.45,
+    "local_dish": 20.52,
+    "big_mac": 6.28,
+    "transport_ticket": 2.33,
+    "taxi_5km": 14.92
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

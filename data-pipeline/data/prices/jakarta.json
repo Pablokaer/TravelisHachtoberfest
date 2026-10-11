@@ -1,0 +1,27 @@
+{
+  "city": "jakarta",
+  "country": "ID",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.307,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 1.92,
+    "soft_drink": 0.82,
+    "cocktail": 3.57,
+    "coffee": 1.23,
+    "meal_cheap": 4.66,
+    "meal_mid": 10.43,
+    "local_dish": 6.04,
+    "big_mac": 2.12,
+    "transport_ticket": 0.69,
+    "taxi_5km": 4.39
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

@@ -1,6 +1,7 @@
 // The planner's proposals (D-081): destinations that fit the answers, each with why, how far it is
 // and its climate in the month of the trip. The traveller ticks the ones that tempt them and saves
 // them to Future trips.
+import { typicalDayCost } from '@wayfarer/shared';
 import type { TFunction } from 'i18next';
 import { router } from 'expo-router';
 import { useState } from 'react';
@@ -14,6 +15,8 @@ import { Text } from '@/components/text';
 import { WrapGrid } from '@/components/wrap-grid';
 import { cityName, type City } from '@/features/destinations/api';
 import { CityCard } from '@/features/destinations/city-card';
+import { useCityPrices } from '@/features/prices/api';
+import { formatMoney } from '@/lib/format';
 import { spacing } from '@/theme/colors';
 import type { Proposal } from './plan-flow';
 
@@ -42,6 +45,23 @@ function climateLine(proposal: Proposal, t: TFunction): string | null {
     : base;
 }
 
+/** What a typical day of food and drinks costs in the city, when it has an estimate (D-088). */
+function PriceLine({ citySlug }: { citySlug: string }) {
+  const { t, i18n } = useTranslation();
+  const { data: estimate } = useCityPrices(citySlug);
+  if (!estimate) return null;
+  const amount = formatMoney(
+    typicalDayCost(estimate.prices),
+    estimate.currency,
+    i18n.resolvedLanguage ?? 'en',
+  );
+  return (
+    <Text variant="caption" secondary testID={`proposal-price-${citySlug}`}>
+      {t('plan.typicalDay', { amount })}
+    </Text>
+  );
+}
+
 function ProposalCard(props: {
   proposal: Proposal;
   city: City;
@@ -64,6 +84,7 @@ function ProposalCard(props: {
       <Text variant="caption" secondary>
         {climateLine(proposal, t)}
       </Text>
+      <PriceLine citySlug={city.slug} />
       <Chip
         icon={selected ? 'bookmarked' : 'bookmark'}
         label={selected ? t('plan.selected', { city: name }) : t('plan.select', { city: name })}

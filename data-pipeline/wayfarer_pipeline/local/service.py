@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 from typing import Any, Protocol
 
+from ..integrations.extras import ExtrasApi
 from .build import CityBuilder
 from .database import Database
 from .errors import BadRequest, PlanUnavailable
@@ -102,10 +103,12 @@ class CityService:
         board: JobBoard,
         searcher: CitySearcher | None = None,
         assistant: PlanAssistant | None = None,
+        extras: ExtrasApi | None = None,
     ) -> None:
         self.geocoder, self.db, self.builder, self.board = geocoder, db, builder, board
         self.searcher = searcher
         self.assistant = assistant
+        self.extras = extras or ExtrasApi()
 
     def plan_question(self, payload: Any) -> dict[str, Any]:
         """The wizard's next question (``POST /plan/question``); ``PlanUnavailable`` → 503."""
@@ -115,7 +118,9 @@ class CityService:
     def plan_rank(self, payload: Any) -> dict[str, Any]:
         """The wizard's shortlist with reasons (``POST /plan/rank``); ``PlanUnavailable`` → 503."""
         language, limit, answers, candidates = rank_request(payload)
-        return self._assistant().rank(language, limit, answers, candidates)
+        ranked = self._assistant().rank(language, limit, answers, candidates)
+        self.extras.remember(language, answers, [pick["slug"] for pick in ranked["picks"]])
+        return ranked
 
     def _assistant(self) -> PlanAssistant:
         if self.assistant is None:

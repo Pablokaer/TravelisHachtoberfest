@@ -1,0 +1,25 @@
+# Render Blueprint (D-084): the city-builder service in a container.
+# New → Blueprint → pick this repository. Fill the `sync: false` values in the dashboard.
+services:
+  - type: web
+    name: travelist-city-builder
+    runtime: docker
+    dockerfilePath: ./data-pipeline/Dockerfile
+    dockerContext: ./data-pipeline
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL # a DEMO Supabase/Postgres: the service writes cities into it
+        sync: false
+      - key: PLANNER # "rules" unless OLLAMA_URL points at a reachable Ollama
+        value: rules
+      - key: OLLAMA_URL
+        sync: false
+      - key: SENTRY_DSN # optional: Sentry Agent Tracing of the model calls
+        sync: false
+      - key: SERPAPI_API_KEY # optional: GET /places/web
+        sync: false
+      - key: ELEVENLABS_API_KEY # optional: POST /narrate
+        sync: false
+      - key: MONGODB_URI # optional: GET /plan/history
+        sync: false

@@ -1,0 +1,27 @@
+{
+  "city": "minsk",
+  "country": "BY",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.276,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": false,
+  "prices": {
+    "beer": 1.73,
+    "soft_drink": 0.74,
+    "cocktail": 3.21,
+    "coffee": 1.11,
+    "meal_cheap": 4.19,
+    "meal_mid": 9.38,
+    "local_dish": 5.43,
+    "big_mac": 1.53,
+    "transport_ticket": 0.62,
+    "taxi_5km": 3.95
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

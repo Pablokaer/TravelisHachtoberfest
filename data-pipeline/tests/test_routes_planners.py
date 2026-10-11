@@ -100,3 +100,12 @@ def test_ollama_planner_reports_an_unreachable_server_with_the_url():
     )
     with pytest.raises(PlannerError, match="http://localhost:1/api/tags"):
         planner.check_reachable()
+
+
+def test_the_model_comes_from_the_environment_when_it_is_set() -> None:
+    from wayfarer_pipeline.routes.ollama import DEFAULT_MODEL, default_model
+
+    assert default_model({"OLLAMA_MODEL": "gemma3:4b"}) == "gemma3:4b"
+    assert default_model({"OLLAMA_MODEL": "  gemma3:4b  "}) == "gemma3:4b"
+    assert default_model({"OLLAMA_MODEL": ""}) == DEFAULT_MODEL
+    assert default_model({}) == DEFAULT_MODEL

@@ -1,6 +1,8 @@
 // POST /route-optimize — orders 2–20 stops into a walking route with legs and a geometry that
 // follows the streets (D-046): ORS optimisation, else a local order walked with ORS directions;
-// `keepOrder` walks the given order. Straight lines only when ORS gives no answer at all.
+// `keepOrder` walks the given order. Without a key the public OpenStreetMap foot router does the
+// same. The rule (D-087): a route is never a straight line across the stops — when no street
+// router answers, the answer is a 503, not a line through buildings.
 import {
   CACHE_TTL,
   type RouteRequest,
@@ -11,6 +13,7 @@ import {
 
 import { type Cached, cacheKey } from '../_shared/cache.ts';
 import {
+  errorResponse,
   handleOptions,
   internalError,
   json,
@@ -18,16 +21,13 @@ import {
   parseJsonBody,
 } from '../_shared/cors.ts';
 import {
-  FALLBACK_ATTRIBUTION,
   fallbackRouting,
   ORS_ATTRIBUTION,
   type OrsRouting,
+  OSM_ATTRIBUTION,
   type RoutingResult,
-  straightLineRoute,
 } from './routing.ts';
 
-/** Fallback results are cached briefly, and only when no ORS key is configured. */
-export const FALLBACK_TTL = 3600;
 /**
  * A street path for a locally computed order (the optimiser was unavailable, e.g. over quota)
  * is kept a day, so the optimiser is asked again soon after.
@@ -37,10 +37,24 @@ export const LOCAL_ORDER_TTL = 86_400;
 export type RouteDeps = {
   /** OpenRouteService (optimisation + directions); null when ORS_API_KEY is not configured. */
   ors: OrsRouting | null;
+  /** The keyless OpenStreetMap foot router; tried after ORS, or alone without a key. */
+  osm?: OrsRouting | null;
   cached: Cached;
 };
 
-type Stored = RoutingResult & { provider: RouteResponse['provider'] };
+type StreetProvider = Exclude<RouteResponse['provider'], 'fallback'>;
+type Stored = RoutingResult & { provider: StreetProvider };
+
+/** No street router gave a route: the caller is told, and nothing is drawn (D-087). */
+export class StreetRoutingUnavailable extends Error {
+  constructor(readonly causes: unknown[]) {
+    super('no street router answered; a route is never drawn as a straight line');
+    this.name = 'StreetRoutingUnavailable';
+  }
+}
+
+/** A street router and what it is called in cache keys and answers. */
+type Router = { provider: StreetProvider; keyPrefix: 'ors' | 'osm'; routing: OrsRouting };
 
 const round6 = (n: number) => Math.round(n * 1e6) / 1e6;
 
@@ -68,62 +82,80 @@ export function normalizeRouteInput(
 
 type Normalized = ReturnType<typeof normalizeRouteInput>;
 
-const withProvider = (provider: Stored['provider']) => (r: RoutingResult): Stored => ({
+const withProvider = (provider: StreetProvider) => (r: RoutingResult): Stored => ({
   ...r,
   provider,
 });
 
-/** Straight lines: the given order when it is kept, else the shortest straight-line order. */
-async function straightLines(input: RouteRequest, n: Normalized): Promise<Stored> {
-  const route = input.keepOrder
-    ? straightLineRoute(n.stops)
-    : await fallbackRouting(n.stops, input.keepFirst);
-  return withProvider('fallback')(route);
-}
-
-/** ORS optimisation; when it fails (e.g. quota), the local order walked on the streets. */
+/** The router's optimisation; when it fails (e.g. quota), the local order walked on the streets. */
 async function optimizedStreetRoute(
-  ors: OrsRouting,
+  router: Router,
   deps: RouteDeps,
   input: RouteRequest,
   n: Normalized,
 ): Promise<Stored> {
-  const ors_ = withProvider('openrouteservice');
+  const tag = withProvider(router.provider);
   try {
     return await deps.cached(
-      await cacheKey('route:ors', n),
+      await cacheKey(`route:${router.keyPrefix}`, n),
       CACHE_TTL.route,
-      async () => ors_(await ors.optimize(n.stops, input.keepFirst)),
+      async () => tag(await router.routing.optimize(n.stops, input.keepFirst)),
     );
   } catch (err) {
-    console.warn('ORS optimisation failed, walking the local order with directions:', err);
+    console.warn(`${router.provider} optimisation failed, walking the local order:`, err);
+    // The straight-line order only decides which stop goes where; the path is still streets.
     const local = await fallbackRouting(n.stops, input.keepFirst);
     const ordered = local.order.map((id) => n.stops.find((s) => s.id === id)!);
     return await deps.cached(
-      await cacheKey('route:ors-local', n),
+      await cacheKey(`route:${router.keyPrefix}-local`, n),
       LOCAL_ORDER_TTL,
-      async () => ors_(await ors.directions(ordered)),
+      async () => tag(await router.routing.directions(ordered)),
     );
   }
 }
 
-/** A route that follows the streets, or throws when ORS gives no answer at all. */
+/** A route that follows the streets from one router, or throws when it gives no answer. */
 async function streetRoute(
-  ors: OrsRouting,
+  router: Router,
   deps: RouteDeps,
   input: RouteRequest,
   n: Normalized,
 ): Promise<Stored> {
-  if (!input.keepOrder) return await optimizedStreetRoute(ors, deps, input, n);
+  if (!input.keepOrder) return await optimizedStreetRoute(router, deps, input, n);
   return await deps.cached(
-    await cacheKey('route:ors-path', n),
+    await cacheKey(`route:${router.keyPrefix}-path`, n),
     CACHE_TTL.route,
-    async () => withProvider('openrouteservice')(await ors.directions(n.stops)),
+    async () => withProvider(router.provider)(await router.routing.directions(n.stops)),
   );
 }
 
+/** The configured routers in order of preference: ORS (with a key), then OpenStreetMap. */
+function routersOf(deps: RouteDeps): Router[] {
+  const routers: Router[] = [];
+  if (deps.ors) routers.push({ provider: 'openrouteservice', keyPrefix: 'ors', routing: deps.ors });
+  if (deps.osm) routers.push({ provider: 'osm-foot', keyPrefix: 'osm', routing: deps.osm });
+  return routers;
+}
+
+/** The first router that answers; `StreetRoutingUnavailable` when none does. */
+async function firstStreetRoute(
+  deps: RouteDeps,
+  input: RouteRequest,
+  n: Normalized,
+): Promise<Stored> {
+  const causes: unknown[] = [];
+  for (const router of routersOf(deps)) {
+    try {
+      return await streetRoute(router, deps, input, n);
+    } catch (err) {
+      console.warn(`${router.provider} routing failed, trying the next router:`, err);
+      causes.push(err);
+    }
+  }
+  throw new StreetRoutingUnavailable(causes);
+}
+
 function toResponse(input: RouteRequest, r: Stored): RouteResponse {
-  const fallback = r.provider === 'fallback';
   return {
     order: r.order,
     legs: r.legs,
@@ -131,9 +163,10 @@ function toResponse(input: RouteRequest, r: Stored): RouteResponse {
     distanceM: r.legs.reduce((a, l) => a + l.distanceM, 0),
     walkingSeconds: r.legs.reduce((a, l) => a + l.durationS, 0),
     visitMinutes: input.stops.reduce((a, s) => a + s.visitMinutes, 0),
-    isFallback: fallback,
+    // Kept for saved trips and old clients: no route is a straight-line estimate any more.
+    isFallback: false,
     provider: r.provider,
-    attribution: fallback ? FALLBACK_ATTRIBUTION : ORS_ATTRIBUTION,
+    attribution: r.provider === 'openrouteservice' ? ORS_ATTRIBUTION : OSM_ATTRIBUTION,
   };
 }
 
@@ -148,26 +181,17 @@ export function createHandler(deps: RouteDeps): (req: Request) => Promise<Respon
     const input = body.data;
 
     try {
-      const normalized = normalizeRouteInput(input);
-      let result: Stored;
-      if (deps.ors) {
-        try {
-          result = await streetRoute(deps.ors, deps, input, normalized);
-        } catch (err) {
-          // Neither ORS service answered (or both are cooling down after an outage, D-063): the
-          // estimate, labelled in the app and not cached.
-          console.warn('ORS routing failed, using straight lines:', err);
-          result = await straightLines(input, normalized);
-        }
-      } else {
-        result = await deps.cached(
-          await cacheKey('route:fallback', normalized),
-          FALLBACK_TTL,
-          () => straightLines(input, normalized),
-        );
-      }
+      const result = await firstStreetRoute(deps, input, normalizeRouteInput(input));
       return json(routeResponseSchema.parse(toResponse(input, result)));
     } catch (err) {
+      if (err instanceof StreetRoutingUnavailable) {
+        console.warn(err.message, err.causes);
+        return errorResponse(
+          503,
+          'street_routing_unavailable',
+          'No walking-route service answered, so no route was drawn. Try again in a moment.',
+        );
+      }
       return internalError(err);
     }
   };

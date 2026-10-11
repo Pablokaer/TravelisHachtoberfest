@@ -12,6 +12,7 @@
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
     "build:web": "turbo run build:web",
+    "build:android": "node scripts/build-android-apk.mjs",
     "e2e": "pnpm --filter @wayfarer/mobile e2e",
     "format": "prettier --write .",
     "format:check": "prettier --check .",

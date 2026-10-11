@@ -16,6 +16,9 @@ import {
   samePhotoMarker,
   toFeatureCollection,
   toRouteFeature,
+  FOLLOW_ZOOM,
+  USER_DOT_COLOR,
+  USER_DOT_SIZE,
   type MapPoint,
   type MapViewProps,
 } from './map-view.types';
@@ -64,6 +67,8 @@ export function MapView({
   selectedId,
   popup,
   onMapPress,
+  userPosition,
+  followUser = false,
   style,
   testID,
   accessibilityLabel,
@@ -83,6 +88,14 @@ export function MapView({
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- compare by value
   }, [boundsKey]);
+
+  // In-app navigation (D-086): the camera keeps the traveller in view.
+  const userLat = userPosition?.lat;
+  const userLng = userPosition?.lng;
+  useEffect(() => {
+    if (!followUser || userLat === undefined || userLng === undefined) return;
+    camera.current?.easeTo({ center: [userLng, userLat], zoom: FOLLOW_ZOOM, duration: 500 });
+  }, [followUser, userLat, userLng]);
 
   return (
     <View
@@ -122,6 +135,21 @@ export function MapView({
           />
         </GeoJSONSource>
         {photo ? <PhotoMarkers points={points} onPress={onPointPress} /> : null}
+        {userPosition ? (
+          <Marker id="user-position" lngLat={[userPosition.lng, userPosition.lat]}>
+            <View
+              accessibilityLabel="You"
+              style={{
+                width: USER_DOT_SIZE,
+                height: USER_DOT_SIZE,
+                borderRadius: USER_DOT_SIZE / 2,
+                backgroundColor: USER_DOT_COLOR,
+                borderWidth: 3,
+                borderColor: '#FFFFFF',
+              }}
+            />
+          </Marker>
+        ) : null}
         {selected && popup ? (
           <Marker
             lngLat={[selected.lng, selected.lat]}

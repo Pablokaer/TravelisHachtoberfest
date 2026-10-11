@@ -1,0 +1,27 @@
+{
+  "city": "split",
+  "country": "HR",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.588,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 3.68,
+    "soft_drink": 1.58,
+    "cocktail": 6.83,
+    "coffee": 2.36,
+    "meal_cheap": 8.93,
+    "meal_mid": 19.96,
+    "local_dish": 11.55,
+    "big_mac": 6.32,
+    "transport_ticket": 1.31,
+    "taxi_5km": 8.4
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

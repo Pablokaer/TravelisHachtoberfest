@@ -1,0 +1,27 @@
+{
+  "city": "valletta",
+  "country": "MT",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.69,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 4.31,
+    "soft_drink": 1.85,
+    "cocktail": 8.0,
+    "coffee": 2.77,
+    "meal_cheap": 10.46,
+    "meal_mid": 23.39,
+    "local_dish": 13.54,
+    "big_mac": 6.32,
+    "transport_ticket": 1.54,
+    "taxi_5km": 9.85
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

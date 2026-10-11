@@ -18,6 +18,37 @@ export type Database = {
                   Relationships: [
                     
                   ]
+                },"attraction_embeddings": {
+                  Row: {
+                    "attraction_id": string,"embedding": string,"model": string,"updated_at": string
+                  }
+                  Insert: {
+                    "attraction_id": string,"embedding": string,"model": string,"updated_at"?: string
+                  }
+                  Update: {
+                    "attraction_id"?: string,"embedding"?: string,"model"?: string,"updated_at"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "attraction_embeddings_attraction_id_fkey"
+      columns: ["attraction_id"]
+isOneToOne: true
+      referencedRelation: "attraction_details"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "attraction_embeddings_attraction_id_fkey"
+      columns: ["attraction_id"]
+isOneToOne: true
+      referencedRelation: "attraction_rating_summary"
+      referencedColumns: ["attraction_id"]
+    },{
+      foreignKeyName: "attraction_embeddings_attraction_id_fkey"
+      columns: ["attraction_id"]
+isOneToOne: true
+      referencedRelation: "attractions"
+      referencedColumns: ["id"]
+    }
+                  ]
                 },"attraction_review_totals": {
                   Row: {
                     "attraction_id": string,"rating_sum": number,"review_count": number
@@ -155,6 +186,37 @@ isOneToOne: true
       referencedColumns: ["slug"]
     },{
       foreignKeyName: "city_facts_city_slug_fkey"
+      columns: ["city_slug"]
+isOneToOne: true
+      referencedRelation: "city_profiles"
+      referencedColumns: ["city_slug"]
+    }
+                  ]
+                },"city_prices": {
+                  Row: {
+                    "beer": number,"big_mac": number,"big_mac_is_real": boolean,"city_slug": string,"cocktail": number,"coffee": number,"currency": string,"local_dish": number,"meal_cheap": number,"meal_mid": number,"price_level": number,"retrieved_on": string,"soft_drink": number,"taxi_5km": number,"transport_ticket": number
+                  }
+                  Insert: {
+                    "beer": number,"big_mac": number,"big_mac_is_real"?: boolean,"city_slug": string,"cocktail": number,"coffee": number,"currency"?: string,"local_dish": number,"meal_cheap": number,"meal_mid": number,"price_level": number,"retrieved_on": string,"soft_drink": number,"taxi_5km": number,"transport_ticket": number
+                  }
+                  Update: {
+                    "beer"?: number,"big_mac"?: number,"big_mac_is_real"?: boolean,"city_slug"?: string,"cocktail"?: number,"coffee"?: number,"currency"?: string,"local_dish"?: number,"meal_cheap"?: number,"meal_mid"?: number,"price_level"?: number,"retrieved_on"?: string,"soft_drink"?: number,"taxi_5km"?: number,"transport_ticket"?: number
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "city_prices_city_slug_fkey"
+      columns: ["city_slug"]
+isOneToOne: true
+      referencedRelation: "cities"
+      referencedColumns: ["slug"]
+    },{
+      foreignKeyName: "city_prices_city_slug_fkey"
+      columns: ["city_slug"]
+isOneToOne: true
+      referencedRelation: "city_list"
+      referencedColumns: ["slug"]
+    },{
+      foreignKeyName: "city_prices_city_slug_fkey"
       columns: ["city_slug"]
 isOneToOne: true
       referencedRelation: "city_profiles"
@@ -599,6 +661,37 @@ isOneToOne: false
                   Relationships: [
                     
                   ]
+                },"visited_attractions": {
+                  Row: {
+                    "attraction_id": string,"user_id": string,"visited_at": string
+                  }
+                  Insert: {
+                    "attraction_id": string,"user_id": string,"visited_at"?: string
+                  }
+                  Update: {
+                    "attraction_id"?: string,"user_id"?: string,"visited_at"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "visited_attractions_attraction_id_fkey"
+      columns: ["attraction_id"]
+isOneToOne: false
+      referencedRelation: "attraction_details"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "visited_attractions_attraction_id_fkey"
+      columns: ["attraction_id"]
+isOneToOne: false
+      referencedRelation: "attraction_rating_summary"
+      referencedColumns: ["attraction_id"]
+    },{
+      foreignKeyName: "visited_attractions_attraction_id_fkey"
+      columns: ["attraction_id"]
+isOneToOne: false
+      referencedRelation: "attractions"
+      referencedColumns: ["id"]
+    }
+                  ]
                 },"walk_attendees": {
                   Row: {
                     "created_at": string,"trip_id": string,"user_id": string
@@ -839,6 +932,11 @@ isOneToOne: false
                            },
 "save_trip":
 { Args: { "p_attraction_ids": (string)[],"p_city_slug": string,"p_distance_m"?: number,"p_is_fallback"?: boolean,"p_name": string,"p_provider"?: string,"p_route_geometry"?: Json,"p_starts_at"?: string,"p_trip_date"?: string,"p_visit_minutes"?: number,"p_walking_seconds"?: number }; Returns: string
+                           },
+"search_attractions_hybrid":
+{ Args: { "in_city"?: string,"match_count"?: number,"query_embedding": string,"query_text": string }; Returns: {
+              "category": Database["public"]['Enums']["attraction_category"],"city_slug": string,"id": string,"keyword_pos": number,"name_en": string,"score": number,"vector_pos": number
+            }[]
                            },
 "set_nationalities":
 { Args: { "codes": (string)[] }; Returns: undefined

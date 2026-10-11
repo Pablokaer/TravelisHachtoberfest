@@ -38,6 +38,7 @@ README_SQL = """\
 --   60_suggested_routes.sql  themed walking routes per city (local LLM or rules, validated)
 --   70_city_climate.sql      monthly climate normals per city (Open-Meteo, ERA5)
 --   80_city_facts.sql        population, founding year and beaches per city (Wikidata, OSM)
+--   90_city_prices.sql       estimated everyday prices per city (Big Mac index, World Bank)
 select 1;
 """
 

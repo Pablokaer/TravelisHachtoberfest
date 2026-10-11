@@ -1,0 +1,27 @@
+{
+  "city": "moscow",
+  "country": "RU",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.368,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 2.3,
+    "soft_drink": 0.98,
+    "cocktail": 4.26,
+    "coffee": 1.48,
+    "meal_cheap": 5.58,
+    "meal_mid": 12.47,
+    "local_dish": 7.22,
+    "big_mac": 1.56,
+    "transport_ticket": 0.82,
+    "taxi_5km": 5.25
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

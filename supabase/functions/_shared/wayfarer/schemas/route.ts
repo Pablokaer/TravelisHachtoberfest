@@ -48,7 +48,9 @@ export const routeResponseSchema = z.object({
   walkingSeconds: z.number(),
   visitMinutes: z.number(),
   isFallback: z.boolean(),
-  provider: z.enum(['openrouteservice', 'fallback']),
+  // 'fallback' (a straight-line estimate) is no longer produced (D-087); it stays so that trips
+  // saved before still parse.
+  provider: z.enum(['openrouteservice', 'osm-foot', 'fallback']),
   attribution: z.string(),
 });
 export type RouteResponse = z.infer<typeof routeResponseSchema>;

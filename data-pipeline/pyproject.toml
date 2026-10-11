@@ -11,6 +11,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6"]
+# D-084: Sentry Agent Tracing of model calls, MongoDB Atlas plan history (both optional)
+integrations = ["sentry-sdk>=2.0", "pymongo>=4.8"]
 
 [project.scripts]
 wayfarer-pipeline = "wayfarer_pipeline.cli:main"

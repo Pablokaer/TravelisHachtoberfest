@@ -1,0 +1,27 @@
+{
+  "city": "bordeaux",
+  "country": "FR",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.828,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 5.17,
+    "soft_drink": 2.22,
+    "cocktail": 9.6,
+    "coffee": 3.32,
+    "meal_cheap": 12.56,
+    "meal_mid": 28.07,
+    "local_dish": 16.25,
+    "big_mac": 6.32,
+    "transport_ticket": 1.85,
+    "taxi_5km": 11.82
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

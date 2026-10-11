@@ -3,16 +3,19 @@
 from __future__ import annotations
 
 import argparse
+import os
 import threading
 from collections.abc import Callable
 from typing import Any
 
-from .. import attraction_texts, city_summaries, climate, countries, facts
+from .. import attraction_texts, city_summaries, climate, countries, facts, prices
 from ..attractions import pipeline as attractions_pipeline
 from ..config import CitiesConfig, City
 from ..http import HttpClient
+from ..integrations.commands import traced_ollama_transport
+from ..integrations.extras import ExtrasApi, build_extras
 from ..routes.model import RoutePlanner
-from ..routes.ollama import RequestsOllamaTransport
+from ..routes.ollama import OllamaTransport
 from .build import BuildDeps, CityBuilder
 from .database import Database, choose_database
 from .identity import load_zone_coords
@@ -47,9 +50,15 @@ def _city_facts(client: HttpClient, city: City) -> dict[str, Any]:
     return facts.build_city(client, city, wikidata)
 
 
-def _deps(args: argparse.Namespace, client: HttpClient, db: Database) -> BuildDeps:
+def _city_prices(client: HttpClient, city: City) -> dict[str, Any]:
+    return prices.build_city(city, prices.load_basket(), prices.fetch_sources(client))
+
+
+def _deps(
+    args: argparse.Namespace, client: HttpClient, db: Database, ollama: OllamaTransport
+) -> BuildDeps:
     def planner() -> RoutePlanner:
-        return choose_planner(args.planner, args.model, args.ollama_url, RequestsOllamaTransport())
+        return choose_planner(args.planner, args.model, args.ollama_url, ollama)
 
     return BuildDeps(
         names=WikidataNames(client),
@@ -61,6 +70,7 @@ def _deps(args: argparse.Namespace, client: HttpClient, db: Database) -> BuildDe
         planner=planner,
         climate=lambda city: climate.fetch_city(client, city, first_year=args.climate_first_year),
         facts=lambda city: _city_facts(client, city),
+        prices=lambda city: _city_prices(client, city),
         countries=countries.load(),
         zone_coords=load_zone_coords(),
     )
@@ -71,10 +81,10 @@ def build_service(args: argparse.Namespace) -> CityService:
     ``ollama_url`` and ``climate_first_year`` (see ``serve --help``)."""
     client = HttpClient()
     db = choose_database(args.db_url)
-    wizard = PlanAssistant(
-        RequestsOllamaTransport(), args.model, args.ollama_url, enabled=args.planner != "rules"
-    )
-    builder = CityBuilder(_deps(args, client, db))
+    ollama = traced_ollama_transport()  # a span per model call (D-084)
+    wizard = PlanAssistant(ollama, args.model, args.ollama_url, enabled=args.planner != "rules")
+    builder = CityBuilder(_deps(args, client, db, ollama))
+    extras = ExtrasApi(build_extras(os.environ, db, args.ollama_url, ollama))
     return CityService(
-        NominatimGeocoder(client), db, builder, JobBoard(), CitySearch(client), wizard
+        NominatimGeocoder(client), db, builder, JobBoard(), CitySearch(client), wizard, extras
     )

@@ -37,9 +37,18 @@ function Cover({ city, name }: { city: City; name: string }) {
 }
 
 /**
- * @example <CityHero city={amsterdam} onExplore={() => router.push('/city/amsterdam')} />
+ * @example <CityHero city={amsterdam} onExplore={() => router.push('/city/amsterdam')} onOpenCity={openCityPage} />
  */
-export function CityHero({ city, onExplore }: { city: City; onExplore: () => void }) {
+export function CityHero({
+  city,
+  onExplore,
+  onOpenCity,
+}: {
+  city: City;
+  onExplore: () => void;
+  /** When given, a button next to "Explore attractions" opens the city page (D-089). */
+  onOpenCity?: () => void;
+}) {
   const { t, i18n } = useTranslation();
   const lang = i18n.resolvedLanguage ?? 'en';
   const name = cityName(city, lang);
@@ -58,7 +67,17 @@ export function CityHero({ city, onExplore }: { city: City; onExplore: () => voi
           </Text>
           {rating.data ? <RatingSummaryLine summary={rating.data} /> : null}
         </View>
-        <Button icon="map" label={t('cityHub.exploreAttractions')} onPress={onExplore} />
+        <View style={styles.actions}>
+          <Button icon="map" label={t('cityHub.exploreAttractions')} onPress={onExplore} />
+          {onOpenCity ? (
+            <Button
+              variant="secondary"
+              icon="globe"
+              label={t('cityHub.openCityPage')}
+              onPress={onOpenCity}
+            />
+          ) : null}
+        </View>
       </View>
     </View>
   );
@@ -78,5 +97,6 @@ const styles = StyleSheet.create({
   titleRowPhone: { flexDirection: 'column', alignItems: 'center' },
   titleTextPhone: { width: '100%', minWidth: 0, alignItems: 'center' },
   centerText: { textAlign: 'center' },
+  actions: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
   titleText: { flexGrow: 1, flexShrink: 1, minWidth: 220, gap: spacing.xs },
 });

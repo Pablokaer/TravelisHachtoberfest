@@ -100,3 +100,42 @@ describe('nearestCity', () => {
     expect(found?.distanceM).toBeGreaterThan(5_000);
   });
 });
+
+describe('visited places (D-085)', () => {
+  const near = { id: 'near', stops: [at('n1', 1), at('n2', 2)] };
+  const mid = { id: 'mid', stops: [at('m1', 1.5), at('m2', 3)] };
+  const far = { id: 'far', stops: [at('f1', 8), at('f2', 9)] };
+  const user = at('user', 0);
+
+  it('starts a route at its nearest stop that is not visited yet', () => {
+    const [ranked] = rankByProximity([near], user, new Set(['n1']));
+    expect(ids(ranked!.stops)).toEqual(['n2', 'n1']);
+    expect(ranked!.startDistanceM).toBeGreaterThan(1500);
+  });
+
+  it('ranks a route below one whose nearest stop is still new, however close the visited one is', () => {
+    const order = rankByProximity([near, mid, far], user, new Set(['n1'])).map((r) => r.id);
+    expect(order).toEqual(['mid', 'near', 'far']);
+  });
+
+  it('puts a route whose stops are all visited last, even when it is the nearest', () => {
+    const order = rankByProximity([near, far], user, new Set(['n1', 'n2'])).map((r) => r.id);
+    expect(order).toEqual(['far', 'near']);
+  });
+
+  it('counts the visited stops of each route', () => {
+    const counts = rankByProximity([near, far], user, new Set(['n1', 'f2'])).map(
+      (r) => [r.id, r.visitedStops] as const,
+    );
+    expect(counts).toEqual([
+      ['near', 1],
+      ['far', 1],
+    ]);
+  });
+
+  it('ranks exactly as before when nothing is visited', () => {
+    const plain = rankByProximity([far, near], user).map((r) => r.id);
+    expect(rankByProximity([far, near], user, new Set()).map((r) => r.id)).toEqual(plain);
+    expect(rankByProximity([near], user)[0]!.visitedStops).toBe(0);
+  });
+});

@@ -1,0 +1,27 @@
+{
+  "city": "maceio",
+  "country": "BR",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.462,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 2.89,
+    "soft_drink": 1.24,
+    "cocktail": 5.36,
+    "coffee": 1.86,
+    "meal_cheap": 7.01,
+    "meal_mid": 15.67,
+    "local_dish": 9.07,
+    "big_mac": 4.2,
+    "transport_ticket": 1.03,
+    "taxi_5km": 6.6
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

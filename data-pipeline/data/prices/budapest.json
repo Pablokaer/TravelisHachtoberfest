@@ -1,0 +1,27 @@
+{
+  "city": "budapest",
+  "country": "HU",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.579,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 3.62,
+    "soft_drink": 1.55,
+    "cocktail": 6.72,
+    "coffee": 2.33,
+    "meal_cheap": 8.79,
+    "meal_mid": 19.64,
+    "local_dish": 11.37,
+    "big_mac": 4.73,
+    "transport_ticket": 1.29,
+    "taxi_5km": 8.27
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

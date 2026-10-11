@@ -1,0 +1,27 @@
+{
+  "city": "bergen",
+  "country": "NO",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.962,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": true,
+  "prices": {
+    "beer": 6.01,
+    "soft_drink": 2.58,
+    "cocktail": 11.16,
+    "coffee": 3.86,
+    "meal_cheap": 14.59,
+    "meal_mid": 32.62,
+    "local_dish": 18.89,
+    "big_mac": 7.19,
+    "transport_ticket": 2.15,
+    "taxi_5km": 13.74
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

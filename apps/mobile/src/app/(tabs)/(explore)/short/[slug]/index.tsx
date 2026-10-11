@@ -12,6 +12,7 @@ import { CityNotFound } from '@/features/destinations/city-not-found';
 import { usePrefetchCityPlaces } from '@/features/destinations/use-prefetch-city-places';
 import { WikipediaTextBlock } from '@/features/destinations/wikipedia-texts';
 import { NotablePeopleSection } from '@/features/people/notable-people-section';
+import { CityPricesSection } from '@/features/prices/city-prices-section';
 import { ReviewsSection } from '@/features/reviews/reviews-section';
 import { CityWalklistsSection } from '@/features/trips/city-walklists-section';
 import { UpcomingMeetupsSection } from '@/features/trips/upcoming-meetups-section';
@@ -46,6 +47,10 @@ function CityHub({ city }: { city: City }) {
       />
       <CityHero city={city} onExplore={openAttractions} />
       <AboutSection city={city} />
+      <CityPricesSection
+        citySlug={city.slug}
+        cityName={cityName(city, i18n.resolvedLanguage ?? 'en')}
+      />
       <NotablePeopleSection city={city} />
       <UpcomingMeetupsSection city={city} />
       <CityWalklistsSection city={city} kind="community" />

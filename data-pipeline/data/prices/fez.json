@@ -1,0 +1,27 @@
+{
+  "city": "fez",
+  "country": "MA",
+  "retrieved": "2026-10-11",
+  "currency": "EUR",
+  "price_level": 0.423,
+  "usd_eur": 0.89238,
+  "big_mac_is_real": false,
+  "prices": {
+    "beer": 2.65,
+    "soft_drink": 1.13,
+    "cocktail": 4.91,
+    "coffee": 1.7,
+    "meal_cheap": 6.42,
+    "meal_mid": 14.36,
+    "local_dish": 8.31,
+    "big_mac": 2.35,
+    "transport_ticket": 0.94,
+    "taxi_5km": 6.05
+  },
+  "sources": [
+    "The Economist, Big Mac index (McDonald's price per country)",
+    "World Bank, PPP conversion factor of household consumption and official exchange rate",
+    "Frankfurter (ECB reference rates), USD to EUR",
+    "Reference basket: assumptions in data-pipeline/data/price_basket.yaml"
+  ]
+}

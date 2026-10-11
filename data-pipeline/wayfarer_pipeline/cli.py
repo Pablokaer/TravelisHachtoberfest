@@ -18,6 +18,8 @@ python -m wayfarer_pipeline serve [--port 8787] [--planner auto|rules|ollama]  #
                                                # from a GPS position and writes it to Supabase
 python -m wayfarer_pipeline climate --city lisbon | --all [--refresh]  # D-081
                                                # Open-Meteo normals → data/climate → 70_city_climate
+python -m wayfarer_pipeline prices --city lisbon | --all [--refresh]  # D-088
+                                               # Big Mac index + World Bank levels → 90_city_prices
 python -m wayfarer_pipeline facts --city lisbon | --all [--refresh]  # D-081
                                                # population, founding year, OSM beaches
                                                # → data/facts → 80_city_facts.sql
@@ -51,10 +53,13 @@ from . import (
 )
 from .attractions import pipeline
 from .config import DEFAULT_CITIES_FILE, CitiesConfig, load_cities
+from .dotenv import load_env_file
 from .gates.baseline import GitBaseline
 from .gates.changelog import add_data_entry, refresh_line
 from .gates.run import run_gates
 from .http import HttpClient
+from .integrations.commands import cmd_embed, traced_ollama_transport
+from .integrations.semantic import DEFAULT_EMBED_MODEL
 from .local.database import DEFAULT_DB_URL
 from .paths import DATA_DIR, REPO_ROOT
 from .people import categories as people_categories
@@ -62,11 +67,10 @@ from .people import pipeline as people
 from .routes import pipeline as routes_pipeline
 from .routes.model import PlannerContext, PlannerError, RoutePlanner
 from .routes.ollama import (
-    DEFAULT_MODEL,
     DEFAULT_URL,
     OllamaRoutePlanner,
     OllamaTransport,
-    RequestsOllamaTransport,
+    default_model,
 )
 from .routes.rules import RuleBasedRoutePlanner
 
@@ -159,7 +163,7 @@ def _cmd_people(args: argparse.Namespace) -> int:
 
 
 def make_ollama_transport() -> OllamaTransport:
-    return RequestsOllamaTransport()
+    return traced_ollama_transport()
 
 
 def make_route_planner(args: argparse.Namespace) -> RoutePlanner:
@@ -217,6 +221,10 @@ def _cmd_facts(args: argparse.Namespace) -> int:
     return city_data_commands.cmd_facts(args, _client(args))
 
 
+def _cmd_prices(args: argparse.Namespace) -> int:
+    return city_data_commands.cmd_prices(args, _client(args))
+
+
 def _cmd_visa(args: argparse.Namespace) -> int:
     raw, meta = visa.fetch(_client(args))
     rows, skipped = visa.normalize(raw, set(countries.load()))
@@ -267,7 +275,14 @@ def _cmd_seed(args: argparse.Namespace) -> int:
     path, warnings = seed.write_attractions()
     paths.extend([path, seed.write_people()])
     routes_path, route_warnings = seed.write_suggested_routes()
-    paths.extend([routes_path, seed_city_data.write_climate(), seed_city_data.write_facts()])
+    paths.extend(
+        [
+            routes_path,
+            seed_city_data.write_climate(),
+            seed_city_data.write_facts(),
+            seed_city_data.write_prices(),
+        ]
+    )
     for w in [*warnings, *route_warnings]:
         print(f"WARNING: {w}")
     for p in paths:
@@ -351,12 +366,15 @@ def build_parser() -> argparse.ArgumentParser:
     )
     _add_city_selection(routes_cmd, required=True)
     routes_cmd.add_argument("--planner", choices=["rules", "ollama"], default="rules")
-    routes_cmd.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model tag")
+    routes_cmd.add_argument(
+        "--model", default=default_model(), help="Ollama model tag (default: $OLLAMA_MODEL)"
+    )
     routes_cmd.add_argument("--ollama-url", default=DEFAULT_URL, help="Ollama server")
     routes_cmd.set_defaults(func=_cmd_suggest_routes)
     for name, func, what in (
         ("climate", _cmd_climate, "monthly climate normals (Open-Meteo) → data/climate → 70"),
         ("facts", _cmd_facts, "population, founding year, beaches → data/facts → 80"),
+        ("prices", _cmd_prices, "estimated everyday prices (Big Mac index, World Bank) → 90"),
     ):
         command = sub.add_parser(name, help=what)
         _add_city_selection(command, required=True)
@@ -372,6 +390,12 @@ def build_parser() -> argparse.ArgumentParser:
         command.add_argument("--local", action="store_true", help="cities built by `serve` (D-079)")
         command.add_argument("--db-url", default=DEFAULT_DB_URL, help="with --local: the database")
         command.set_defaults(func=func)
+    embed = sub.add_parser("embed", help="embed attractions for semantic search (pgvector, D-084)")
+    embed.add_argument("--model", default=DEFAULT_EMBED_MODEL, help="Ollama embedding model")
+    embed.add_argument("--ollama-url", default=DEFAULT_URL, help="Ollama server")
+    embed.add_argument("--db-url", default=DEFAULT_DB_URL, help="local Supabase Postgres")
+    embed.add_argument("--limit", type=int, default=0, help="stop after N attractions (0 = all)")
+    embed.set_defaults(func=cmd_embed)
     serve = sub.add_parser("serve", help="local service that builds a city from a position")
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8787)
@@ -383,7 +407,9 @@ def build_parser() -> argparse.ArgumentParser:
         default=climate.FIRST_YEAR,
         help="first year of a new city's climate window (shorter = lighter on Open-Meteo's quota)",
     )
-    serve.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model tag")
+    serve.add_argument(
+        "--model", default=default_model(), help="Ollama model tag (default: $OLLAMA_MODEL)"
+    )
     serve.add_argument("--ollama-url", default=DEFAULT_URL, help="Ollama server")
     serve.set_defaults(func=_cmd_serve)
     sub.add_parser("visa", help="fetch visa rules → 30_visa.sql").set_defaults(func=_cmd_visa)
@@ -419,6 +445,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
+    if argv is None:  # a real run from the command line: the root .env feeds keys and OLLAMA_MODEL
+        load_env_file()
     args = build_parser().parse_args(argv)
     return args.func(args)
 

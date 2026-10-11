@@ -19,6 +19,8 @@ export const env = {
   /** Injected by the Supabase edge runtime. */
   serviceRoleKey: (): string => required('SUPABASE_SERVICE_ROLE_KEY'),
   orsApiKey: (): string | undefined => optional('ORS_API_KEY'),
+  /** OSRM foot router overriding FOSSGIS' public one (D-087), e.g. a self-hosted instance. */
+  osmFootUrl: (): string | undefined => optional('OSM_FOOT_URL'),
   /** Frankfurter-compatible base URL overriding the public Frankfurter instance. */
   exchangeRatesBaseUrl: (): string | undefined => optional('EXCHANGE_RATES_BASE_URL'),
   /** Email provider settings (D-066): Resend in production, Mailpit locally. */

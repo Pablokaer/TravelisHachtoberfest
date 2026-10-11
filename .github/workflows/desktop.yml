@@ -50,7 +50,8 @@ jobs:
           EXPO_PUBLIC_LOCAL_MODE: 'true'
           EXPO_PUBLIC_CITY_BUILDER_URL: http://127.0.0.1:8787
         run: |
-          export EXPO_PUBLIC_SUPABASE_ANON_KEY="$(node desktop/scripts/demo-anon-key.mjs)"
+          EXPO_PUBLIC_SUPABASE_ANON_KEY="$(node desktop/scripts/demo-anon-key.mjs)"
+          export EXPO_PUBLIC_SUPABASE_ANON_KEY
           pnpm install --frozen-lockfile
           pnpm --filter ./apps/mobile build:web
 

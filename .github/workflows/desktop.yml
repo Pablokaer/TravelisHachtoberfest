@@ -59,10 +59,12 @@ jobs:
         working-directory: data-pipeline
         run: |
           python -m pip install requests pydantic PyYAML sentry-sdk pymongo pyinstaller
+          # Data paths are absolute: PyInstaller resolves relative ones against the spec folder.
+          W="$(pwd -W 2>/dev/null || pwd)"
           python -m PyInstaller --noconfirm --onedir --name travelist-service \
             --distpath "$RUNNER_TEMP/svc" --workpath "$RUNNER_TEMP/svc-work" --specpath "$RUNNER_TEMP/svc-work" \
-            --paths . --collect-submodules wayfarer_pipeline --hidden-import sentry_sdk --hidden-import pymongo \
-            --add-data "data${PATH_SEP:-:}data" --add-data "cities.yaml${PATH_SEP:-:}." travelist_service.py
+            --paths "$W" --collect-submodules wayfarer_pipeline --hidden-import sentry_sdk --hidden-import pymongo \
+            --add-data "$W/data${PATH_SEP}data" --add-data "$W/cities.yaml${PATH_SEP}." travelist_service.py
         env:
           PATH_SEP: ${{ runner.os == 'Windows' && ';' || ':' }}
 

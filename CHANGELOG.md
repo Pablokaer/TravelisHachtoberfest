@@ -78,6 +78,10 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 - Security CI: `pnpm audit` failed on two new advisories with fixed versions — `shell-quote` GHSA-pqg4-j6r4-53mv (critical; via react-native > react-devtools-core) and `source-map-js` GHSA-68fv-2mgg-jv7q (high; via @expo/metro-config > postcss). Both are forced to the patched release with `overrides` in `pnpm-workspace.yaml` (1.12.0 and 1.2.2) until their parents update.
 - Backend E2E helper `signUpAndOnboard` follows the 2-step onboarding (it still expected the passport-expiry step removed in D-069).
 
+### Docs
+
+- `docs/HACKTOBERFEST_POST.md`: draft of the DEV post for the Hacktoberfest Open-Source AI Challenge week 1 (Touch Grass) — what was built, how, why open, and the partner categories the project really uses (Gemma, Sentry, ElevenLabs, SerpApi, MongoDB Atlas).
+
 ### Data
 
 - Famous people for 179 of the 198 cities, retrieved 2026-10-05 (D-071): 4,143 people — 2,396 historical figures, 1,544 writers, 1,135 musicians, 1,065 artists (a person can be in several) — 3,908 with a Commons portrait. Cities with fewer than 12 people at 20 sitelinks use 8. 19 small towns have nobody listed: Alto Paraíso de Goiás, Arraial do Cabo, Balneário Camboriú, Barreirinhas, Bonito, Búzios, Cabo Frio, Caldas Novas, Campos do Jordão, Fernando de Noronha, Gramado, Hội An, Ilhabela, Ipojuca, Jericoacoara, Maragogi, Pirenópolis, Porto Seguro, Ubatuba. No city or attraction added or removed.

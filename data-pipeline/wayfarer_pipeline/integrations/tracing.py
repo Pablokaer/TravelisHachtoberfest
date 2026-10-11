@@ -70,15 +70,19 @@ class SentrySpans:
         self.sdk = sdk
 
     def start(self, model: str) -> ActiveSpan:
+        # sentry-sdk 2.x only sends a span that belongs to a transaction, so each model call is
+        # one (a lone start_span was silently dropped: found with the real SDK).
+        transaction = self.sdk.start_transaction(op="gen_ai.invoke_agent", name=f"chat {model}")
+        transaction.__enter__()
         span = self.sdk.start_span(op="gen_ai.chat", name=f"chat {model}")
         span.__enter__()
         span.set_data("gen_ai.request.model", model)
-        return _SentrySpan(span)
+        return _SentrySpan(span, transaction)
 
 
 class _SentrySpan:
-    def __init__(self, span: Any) -> None:
-        self.span = span
+    def __init__(self, span: Any, transaction: Any) -> None:
+        self.span, self.transaction = span, transaction
 
     def finish(self, fields: dict[str, Any]) -> None:
         for key in ("input_tokens", "output_tokens"):
@@ -87,6 +91,7 @@ class _SentrySpan:
         if fields.get("error"):
             self.span.set_data("error.message", fields["error"])
         self.span.__exit__(None, None, None)
+        self.transaction.__exit__(None, None, None)
 
 
 class BothSpans:

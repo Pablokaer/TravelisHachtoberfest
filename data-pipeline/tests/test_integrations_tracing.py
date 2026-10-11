@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import io
 import json
+from typing import Any
 
 import pytest
 from integration_fakes import FakeOllamaTransport, FakeSentrySdk, RecordingSpans
@@ -78,6 +79,9 @@ def test_sentry_spans_follow_the_gen_ai_conventions() -> None:
     span.finish({"input_tokens": 120, "output_tokens": 40, "error": None})
     recorded = sdk.spans[0]
     assert recorded.name == "gen_ai.chat:chat gemma3:4b"
+    # sentry-sdk 2.x sends a span only inside a transaction: a lone one was silently dropped
+    assert [tx.name for tx in sdk.transactions] == ["gen_ai.invoke_agent:chat gemma3:4b"]
+    assert sdk.transactions[0].exited
     assert recorded.data["gen_ai.request.model"] == "gemma3:4b"
     assert recorded.data["gen_ai.usage.input_tokens"] == 120
     assert recorded.data["gen_ai.usage.output_tokens"] == 40
@@ -90,3 +94,40 @@ def test_sentry_is_off_without_a_dsn_and_initialised_with_one() -> None:
     assert sentry_spans_or_none({"SENTRY_DSN": "https://k@o.ingest.sentry.io/1"}, sdk) is not None
     assert sdk.inits[0]["dsn"] == "https://k@o.ingest.sentry.io/1"
     assert sdk.inits[0]["traces_sample_rate"] == 1.0
+
+
+def test_the_real_sentry_sdk_turns_a_model_call_into_a_transaction_with_a_gen_ai_span() -> None:
+    """Against the real SDK (events are captured, nothing is sent): the fake SDK above cannot
+    tell a span that Sentry would drop from one it keeps."""
+    sentry_sdk = pytest.importorskip("sentry_sdk")
+    from sentry_sdk.transport import Transport
+
+    class Capture(Transport):
+        envelopes: list[Any] = []
+
+        def capture_envelope(self, envelope: Any) -> None:
+            Capture.envelopes.append(envelope)
+
+    Capture.envelopes = []
+    sentry_sdk.init(
+        dsn="https://k@o1.ingest.sentry.io/2", traces_sample_rate=1.0, transport=Capture
+    )
+    span = SentrySpans(sentry_sdk).start("gemma3:4b")
+    span.finish({"input_tokens": 12, "output_tokens": 5, "error": None})
+    sentry_sdk.flush()
+    payloads = [item.payload.json for env in Capture.envelopes for item in env.items]
+    transactions = [p for p in payloads if p.get("type") == "transaction"]
+    assert [t["contexts"]["trace"]["op"] for t in transactions] == ["gen_ai.invoke_agent"]
+    # sentry-sdk 2.7x sends spans as their own items ({"version": 2, "items": [...]}), older ones
+    # inside the transaction: read both
+    spans = [i for p in payloads for i in p.get("items", [])]
+    chat = [i for i in spans if i["attributes"]["sentry.op"]["value"] == "gen_ai.chat"]
+    in_transaction = [
+        x for t in transactions for x in t.get("spans", []) if x.get("op") == "gen_ai.chat"
+    ]
+    assert len(chat) + len(in_transaction) == 1
+    if chat:
+        assert chat[0]["attributes"]["gen_ai.usage.output_tokens"]["value"] == 5
+        assert chat[0]["attributes"]["gen_ai.request.model"]["value"] == "gemma3:4b"
+    else:
+        assert in_transaction[0]["data"]["gen_ai.usage.output_tokens"] == 5

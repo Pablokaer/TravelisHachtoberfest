@@ -8,6 +8,9 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 
 import type { AttractionSummary, PhotoCover } from '@/features/destinations/api';
 import { walklistCoverFrom } from '@/features/trips/walklist-cover';
+import { offlineLibrary } from '@/features/offline/library';
+import { withOfflineFallback } from '@/features/offline/offline-fallback';
+import { offlineSummaryOf } from '@/features/offline/offline-trip';
 import { check, supabase, unwrap } from '@/lib/supabase';
 import { subscriptionKeys } from '@/features/subscription/api';
 
@@ -37,6 +40,8 @@ export type TripDetail = Omit<TripSummary, 'cover'> & {
   isFallback: boolean;
   provider: string | null;
   stops: AttractionSummary[];
+  /** True when this is the copy saved on the device because the network failed (D-092). */
+  fromOffline?: boolean;
 };
 
 export const tripKeys = {
@@ -44,20 +49,27 @@ export const tripKeys = {
   detail: (id: string) => ['trips', id] as const,
 };
 
+async function fetchTripSummaries(): Promise<TripSummary[]> {
+  const rows = unwrap(
+    await supabase
+      .from('trips')
+      .select(
+        'id, name, city_slug, trip_date, distance_m, walking_seconds, visit_minutes, created_at, visibility, trip_stops(count), walklist_cover',
+      )
+      .order('created_at', { ascending: false }),
+  );
+  return rows.map(tripSummaryFromRow);
+}
+
+/** My Trips; with no connection, the trips saved on the device (D-092). */
 export function useTrips() {
   return useQuery({
     queryKey: tripKeys.all,
-    queryFn: async (): Promise<TripSummary[]> => {
-      const rows = unwrap(
-        await supabase
-          .from('trips')
-          .select(
-            'id, name, city_slug, trip_date, distance_m, walking_seconds, visit_minutes, created_at, visibility, trip_stops(count), walklist_cover',
-          )
-          .order('created_at', { ascending: false }),
-      );
-      return rows.map(tripSummaryFromRow);
-    },
+    queryFn: (): Promise<TripSummary[]> =>
+      withOfflineFallback(fetchTripSummaries, async () => {
+        const saved = await offlineLibrary.list();
+        return saved.length > 0 ? saved.map(offlineSummaryOf) : null;
+      }),
   });
 }
 
@@ -100,22 +112,32 @@ export function tripSummaryFromRow(r: TripSummaryRow): TripSummary {
  * `trips` is owner-only under RLS, whatever the visibility (D-040).
  * @example const trip = useTrip(id); if (trip.data === null) showReadOnlyView();
  */
+async function fetchTripDetail(id: string): Promise<TripDetail | null> {
+  // One request (D-057): the trip with its stops' places, embedded through trip_stops.
+  const { data: trip, error } = await supabase
+    .from('trips')
+    .select(TRIP_WITH_STOP_PLACES)
+    .eq('id', id)
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  if (!trip) return null;
+  const stops = stopPlacesInOrder(trip.trip_stops);
+  return tripDetailFromRow({ ...trip, visibility: trip.visibility as TripVisibility }, stops);
+}
+
+/** A trip; with no connection, the copy saved on the device (D-092). */
 export function useTrip(id: string | undefined) {
   return useQuery({
     queryKey: tripKeys.detail(id ?? ''),
     enabled: !!id,
-    queryFn: async (): Promise<TripDetail | null> => {
-      // One request (D-057): the trip with its stops' places, embedded through trip_stops.
-      const { data: trip, error } = await supabase
-        .from('trips')
-        .select(TRIP_WITH_STOP_PLACES)
-        .eq('id', id!)
-        .maybeSingle();
-      if (error) throw new Error(error.message);
-      if (!trip) return null;
-      const stops = stopPlacesInOrder(trip.trip_stops);
-      return tripDetailFromRow({ ...trip, visibility: trip.visibility as TripVisibility }, stops);
-    },
+    queryFn: (): Promise<TripDetail | null> =>
+      withOfflineFallback(
+        () => fetchTripDetail(id!),
+        async () => {
+          const saved = await offlineLibrary.get(id!);
+          return saved ? { ...saved.trip, fromOffline: true } : null;
+        },
+      ),
   });
 }
 

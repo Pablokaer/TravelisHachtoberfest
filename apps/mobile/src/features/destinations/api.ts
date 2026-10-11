@@ -3,6 +3,8 @@ import { queryOptions, useQuery, useQueryClient, type QueryClient } from '@tanst
 import { useMemo } from 'react';
 
 import type { Database } from '@/lib/database.types';
+import { offlineLibrary } from '@/features/offline/library';
+import { withOfflineFallback } from '@/features/offline/offline-fallback';
 import { supabase, unwrap } from '@/lib/supabase';
 
 export type City = {
@@ -321,12 +323,28 @@ export function useAttraction(id: string | undefined) {
       const summary = id ? cachedAttractionSummary(queryClient, id) : undefined;
       return summary && { summary, detail: null };
     },
-    queryFn: async (): Promise<AttractionPage> => {
-      const r = unwrap(
-        await supabase.from('attraction_details').select('*').eq('id', id!).single(),
-      );
-      const detail = attractionDetailFromRow(r);
-      return { summary: detail, detail };
-    },
+    queryFn: (): Promise<AttractionPage> =>
+      withOfflineFallback(
+        async () => {
+          const r = unwrap(
+            await supabase.from('attraction_details').select('*').eq('id', id!).single(),
+          );
+          const detail = attractionDetailFromRow(r);
+          return { summary: detail, detail };
+        },
+        async () => {
+          const saved = await offlineLibrary.detailOf(id!);
+          return saved ? { summary: saved, detail: saved } : null;
+        },
+      ),
   });
+}
+
+/**
+ * The full places of the given ids, for saving a trip offline (D-092).
+ * @example const details = await fetchAttractionDetails(trip.stops.map((s) => s.id));
+ */
+export async function fetchAttractionDetails(ids: string[]): Promise<AttractionDetail[]> {
+  const rows = unwrap(await supabase.from('attraction_details').select('*').in('id', ids));
+  return rows.map(attractionDetailFromRow);
 }

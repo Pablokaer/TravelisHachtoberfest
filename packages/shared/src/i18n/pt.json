@@ -380,6 +380,27 @@
     "startTimeHint": "Opcional. Com data e hora, uma lista pública torna-se um encontro.",
     "legWalk": "{{distance}} · {{duration}} a pé"
   },
+  "offline": {
+    "title": "Offline",
+    "hint": "Guarde este roteiro neste dispositivo: os locais com os seus textos, as fotografias e o mapa do percurso. Depois abre, e pode navegá-lo, sem ligação.",
+    "save": "Guardar para uso offline",
+    "update": "Atualizar a cópia guardada",
+    "remove": "Remover deste dispositivo",
+    "savedOn": "Guardado neste dispositivo em {{date}}",
+    "withMap": "O mapa do percurso também está guardado.",
+    "withoutMap": "O mapa do percurso não está guardado (as áreas de mapa são guardadas pela aplicação do telemóvel).",
+    "stage": {
+      "details": "A guardar os locais e os seus textos…",
+      "photos": "A guardar as fotografias…",
+      "map": "A guardar o mapa do percurso…",
+      "done": "Concluído."
+    },
+    "savingMapPercent": "A guardar o mapa do percurso… {{percent}} %",
+    "photosOk": "As fotografias estão guardadas.",
+    "photosFailed": "Algumas fotografias não foram guardadas; precisam de ligação.",
+    "failed": "Não foi possível guardar para uso offline: {{message}}",
+    "notice": "Sem ligação: a mostrar a cópia guardada neste dispositivo."
+  },
   "prices": {
     "title": "Preços estimados em {{city}}",
     "note": "Estimativas modeladas em euros, não cotações em tempo real: uma cesta de referência ajustada ao nível de preços do país (Banco Mundial). Só o Big Mac é um preço medido, quando o índice da The Economist tem o país. Os preços reais variam conforme a zona e o estabelecimento.",

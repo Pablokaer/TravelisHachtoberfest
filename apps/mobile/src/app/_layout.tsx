@@ -12,6 +12,7 @@ import { useTranslation } from 'react-i18next';
 
 import { AppMenuButton } from '@/components/app-menu';
 import { LoadingState } from '@/components/states';
+import { canEnterApp } from '@/features/auth/app-gate';
 import { AuthProvider, useAuth } from '@/features/auth/auth-provider';
 import { useWelcomeEmail } from '@/features/auth/welcome-email';
 import { useProfile } from '@/features/profile/api';
@@ -35,7 +36,7 @@ function RootNavigator() {
   const onboarded = !!profile.data?.onboardedAt;
   // Local mode (D-078) opens the app without sign-in, so the screens need no account.
   const { localMode } = useFeatures();
-  const canEnter = localMode || (signedIn && onboarded);
+  const canEnter = canEnterApp({ localMode, signedIn, onboarded, profileFailed: profile.isError });
 
   useWelcomeEmail(signedIn ? profile.data : undefined);
 
@@ -83,7 +84,7 @@ function RootNavigator() {
         {/* A traveller's public profile (D-045): /traveller?id=<public id>. */}
         <Stack.Screen name="traveller" options={{ title: t('traveller.title') }} />
       </Stack.Protected>
-      <Stack.Protected guard={signedIn && !onboarded && !localMode}>
+      <Stack.Protected guard={signedIn && !onboarded && !localMode && !profile.isError}>
         <Stack.Screen
           name="onboarding"
           options={{ title: t('onboarding.title'), headerBackVisible: false }}

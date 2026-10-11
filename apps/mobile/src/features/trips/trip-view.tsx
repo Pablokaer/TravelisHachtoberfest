@@ -6,10 +6,12 @@ import { StyleSheet, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
 import { PageHeader, Screen, Section } from '@/components/screen';
+import { Text } from '@/components/text';
 import { AttractionRow } from '@/features/destinations/components';
 import { MapView } from '@/features/map/map-view';
 import { boundsOf } from '@/features/map/map-view.types';
 import { useNavigationStore } from '@/features/navigation/navigation-store';
+import { OfflineTripSection } from '@/features/offline/offline-trip-section';
 import { NavigationPanel } from '@/features/navigation/navigation-panel';
 import { useTripNavigation } from '@/features/navigation/use-trip-navigation';
 import { NavigationLinks, RouteTotals } from '@/features/route/components';
@@ -19,6 +21,16 @@ import { env } from '@/lib/env';
 import { formatDate } from '@/lib/format';
 import { radius, spacing } from '@/theme/colors';
 import { useBreakpoint, useShadows, useTheme } from '@/theme/use-theme';
+
+/** Shown when the trip is the copy saved on the device because the network failed (D-092). */
+function OfflineNotice() {
+  const { t } = useTranslation();
+  return (
+    <Text variant="caption" secondary testID="offline-notice" accessibilityLiveRegion="polite">
+      {t('offline.notice')}
+    </Text>
+  );
+}
 
 const ORS_ATTRIBUTION = '© openrouteservice.org by HeiGIT | Map data © OpenStreetMap contributors';
 
@@ -97,6 +109,7 @@ function TripDetails({ trip, units, onOpenStop, children }: Omit<Props, 'notice'
           />
         ))}
       </Section>
+      <OfflineTripSection trip={trip} />
       <NavigationLinks stops={trip.stops} navigation={navigation} />
       {children}
     </View>
@@ -124,6 +137,7 @@ export function TripView({ trip, units, onOpenStop, notice, children }: Props) {
         title={trip.name}
         subtitle={trip.tripDate ? formatDate(trip.tripDate, lang, { dateStyle: 'full' }) : null}
       />
+      {trip.fromOffline ? <OfflineNotice /> : null}
       {notice}
       {isDesktop ? (
         <View style={styles.split}>

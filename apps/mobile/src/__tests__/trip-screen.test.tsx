@@ -14,6 +14,8 @@ class MockOwnTripServer {
   static schedules: (string | null)[] = [];
 }
 
+// The offline section (D-092) has its own tests; here it would only need a query client.
+jest.mock('@/features/offline/offline-trip-section', () => ({ OfflineTripSection: () => null }));
 jest.mock('expo-router', () => {
   const { Text: MockText } = jest.requireActual('react-native');
   const MockRedirect = ({ href }: { href: unknown }) => (

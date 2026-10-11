@@ -27,6 +27,8 @@ class MockSharedTripServer {
   }
 }
 
+// The offline section (D-092) has its own tests; here it would only need a query client.
+jest.mock('@/features/offline/offline-trip-section', () => ({ OfflineTripSection: () => null }));
 jest.mock('expo-router', () => ({
   Stack: { Screen: () => null },
   useLocalSearchParams: () => ({ id: 't1' }),

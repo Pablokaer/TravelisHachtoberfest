@@ -56,10 +56,16 @@ class FakeSentrySdk:
 
     def __init__(self) -> None:
         self.spans: list[FakeSentrySpan] = []
+        self.transactions: list[FakeSentrySpan] = []
         self.inits: list[dict[str, Any]] = []
 
     def init(self, **options: Any) -> None:
         self.inits.append(options)
+
+    def start_transaction(self, op: str, name: str) -> FakeSentrySpan:
+        transaction = FakeSentrySpan(f"{op}:{name}")
+        self.transactions.append(transaction)
+        return transaction
 
     def start_span(self, op: str, name: str) -> FakeSentrySpan:
         span = FakeSentrySpan(f"{op}:{name}")

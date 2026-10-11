@@ -88,6 +88,11 @@ export function useProfile() {
     queryKey: profileKeys.profile(userId ?? 'anonymous'),
     enabled: !!userId,
     queryFn: () => fetchProfile(userId!),
+    // Every screen calls this hook. With no connection the query settles as an error, and a screen
+    // mounting later must not start it again: a query that never had data goes back to "pending"
+    // on every new fetch, which swaps the root screen to "Loading" and unmounts the screen that
+    // asked, forever (D-092). It still refetches when the connection returns.
+    retryOnMount: false,
   });
 }
 

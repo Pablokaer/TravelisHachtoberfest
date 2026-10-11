@@ -380,6 +380,27 @@
     "startTimeHint": "Optional. With a date and time, a public list becomes a meetup.",
     "legWalk": "{{distance}} · {{duration}} on foot"
   },
+  "offline": {
+    "title": "Offline",
+    "hint": "Keep this trip on this device: its places with their texts, their photos and the map of the route. It then opens, and you can navigate it, with no connection.",
+    "save": "Save for offline",
+    "update": "Update the saved copy",
+    "remove": "Remove from this device",
+    "savedOn": "Saved on this device on {{date}}",
+    "withMap": "The map of the route is saved too.",
+    "withoutMap": "The map of the route is not saved (map areas are saved by the phone app).",
+    "stage": {
+      "details": "Saving the places and their texts…",
+      "photos": "Saving the photos…",
+      "map": "Saving the map of the route…",
+      "done": "Done."
+    },
+    "savingMapPercent": "Saving the map of the route… {{percent}} %",
+    "photosOk": "The photos are saved.",
+    "photosFailed": "Some photos could not be saved; they need a connection.",
+    "failed": "Could not save for offline: {{message}}",
+    "notice": "No connection: showing the copy saved on this device."
+  },
   "prices": {
     "title": "Estimated prices in {{city}}",
     "note": "Modelled estimates in euros, not live quotes: a reference basket scaled by the country's price level (World Bank). Only the Big Mac is a measured price, when The Economist's index has the country. Real prices vary by area and venue.",

@@ -4,6 +4,29 @@ jest.mock('expo-localization', () => ({
 
 jest.mock('expo-symbols', () => ({ SymbolView: () => null }));
 
+// Saved trips (D-092) use real files on a phone; in tests the store is a fake, and this only lets
+// the module load.
+jest.mock('expo-file-system', () => ({
+  Paths: { document: '' },
+  Directory: class {
+    exists = false;
+    create() {}
+    list() {
+      return [];
+    }
+  },
+  File: class {
+    exists = false;
+    name = '';
+    create() {}
+    write() {}
+    delete() {}
+    async text() {
+      return '';
+    }
+  },
+}));
+
 jest.mock('expo-secure-store', () => {
   const store = new Map<string, string>();
   return {

@@ -8,10 +8,12 @@ bounded (a capped number of short answers per entry, a capped read).
 
 from __future__ import annotations
 
+import re
 import sys
 from collections.abc import Mapping, Sequence
 from datetime import UTC, datetime
 from typing import Any, Protocol
+from urllib.parse import quote, urlsplit, urlunsplit
 
 from .errors import NotConfigured
 
@@ -72,10 +74,41 @@ class MongoPlanHistory:
         return [{k: v for k, v in doc.items() if k != "_id"} for doc in cursor]
 
 
+_PLACEHOLDER = re.compile(r"<[^<>@/]*>")
+
+
+def resolve_mongo_uri(env: Mapping[str, str]) -> str:
+    """The connection string with the credentials of ``MONGODB_USER`` / ``MONGODB_PASSWORD``.
+
+    Atlas hands out ``mongodb+srv://user:<db_password>@cluster…``: the password variable replaces
+    the placeholder (percent-encoded, so ``@`` or ``:`` in it cannot break the address) and the
+    user variable replaces the user. A complete string is left as it is; ``""`` when there is none.
+
+    >>> env = {"MONGODB_URI": "mongodb+srv://a:<db_password>@h/", "MONGODB_PASSWORD": "x@y"}
+    >>> resolve_mongo_uri(env)
+    'mongodb+srv://a:x%40y@h/'
+    """
+    uri = env.get("MONGODB_URI", "").strip()
+    user, password = env.get("MONGODB_USER", "").strip(), env.get("MONGODB_PASSWORD", "")
+    if not uri:
+        return ""
+    if _PLACEHOLDER.search(uri) and not password:
+        raise NotConfigured(
+            "MONGODB_URI still has the Atlas placeholder <db_password>; set MONGODB_PASSWORD "
+            "(or write the password in the URI)"
+        )
+    parts = urlsplit(uri)
+    host = parts.netloc.rpartition("@")[2]
+    name = user or (parts.username or "")
+    secret = quote(password, safe="") if password else (parts.password or "")
+    credentials = f"{name}:{secret}@" if name and secret else (f"{name}@" if name else "")
+    return urlunsplit((parts.scheme, credentials + host, parts.path, parts.query, parts.fragment))
+
+
 def mongo_history_or_none(env: Mapping[str, str]) -> MongoPlanHistory | None:
     """The Atlas history when ``MONGODB_URI`` is set; ``NotConfigured`` when the driver is
     missing (so the operator is told to install it, not left with silent amnesia)."""
-    uri = env.get("MONGODB_URI", "").strip()
+    uri = resolve_mongo_uri(env)
     if not uri:
         return None
     try:

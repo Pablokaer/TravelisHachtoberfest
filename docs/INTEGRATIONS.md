@@ -50,8 +50,11 @@ The variables go in the root `.env` (copy of `.env.example`); `python -m wayfare
 that file when it starts (a variable already set in your shell wins), so after editing it just
 restart `serve`.
 
-**Sentry** — [sign up](https://sentry.io/signup/) → create a project (platform Python) → copy its
-DSN from _Project → Settings → SDK Setup → Client Keys (DSN)_ → `SENTRY_DSN=<dsn>` →
+**Sentry** — [sign up](https://sentry.io/signup/) → **create a project first** (_Projects → Create
+Project_, platform **Python**; without a project there is no key) → the DSN is in the setup page
+Sentry shows right after (a line `dsn="https://…@o….ingest.sentry.io/…"`), or later in
+_Settings → Projects →_ your project _→ SDK Setup → Client Keys (DSN)_
+(`sentry.io/settings/projects/` → pick the project). Put it in `SENTRY_DSN=` →
 `pip install -e "data-pipeline[integrations]"` → restart `serve`. Traces appear under _Insights →
 Agents_ (or _Traces_, operation `gen_ai.chat`).
 
@@ -68,8 +71,13 @@ month; check [the pricing page](https://serpapi.com/pricing)) → copy the priva
 **MongoDB Atlas** — [register](https://www.mongodb.com/cloud/atlas/register) (then
 [cloud.mongodb.com](https://cloud.mongodb.com)) → create a free **M0** cluster → _Database Access_:
 a user with read/write and a password → _Network Access_: your IP address (`0.0.0.0/0` only for a
-quick test) → _Connect → Drivers_: copy the `mongodb+srv://…` string and replace `<password>` →
-`MONGODB_URI=` in `.env` → `pip install -e "data-pipeline[integrations]"`.
+quick test) → _Connect → Drivers_: copy the `mongodb+srv://…` string. In `.env`: `MONGODB_URI=` the
+string **as Atlas gives it** (with its `<db_password>` placeholder), `MONGODB_USER=` the database
+user and `MONGODB_PASSWORD=` its password: the service puts the password into the placeholder
+itself and percent-encodes it, so a password with `@` or `:` is fine. Then
+`pip install -e "data-pipeline[integrations]"`. If the connection says _bad auth_, the user or the
+password is wrong (a database user is not your Atlas login); change the password under _Database
+Access → Edit_.
 
 **Semantic search (pgvector)** — on your machine: `ollama pull nomic-embed-text`,
 `pnpm db:reset` (or `pnpm exec supabase db push`) to apply migration `20261012000100`,

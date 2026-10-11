@@ -105,7 +105,10 @@ jobs:
         working-directory: desktop/dist
         run: |
           for file in Travelist-*.exe Travelist-*.AppImage; do
-            [ -f "$file" ] && gh release upload "${{ inputs.tag }}" "$file" -R "$GITHUB_REPOSITORY" --clobber
+            # A pattern with no match (no .AppImage on Windows) stays literal: skip it.
+            if [ -f "$file" ]; then
+              gh release upload "${{ inputs.tag }}" "$file" -R "$GITHUB_REPOSITORY" --clobber
+            fi
           done
         env:
           GH_TOKEN: ${{ github.token }}

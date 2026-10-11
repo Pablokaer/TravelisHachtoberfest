@@ -958,6 +958,20 @@ The APK calls this PC, not the cloud, so:
 
 `eas build --profile preview --platform android` produces an APK in the cloud too, but with the addresses of your `.env` unless you set `EXPO_PUBLIC_*` for that profile.
 
+### Releases: Linux, Windows and Android (D-091)
+
+A GitHub release carries three files, built by hand (there is no release workflow yet):
+
+| File                              | What it is                                                                                                                                                                                                                         |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `travelist-<v>-android-arm64.apk` | The phone app (`pnpm build:android`). Debug-signed, arm64, with the address of the PC that built it baked in (the build says which). It talks to that PC's local stack, so it only works on the same Wi-Fi with the stack running. |
+| `travelist-<v>-linux-x64.tar.gz`  | **The local stack in a box** for Linux: the web app exported, the city and trip-planner service, the database (migrations and data of 198 cities), the route functions and `start.sh`.                                             |
+| `travelist-<v>-windows-x64.zip`   | The same box for Windows, with `start.cmd` / `start.ps1`.                                                                                                                                                                          |
+
+There is no desktop application (Travelist is an Expo app for phones and the web), so the Linux and Windows files are not installers: they need **Docker (running), Node.js 22 and Python 3.11**, and optionally Ollama for the AI planner. Unpack, run the launcher, open http://localhost:8081. The packages contain no secret (their `.env` is made from `.env.example`).
+
+To build them: `pnpm build:web` with the local addresses (see `docs/RELEASES.md`), then `python -m wayfarer_pipeline release --version 0.1.0` → `dist/release/`; the APK is `pnpm build:android` (from a path without parentheses). Full steps, what was verified and what was not: [docs/RELEASES.md](./docs/RELEASES.md).
+
 ## Deploying (hosted)
 
 **Production today (D-073):** the web app at **https://travelist.live** is static files on a VPS behind Apache; the backend is the Supabase Cloud project `travelist` (ref `llrrofuzaxfffwwegxwr`, West EU / Ireland). Public values for the build are in the git-ignored `.env.production`; server secrets live in Supabase; the database password is kept outside the repository.
@@ -1006,26 +1020,27 @@ Not automated: Supabase secrets and Auth settings (steps 2–3, rarely change), 
 
 ## Scripts (root)
 
-| Command                                      | What it does                                                                                                  |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| `./run-project.sh` / `--stop`                | Run everything locally in one command (see _Quick start_) / stop the Supabase stack                           |
-| `./scripts/deploy-backend.sh [--dry-run]`    | Push migrations + seeds and deploy every Edge Function to the hosted project (D-074)                          |
-| `./scripts/deploy-web.sh [--dry-run]`        | Build the web app for production and rsync it to the VPS (D-073)                                              |
-| `pnpm build:android`                         | Build `dist/travelist.apk` on this machine for a phone on the same Wi-Fi (see _Android on your phone_, D-083) |
-| `pnpm dev`                                   | Start the Expo dev server                                                                                     |
-| `pnpm lint` / `pnpm typecheck` / `pnpm test` | Run across all workspaces via Turborepo                                                                       |
-| `pnpm check`                                 | format check + shared-copy check + lint + typecheck + tests                                                   |
-| `pnpm build:web`                             | Static web export (`apps/mobile/dist`)                                                                        |
-| `pnpm e2e`                                   | Playwright web E2E (run `pnpm build:web` first)                                                               |
-| `E2E_BACKEND=1 pnpm e2e`                     | Also runs the full journey against the local stack                                                            |
-| `pnpm db:start` / `db:stop` / `db:reset`     | Local Supabase stack; `db:reset` re-applies migrations + seeds                                                |
-| `pnpm db:test`                               | pgTAP tests in `supabase/tests` (RLS, RPCs)                                                                   |
-| `pnpm db:types`                              | Regenerate `apps/mobile/src/lib/database.types.ts` from the local DB                                          |
-| `pnpm db:demo <city>`                        | Load a city's demo community into the **local** DB and self-check it (today: `amsterdam`; D-037)              |
-| `pnpm functions:serve`                       | Serve Edge Functions locally with `.env` secrets                                                              |
-| `pnpm sync:shared`                           | Copy `packages/shared/src` into `supabase/functions/_shared/wayfarer`                                         |
-| `pnpm docs:check`                            | Fail if code/data/config changed vs `origin/dev` without a CHANGELOG entry; warn if README wasn't updated     |
-| `pnpm test:scripts`                          | `node --test` for the root scripts (`scripts/*.test.mjs`, e.g. the release gate)                              |
+| Command                                             | What it does                                                                                                                 |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `./run-project.sh` / `--stop`                       | Run everything locally in one command (see _Quick start_) / stop the Supabase stack                                          |
+| `./scripts/deploy-backend.sh [--dry-run]`           | Push migrations + seeds and deploy every Edge Function to the hosted project (D-074)                                         |
+| `./scripts/deploy-web.sh [--dry-run]`               | Build the web app for production and rsync it to the VPS (D-073)                                                             |
+| `pnpm build:android`                                | Build `dist/travelist.apk` on this machine for a phone on the same Wi-Fi (see _Android on your phone_, D-083)                |
+| `python -m wayfarer_pipeline release --version <v>` | Build the Linux `.tar.gz` and Windows `.zip` packages of the local stack in `dist/release` from the exported web app (D-091) |
+| `pnpm dev`                                          | Start the Expo dev server                                                                                                    |
+| `pnpm lint` / `pnpm typecheck` / `pnpm test`        | Run across all workspaces via Turborepo                                                                                      |
+| `pnpm check`                                        | format check + shared-copy check + lint + typecheck + tests                                                                  |
+| `pnpm build:web`                                    | Static web export (`apps/mobile/dist`)                                                                                       |
+| `pnpm e2e`                                          | Playwright web E2E (run `pnpm build:web` first)                                                                              |
+| `E2E_BACKEND=1 pnpm e2e`                            | Also runs the full journey against the local stack                                                                           |
+| `pnpm db:start` / `db:stop` / `db:reset`            | Local Supabase stack; `db:reset` re-applies migrations + seeds                                                               |
+| `pnpm db:test`                                      | pgTAP tests in `supabase/tests` (RLS, RPCs)                                                                                  |
+| `pnpm db:types`                                     | Regenerate `apps/mobile/src/lib/database.types.ts` from the local DB                                                         |
+| `pnpm db:demo <city>`                               | Load a city's demo community into the **local** DB and self-check it (today: `amsterdam`; D-037)                             |
+| `pnpm functions:serve`                              | Serve Edge Functions locally with `.env` secrets                                                                             |
+| `pnpm sync:shared`                                  | Copy `packages/shared/src` into `supabase/functions/_shared/wayfarer`                                                        |
+| `pnpm docs:check`                                   | Fail if code/data/config changed vs `origin/dev` without a CHANGELOG entry; warn if README wasn't updated                    |
+| `pnpm test:scripts`                                 | `node --test` for the root scripts (`scripts/*.test.mjs`, e.g. the release gate)                                             |
 
 Edge Function checks: `cd supabase/functions && deno lint && deno fmt --check && deno test --allow-net=jsr.io`.
 After editing `packages/shared`, run `pnpm sync:shared` (CI fails when the copy is stale, see D-005).

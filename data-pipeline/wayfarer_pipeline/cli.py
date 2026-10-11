@@ -18,6 +18,8 @@ python -m wayfarer_pipeline serve [--port 8787] [--planner auto|rules|ollama]  #
                                                # from a GPS position and writes it to Supabase
 python -m wayfarer_pipeline climate --city lisbon | --all [--refresh]  # D-081
                                                # Open-Meteo normals → data/climate → 70_city_climate
+python -m wayfarer_pipeline release --version 0.1.0  # D-091
+                                               # Linux and Windows packages → dist/release
 python -m wayfarer_pipeline prices --city lisbon | --all [--refresh]  # D-088
                                                # Big Mac index + World Bank levels → 90_city_prices
 python -m wayfarer_pipeline facts --city lisbon | --all [--refresh]  # D-081
@@ -221,6 +223,17 @@ def _cmd_facts(args: argparse.Namespace) -> int:
     return city_data_commands.cmd_facts(args, _client(args))
 
 
+def _cmd_release(args: argparse.Namespace) -> int:
+    from . import release
+
+    if not (args.web / "index.html").exists():
+        print(f"ERROR: {args.web} has no index.html; run `pnpm build:web` first", file=sys.stderr)
+        return 1
+    for archive in release.build_archives(REPO_ROOT, args.web, args.out, args.version):
+        print(f"wrote {archive} ({archive.stat().st_size / 1_000_000:.1f} MB)")
+    return 0
+
+
 def _cmd_prices(args: argparse.Namespace) -> int:
     return city_data_commands.cmd_prices(args, _client(args))
 
@@ -396,6 +409,13 @@ def build_parser() -> argparse.ArgumentParser:
     embed.add_argument("--db-url", default=DEFAULT_DB_URL, help="local Supabase Postgres")
     embed.add_argument("--limit", type=int, default=0, help="stop after N attractions (0 = all)")
     embed.set_defaults(func=cmd_embed)
+    rel = sub.add_parser("release", help="Linux and Windows packages of the local stack (D-091)")
+    rel.add_argument("--version", required=True, help="version in the file names, like 0.1.0")
+    rel.add_argument(
+        "--web", type=Path, default=REPO_ROOT / "apps/mobile/dist", help="exported web app"
+    )
+    rel.add_argument("--out", type=Path, default=REPO_ROOT / "dist/release", help="output folder")
+    rel.set_defaults(func=_cmd_release)
     serve = sub.add_parser("serve", help="local service that builds a city from a position")
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8787)

@@ -223,6 +223,7 @@ Monaco, Andorra la Vella, Kyiv, Lviv, Moscow, Saint Petersburg, Minsk — Monaco
 
 ## Remaining (M5 and launch)
 
+- Releases (D-091): `v0.1.0` with the Android APK (rebuilt with every feature up to prices), the Linux `.tar.gz` and the Windows `.zip` of the local stack. The Windows package's web app was served from a clean extract and checked in a browser; the launchers were syntax-checked, not run end to end, and nothing was tried on Linux or on a phone.
 - My city, **City page** button (D-089): next to **Explore attractions** on the city card of My city. Unit-tested (667 app tests); not yet pressed on a phone.
 - City prices (D-088): estimated everyday prices for all 198 cities (182 with the real Big Mac price), a prices card with a day's budget on the city page and a typical-day line on each planner proposal. Built from live sources (Big Mac index, World Bank, Frankfurter); modelled, not measured, and the app says so. 18 pipeline tests, 7 pgTAP, 7 shared and 20 app tests; seen working in a browser (3 meals + 2 beers in Lisbon = €37.67). Not on a phone, and the APK built earlier does not include it.
 - Street-following routes (D-087): `route-optimize` never returns a straight line any more: ORS, else the OpenStreetMap foot router, else a 503. Verified live (4 stops → 529 street points; the local stack end to end, provider `osm-foot`); 139 Edge Function tests, 651 app tests. Suggested-route distances shown on cards (pipeline) are still straight-line × 1.3 figures, not drawn lines.

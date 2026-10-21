@@ -11,6 +11,10 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 
 ## Unreleased
 
+### Changed
+
+- Security: `vite` (pulled in by `vitest` in `packages/shared`) is a direct dev dependency at ^8.3.4, past GHSA-587h-7wmj-h5pm (high), so `pnpm audit --audit-level high` passes again.
+
 ### Added
 
 - **Desktop app: real executables for Windows and Linux** (D-093): `Travelist-<v>-win-x64-setup.exe` (installer), `Travelist-<v>-win-x64-portable.exe` and `Travelist-<v>-linux-x64.AppImage` open one window that starts the local database (Supabase on Docker), the route functions, the city and trip-planner service and the web app, then shows Travelist. Only Docker is needed on the machine. The keys are one file (**Travelist menu → Edit keys file**). New `desktop/` (Electron, outside the pnpm workspace); `.github/workflows/desktop.yml` builds both systems; `travelist-service` (PyInstaller) packages the Python service, and `TRAVELIST_STATE_DIR` / `TRAVELIST_ENV_FILE` move where it writes and reads.

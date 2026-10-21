@@ -2,9 +2,9 @@ name: Promote
 
 # Release gate dev → main (D-075). Code reaches dev through pull requests; when CI and Security
 # both pass on a push to dev, this workflow waits for a manual approval (environment `release`),
-# then fast-forwards main to that exact commit and deploys it (deploy.yml). main is never merged
-# into or pushed to by hand (ruleset), so what runs in production is a commit every pipeline
-# already approved — not a new merge commit nobody tested.
+# then fast-forwards main to that exact commit. main is never merged into or pushed to by hand
+# (ruleset), so main only holds commits every pipeline already approved. This project has no
+# hosted website, so nothing is deployed (travelist's deploy.yml is not used here).
 #
 # Approve: Actions → Promote → the waiting run → Review deployments → release → Approve.
 # A newer green commit on dev replaces a release still waiting for approval.
@@ -74,11 +74,3 @@ jobs:
           git push "git@github.com:$GITHUB_REPOSITORY.git" "$RELEASE_SHA:refs/heads/main"
           rm -f ~/.ssh/release_key
       - run: echo "main → \`$RELEASE_SHA\`" >> "$GITHUB_STEP_SUMMARY"
-
-  deploy:
-    name: Deploy
-    needs: release
-    uses: ./.github/workflows/deploy.yml
-    with:
-      sha: ${{ github.event.workflow_run.head_sha }}
-    secrets: inherit

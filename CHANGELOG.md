@@ -11,6 +11,10 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 
 ## Unreleased
 
+### Changed
+
+- Pull requests merge by themselves once the required checks pass (`.github/workflows/auto-merge.yml`; needs the `AUTO_MERGE_TOKEN` secret, and the `no-auto-merge` label opts a pull request out).
+
 ### Added
 
 - **Desktop app: real executables for Windows and Linux** (D-093): `Travelist-<v>-win-x64-setup.exe` (installer), `Travelist-<v>-win-x64-portable.exe` and `Travelist-<v>-linux-x64.AppImage` open one window that starts the local database (Supabase on Docker), the route functions, the city and trip-planner service and the web app, then shows Travelist. Only Docker is needed on the machine. The keys are one file (**Travelist menu → Edit keys file**). New `desktop/` (Electron, outside the pnpm workspace); `.github/workflows/desktop.yml` builds both systems; `travelist-service` (PyInstaller) packages the Python service, and `TRAVELIST_STATE_DIR` / `TRAVELIST_ENV_FILE` move where it writes and reads.

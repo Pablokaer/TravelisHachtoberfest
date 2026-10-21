@@ -13,6 +13,7 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 
 ### Changed
 
+- Deploy: this project has no hosted website, so Promote no longer deploys after fast-forwarding `main` and `deploy.yml` is removed. Every production deploy had failed (no Supabase or VPS credentials exist here).
 - Deploy: `scripts/deploy-backend.sh` and `scripts/deploy-web.sh` are executable in git, as in travelist; the Promote workflow failed with "Permission denied" whenever it had to deploy the backend.
 - Security: `vite` (pulled in by `vitest` in `packages/shared`) is a direct dev dependency at ^8.3.4, past GHSA-587h-7wmj-h5pm (high), so `pnpm audit --audit-level high` passes again.
 

@@ -729,7 +729,7 @@ Wayfarer is a **pnpm + Turborepo monorepo** with four deployable parts:
 ├── scripts/                       check-docs.mjs (CHANGELOG gate) · sync-shared.mjs (shared → functions) · build-android-apk.mjs (D-083)
 ├── deploy/                        apache/ (production vhosts) · digitalocean/ (Ollama GPU Droplet script)
 ├── render.yaml · .do/app.yaml     hosting the city builder on Render / DigitalOcean (D-084)
-├── .github/workflows/             ci.yml (CI jobs) · security.yml · deploy.yml (CD to production) · data-refresh.yml · providers-check.yml
+├── .github/workflows/             ci.yml (CI jobs) · security.yml · promote.yml (dev → main, no deploy) · data-refresh.yml · providers-check.yml
 ├── run-project.sh                 one-command local run
 └── package.json · turbo.json · pnpm-workspace.yaml · tsconfig.base.json · .prettierrc.json
 ```
@@ -994,6 +994,8 @@ Your data lives in the user data folder (`%APPDATA%\Travelist` on Windows, `~/.c
 Steps 1 (migrations, seeds, functions) and 4 (web) are also one script each, for a deploy by hand: `./scripts/deploy-backend.sh` (needs `SUPABASE_DB_PASSWORD` and a `supabase login`; `SUPABASE_PROJECT_REF` is read from `.env.production`) and `./scripts/deploy-web.sh`. Both take `--dry-run`: the pending migrations and seeds / the files rsync would change.
 
 ### Continuous deployment
+
+> **This repository has no hosted website.** Promote stops after fast-forwarding `main`; it deploys nothing, and `deploy.yml` was removed. The deployment steps below describe travelist, the project this one was copied from.
 
 **Branches and release gate (D-075).** Work happens on feature branches and reaches **`dev`** through pull requests (CI and Security must pass; the monthly data refresh opens its PR there too). **`main` is production**: nobody pushes or merges into it. When **CI** and **Security** both pass on a push to `dev`, the **Promote** workflow (`.github/workflows/promote.yml`):
 

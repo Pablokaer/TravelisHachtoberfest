@@ -13,6 +13,7 @@ How to record a change (enforced in CI by `scripts/check-docs.mjs`):
 
 ### Changed
 
+- Deploy: `scripts/deploy-backend.sh` and `scripts/deploy-web.sh` are executable in git, as in travelist; the Promote workflow failed with "Permission denied" whenever it had to deploy the backend.
 - Pull requests merge by themselves once the required checks pass (`.github/workflows/auto-merge.yml`; needs the `AUTO_MERGE_TOKEN` secret, and the `no-auto-merge` label opts a pull request out).
 - Security: `vite` (pulled in by `vitest` in `packages/shared`) is a direct dev dependency at ^8.3.4, past GHSA-587h-7wmj-h5pm (high), so `pnpm audit --audit-level high` passes again.
 
